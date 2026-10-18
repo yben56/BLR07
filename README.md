@@ -1,4 +1,37 @@
+# BERT English Reflex Trainer
+
+A lightweight English learning app that helps build intuitive sentence-structure and grammar skills through passage-based exercises.
+
+## Generating Exercises
+
+Paste the following prompt into a VS Code Copilot chat, then fill in the topic and length you want to practice. Copilot will follow [data/GENERATION_PRD.md](data/GENERATION_PRD.md) to generate the exercise, create a JSON file, and validate its format and mask mappings.
+
+```text
+Follow data/GENERATION_PRD.md and generate an exercise directly as a JSON file.
+
+Exercise: [Grammar or vocabulary topic; do not include a sequence number]
+Length: [short / medium / long]
+Level: [Optional; defaults to intermediate]
+Context: [Optional; design one if not provided]
+
+Generate one exercise by default. Treat Exercise as the main category name: first create its corresponding UpperCamelCase category folder, then use a kebab-case filename with a two-digit sequence number. For example, use data/MixedTenseFlow for “Mixed Tenses Flow”; if mixed-tense-flow-01.json already exists, create mixed-tense-flow-02.json next. Only create multiple sequential exercises when explicitly requested. After creating the file, validate the JSON and mask mappings, report its relative path, and do not overwrite existing files.
+```
+
+## Running the App
+
+Run the following command in the project directory:
+
+```bash
+npm run dev
+```
+
+Then open http://127.0.0.1:4173/. The home page lists the main categories. Open a category and use the selector to switch between exercises, such as Exercise 01 and Exercise 02. To add an exercise, place it in the appropriate category folder according to [data/GENERATION_PRD.md](data/GENERATION_PRD.md); the app detects it automatically.
+
+---
+
 # BERT 語感反射訓練器
+
+一款輕量化的英文語感訓練軟體，透過篇章練習培養句型與文法反應。
 
 ## 生成練習篇章
 
