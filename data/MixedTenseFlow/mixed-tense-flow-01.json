@@ -1,0 +1,61 @@
+{
+  "topic": "Mixed Tenses Flow",
+  "difficulty": "intermediate",
+  "story_title": "A Busy Morning Routine",
+  "paragraphs": [
+    "I usually wake up at 7 AM, but today began differently. By the time my alarm went off, I {{mask_1}} for almost an hour because of a strange dream. The sun {{mask_2}} over the rooftops when I finally opened the curtains. When I walked downstairs, my brother {{mask_3}} pancakes.",
+    "I {{mask_4}} my coffee right now as I write this quick note. This morning, I forgot my umbrella, and by the time I reached the bus stop, the rain {{mask_5}} heavy. A neighbor offered me a ride because she {{mask_6}} past my street on her way to work. If I had checked the weather app, I {{mask_7}} the subway instead. Now I {{mask_8}} at the office, and I {{mask_9}} this story to my colleagues at lunch. I hope the rain {{mask_10}} before I head home."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "had been sleeping",
+      "acceptable_variants": ["'d been sleeping"],
+      "hint": "sleep"
+    },
+    "mask_2": {
+      "target": "was rising",
+      "acceptable_variants": [],
+      "hint": "rise"
+    },
+    "mask_3": {
+      "target": "was making",
+      "acceptable_variants": [],
+      "hint": "make"
+    },
+    "mask_4": {
+      "target": "am drinking",
+      "acceptable_variants": ["'m drinking"],
+      "hint": "drink"
+    },
+    "mask_5": {
+      "target": "had become",
+      "acceptable_variants": ["'d become"],
+      "hint": "become"
+    },
+    "mask_6": {
+      "target": "was driving",
+      "acceptable_variants": [],
+      "hint": "drive"
+    },
+    "mask_7": {
+      "target": "would have taken",
+      "acceptable_variants": ["would've taken"],
+      "hint": "take"
+    },
+    "mask_8": {
+      "target": "have arrived",
+      "acceptable_variants": ["'ve arrived"],
+      "hint": "arrive"
+    },
+    "mask_9": {
+      "target": "will tell",
+      "acceptable_variants": ["'ll tell"],
+      "hint": "tell"
+    },
+    "mask_10": {
+      "target": "will stop",
+      "acceptable_variants": ["'ll stop"],
+      "hint": "stop"
+    }
+  }
+}

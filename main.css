@@ -1,0 +1,81 @@
+[v-cloak] { display: none; }
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: clip;
+  position: relative;
+  isolation: isolate;
+  background-color: #0f172a;
+  background-image: radial-gradient(circle at 50% 0%, rgba(30, 41, 59, .72), transparent 42rem);
+  font-family: "Roboto Condensed", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+}
+
+body::before {
+  position: fixed;
+  z-index: -1;
+  inset: 0;
+  background: url("/assets/parallax-bg.png") bottom center / 100% auto no-repeat;
+  content: "";
+  opacity: 0.15;
+  pointer-events: none;
+}
+
+.zh-tw {
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+
+.article-copy {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  letter-spacing: normal;
+}
+
+.full-width-divider {
+  position: relative;
+}
+
+.full-width-divider::after,
+.site-footer::before {
+  position: absolute;
+  left: 50%;
+  width: 100vw;
+  height: 1px;
+  background-color: #1e293b;
+  content: "";
+  transform: translateX(-50%);
+}
+
+.full-width-divider::after {
+  bottom: 0;
+}
+
+.site-footer {
+  position: relative;
+}
+
+.site-footer::before {
+  top: 0;
+}
+
+.answer-input {
+  max-width: min(32ch, 78vw);
+  transition: border-color 120ms ease, color 120ms ease, box-shadow 120ms ease;
+}
+
+.answer-input:focus { outline: none; }
+.answer-input::placeholder { color: #64748b; opacity: 1; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}

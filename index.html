@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0f172a">
+  <title>BERT Language Reflex Trainer 07</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100;400&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+  <link rel="stylesheet" href="/main.css">
+  <script src="/main.js" defer></script>
+</head>
+<body class="min-h-screen text-slate-100 antialiased selection:bg-cyan-400/30 selection:text-cyan-100">
+  <div id="app" v-cloak class="mx-auto flex min-h-screen w-full max-w-5xl flex-col px-5 py-8 sm:px-8 sm:py-12">
+    <header class="full-width-divider mb-12 flex flex-wrap items-center justify-between gap-4 pb-5">
+      <button type="button" @click="backToCategories" class="flex items-center gap-3 text-xl font-normal tracking-wide text-slate-200">
+        <span>BLR-07</span>
+      </button>
+      <div v-if="page === 'practice'" class="flex flex-wrap items-center justify-end gap-3">
+          <select
+            v-model="selectedExerciseId"
+            @change="navigateToExercise(selectedExerciseId)"
+            :disabled="loading"
+            aria-label="選擇練習篇章"
+            class="max-w-[min(48vw,18rem)] rounded-md border border-slate-700 bg-slate-800 px-2 py-1 text-xs font-medium leading-5 text-slate-200 outline-none transition focus:border-cyan-400 focus:ring-2 focus:ring-cyan-400/20 disabled:opacity-60"
+          >
+            <option v-for="entry in exerciseCatalog" :key="entry.id" :value="entry.id">{{ entry.title }}</option>
+          </select>
+          <span v-if="loading" class="zh-tw text-xs text-cyan-300" role="status">載入中</span>
+        <button
+          type="button"
+          @click="resetPractice"
+          class="inline-flex shrink-0 items-center gap-1.5 rounded-md border border-slate-700 bg-slate-800/70 px-2.5 py-1.5 text-xs font-medium text-slate-300 transition hover:border-slate-500 hover:bg-slate-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-cyan-400/60"
+          aria-label="重刷本篇，清空所有答案並回到第一題"
+        >
+          <svg aria-hidden="true" viewBox="0 0 20 20" fill="none" class="h-3.5 w-3.5" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3.5 9.8a6.5 6.5 0 1 0 1.9-4.6L3.5 7.1M3.5 3.8v3.4h3.4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <span class="zh-tw">重刷本篇</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="main" class="flex flex-1 flex-col justify-center pb-16">
+      <section v-if="page === 'categories'" class="w-full max-w-3xl" aria-labelledby="catalog-title">
+        <p v-if="catalogError || loadError" class="zh-tw mb-5 rounded-md border border-rose-500/40 bg-rose-500/10 px-4 py-3 text-sm text-rose-200" role="alert">{{ catalogError || loadError }}</p>
+        <div class="mb-8">
+          <p class="mb-[60px] max-w-2xl text-sm leading-6 text-white/80">Inspired by BERT's masked language modeling, BLR-07 helps you build English intuition by filling in the blanks—one context-rich sentence at a time.</p>
+          <p class="zh-tw mb-3 text-xs font-semibold uppercase tracking-[0.16em] text-cyan-300">練習目錄</p>
+          <h1 id="catalog-title" class="zh-tw text-2xl font-normal tracking-tight text-white">選擇主分類</h1>
+          <p class="zh-tw mt-2 text-sm text-slate-400">選擇想練習的文法主題...</p>
+        </div>
+        <ul class="divide-y divide-slate-800 overflow-hidden rounded-xl border border-slate-800 bg-slate-900/70">
+          <li v-for="category in categories" :key="category.id">
+            <button
+              type="button"
+              @click="selectCategory(category)"
+              :disabled="loading"
+              class="flex w-full items-center justify-between gap-4 px-5 py-5 text-left transition hover:bg-slate-800/80 focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-cyan-400 disabled:opacity-60 sm:px-6"
+            >
+              <span>
+                <span class="block font-normal text-slate-100">{{ category.title }}</span>
+                <span class="mt-1 block text-sm text-white/60">{{ category.exercises.length }} <span class="zh-tw">篇練習</span></span>
+              </span>
+              <svg aria-hidden="true" viewBox="0 0 20 20" fill="none" class="h-5 w-5 text-cyan-300" xmlns="http://www.w3.org/2000/svg">
+                <path d="m7.5 4.5 5.5 5.5-5.5 5.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </button>
+          </li>
+        </ul>
+        <p v-if="loading" class="zh-tw mt-4 text-sm text-cyan-300" role="status">載入中</p>
+      </section>
+
+      <section v-else-if="page === 'exercises'" class="w-full max-w-3xl" aria-labelledby="exercise-list-title">
+        <p v-if="loadError" class="zh-tw mb-5 rounded-md border border-rose-500/40 bg-rose-500/10 px-4 py-3 text-sm text-rose-200" role="alert">{{ loadError }}</p>
+        <div class="mb-8">
+          <nav class="mb-3 flex items-center gap-1 text-xs font-semibold uppercase tracking-[0.12em]" aria-label="頁面導覽">
+            <a href="/" @click.prevent="backToCategories" class="text-cyan-300 transition hover:text-cyan-200">Index</a>
+            <span class="text-slate-600" aria-hidden="true">/</span>
+            <span class="text-slate-400">{{ selectedCategoryTitle }}</span>
+          </nav>
+          <h1 id="exercise-list-title" class="text-2xl font-normal tracking-tight text-white sm:text-3xl">{{ selectedCategoryTitle }}</h1>
+          <p class="zh-tw mt-2 text-sm text-slate-400">選擇要開始的練習篇章。</p>
+        </div>
+        <ul class="divide-y divide-slate-800 overflow-hidden rounded-xl border border-slate-800 bg-slate-900/70">
+          <li v-for="entry in exerciseCatalog" :key="entry.id">
+            <button
+              type="button"
+              @click="navigateToExercise(entry.id)"
+              :disabled="loading"
+              class="flex w-full items-center justify-between gap-4 px-5 py-5 text-left transition hover:bg-slate-800/80 focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-cyan-400 disabled:opacity-60 sm:px-6"
+            >
+              <span class="font-normal text-slate-100">{{ entry.title }}</span>
+              <svg aria-hidden="true" viewBox="0 0 20 20" fill="none" class="h-5 w-5 text-cyan-300" xmlns="http://www.w3.org/2000/svg">
+                <path d="m7.5 4.5 5.5 5.5-5.5 5.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </button>
+          </li>
+        </ul>
+        <p v-if="loading" class="zh-tw mt-4 text-sm text-cyan-300" role="status">載入中</p>
+      </section>
+
+      <section v-else class="w-full" aria-labelledby="story-title">
+        <p v-if="loadError" class="zh-tw mb-5 rounded-md border border-rose-500/40 bg-rose-500/10 px-4 py-3 text-sm text-rose-200" role="alert">{{ loadError }}</p>
+        <div class="mb-8 flex flex-wrap items-end justify-between gap-4">
+          <div>
+            <nav class="mb-3 flex items-center gap-1 text-xs font-semibold uppercase tracking-[0.12em]" aria-label="頁面導覽">
+              <a href="/" @click.prevent="backToCategories" class="text-cyan-300 transition hover:text-cyan-200">Index</a>
+              <span class="text-slate-600" aria-hidden="true">/</span>
+              <a :href="selectedCategoryPath" @click.prevent="navigateToCategory(selectedCategoryId)" class="text-cyan-300 transition hover:text-cyan-200">{{ selectedCategoryTitle }}</a>
+              <span class="text-slate-600" aria-hidden="true">/</span>
+              <span class="text-slate-400">{{ selectedExerciseTitle }}</span>
+            </nav>
+            <h1 id="story-title" class="text-2xl font-normal tracking-tight text-white sm:text-3xl">{{ exercise.story_title }}</h1>
+            <p class="mt-1 text-xs text-white/80">Difficulty: <span class="font-medium text-slate-300 capitalize">{{ exercise.difficulty || 'intermediate' }}</span></p>
+          </div>
+        </div>
+
+        <div class="mb-8 h-1 overflow-hidden rounded-full bg-slate-800" role="progressbar" :aria-valuenow="correctCount" :aria-valuemax="maskOrder.length" aria-label="答對進度">
+          <div class="h-full rounded-full bg-cyan-400 transition-all duration-300" :style="{ width: `${correctPercentage}%` }"></div>
+        </div>
+
+        <article class="article-copy w-full space-y-7 rounded-xl border border-slate-800 bg-slate-900/70 px-5 py-7 shadow-2xl shadow-black/10 sm:px-8 sm:py-9" aria-label="填入句子中的正確時態">
+          <p v-for="(segments, paragraphIndex) in renderedParagraphs" :key="paragraphIndex" class="text-sm leading-[2.7] text-slate-300 sm:text-base">
+            <template v-for="(segment, segmentIndex) in segments" :key="`${paragraphIndex}-${segmentIndex}`">
+              <span v-if="segment.type === 'text'">{{ segment.value }}</span>
+              <span v-else-if="segment.type === 'red'" class="text-rose-400">{{ segment.value }}</span>
+              <span v-else class="mx-1.5 my-1 inline-flex max-w-full flex-col align-middle leading-normal">
+                <input
+                  :ref="element => setInputRef(element, segment.mask)"
+                  v-model="answers[segment.mask]"
+                  @keydown.enter.prevent="submitAnswer(segment.mask)"
+                  type="text"
+                  :style="inputWidth(segment.mask)"
+                  :placeholder="exercise.masks[segment.mask].hint"
+                  :aria-label="`答案 ${maskPosition(segment.mask)}：${exercise.masks[segment.mask].hint}`"
+                  :aria-describedby="status[segment.mask] === 'wrong' ? `${segment.mask}-feedback` : undefined"
+                  :aria-invalid="status[segment.mask] === 'wrong' ? 'true' : undefined"
+                  autocomplete="off"
+                  autocapitalize="off"
+                  spellcheck="false"
+                  class="answer-input box-border inline-block rounded-[3px] border bg-slate-950/80 px-2 py-1 text-sm font-medium leading-5 placeholder:font-normal placeholder:italic placeholder:text-sm focus:ring-2 sm:text-base"
+                  :class="inputClasses(segment.mask)"
+                >
+                <span
+                  v-if="status[segment.mask] === 'wrong'"
+                  :id="`${segment.mask}-feedback`"
+                  class="mt-1 max-w-full text-xs font-medium leading-5 text-emerald-400"
+                  role="status"
+                >❌ {{ exercise.masks[segment.mask].target }}</span>
+              </span>
+            </template>
+          </p>
+        </article>
+
+        <p class="mt-5 text-sm text-slate-400"><span class="zh-tw">填入答案後按</span> <kbd class="rounded border border-slate-700 bg-slate-800 px-1.5 py-0.5 font-mono text-xs text-slate-300">Enter</kbd> <span class="zh-tw">繼續</span></p>
+      </section>
+    </main>
+
+    <div v-if="page === 'practice'" class="mb-4 flex items-center justify-between gap-4 border-t border-slate-800 pt-4 text-xs">
+      <div class="min-w-0 truncate text-white/90"><span class="zh-tw">時態練習</span><span class="px-2">/</span><span>{{ exercise.topic }}</span></div>
+      <p class="inline-flex shrink-0 items-center gap-1 text-xs tabular-nums text-white/90" aria-live="polite">
+        <span class="font-semibold text-white/90">{{ correctCount }}</span> / {{ maskOrder.length }} <span class="zh-tw">正確</span> <span class="text-slate-600">·</span><span v-if="award" class="text-base leading-none" :class="{ grayscale: award.silver }" role="img" :aria-label="award.label">{{ award.emoji }}</span><span class="font-semibold text-cyan-300">{{ correctPercentage }}%</span>
+      </p>
+    </div>
+    <footer class="site-footer mt-[120px] pt-4 text-xs">
+      <div class="flex flex-wrap items-start justify-between gap-x-4 gap-y-2 text-slate-400">
+        <div>
+          <p class="mb-[15px] font-medium">Software &amp; Design <span class="px-1 text-slate-600">·</span> Created by Benjamin Wong</p>
+          <div class="flex flex-col items-start gap-1">
+            <a href="https://github.com/yben56/" target="_blank" rel="noopener noreferrer" class="text-slate-300 transition hover:text-cyan-300"><strong>GitHub:</strong> https://github.com/yben56/</a>
+            <a href="mailto:benjamin-w@hotmail.com" class="text-slate-300 transition hover:text-cyan-300"><strong>Email:</strong> benjamin-w@hotmail.com</a>
+          </div>
+        </div>
+        <p class="text-slate-300">© {{ copyrightYear }} Benjamin Wong</p>
+      </div>
+    </footer>
+  </div>
+
+</body>
+</html>

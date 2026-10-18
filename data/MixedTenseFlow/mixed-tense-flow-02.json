@@ -1,0 +1,115 @@
+{
+  "topic": "Mixed Tenses Flow",
+  "difficulty": "intermediate",
+  "story_title": "The Lighthouse Before the Storm",
+  "paragraphs": [
+    "Maya usually records local histories, but this week she {{mask_1}} at the old harbor lighthouse. She {{mask_2}} the keeper's journal since Monday, and she still has two pages left.",
+    "When she arrived on Tuesday, the restoration crew {{mask_3}} the iron stairs. While she {{mask_4}} the lantern room, the power suddenly failed. Outside, a storm {{mask_5}} over the water to the west, so everyone hurried downstairs.",
+    "The caretaker explained that the generator {{mask_6}} a strange noise for several weeks before it finally failed. He {{mask_7}} a warning note beside the switch, but the crew had not seen it. Maya {{mask_8}} to the entrance and called the harbor office.",
+    "Today the weather has cleared, and the crew {{mask_9}} the generator right now. By sunset, they {{mask_10}} the lights. If the wind stays calm, the lighthouse {{mask_11}} visitors tomorrow.",
+    "Maya says she {{mask_12}} such a determined team before. She will return next month, after the keeper {{mask_13}} her the upper gallery.",
+    "By the time Maya returned the next month, the crew {{mask_14}} the upper gallery for several days and had finally reopened it to visitors. The caretaker {{mask_15}} near the entrance when her ferry docked. Maya {{mask_16}} her recorder and a fresh battery pack, which she had ordered before leaving home. While she {{mask_17}} the keeper describe the new brass rail, a visitor joined them. The visitor explained that, as a child, she {{mask_18}} her grandfather's lighthouse stories every winter. Maya realizes the lighthouse {{mask_19}} watch over the harbor for more than a century. She promised she {{mask_20}} a copy of the recording with the local archive once it was ready."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "is staying",
+      "acceptable_variants": ["'s staying"],
+      "hint": "stay"
+    },
+    "mask_2": {
+      "target": "has been transcribing",
+      "acceptable_variants": ["'s been transcribing"],
+      "hint": "transcribe"
+    },
+    "mask_3": {
+      "target": "had already repaired",
+      "acceptable_variants": ["'d already repaired"],
+      "hint": "repair"
+    },
+    "mask_4": {
+      "target": "was photographing",
+      "acceptable_variants": [],
+      "hint": "photograph"
+    },
+    "mask_5": {
+      "target": "was gathering",
+      "acceptable_variants": [],
+      "hint": "gather"
+    },
+    "mask_6": {
+      "target": "had been making",
+      "acceptable_variants": ["'d been making"],
+      "hint": "make"
+    },
+    "mask_7": {
+      "target": "had left",
+      "acceptable_variants": ["'d left"],
+      "hint": "leave"
+    },
+    "mask_8": {
+      "target": "ran",
+      "acceptable_variants": [],
+      "hint": "run"
+    },
+    "mask_9": {
+      "target": "are testing",
+      "acceptable_variants": ["'re testing"],
+      "hint": "test"
+    },
+    "mask_10": {
+      "target": "will have restored",
+      "acceptable_variants": ["'ll have restored"],
+      "hint": "restore"
+    },
+    "mask_11": {
+      "target": "will welcome",
+      "acceptable_variants": ["'ll welcome"],
+      "hint": "welcome"
+    },
+    "mask_12": {
+      "target": "has never met",
+      "acceptable_variants": ["'s never met"],
+      "hint": "meet"
+    },
+    "mask_13": {
+      "target": "shows",
+      "acceptable_variants": [],
+      "hint": "show"
+    },
+    "mask_14": {
+      "target": "had been restoring",
+      "acceptable_variants": ["'d been restoring"],
+      "hint": "restore"
+    },
+    "mask_15": {
+      "target": "was waiting",
+      "acceptable_variants": [],
+      "hint": "wait"
+    },
+    "mask_16": {
+      "target": "brought",
+      "acceptable_variants": [],
+      "hint": "bring"
+    },
+    "mask_17": {
+      "target": "was recording",
+      "acceptable_variants": [],
+      "hint": "record"
+    },
+    "mask_18": {
+      "target": "heard",
+      "acceptable_variants": ["used to hear"],
+      "hint": "hear"
+    },
+    "mask_19": {
+      "target": "has stood",
+      "acceptable_variants": ["'s stood"],
+      "hint": "stand"
+    },
+    "mask_20": {
+      "target": "would share",
+      "acceptable_variants": [],
+      "hint": "share"
+    }
+  }
+}
