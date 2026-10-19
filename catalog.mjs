@@ -13,26 +13,34 @@ export async function createCatalog(dataDirectory) {
 
       if (files.length === 0) return null;
 
-      let title = entry.name.replace(/([a-z0-9])([A-Z])/g, '$1 $2');
-      try {
-        const firstExercise = JSON.parse(await readFile(path.join(categoryDirectory, files[0].name), 'utf8'));
-        if (typeof firstExercise.topic === 'string' && firstExercise.topic.trim()) title = firstExercise.topic;
-      } catch (error) {
-        console.error(`Unable to read category title from ${entry.name}/${files[0].name}:`, error);
-      }
+      const exerciseData = await Promise.all(files.map(async file => {
+        const exercisePath = path.join(categoryDirectory, file.name);
+        try {
+          return JSON.parse(await readFile(exercisePath, 'utf8'));
+        } catch (error) {
+          throw new Error(`Unable to read exercise data from ${entry.name}/${file.name}.`, { cause: error });
+        }
+      }));
+
+      const exercises = files.map((file, index) => {
+        const stem = path.basename(file.name, path.extname(file.name));
+        const sequence = stem.match(/-(\d+)$/);
+        return {
+          id: file.name,
+          title: sequence ? `Exercise ${sequence[1]}` : stem,
+          file: file.name,
+          difficulty: exerciseData[index].difficulty || 'intermediate'
+        };
+      });
+      const firstExercise = exerciseData[0];
+      const title = typeof firstExercise.topic === 'string' && firstExercise.topic.trim()
+        ? firstExercise.topic
+        : entry.name.replace(/([a-z0-9])([A-Z])/g, '$1 $2');
 
       return {
         id: entry.name,
         title,
-        exercises: files.map(file => {
-          const stem = path.basename(file.name, path.extname(file.name));
-          const sequence = stem.match(/-(\d+)$/);
-          return {
-            id: file.name,
-            title: sequence ? `Exercise ${sequence[1]}` : stem,
-            file: file.name
-          };
-        })
+        exercises
       };
     }));
 
