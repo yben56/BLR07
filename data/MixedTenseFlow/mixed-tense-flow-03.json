@@ -4,7 +4,7 @@
   "story_title": "The Forecast That Changed the Deal",
   "paragraphs": [
     "Mira usually reviews quarterly forecasts on Fridays, but this week she {{mask_1}} an acquisition model with the operations team. They {{mask_2}} the cost estimates since the supplier announced new terms in April. When the board first discussed the deal last month, the seller {{mask_3}} a much lower figure, and several directors {{mask_4}} that the target's margins were overstated.",
-    "On Tuesday, while Mira {{mask_5}} the latest assumptions, her analyst noticed that the model {{mask_6}} the new shipping surcharge. The team {{mask_7}} on the old rate for so long that nobody had questioned it. Mira called the supplier, who confirmed that the surcharge {{mask_8}} from the first of the month. By the time the finance team joined the call, Mira {{mask_9}} the revised figures to the chief operating officer.",
+    "On Tuesday, while Mira {{mask_5}} the latest assumptions, her analyst noticed that the model {{mask_6}} the new shipping surcharge. The team {{mask_7}} on the old rate for so long that nobody had questioned it. Mira called the supplier, who confirmed that the surcharge {{mask_8}} effect from the first of the month. By the time the finance team joined the call, Mira {{mask_9}} the revised figures to the chief operating officer.",
     "During the meeting, Mira {{mask_10}} how the higher costs affected the forecast when the chief executive interrupted. He said that the board {{mask_11}} a decision until the revised valuation was ready. One director asked whether the company {{mask_12}} the original offer if the supplier had disclosed the surcharge earlier. Mira replied that they {{mask_13}} a lower price, but only if the seller had accepted the adjustment.",
     "Since that call, Mira's team {{mask_14}} three alternative forecasts, and they {{mask_15}} the final recommendation by tomorrow afternoon. If the seller had shared the updated contract sooner, the board {{mask_16}} the first proposal last week. Instead, the negotiators are meeting again on Thursday, where Mira {{mask_17}} the revised figures while the legal team reviews the amended terms.",
     "The board has not approved the acquisition yet, but it {{mask_18}} the revised offer now. By the time the next quarterly report is published, the company {{mask_19}} whether the deal was worth pursuing. Mira says she {{mask_20}} the risk earlier if the supplier's notice had reached her desk before the first board meeting."
@@ -46,8 +46,8 @@
       "hint": "rely"
     },
     "mask_8": {
-      "target": "had taken effect",
-      "acceptable_variants": ["'d taken effect"],
+      "target": "had taken",
+      "acceptable_variants": ["'d taken"],
       "hint": "take"
     },
     "mask_9": {

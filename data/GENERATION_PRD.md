@@ -48,6 +48,7 @@ Each blank must have a clear, natural target answer supported by context. Avoid 
 ### 4. Smart Variants
 
 Use `target` for the preferred full answer. Use `acceptable_variants` for genuinely equivalent common forms, including natural contractions where applicable, e.g. `have been` / `'ve been`, `would have` / `would've`, or `am` / `'m`. Do not list a form that changes meaning, tense, grammatical function, or naturalness. Use an empty array when there are no reasonable alternatives. The app ignores case and leading/trailing whitespace, so do not list those as variants.
+`target` and `acceptable_variants` must contain exactly the text the learner is expected to type inside the blank. Do not include fixed words shown immediately before or after the blank; keep those words in the passage outside the `{{mask_N}}` placeholder. For example, write `{{mask_1}} effect` with target `had taken`, not `{{mask_1}}` with target `had taken effect` when `effect` is already shown as part of the sentence.
 
 ### 5. Masks and Hints
 
@@ -55,6 +56,7 @@ Use `target` for the preferred full answer. Use `acceptable_variants` for genuin
 - When the user asks to visually distinguish modified or added supporting text (such as text immediately after an answer blank), wrap that text as `{{red:the revised text}}`. The app displays the wrapped text in red; do not use HTML tags.
 - Number masks from 1 in order of first appearance, with no gaps.
 - Each mask must appear exactly once in `paragraphs` and have exactly one matching key in `masks`.
+- Each target and variant contains only the words inside its blank; words already supplied in the passage remain outside the placeholder and are not repeated in the expected answer.
 - `hint` should contain only the base verb or a single keyword. Do not add parentheses, grammar explanations, tense clues, or extra sentences; the learner should infer the form from context.
 
 ### 6. Length Targets
@@ -116,6 +118,7 @@ Before considering a file complete, verify:
 - The passage is coherent and has exactly 10, 15, or 20 blanks for `short`, `medium`, or `long`, respectively.
 - Every placeholder matches exactly one mask key; mask numbering is sequential and each appears once.
 - Every `target` is supported by context; variants are truly equivalent and stored in `acceptable_variants`.
+- Each target and variant contains only words inside its blank, excluding any words already supplied in the passage next to the placeholder.
 - Every hint is only a base verb or single keyword, with no parentheses or grammar explanation.
 - The file uses UTF-8 and does not overwrite another exercise.
 
