@@ -79,7 +79,7 @@
         <p v-if="loadError" class="zh-tw mb-5 rounded-md border border-rose-500/40 bg-rose-500/10 px-4 py-3 text-sm text-rose-200" role="alert">{{ loadError }}</p>
         <div class="mb-8">
           <nav class="mb-3 flex items-center gap-1 text-xs font-semibold uppercase tracking-[0.12em]" aria-label="頁面導覽">
-            <a href="/" @click.prevent="backToCategories" class="text-cyan-300 transition hover:text-cyan-200">Index</a>
+            <a href="#" @click.prevent="backToCategories" class="text-cyan-300 transition hover:text-cyan-200">Index</a>
             <span class="text-slate-600" aria-hidden="true">/</span>
             <span class="text-slate-400">{{ selectedCategoryTitle }}</span>
           </nav>
@@ -109,7 +109,7 @@
         <div class="mb-8 flex flex-wrap items-end justify-between gap-4">
           <div>
             <nav class="mb-3 flex items-center gap-1 text-xs font-semibold uppercase tracking-[0.12em]" aria-label="頁面導覽">
-              <a href="/" @click.prevent="backToCategories" class="text-cyan-300 transition hover:text-cyan-200">Index</a>
+              <a href="#" @click.prevent="backToCategories" class="text-cyan-300 transition hover:text-cyan-200">Index</a>
               <span class="text-slate-600" aria-hidden="true">/</span>
               <a :href="selectedCategoryPath" @click.prevent="navigateToCategory(selectedCategoryId)" class="text-cyan-300 transition hover:text-cyan-200">{{ selectedCategoryTitle }}</a>
               <span class="text-slate-600" aria-hidden="true">/</span>

@@ -1,4 +1,5 @@
 const { createApp, nextTick, onMounted, onUnmounted, reactive, computed, ref } = Vue;
+const appBaseUrl = new URL('.', document.currentScript.src);
 
 async function fetchJson(path) {
   const response = await fetch(path);
@@ -6,7 +7,7 @@ async function fetchJson(path) {
   return response.json();
 }
 
-fetchJson('/api/exercises')
+fetchJson(new URL('catalog.json', appBaseUrl))
   .then(catalogData => {
     if (!Array.isArray(catalogData.categories) || catalogData.categories.length === 0) {
       throw new Error('The exercise catalog is empty.');
@@ -31,7 +32,7 @@ fetchJson('/api/exercises')
         const exerciseCatalog = computed(() => selectedCategory.value?.exercises || []);
         const selectedCategoryTitle = computed(() => selectedCategory.value?.title || '');
         const selectedExerciseTitle = computed(() => exerciseCatalog.value.find(entry => entry.id === selectedExerciseId.value)?.title || '');
-        const selectedCategoryPath = computed(() => selectedCategory.value ? `/${encodeURIComponent(selectedCategory.value.id)}` : '/');
+        const selectedCategoryPath = computed(() => selectedCategory.value ? `#/${encodeURIComponent(selectedCategory.value.id)}` : '#');
         let activeExerciseId = '';
         let loadSequence = 0;
 
@@ -81,7 +82,7 @@ fetchJson('/api/exercises')
 
         function routeForExercise(categoryId, entry) {
           const sequence = entry.file.match(/-(\d+)\.json$/)?.[1];
-          return sequence ? `/${encodeURIComponent(categoryId)}/${sequence}` : `/${encodeURIComponent(categoryId)}`;
+          return sequence ? `#/${encodeURIComponent(categoryId)}/${sequence}` : `#/${encodeURIComponent(categoryId)}`;
         }
 
         async function loadExercise(id, updateHistory = true) {
@@ -96,7 +97,7 @@ fetchJson('/api/exercises')
             const exercisePath = [selectedCategoryId.value, entry.file]
               .map(part => encodeURIComponent(part))
               .join('/');
-            const nextExercise = await fetchJson(`/data/${exercisePath}`);
+            const nextExercise = await fetchJson(new URL(`data/${exercisePath}`, appBaseUrl));
             if (request !== loadSequence) return;
 
             for (const key of Object.keys(exercise)) delete exercise[key];
@@ -115,7 +116,7 @@ fetchJson('/api/exercises')
             page.value = 'practice';
             if (updateHistory) {
               const nextPath = routeForExercise(selectedCategoryId.value, entry);
-              if (window.location.pathname !== nextPath) window.history.pushState(null, '', nextPath);
+              if (window.location.hash !== nextPath) window.history.pushState(null, '', nextPath);
             }
             await nextTick();
             focusMask(maskOrder[0]);
@@ -137,14 +138,14 @@ fetchJson('/api/exercises')
           loadError.value = '';
           activeExerciseId = '';
           if (updateHistory) {
-            const nextPath = `/${encodeURIComponent(category.id)}`;
-            if (window.location.pathname !== nextPath) window.history.pushState(null, '', nextPath);
+            const nextPath = `#/${encodeURIComponent(category.id)}`;
+            if (window.location.hash !== nextPath) window.history.pushState(null, '', nextPath);
           }
         }
 
         function backToCategories() {
-          if (window.location.pathname !== '/') window.history.pushState(null, '', '/');
-          applyRoute(window.location.pathname);
+          if (window.location.hash) window.history.pushState(null, '', `${window.location.pathname}${window.location.search}`);
+          applyRoute('/');
         }
 
         async function applyRoute(pathname) {
@@ -169,7 +170,7 @@ fetchJson('/api/exercises')
 
           const category = categories.find(item => item.id === parts[0]);
           if (!category) {
-            window.history.replaceState(null, '', '/');
+            window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}`);
             await applyRoute('/');
             return;
           }
@@ -179,7 +180,7 @@ fetchJson('/api/exercises')
 
           const entry = category.exercises.find(item => item.file.match(/-(\d+)\.json$/)?.[1] === parts[1]);
           if (parts.length !== 2 || !entry) {
-            window.history.replaceState(null, '', `/${encodeURIComponent(category.id)}`);
+            window.history.replaceState(null, '', `#/${encodeURIComponent(category.id)}`);
             return;
           }
 
@@ -202,7 +203,7 @@ fetchJson('/api/exercises')
         }
 
         function handlePopState() {
-          applyRoute(window.location.pathname);
+          applyRoute(window.location.hash ? window.location.hash.slice(1) : '/');
         }
 
         function submitAnswer(mask) {
@@ -241,7 +242,7 @@ fetchJson('/api/exercises')
 
         onMounted(() => {
           window.addEventListener('popstate', handlePopState);
-          applyRoute(window.location.pathname);
+          applyRoute(window.location.hash ? window.location.hash.slice(1) : '/');
           nextTick(() => focusMask(maskOrder[0]));
         });
 

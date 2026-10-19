@@ -2,6 +2,7 @@ import { createServer } from 'node:http';
 import { readdir, readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { createCatalog } from './catalog.mjs';
 
 const root = path.dirname(fileURLToPath(import.meta.url));
 const dataDirectory = path.join(root, 'data');
@@ -39,46 +40,12 @@ const server = createServer(async (request, response) => {
     return;
   }
 
-  if (requestUrl.pathname === '/api/exercises') {
+  if (requestUrl.pathname === '/catalog.json' || requestUrl.pathname === '/api/exercises') {
     try {
-      const entries = await readdir(dataDirectory, { withFileTypes: true });
-      const categories = await Promise.all(entries
-        .filter(entry => entry.isDirectory())
-        .map(async entry => {
-          const categoryDirectory = path.join(dataDirectory, entry.name);
-          const files = (await readdir(categoryDirectory, { withFileTypes: true }))
-            .filter(file => file.isFile() && file.name.toLowerCase().endsWith('.json'))
-            .sort((left, right) => left.name.localeCompare(right.name, undefined, { numeric: true, sensitivity: 'base' }));
-
-          if (files.length === 0) return null;
-
-          let title = entry.name.replace(/([a-z0-9])([A-Z])/g, '$1 $2');
-          try {
-            const firstExercise = JSON.parse(await readFile(path.join(categoryDirectory, files[0].name), 'utf8'));
-            if (typeof firstExercise.topic === 'string' && firstExercise.topic.trim()) title = firstExercise.topic;
-          } catch (error) {
-            console.error(`Unable to read category title from ${entry.name}/${files[0].name}:`, error);
-          }
-
-          return {
-            id: entry.name,
-            title,
-            exercises: files.map(file => {
-              const stem = path.basename(file.name, path.extname(file.name));
-              const sequence = stem.match(/-(\d+)$/);
-              return {
-                id: file.name,
-                title: sequence ? `Exercise ${sequence[1]}` : stem,
-                file: file.name
-              };
-            })
-          };
-        }));
-
       response.writeHead(200, {
         'Content-Type': 'application/json; charset=utf-8',
         'Cache-Control': 'no-store'
-      }).end(JSON.stringify({ categories: categories.filter(Boolean) }));
+      }).end(JSON.stringify(await createCatalog(dataDirectory)));
     } catch (error) {
       console.error('Unable to list exercise categories:', error);
       response.writeHead(500, { 'Content-Type': 'application/json; charset=utf-8' })

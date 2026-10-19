@@ -27,6 +27,19 @@ npm run dev
 
 Then open http://127.0.0.1:4173/. The home page lists the main categories. Open a category and use the selector to switch between exercises, such as Exercise 01 and Exercise 02. To add an exercise, place it in the appropriate category folder according to [data/GENERATION_PRD.md](data/GENERATION_PRD.md); the app detects it automatically.
 
+## Deploying to GitHub Pages
+
+This project can also be published as a static site; no Node.js server is needed on GitHub Pages. Preview the static output locally with:
+
+```bash
+npm run build
+npx serve dist
+```
+
+The build copies the app and exercise data into `dist/` and generates `catalog.json`. A GitHub Actions workflow builds and deploys the site whenever code is pushed to `master`. In the repository settings, open **Pages** and set **Build and deployment → Source** to **GitHub Actions**. The site URL will be `https://<username>.github.io/<repository>/`.
+
+The app uses hash-based routes (for example, `/#/MixedTenseFlow/01`) so direct links work on GitHub Pages without server-side routing.
+
 ---
 
 # BERT 語感反射訓練器
@@ -58,3 +71,16 @@ node server.mjs
 ```
 
 然後開啟 http://127.0.0.1:4173/。首頁會列出主分類；進入分類後，可用選單切換 Exercise 01、Exercise 02 等篇章。新增篇章時，依照 [data/GENERATION_PRD.md](data/GENERATION_PRD.md) 放入對應分類資料夾，應用程式會自動偵測。
+
+## 部署到 GitHub Pages
+
+這個專案也可以輸出為靜態網站，GitHub Pages 不需要執行 Node.js 伺服器。可先在本機建置並預覽：
+
+```bash
+npm run build
+npx serve dist
+```
+
+建置會把前端與練習資料輸出至 `dist/`，並產生 `catalog.json`。推送到 `master` 後，GitHub Actions 會自動建置及部署。請到儲存庫 **Settings → Pages**，將 **Build and deployment → Source** 設為 **GitHub Actions**。網站網址會是 `https://<你的帳號>.github.io/<儲存庫名稱>/`。
+
+網站使用 hash 路由（例如 `/#/MixedTenseFlow/01`），因此在 GitHub Pages 上直接開啟練習連結也能正常運作。
