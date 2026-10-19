@@ -1,0 +1,114 @@
+{
+  "topic": "Mixed Tenses Flow",
+  "difficulty": "advanced",
+  "story_title": "The Forecast That Changed the Deal",
+  "paragraphs": [
+    "Mira usually reviews quarterly forecasts on Fridays, but this week she {{mask_1}} an acquisition model with the operations team. They {{mask_2}} the cost estimates since the supplier announced new terms in April. When the board first discussed the deal last month, the seller {{mask_3}} a much lower figure, and several directors {{mask_4}} that the target's margins were overstated.",
+    "On Tuesday, while Mira {{mask_5}} the latest assumptions, her analyst noticed that the model {{mask_6}} the new shipping surcharge. The team {{mask_7}} on the old rate for so long that nobody had questioned it. Mira called the supplier, who confirmed that the surcharge {{mask_8}} from the first of the month. By the time the finance team joined the call, Mira {{mask_9}} the revised figures to the chief operating officer.",
+    "During the meeting, Mira {{mask_10}} how the higher costs affected the forecast when the chief executive interrupted. He said that the board {{mask_11}} a decision until the revised valuation was ready. One director asked whether the company {{mask_12}} the original offer if the supplier had disclosed the surcharge earlier. Mira replied that they {{mask_13}} a lower price, but only if the seller had accepted the adjustment.",
+    "Since that call, Mira's team {{mask_14}} three alternative forecasts, and they {{mask_15}} the final recommendation by tomorrow afternoon. If the seller had shared the updated contract sooner, the board {{mask_16}} the first proposal last week. Instead, the negotiators are meeting again on Thursday, where Mira {{mask_17}} the revised figures while the legal team reviews the amended terms.",
+    "The board has not approved the acquisition yet, but it {{mask_18}} the revised offer now. By the time the next quarterly report is published, the company {{mask_19}} whether the deal was worth pursuing. Mira says she {{mask_20}} the risk earlier if the supplier's notice had reached her desk before the first board meeting."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "is coordinating",
+      "acceptable_variants": ["'s coordinating"],
+      "hint": "coordinate"
+    },
+    "mask_2": {
+      "target": "have been revising",
+      "acceptable_variants": ["'ve been revising"],
+      "hint": "revise"
+    },
+    "mask_3": {
+      "target": "had proposed",
+      "acceptable_variants": ["'d proposed"],
+      "hint": "propose"
+    },
+    "mask_4": {
+      "target": "suspected",
+      "acceptable_variants": [],
+      "hint": "suspect"
+    },
+    "mask_5": {
+      "target": "was checking",
+      "acceptable_variants": [],
+      "hint": "check"
+    },
+    "mask_6": {
+      "target": "had not included",
+      "acceptable_variants": ["hadn't included"],
+      "hint": "include"
+    },
+    "mask_7": {
+      "target": "had been relying",
+      "acceptable_variants": ["'d been relying"],
+      "hint": "rely"
+    },
+    "mask_8": {
+      "target": "had taken effect",
+      "acceptable_variants": ["'d taken effect"],
+      "hint": "take"
+    },
+    "mask_9": {
+      "target": "had sent",
+      "acceptable_variants": ["'d sent"],
+      "hint": "send"
+    },
+    "mask_10": {
+      "target": "was explaining",
+      "acceptable_variants": [],
+      "hint": "explain"
+    },
+    "mask_11": {
+      "target": "would not make",
+      "acceptable_variants": ["wouldn't make"],
+      "hint": "make"
+    },
+    "mask_12": {
+      "target": "would have revised",
+      "acceptable_variants": ["would've revised"],
+      "hint": "revise"
+    },
+    "mask_13": {
+      "target": "might have negotiated",
+      "acceptable_variants": [],
+      "hint": "negotiate"
+    },
+    "mask_14": {
+      "target": "have prepared",
+      "acceptable_variants": ["'ve prepared"],
+      "hint": "prepare"
+    },
+    "mask_15": {
+      "target": "will have completed",
+      "acceptable_variants": ["'ll have completed"],
+      "hint": "complete"
+    },
+    "mask_16": {
+      "target": "might have approved",
+      "acceptable_variants": [],
+      "hint": "approve"
+    },
+    "mask_17": {
+      "target": "will present",
+      "acceptable_variants": ["'ll present"],
+      "hint": "present"
+    },
+    "mask_18": {
+      "target": "is considering",
+      "acceptable_variants": ["'s considering"],
+      "hint": "consider"
+    },
+    "mask_19": {
+      "target": "will have determined",
+      "acceptable_variants": ["'ll have determined"],
+      "hint": "determine"
+    },
+    "mask_20": {
+      "target": "would have identified",
+      "acceptable_variants": ["'d have identified"],
+      "hint": "identify"
+    }
+  }
+}
