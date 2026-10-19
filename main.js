@@ -25,11 +25,15 @@ fetchJson(new URL('catalog.json', appBaseUrl))
         const page = ref('categories');
         const selectedCategoryId = ref('');
         const selectedExerciseId = ref('');
+        const selectedDifficulty = ref('');
         const loading = ref(false);
         const loadError = ref('');
         const catalogError = ref('');
         const selectedCategory = computed(() => categories.find(category => category.id === selectedCategoryId.value));
         const exerciseCatalog = computed(() => selectedCategory.value?.exercises || []);
+        const filteredExerciseCatalog = computed(() => selectedDifficulty.value
+          ? exerciseCatalog.value.filter(entry => entry.difficulty === selectedDifficulty.value)
+          : exerciseCatalog.value);
         const selectedCategoryTitle = computed(() => selectedCategory.value?.title || '');
         const selectedExerciseTitle = computed(() => exerciseCatalog.value.find(entry => entry.id === selectedExerciseId.value)?.title || '');
         const selectedCategoryPath = computed(() => selectedCategory.value ? `#/${encodeURIComponent(selectedCategory.value.id)}` : '#');
@@ -134,6 +138,7 @@ fetchJson(new URL('catalog.json', appBaseUrl))
           loading.value = false;
           selectedCategoryId.value = category.id;
           selectedExerciseId.value = '';
+          selectedDifficulty.value = '';
           page.value = 'exercises';
           loadError.value = '';
           activeExerciseId = '';
@@ -256,7 +261,9 @@ fetchJson(new URL('catalog.json', appBaseUrl))
           selectedCategoryPath,
           selectedCategoryId,
           exerciseCatalog,
+          filteredExerciseCatalog,
           selectedExerciseId,
+          selectedDifficulty,
           selectedExerciseTitle,
           loading,
           loadError,

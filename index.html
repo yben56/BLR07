@@ -87,8 +87,20 @@
           <h1 id="exercise-list-title" class="text-2xl font-normal tracking-tight text-white sm:text-3xl">{{ selectedCategoryTitle }}</h1>
           <p class="zh-tw mt-2 text-sm text-slate-400">選擇要開始的練習篇章。</p>
         </div>
+        <div class="mb-3 flex justify-end">
+          <select
+            v-model="selectedDifficulty"
+            aria-label="依難度篩選練習篇章"
+            class="rounded-md border border-slate-700 bg-slate-800 px-2 py-1 text-xs font-medium text-slate-200 outline-none transition focus:border-cyan-400 focus:ring-2 focus:ring-cyan-400/20"
+          >
+            <option selected disabled value="">Level</option>
+            <option value="beginner">Beginner</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="advanced">Advanced</option>
+          </select>
+        </div>
         <ul class="divide-y divide-slate-800 overflow-hidden rounded-xl border border-slate-800 bg-slate-900/70">
-          <li v-for="entry in exerciseCatalog" :key="entry.id">
+          <li v-for="entry in filteredExerciseCatalog" :key="entry.id">
             <button
               type="button"
               @click="navigateToExercise(entry.id)"
@@ -101,6 +113,7 @@
               </svg>
             </button>
           </li>
+          <li v-if="filteredExerciseCatalog.length === 0" class="px-5 py-5 text-sm text-slate-400 sm:px-6">此難度目前沒有練習篇章。</li>
         </ul>
         <p v-if="loading" class="zh-tw mt-4 text-sm text-cyan-300" role="status">載入中</p>
       </section>
