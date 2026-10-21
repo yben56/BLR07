@@ -29,6 +29,7 @@ fetchJson(new URL('catalog.json', appBaseUrl))
         const loading = ref(false);
         const loadError = ref('');
         const catalogError = ref('');
+        const elapsedTime = ref(0);
         const selectedCategory = computed(() => categories.find(category => category.id === selectedCategoryId.value));
         const exerciseCatalog = computed(() => selectedCategory.value?.exercises || []);
         const filteredExerciseCatalog = computed(() => selectedDifficulty.value
@@ -39,6 +40,8 @@ fetchJson(new URL('catalog.json', appBaseUrl))
         const selectedCategoryPath = computed(() => selectedCategory.value ? `#/${encodeURIComponent(selectedCategory.value.id)}` : '#');
         let activeExerciseId = '';
         let loadSequence = 0;
+        let timerStartedAt = 0;
+        let timerInterval = null;
 
         const renderedParagraphs = computed(() => (exercise.paragraphs || []).map(paragraph => {
           const segments = [];
@@ -68,6 +71,15 @@ fetchJson(new URL('catalog.json', appBaseUrl))
 
         const correctCount = computed(() => maskOrder.filter(mask => status[mask] === 'correct').length);
         const correctPercentage = computed(() => maskOrder.length ? Math.round((correctCount.value / maskOrder.length) * 100) : 0);
+        const formattedElapsedTime = computed(() => {
+          const totalMilliseconds = elapsedTime.value;
+          const hours = Math.floor(totalMilliseconds / 3600000);
+          const minutes = Math.floor((totalMilliseconds % 3600000) / 60000);
+          const seconds = Math.floor((totalMilliseconds % 60000) / 1000);
+          const milliseconds = totalMilliseconds % 1000;
+          return [hours, minutes, seconds].map(value => String(value).padStart(2, '0')).join(':')
+            + `:${String(milliseconds).padStart(3, '0')}`;
+        });
         const award = computed(() => {
           if (correctPercentage.value >= 100) return { emoji: '🏆', label: '金色獎盃', silver: false };
           if (correctPercentage.value >= 80) return { emoji: '🏆', label: '銀色獎盃', silver: true };
@@ -84,6 +96,22 @@ fetchJson(new URL('catalog.json', appBaseUrl))
           if (mask && inputRefs[mask]) inputRefs[mask].focus();
         }
 
+        function startPracticeTimer() {
+          stopPracticeTimer();
+          elapsedTime.value = 0;
+          timerStartedAt = Date.now();
+          timerInterval = window.setInterval(() => {
+            elapsedTime.value = Date.now() - timerStartedAt;
+          }, 10);
+        }
+
+        function stopPracticeTimer() {
+          if (timerInterval !== null) {
+            window.clearInterval(timerInterval);
+            timerInterval = null;
+          }
+        }
+
         function routeForExercise(categoryId, entry) {
           const sequence = entry.file.match(/-(\d+)\.json$/)?.[1];
           return sequence ? `#/${encodeURIComponent(categoryId)}/${sequence}` : `#/${encodeURIComponent(categoryId)}`;
@@ -96,6 +124,7 @@ fetchJson(new URL('catalog.json', appBaseUrl))
           const request = ++loadSequence;
           loading.value = true;
           loadError.value = '';
+          startPracticeTimer();
 
           try {
             const exercisePath = [selectedCategoryId.value, entry.file]
@@ -126,6 +155,7 @@ fetchJson(new URL('catalog.json', appBaseUrl))
             focusMask(maskOrder[0]);
           } catch {
             if (request !== loadSequence) return;
+            stopPracticeTimer();
             selectedExerciseId.value = activeExerciseId;
             loadError.value = `無法載入「${entry.title}」，請確認對應的 JSON 檔案存在且格式正確。`;
           } finally {
@@ -135,6 +165,7 @@ fetchJson(new URL('catalog.json', appBaseUrl))
 
         function selectCategory(category, updateHistory = true) {
           ++loadSequence;
+          stopPracticeTimer();
           loading.value = false;
           selectedCategoryId.value = category.id;
           selectedExerciseId.value = '';
@@ -164,6 +195,7 @@ fetchJson(new URL('catalog.json', appBaseUrl))
 
           if (parts.length === 0) {
             ++loadSequence;
+            stopPracticeTimer();
             loading.value = false;
             page.value = 'categories';
             selectedCategoryId.value = '';
@@ -226,6 +258,7 @@ fetchJson(new URL('catalog.json', appBaseUrl))
             answers[mask] = '';
             status[mask] = null;
           }
+          startPracticeTimer();
           nextTick(() => focusMask(maskOrder[0]));
         }
 
@@ -251,7 +284,10 @@ fetchJson(new URL('catalog.json', appBaseUrl))
           nextTick(() => focusMask(maskOrder[0]));
         });
 
-        onUnmounted(() => window.removeEventListener('popstate', handlePopState));
+        onUnmounted(() => {
+          window.removeEventListener('popstate', handlePopState);
+          stopPracticeTimer();
+        });
 
         return {
           categories,
@@ -275,6 +311,7 @@ fetchJson(new URL('catalog.json', appBaseUrl))
           renderedParagraphs,
           correctCount,
           correctPercentage,
+          formattedElapsedTime,
           award,
           setInputRef,
           loadExercise,
