@@ -1,0 +1,62 @@
+{
+  "topic": "Mixed Tense Passive",
+  "difficulty": "beginner",
+  "created_at": "2026-10-22T01:26:48.972+08:00",
+  "story_title": "The Old Train Station",
+  "paragraphs": [
+    "The old train station is getting ready for its summer opening. The staff are working in every room, and the manager is checking their progress. {{red:The cleaner cleans the waiting room every morning.}} {{mask_1}} {{red:Workers installed new lights in the main hall yesterday.}} {{mask_2}} {{red:Two painters are painting the ticket windows now.}} {{mask_3}} {{red:A winter storm damaged the roof last year.}} {{mask_4}} {{red:The manager has ordered new signs for the entrance.}} {{mask_5}}",
+    "The station team is making sure everything will be ready for visitors. {{red:The workers have not repaired the old clock yet.}} {{mask_6}} {{red:The team will finish the repairs before summer.}} {{mask_7}} {{red:The station manager must check the safety doors.}} {{mask_8}} Yesterday, a visitor found a toolbox near the entrance. {{red:Somebody left a toolbox near the entrance.}} {{mask_9}} At noon, the platform was busy with workers. {{red:The workers were cleaning the platform at noon.}} {{mask_10}} Soon, the restored station will welcome its first passengers."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "The waiting room is cleaned every morning.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "New lights were installed in the main hall yesterday.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "The ticket windows are being painted now.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "The roof was damaged by a winter storm last year.",
+      "acceptable_variants": ["The roof was damaged last year."],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "New signs have been ordered for the entrance.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "The old clock has not been repaired yet.",
+      "acceptable_variants": ["The old clock hasn't been repaired yet."],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "The repairs will be finished before summer.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "The safety doors must be checked by the station manager.",
+      "acceptable_variants": ["The safety doors must be checked."],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "A toolbox was left near the entrance.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "The platform was being cleaned at noon.",
+      "acceptable_variants": [],
+      "hint": ""
+    }
+  }
+}

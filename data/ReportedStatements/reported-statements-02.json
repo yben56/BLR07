@@ -1,0 +1,88 @@
+{
+  "topic": "Reported Statements",
+  "difficulty": "beginner",
+  "created_at": "2026-10-22T01:20:44.412+08:00",
+  "story_title": "The New Library",
+  "paragraphs": [
+    "Reporter Sam visited the new town library on its opening day. Librarian Mia welcomed him and shared some news. {{red:“I live near the library.”}} {{mask_1}} She showed him the reading room. {{red:“We are painting the walls today.”}} {{mask_2}} Mia had prepared the shelves before Sam arrived. {{red:“I have put the new books away.”}} {{mask_3}} Her assistant Ben talked about the day before. {{red:“I saw the mayor yesterday.”}} {{mask_4}} The library manager told Sam about the opening time. {{red:“We will open at nine tomorrow.”}} {{mask_5}} Ben offered to help. {{red:“I can bring more chairs.”}} {{mask_6}}",
+    "Sam asked Mia a few questions for his article. {{red:“Are the doors open now?”}} {{mask_7}} Then he asked about the books. {{red:“Where do you keep the storybooks?”}} {{mask_8}} He wanted to know about the delivery. {{red:“Did the new books arrive this morning?”}} {{mask_9}} Mia asked Ben to help prepare the children's corner. {{red:“Please put these books on the table.”}} {{mask_10}} A painter gave the children a safety rule. {{red:“Don't touch the wet paint.”}} {{mask_11}} Mia asked Ben for one more favor. {{red:“Can you carry this box upstairs?”}} {{mask_12}}",
+    "Before Sam left, he spoke with two young visitors. One girl looked at a broken flowerpot and said, {{red:“I am sorry I broke the pot.”}} {{mask_13}} A boy answered Mia's question about a missing notebook. {{red:“I didn't take your notebook.”}} {{mask_14}} Ben made a promise before the library became busy. {{red:“I will return the borrowed books tomorrow.”}} {{mask_15}} Sam thanked everyone and finished his article about the friendly opening day."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "Mia said that she lived near the library.",
+      "acceptable_variants": ["Mia said she lived near the library."],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "Mia said that they were painting the walls that day.",
+      "acceptable_variants": ["Mia said they were painting the walls that day."],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "Mia said that she had put the new books away.",
+      "acceptable_variants": ["Mia said she had put the new books away."],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "Ben said that he had seen the mayor the day before.",
+      "acceptable_variants": ["Ben said he had seen the mayor the day before."],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "The manager said that they would open at nine the next day.",
+      "acceptable_variants": ["The manager said they would open at nine the next day."],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "Ben said that he could bring more chairs.",
+      "acceptable_variants": ["Ben said he could bring more chairs."],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "Sam asked Mia if the doors were open then.",
+      "acceptable_variants": ["Sam asked Mia whether the doors were open then."],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "Sam asked Mia where she kept the storybooks.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "Sam asked Mia if the new books had arrived that morning.",
+      "acceptable_variants": ["Sam asked Mia whether the new books had arrived that morning."],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "Mia asked Ben to put those books on the table.",
+      "acceptable_variants": ["Mia asked Ben to put the books on the table."],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "The painter told the children not to touch the wet paint.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "Mia asked Ben to carry that box upstairs.",
+      "acceptable_variants": ["Mia asked Ben to carry the box upstairs."],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "The girl apologized for breaking the pot.",
+      "acceptable_variants": ["The girl apologised for breaking the pot."],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "The boy denied taking Mia's notebook.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "Ben promised to return the borrowed books the next day.",
+      "acceptable_variants": [],
+      "hint": ""
+    }
+  }
+}

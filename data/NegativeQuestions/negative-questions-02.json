@@ -1,0 +1,114 @@
+{
+  "topic": "Negative Questions",
+  "difficulty": "beginner",
+  "created_at": "2026-10-22T00:33:35.693+08:00",
+  "story_title": "The School Book Fair",
+  "paragraphs": [
+    "Mia and Ben are getting ready for the school book fair on Saturday morning. Mr. Lee usually opens the doors at eight, but it is already 8:10 and the entrance is still closed. Mia asks, “{{mask_1}}?” The fair is in the library, and its sign says it opens on Saturdays. “{{mask_2}}?” Ben asks. They look at the room plan. “{{mask_3}}?” Mia asks as they start moving the tables. One box is very heavy. “{{mask_4}}?” Ben asks. They find the welcome sign in the hallway. “{{mask_5}}?” Mia asks.",
+    "Ben opens the supply box, but there is no tape inside. “{{mask_6}}?” Mia asks. They check a small table, which rocks from side to side. “{{mask_7}}?” Ben asks. Mia unrolls a poster. “{{mask_8}}?” she asks, looking at the empty wall above the entrance. Ben looks around but cannot find the markers. “{{mask_9}}?” Mia asks. The snack delivery is due at ten. Ben checks the clock. “{{mask_10}}?”",
+    "The children’s book corner is ready, but Ben is not sure which books belong there. “{{mask_11}}?” Mia asks. They have green stickers for the used books. “{{mask_12}}?” Ben asks. Mia reads the price sign, which says five dollars. “{{mask_13}}?” she asks. Ms. Park is their teacher and promised to help at the fair. “{{mask_14}}?” Ben asks when he sees her coat by the desk. They count the chairs beside the tables. “{{mask_15}}?” Mia asks. There are enough for the reading group.",
+    "Rain begins outside, so Mia points to the tables near the open door. “{{mask_16}}?” she asks. A van turns into the school driveway, and the driver waves. “{{mask_17}}?” Ben asks. The list says each box holds ten books. “{{mask_18}}?” Mia asks when they reach the last box. The first visitors are expected at nine, and the clock is almost nine. “{{mask_19}}?” Ben asks. Mia sees that the cash box is locked. “{{mask_20}}?” she asks. Ben finds its key on the desk. The doors open, and the first families walk in."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "Doesn't Mr. Lee open the doors at eight",
+      "acceptable_variants": ["Does Mr. Lee not open the doors at eight"],
+      "hint": "open"
+    },
+    "mask_2": {
+      "target": "Isn't the library open today",
+      "acceptable_variants": ["Is the library not open today"],
+      "hint": "open"
+    },
+    "mask_3": {
+      "target": "Don't we need the tables in two rows",
+      "acceptable_variants": ["Do we not need the tables in two rows"],
+      "hint": "need"
+    },
+    "mask_4": {
+      "target": "Isn't this box full of books",
+      "acceptable_variants": ["Is this box not full of books"],
+      "hint": "full"
+    },
+    "mask_5": {
+      "target": "Didn't we put the welcome sign by the door",
+      "acceptable_variants": ["Did we not put the welcome sign by the door"],
+      "hint": "put"
+    },
+    "mask_6": {
+      "target": "Don't we have tape in the supply box",
+      "acceptable_variants": ["Do we not have tape in the supply box"],
+      "hint": "have"
+    },
+    "mask_7": {
+      "target": "Doesn't this table wobble",
+      "acceptable_variants": ["Does this table not wobble"],
+      "hint": "wobble"
+    },
+    "mask_8": {
+      "target": "Isn't the poster supposed to go above the entrance",
+      "acceptable_variants": ["Is the poster not supposed to go above the entrance"],
+      "hint": "go"
+    },
+    "mask_9": {
+      "target": "Didn't you leave the markers in the classroom",
+      "acceptable_variants": ["Did you not leave the markers in the classroom"],
+      "hint": "leave"
+    },
+    "mask_10": {
+      "target": "Won't the snacks arrive at ten",
+      "acceptable_variants": ["Will the snacks not arrive at ten"],
+      "hint": "arrive"
+    },
+    "mask_11": {
+      "target": "Aren't these books for younger readers",
+      "acceptable_variants": ["Are these books not for younger readers"],
+      "hint": "for"
+    },
+    "mask_12": {
+      "target": "Shouldn't we put the green stickers on the used books",
+      "acceptable_variants": ["Should we not put the green stickers on the used books"],
+      "hint": "put"
+    },
+    "mask_13": {
+      "target": "Doesn't this sign say five dollars",
+      "acceptable_variants": ["Does this sign not say five dollars"],
+      "hint": "say"
+    },
+    "mask_14": {
+      "target": "Isn't Ms. Park helping us today",
+      "acceptable_variants": ["Is Ms. Park not helping us today"],
+      "hint": "help"
+    },
+    "mask_15": {
+      "target": "Don't we have enough chairs",
+      "acceptable_variants": ["Do we not have enough chairs"],
+      "hint": "have"
+    },
+    "mask_16": {
+      "target": "Can't we move the tables inside",
+      "acceptable_variants": ["Can we not move the tables inside"],
+      "hint": "move"
+    },
+    "mask_17": {
+      "target": "Isn't the delivery here already",
+      "acceptable_variants": ["Is the delivery not here already"],
+      "hint": "here"
+    },
+    "mask_18": {
+      "target": "Didn't we count the books in this box",
+      "acceptable_variants": ["Did we not count the books in this box"],
+      "hint": "count"
+    },
+    "mask_19": {
+      "target": "Won't the first visitors arrive soon",
+      "acceptable_variants": ["Will the first visitors not arrive soon"],
+      "hint": "arrive"
+    },
+    "mask_20": {
+      "target": "Doesn't the cash box need a key",
+      "acceptable_variants": ["Does the cash box not need a key"],
+      "hint": "need"
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "topic": "Mixed Tenses Flow",
+  "difficulty": "beginner",
+  "created_at": "2026-10-22T00:28:30.289+08:00",
+  "story_title": "Waiting for Grandma",
+  "paragraphs": [
+    "Sam usually visits his grandmother after school. Today, he {{mask_1}} with his mother in the hospital waiting room. They {{mask_2}} Grandma every afternoon, but yesterday they {{mask_3}} for an hour before a nurse came. While Sam {{mask_4}} by the window, his mother read a book.",
+    "The doctor {{mask_5}} to them now. She says Grandma {{mask_6}} better. Grandma usually {{mask_7}} well, but last night she {{mask_8}} badly because she was in pain. This morning, she {{mask_9}} some soup and {{mask_10}} a glass of water. She {{mask_11}} her medicine every day.",
+    "At noon, the doctor {{mask_12}} them that Grandma can go home tomorrow. Sam {{mask_13}} happy when he hears the news. He {{mask_14}} her favorite flowers tomorrow, and his mother {{mask_15}} Grandma home after breakfast."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "is waiting",
+      "acceptable_variants": ["'s waiting"],
+      "hint": "wait"
+    },
+    "mask_2": {
+      "target": "visit",
+      "acceptable_variants": [],
+      "hint": "visit"
+    },
+    "mask_3": {
+      "target": "waited",
+      "acceptable_variants": [],
+      "hint": "wait"
+    },
+    "mask_4": {
+      "target": "was sitting",
+      "acceptable_variants": [],
+      "hint": "sit"
+    },
+    "mask_5": {
+      "target": "is talking",
+      "acceptable_variants": ["'s talking"],
+      "hint": "talk"
+    },
+    "mask_6": {
+      "target": "is getting",
+      "acceptable_variants": ["'s getting"],
+      "hint": "get"
+    },
+    "mask_7": {
+      "target": "sleeps",
+      "acceptable_variants": [],
+      "hint": "sleep"
+    },
+    "mask_8": {
+      "target": "slept",
+      "acceptable_variants": [],
+      "hint": "sleep"
+    },
+    "mask_9": {
+      "target": "ate",
+      "acceptable_variants": [],
+      "hint": "eat"
+    },
+    "mask_10": {
+      "target": "drank",
+      "acceptable_variants": [],
+      "hint": "drink"
+    },
+    "mask_11": {
+      "target": "takes",
+      "acceptable_variants": [],
+      "hint": "take"
+    },
+    "mask_12": {
+      "target": "tells",
+      "acceptable_variants": [],
+      "hint": "tell"
+    },
+    "mask_13": {
+      "target": "feels",
+      "acceptable_variants": [],
+      "hint": "feel"
+    },
+    "mask_14": {
+      "target": "will bring",
+      "acceptable_variants": ["'ll bring"],
+      "hint": "bring"
+    },
+    "mask_15": {
+      "target": "will take",
+      "acceptable_variants": ["'ll take"],
+      "hint": "take"
+    }
+  }
+}

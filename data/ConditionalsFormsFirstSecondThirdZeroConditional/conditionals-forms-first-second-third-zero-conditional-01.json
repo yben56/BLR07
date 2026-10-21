@@ -1,0 +1,114 @@
+{
+  "topic": "Conditionals: Forms",
+  "difficulty": "intermediate",
+  "created_at": "2026-10-22T00:52:32.228+08:00",
+  "story_title": "The Community Garden Plan",
+  "paragraphs": [
+    "On Saturday, Lena met her neighbors at the empty lot they hoped to turn into a community garden. Mr. Chen explained two things he had learned from gardening. “If the soil {{mask_1}} too dry, young plants {{mask_2}},” he said. “And if water {{mask_3}} below zero degrees, it {{mask_4}} into ice.” The group then made a plan for Sunday. “If I {{mask_5}} to the garden early, I {{mask_6}} open the gate,” Lena said. Omar checked the weather app. “If it {{mask_7}} tomorrow, we {{mask_8}} cover the young plants.”",
+    "They also discussed the extra shovels. “If the store {{mask_9}} them on time, we {{mask_10}} finish preparing the beds,” Omar said. The students were busy with exams, so Lena was not sure they could help. “If the students {{mask_11}} more time, they {{mask_12}} help us build the beds,” she said.",
+    "The neighbors began drawing a map of the garden. Lena imagined what she would do if they had more space. “If this lot {{mask_13}} larger, I {{mask_14}} add a greenhouse,” she said. Omar pointed to a sunny corner. “If I {{mask_15}} the garden, I {{mask_16}} put the herbs over there.”",
+    "On Sunday morning, the group arrived to find that the store had delivered the tools to the wrong address. They called the shop and made a new plan. “If the store {{mask_17}} the tools to the correct address, we {{mask_18}} had the shovels by now,” Omar said. Lena looked at the garden map in her bag. “If I {{mask_19}} it at home, we {{mask_20}} known where to put every bed.” The neighbors still had enough hand tools to begin, so they started preparing the soil together."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "gets",
+      "acceptable_variants": [],
+      "hint": "get"
+    },
+    "mask_2": {
+      "target": "wilt",
+      "acceptable_variants": [],
+      "hint": "wilt"
+    },
+    "mask_3": {
+      "target": "freezes",
+      "acceptable_variants": [],
+      "hint": "freeze"
+    },
+    "mask_4": {
+      "target": "turns",
+      "acceptable_variants": [],
+      "hint": "turn"
+    },
+    "mask_5": {
+      "target": "go",
+      "acceptable_variants": [],
+      "hint": "go"
+    },
+    "mask_6": {
+      "target": "will",
+      "acceptable_variants": ["'ll"],
+      "hint": "will / would"
+    },
+    "mask_7": {
+      "target": "rains",
+      "acceptable_variants": [],
+      "hint": "rain"
+    },
+    "mask_8": {
+      "target": "will",
+      "acceptable_variants": ["'ll"],
+      "hint": "will / would"
+    },
+    "mask_9": {
+      "target": "delivers",
+      "acceptable_variants": [],
+      "hint": "deliver"
+    },
+    "mask_10": {
+      "target": "will",
+      "acceptable_variants": ["'ll"],
+      "hint": "will / would"
+    },
+    "mask_11": {
+      "target": "had",
+      "acceptable_variants": [],
+      "hint": "have"
+    },
+    "mask_12": {
+      "target": "would",
+      "acceptable_variants": ["'d"],
+      "hint": "will / would"
+    },
+    "mask_13": {
+      "target": "were",
+      "acceptable_variants": [],
+      "hint": "be"
+    },
+    "mask_14": {
+      "target": "would",
+      "acceptable_variants": ["'d"],
+      "hint": "will / would"
+    },
+    "mask_15": {
+      "target": "ran",
+      "acceptable_variants": [],
+      "hint": "run"
+    },
+    "mask_16": {
+      "target": "would",
+      "acceptable_variants": ["'d"],
+      "hint": "will / would"
+    },
+    "mask_17": {
+      "target": "had sent",
+      "acceptable_variants": ["'d sent"],
+      "hint": "send"
+    },
+    "mask_18": {
+      "target": "would have",
+      "acceptable_variants": ["'d have"],
+      "hint": "would / would have"
+    },
+    "mask_19": {
+      "target": "had left",
+      "acceptable_variants": ["'d left"],
+      "hint": "leave"
+    },
+    "mask_20": {
+      "target": "would have",
+      "acceptable_variants": ["'d have"],
+      "hint": "would / would have"
+    }
+  }
+}

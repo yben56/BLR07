@@ -1,0 +1,62 @@
+{
+  "topic": "Relative Clauses",
+  "difficulty": "beginner",
+  "created_at": "2026-10-22T01:33:36.711+08:00",
+  "story_title": "The Spring Fair",
+  "paragraphs": [
+    "Our class is planning a spring fair at the town hall. The teacher {{mask_1}} is helping us has a big box of paint. We invited a farmer {{mask_2}} grows apples near our town. He will bring fruit from his farm. The hall {{mask_3}} the fair will take place has a garden. We will put the fruit on a table {{mask_4}} stands by the door. A baker {{mask_5}} cakes are popular in town will bring something sweet.",
+    "On the day, a musician {{mask_6}} lives next door will play the guitar. She has written a song {{mask_7}} tells a story about our town. We will have a game {{mask_8}} uses beanbags, too. Families can sit in a room {{mask_9}} looks out over the garden. At the end, we will thank the neighbors {{mask_10}} helped us get everything ready."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "who",
+      "acceptable_variants": ["that"],
+      "hint": "person"
+    },
+    "mask_2": {
+      "target": "who",
+      "acceptable_variants": ["that"],
+      "hint": "person"
+    },
+    "mask_3": {
+      "target": "where",
+      "acceptable_variants": [],
+      "hint": "place"
+    },
+    "mask_4": {
+      "target": "which",
+      "acceptable_variants": ["that"],
+      "hint": "thing"
+    },
+    "mask_5": {
+      "target": "whose",
+      "acceptable_variants": [],
+      "hint": "possession"
+    },
+    "mask_6": {
+      "target": "who",
+      "acceptable_variants": ["that"],
+      "hint": "person"
+    },
+    "mask_7": {
+      "target": "that",
+      "acceptable_variants": ["which"],
+      "hint": "thing"
+    },
+    "mask_8": {
+      "target": "that",
+      "acceptable_variants": ["which"],
+      "hint": "thing"
+    },
+    "mask_9": {
+      "target": "which",
+      "acceptable_variants": ["that"],
+      "hint": "thing"
+    },
+    "mask_10": {
+      "target": "who",
+      "acceptable_variants": ["that"],
+      "hint": "person"
+    }
+  }
+}

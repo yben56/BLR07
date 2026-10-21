@@ -1,0 +1,88 @@
+{
+  "topic": "Reported Statements",
+  "difficulty": "intermediate",
+  "created_at": "2026-10-22T01:19:33.442+08:00",
+  "story_title": "The Museum Interview",
+  "paragraphs": [
+    "Reporter Helen interviewed the team before the city museum opened its new gallery. Curator Nora began with a regular routine: {{red:“I work at the museum every weekend.”}} {{mask_1}} She described the current project: {{red:“We are preparing a new exhibit this month.”}} {{mask_2}} Then she shared some completed work: {{red:“I have finished the visitor guide.”}} {{mask_3}} Technician Leo explained what happened the previous day: {{red:“I saw the director yesterday.”}} {{mask_4}} The director described next week’s plan: {{red:“We will open the east gallery next Friday.”}} {{mask_5}} Nora also explained a current arrangement: {{red:“I am meeting the school group tomorrow.”}} {{mask_6}}",
+    "Helen asked Nora about the visitors and the collection. Her first question was: {{red:“Did the school group enjoy the workshop?”}} {{mask_7}} She followed up with: {{red:“Where do you keep the original paintings?”}} {{mask_8}} Then she asked: {{red:“Can visitors take photographs in this gallery?”}} {{mask_9}} A volunteer made a request of Leo: {{red:“Please print twenty copies of the guide.”}} {{mask_10}} The security guard gave visitors an instruction: {{red:“Do not block the emergency exit.”}} {{mask_11}} Nora asked two assistants: {{red:“Could you move these boxes upstairs?”}} {{mask_12}}",
+    "Before the interview ended, Leo responded to a concern about a damaged frame: {{red:“I am sorry I damaged the frame.”}} {{mask_13}} He also answered a question about a missing key: {{red:“I did not take the missing key.”}} {{mask_14}} The conservator gave the team some advice: {{red:“You should label the boxes before storing them.”}} {{mask_15}} Helen reviewed her notes, making sure the report included the team’s updates, questions, requests, and explanations."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "Nora said that she worked at the museum every weekend.",
+      "acceptable_variants": ["Nora said she worked at the museum every weekend."],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "Nora said that they were preparing a new exhibit that month.",
+      "acceptable_variants": ["Nora said they were preparing a new exhibit that month."],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "Nora said that she had finished the visitor guide.",
+      "acceptable_variants": ["Nora said she had finished the visitor guide."],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "Leo said that he had seen the director the day before.",
+      "acceptable_variants": ["Leo said he had seen the director the day before."],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "The director said that they would open the east gallery the following Friday.",
+      "acceptable_variants": ["The director said they would open the east gallery the following Friday."],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "Nora said that she was meeting the school group the next day.",
+      "acceptable_variants": ["Nora said she was meeting the school group the next day."],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "Helen asked Nora if the school group had enjoyed the workshop.",
+      "acceptable_variants": ["Helen asked Nora whether the school group had enjoyed the workshop."],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "Helen asked Nora where she kept the original paintings.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "Helen asked Nora if visitors could take photographs in that gallery.",
+      "acceptable_variants": ["Helen asked Nora whether visitors could take photographs in that gallery."],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "The volunteer asked Leo to print twenty copies of the guide.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "The security guard told visitors not to block the emergency exit.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "Nora asked the assistants to move those boxes upstairs.",
+      "acceptable_variants": ["Nora asked the assistants to move the boxes upstairs."],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "Leo apologized for damaging the frame.",
+      "acceptable_variants": ["Leo apologised for damaging the frame."],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "Leo denied taking the missing key.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "The conservator advised the team to label the boxes before storing them.",
+      "acceptable_variants": ["The conservator advised them to label the boxes before storing them."],
+      "hint": ""
+    }
+  }
+}

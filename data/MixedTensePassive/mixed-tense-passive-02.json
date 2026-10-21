@@ -1,0 +1,114 @@
+{
+  "topic": "Mixed Tense Passive",
+  "difficulty": "beginner",
+  "created_at": "2026-10-22T01:31:27.472+08:00",
+  "story_title": "The Community Center Festival",
+  "paragraphs": [
+    "The volunteers are preparing a festival at the community center. Their tutor gives them active sentences about the preparations to change into passive sentences. {{red:The coordinator gives each volunteer a printed schedule every morning.}} {{mask_1}} {{red:The bakery sent the group two large boxes of bread yesterday.}} {{mask_2}} {{red:The art teacher is showing the children a new mural this morning.}} {{mask_3}} {{red:The mayor will give the center a special award at the opening.}} {{mask_4}} {{red:The center has offered Rosa a weekend job.}} {{mask_5}}",
+    "The class continues with more examples from the festival. {{red:The manager had given every family a map before the doors opened.}} {{mask_6}} {{red:A local shop gave the group some paint on Friday.}} {{mask_7}} {{red:Volunteers are bringing the children snacks this afternoon.}} {{mask_8}} {{red:The city will lend the center ten folding tables for the festival.}} {{mask_9}} {{red:The music teacher teaches new students two simple songs each week.}} {{mask_10}}",
+    "Next, the tutor introduces passive forms inside infinitive and gerund clauses. {{red:The organizers want someone to decorate the hall before Saturday.}} {{mask_11}} {{red:Mia hopes the volunteers will clean the garden after lunch.}} {{mask_12}} {{red:The children enjoy the librarian reading books aloud.}} {{mask_13}} {{red:The coach wants someone to paint the team sign before the games.}} {{mask_14}} {{red:The visitors remember the guide showing them the old theater.}} {{mask_15}}",
+    "The final examples use passive voice inside subordinate clauses. {{red:Parents expect the cooks to serve lunch at noon.}} {{mask_16}} {{red:Everyone knows that the staff check the doors every evening.}} {{mask_17}} {{red:The committee announced that workers had repaired the roof.}} {{mask_18}} {{red:The manager says that someone is cleaning the kitchen now.}} {{mask_19}} {{red:The volunteers believe they will finish the garden path by Friday.}} {{mask_20}} The tutor checks the answers, and the volunteers return to their festival preparations."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "Each volunteer is given a printed schedule by the coordinator every morning.",
+      "acceptable_variants": ["A printed schedule is given to each volunteer by the coordinator every morning."],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "The group was sent two large boxes of bread by the bakery yesterday.",
+      "acceptable_variants": ["Two large boxes of bread were sent to the group by the bakery yesterday."],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "The children are being shown a new mural by the art teacher this morning.",
+      "acceptable_variants": ["A new mural is being shown to the children by the art teacher this morning."],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "The center will be given a special award by the mayor at the opening.",
+      "acceptable_variants": ["A special award will be given to the center by the mayor at the opening."],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "Rosa has been offered a weekend job by the center.",
+      "acceptable_variants": ["A weekend job has been offered to Rosa by the center."],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "Every family had been given a map by the manager before the doors opened.",
+      "acceptable_variants": ["A map had been given to every family by the manager before the doors opened."],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "The group was given some paint by a local shop on Friday.",
+      "acceptable_variants": ["Some paint was given to the group by a local shop on Friday."],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "The children are being brought snacks by the volunteers this afternoon.",
+      "acceptable_variants": ["Snacks are being brought to the children by the volunteers this afternoon."],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "The center will be lent ten folding tables by the city for the festival.",
+      "acceptable_variants": ["Ten folding tables will be lent to the center by the city for the festival."],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "New students are taught two simple songs by the music teacher each week.",
+      "acceptable_variants": ["Two simple songs are taught to new students by the music teacher each week."],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "The organizers want the hall to be decorated before Saturday.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "Mia hopes the garden will be cleaned by the volunteers after lunch.",
+      "acceptable_variants": ["Mia hopes the garden will be cleaned after lunch."],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "The children enjoy books being read aloud by the librarian.",
+      "acceptable_variants": ["The children enjoy books being read aloud."],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "The coach wants the team sign to be painted before the games.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "The visitors remember being shown the old theater by the guide.",
+      "acceptable_variants": ["The visitors remember being shown the old theater."],
+      "hint": ""
+    },
+    "mask_16": {
+      "target": "Parents expect lunch to be served by the cooks at noon.",
+      "acceptable_variants": ["Parents expect lunch to be served at noon."],
+      "hint": ""
+    },
+    "mask_17": {
+      "target": "Everyone knows that the doors are checked by the staff every evening.",
+      "acceptable_variants": ["Everyone knows that the doors are checked every evening."],
+      "hint": ""
+    },
+    "mask_18": {
+      "target": "The committee announced that the roof had been repaired by workers.",
+      "acceptable_variants": ["The committee announced that the roof had been repaired."],
+      "hint": ""
+    },
+    "mask_19": {
+      "target": "The manager says that the kitchen is being cleaned now.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_20": {
+      "target": "The volunteers believe the garden path will be finished by Friday.",
+      "acceptable_variants": ["The volunteers believe that the garden path will be finished by Friday."],
+      "hint": ""
+    }
+  }
+}
