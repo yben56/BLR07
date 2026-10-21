@@ -15,6 +15,10 @@ for (const file of ['index.html', 'main.css', 'main.js']) {
 for (const directory of ['assets', 'data']) {
   await cp(path.join(root, directory), path.join(outputDirectory, directory), { recursive: true });
 }
+const animationSource = path.join(root, 'node_modules', 'rand-alph-animation', 'src');
+const animationOutput = path.join(outputDirectory, 'node_modules', 'rand-alph-animation', 'src');
+await mkdir(animationOutput, { recursive: true });
+await cp(animationSource, animationOutput, { recursive: true });
 
 const catalog = await createCatalog(path.join(root, 'data'));
 if (catalog.categories.length === 0) {

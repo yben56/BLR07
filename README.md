@@ -36,7 +36,7 @@ npm run build
 npx serve dist
 ```
 
-The build copies the app and exercise data into `dist/` and generates `catalog.json`. A GitHub Actions workflow builds and deploys the site whenever code is pushed to `master`. In the repository settings, open **Pages** and set **Build and deployment → Source** to **GitHub Actions**. The site URL will be `https://<username>.github.io/<repository>/`.
+The build copies the app, exercise data, and the animation package runtime into `dist/`, then generates `catalog.json`. A GitHub Actions workflow builds and deploys the site whenever code is pushed to `master`. In the repository settings, open **Pages** and set **Build and deployment → Source** to **GitHub Actions**. The site URL will be `https://<username>.github.io/<repository>/`.
 
 The app uses hash-based routes (for example, `/#/MixedTenseFlow/01`) so direct links work on GitHub Pages without server-side routing.
 
@@ -81,6 +81,6 @@ npm run build
 npx serve dist
 ```
 
-建置會把前端與練習資料輸出至 `dist/`，並產生 `catalog.json`。推送到 `master` 後，GitHub Actions 會自動建置及部署。請到儲存庫 **Settings → Pages**，將 **Build and deployment → Source** 設為 **GitHub Actions**。網站網址會是 `https://<你的帳號>.github.io/<儲存庫名稱>/`。
+建置會把前端、練習資料與動畫套件執行時所需檔案輸出至 `dist/`，並產生 `catalog.json`。推送到 `master` 後，GitHub Actions 會自動建置及部署。請到儲存庫 **Settings → Pages**，將 **Build and deployment → Source** 設為 **GitHub Actions**。網站網址會是 `https://<你的帳號>.github.io/<儲存庫名稱>/`。
 
 網站使用 hash 路由（例如 `/#/MixedTenseFlow/01`），因此在 GitHub Pages 上直接開啟練習連結也能正常運作。

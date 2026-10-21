@@ -1,5 +1,7 @@
+import { animateText } from './node_modules/rand-alph-animation/src/index.js';
+
 const { createApp, nextTick, onMounted, onUnmounted, reactive, computed, ref } = Vue;
-const appBaseUrl = new URL('.', document.currentScript.src);
+const appBaseUrl = new URL('.', import.meta.url);
 
 async function fetchJson(path) {
   const response = await fetch(path);
@@ -30,6 +32,7 @@ fetchJson(new URL('catalog.json', appBaseUrl))
         const loadError = ref('');
         const catalogError = ref('');
         const elapsedTime = ref(0);
+        const categoryTitleElement = ref(null);
         const selectedCategory = computed(() => categories.find(category => category.id === selectedCategoryId.value));
         const exerciseCatalog = computed(() => selectedCategory.value?.exercises || []);
         const filteredExerciseCatalog = computed(() => selectedDifficulty.value
@@ -42,6 +45,7 @@ fetchJson(new URL('catalog.json', appBaseUrl))
         let loadSequence = 0;
         let timerStartedAt = 0;
         let timerInterval = null;
+        let categoryTitleAnimation = null;
 
         const renderedParagraphs = computed(() => (exercise.paragraphs || []).map(paragraph => {
           const segments = [];
@@ -112,6 +116,11 @@ fetchJson(new URL('catalog.json', appBaseUrl))
           }
         }
 
+        function stopCategoryTitleAnimation() {
+          categoryTitleAnimation?.destroy();
+          categoryTitleAnimation = null;
+        }
+
         function routeForExercise(categoryId, entry) {
           const sequence = entry.file.match(/-(\d+)\.json$/)?.[1];
           return sequence ? `#/${encodeURIComponent(categoryId)}/${sequence}` : `#/${encodeURIComponent(categoryId)}`;
@@ -146,6 +155,7 @@ fetchJson(new URL('catalog.json', appBaseUrl))
 
             activeExerciseId = id;
             selectedExerciseId.value = id;
+            stopCategoryTitleAnimation();
             page.value = 'practice';
             if (updateHistory) {
               const nextPath = routeForExercise(selectedCategoryId.value, entry);
@@ -166,6 +176,7 @@ fetchJson(new URL('catalog.json', appBaseUrl))
         function selectCategory(category, updateHistory = true) {
           ++loadSequence;
           stopPracticeTimer();
+          stopCategoryTitleAnimation();
           loading.value = false;
           selectedCategoryId.value = category.id;
           selectedExerciseId.value = '';
@@ -173,6 +184,17 @@ fetchJson(new URL('catalog.json', appBaseUrl))
           page.value = 'exercises';
           loadError.value = '';
           activeExerciseId = '';
+          nextTick(() => {
+            if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+            if (page.value === 'exercises' && categoryTitleElement.value) {
+              categoryTitleAnimation = animateText(categoryTitleElement.value, {
+                groups: 3,
+                stagger: 100,
+                steps: 8,
+                stepInterval: 100,
+              });
+            }
+          });
           if (updateHistory) {
             const nextPath = `#/${encodeURIComponent(category.id)}`;
             if (window.location.hash !== nextPath) window.history.pushState(null, '', nextPath);
@@ -196,6 +218,7 @@ fetchJson(new URL('catalog.json', appBaseUrl))
           if (parts.length === 0) {
             ++loadSequence;
             stopPracticeTimer();
+            stopCategoryTitleAnimation();
             loading.value = false;
             page.value = 'categories';
             selectedCategoryId.value = '';
@@ -287,6 +310,7 @@ fetchJson(new URL('catalog.json', appBaseUrl))
         onUnmounted(() => {
           window.removeEventListener('popstate', handlePopState);
           stopPracticeTimer();
+          stopCategoryTitleAnimation();
         });
 
         return {
@@ -294,6 +318,7 @@ fetchJson(new URL('catalog.json', appBaseUrl))
           copyrightYear,
           page,
           selectedCategoryTitle,
+          categoryTitleElement,
           selectedCategoryPath,
           selectedCategoryId,
           exerciseCatalog,

@@ -5,5 +5,8 @@
   "scripts": {
     "dev": "node server.mjs",
     "build": "node build.mjs"
+  },
+  "dependencies": {
+    "rand-alph-animation": "https://github.com/yben56/RandAlphAnimation/archive/dd9d33dc02298774d1bbc8827b0e7334201a5a24.tar.gz"
   }
 }

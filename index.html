@@ -13,7 +13,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
   <link rel="stylesheet" href="./main.css">
-  <script src="./main.js" defer></script>
+  <script type="module" src="./main.js"></script>
 </head>
 <body class="min-h-screen text-slate-100 antialiased selection:bg-cyan-400/30 selection:text-cyan-100">
   <div id="app" v-cloak class="mx-auto flex min-h-screen w-full max-w-5xl flex-col px-5 py-8 sm:px-8 sm:py-12">
@@ -84,7 +84,7 @@
             <span class="text-slate-600" aria-hidden="true">/</span>
             <span class="text-slate-400">{{ selectedCategoryTitle }}</span>
           </nav>
-          <h1 id="exercise-list-title" class="text-2xl font-normal tracking-tight text-white sm:text-3xl">{{ selectedCategoryTitle }}</h1>
+          <h1 id="exercise-list-title" ref="categoryTitleElement" class="text-2xl font-normal tracking-tight text-white sm:text-3xl">{{ selectedCategoryTitle }}</h1>
           <p class="zh-tw mt-2 text-sm text-slate-400">選擇要開始的練習篇章。</p>
         </div>
         <div class="mb-3 flex justify-end">
