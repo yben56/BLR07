@@ -53,10 +53,21 @@
           <p class="mb-[60px] max-w-2xl text-sm leading-6 text-white/80">Inspired by BERT's masked language modeling, BLR-07 helps you build English intuition by filling in the blanks—one context-rich sentence at a time.</p>
           <p class="zh-tw mb-3 text-xs font-semibold uppercase tracking-[0.16em] text-cyan-300">練習目錄</p>
           <h1 id="catalog-title" class="zh-tw text-2xl font-normal tracking-tight text-white">選擇主分類</h1>
-          <p class="zh-tw mt-2 text-sm text-slate-400">選擇想練習的文法主題...</p>
+          <div class="mt-2 flex items-center justify-between gap-3">
+            <p class="zh-tw text-sm text-slate-400">選擇想練習的文法主題...</p>
+            <select
+              v-model="categorySort"
+              aria-label="排序練習分類"
+              class="rounded-md border border-slate-700 bg-slate-800 px-2 py-1 text-xs font-medium text-slate-200 outline-none transition focus:border-cyan-400 focus:ring-2 focus:ring-cyan-400/20"
+            >
+              <option value="custom" disabled selected>排序</option>
+              <option value="oldest">建立時間</option>
+              <option value="name">名稱</option>
+            </select>
+          </div>
         </div>
         <ul class="divide-y divide-slate-800 overflow-hidden rounded-xl border border-slate-800 bg-slate-900/70">
-          <li v-for="category in categories" :key="category.id">
+          <li v-for="category in sortedCategories" :key="category.id">
             <button
               type="button"
               @click="selectCategory(category)"
@@ -152,7 +163,7 @@
                   type="text"
                   :style="inputWidth(segment.mask)"
                   :placeholder="exercise.masks[segment.mask].hint"
-                  :aria-label="`答案 ${maskPosition(segment.mask)}：${exercise.masks[segment.mask].hint}`"
+                  :aria-label="exercise.masks[segment.mask].hint ? `答案 ${maskPosition(segment.mask)}：${exercise.masks[segment.mask].hint}` : `答案 ${maskPosition(segment.mask)}`"
                   :aria-describedby="status[segment.mask] === 'wrong' ? `${segment.mask}-feedback` : undefined"
                   :aria-invalid="status[segment.mask] === 'wrong' ? 'true' : undefined"
                   autocomplete="off"
@@ -164,7 +175,7 @@
                 <span
                   v-if="status[segment.mask] === 'wrong'"
                   :id="`${segment.mask}-feedback`"
-                  class="mt-1 max-w-full text-xs font-medium leading-5 text-emerald-400"
+                  class="mt-1 max-w-full text-xs font-medium leading-5 text-rose-400"
                   role="status"
                 >❌ {{ exercise.masks[segment.mask].target }}</span>
               </span>

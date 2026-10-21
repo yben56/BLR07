@@ -2,6 +2,14 @@ import { animateText } from './node_modules/rand-alph-animation/src/index.js';
 
 const { createApp, nextTick, onMounted, onUnmounted, reactive, computed, ref } = Vue;
 const appBaseUrl = new URL('.', import.meta.url);
+const categoryOrder = [
+  'MixedTenseFlow',
+  'NegativeQuestions',
+  'ConditionalsFormsFirstSecondThirdZeroConditional',
+  'ReportedStatements',
+  'MixedTensePassive',
+  'RelativeClauses'
+];
 
 async function fetchJson(path) {
   const response = await fetch(path);
@@ -19,6 +27,20 @@ fetchJson(new URL('catalog.json', appBaseUrl))
       setup() {
         const categories = catalogData.categories;
         const copyrightYear = new Date().getFullYear();
+        const categorySort = ref('custom');
+        const sortedCategories = computed(() => [...categories].sort((left, right) => {
+          if (categorySort.value === 'custom') {
+            const leftIndex = categoryOrder.indexOf(left.id);
+            const rightIndex = categoryOrder.indexOf(right.id);
+            if (leftIndex !== -1 && rightIndex !== -1) return leftIndex - rightIndex;
+            if (leftIndex !== -1) return -1;
+            if (rightIndex !== -1) return 1;
+            const difference = Date.parse(left.created_at) - Date.parse(right.created_at);
+            return difference || left.title.localeCompare(right.title);
+          }
+          if (categorySort.value === 'name') return left.title.localeCompare(right.title);
+          return Date.parse(left.created_at) - Date.parse(right.created_at);
+        }));
         const exercise = reactive({});
         const maskOrder = reactive([]);
         const answers = reactive({});
@@ -287,7 +309,7 @@ fetchJson(new URL('catalog.json', appBaseUrl))
 
         function inputWidth(mask) {
           const { target, hint } = exercise.masks[mask];
-          const characters = Math.min(32, Math.max(16, target.length, hint.length) + 2);
+          const characters = Math.min(60, Math.max(16, target.length, hint.length) + 2);
           return { width: `${characters}ch` };
         }
 
@@ -315,6 +337,8 @@ fetchJson(new URL('catalog.json', appBaseUrl))
 
         return {
           categories,
+          categorySort,
+          sortedCategories,
           copyrightYear,
           page,
           selectedCategoryTitle,

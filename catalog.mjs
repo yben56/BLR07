@@ -16,12 +16,19 @@ export async function createCatalog(dataDirectory) {
       const exerciseData = await Promise.all(files.map(async file => {
         const exercisePath = path.join(categoryDirectory, file.name);
         try {
-          return JSON.parse(await readFile(exercisePath, 'utf8'));
+          const data = JSON.parse(await readFile(exercisePath, 'utf8'));
+          if (typeof data.created_at !== 'string' || !/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})$/.test(data.created_at) || Number.isNaN(Date.parse(data.created_at))) {
+            throw new Error('Missing or invalid created_at timestamp.');
+          }
+          return data;
         } catch (error) {
           throw new Error(`Unable to read exercise data from ${entry.name}/${file.name}.`, { cause: error });
         }
       }));
 
+      const createdAt = exerciseData
+        .map(data => data.created_at)
+        .sort((left, right) => Date.parse(left) - Date.parse(right))[0];
       const exercises = files.map((file, index) => {
         const stem = path.basename(file.name, path.extname(file.name));
         const sequence = stem.match(/-(\d+)$/);
@@ -40,6 +47,7 @@ export async function createCatalog(dataDirectory) {
       return {
         id: entry.name,
         title,
+        created_at: createdAt,
         exercises
       };
     }));

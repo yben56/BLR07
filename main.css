@@ -66,7 +66,7 @@ body::before {
 }
 
 .answer-input {
-  max-width: min(32ch, 78vw);
+  max-width: min(60ch, 78vw);
   transition: border-color 120ms ease, color 120ms ease, box-shadow 120ms ease;
 }
 
