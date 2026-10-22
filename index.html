@@ -140,7 +140,7 @@
               <span class="text-slate-600" aria-hidden="true">/</span>
               <span class="text-slate-400">{{ selectedExerciseTitle }}</span>
             </nav>
-            <h1 id="story-title" class="text-2xl font-normal tracking-tight text-white sm:text-3xl">{{ exercise.story_title }}</h1>
+            <h1 id="story-title" ref="practiceTitleElement" class="text-2xl font-normal tracking-tight text-white sm:text-3xl">{{ exercise.story_title }}</h1>
             <p class="mt-1 text-xs text-white/80">Difficulty: <span class="font-medium text-slate-300 capitalize">{{ exercise.difficulty || 'intermediate' }}</span></p>
           </div>
           <p class="mt-1 text-xs text-white tabular-nums" aria-label="練習時間">{{ formattedElapsedTime }}</p>

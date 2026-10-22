@@ -55,6 +55,7 @@ fetchJson(new URL('catalog.json', appBaseUrl))
         const catalogError = ref('');
         const elapsedTime = ref(0);
         const categoryTitleElement = ref(null);
+        const practiceTitleElement = ref(null);
         const selectedCategory = computed(() => categories.find(category => category.id === selectedCategoryId.value));
         const exerciseCatalog = computed(() => selectedCategory.value?.exercises || []);
         const filteredExerciseCatalog = computed(() => selectedDifficulty.value
@@ -67,7 +68,7 @@ fetchJson(new URL('catalog.json', appBaseUrl))
         let loadSequence = 0;
         let timerStartedAt = 0;
         let timerInterval = null;
-        let categoryTitleAnimation = null;
+        let titleAnimation = null;
 
         const renderedParagraphs = computed(() => (exercise.paragraphs || []).map(paragraph => {
           const segments = [];
@@ -138,9 +139,19 @@ fetchJson(new URL('catalog.json', appBaseUrl))
           }
         }
 
-        function stopCategoryTitleAnimation() {
-          categoryTitleAnimation?.destroy();
-          categoryTitleAnimation = null;
+        function stopTitleAnimation() {
+          titleAnimation?.destroy();
+          titleAnimation = null;
+        }
+
+        function animateTitle(element) {
+          if (window.matchMedia('(prefers-reduced-motion: reduce)').matches || !element) return;
+          titleAnimation = animateText(element, {
+            groups: 3,
+            stagger: 100,
+            steps: 8,
+            stepInterval: 100,
+          });
         }
 
         function routeForExercise(categoryId, entry) {
@@ -177,13 +188,14 @@ fetchJson(new URL('catalog.json', appBaseUrl))
 
             activeExerciseId = id;
             selectedExerciseId.value = id;
-            stopCategoryTitleAnimation();
+            stopTitleAnimation();
             page.value = 'practice';
             if (updateHistory) {
               const nextPath = routeForExercise(selectedCategoryId.value, entry);
               if (window.location.hash !== nextPath) window.history.pushState(null, '', nextPath);
             }
             await nextTick();
+            animateTitle(practiceTitleElement.value);
             focusMask(maskOrder[0]);
           } catch {
             if (request !== loadSequence) return;
@@ -198,7 +210,7 @@ fetchJson(new URL('catalog.json', appBaseUrl))
         function selectCategory(category, updateHistory = true) {
           ++loadSequence;
           stopPracticeTimer();
-          stopCategoryTitleAnimation();
+          stopTitleAnimation();
           loading.value = false;
           selectedCategoryId.value = category.id;
           selectedExerciseId.value = '';
@@ -207,15 +219,7 @@ fetchJson(new URL('catalog.json', appBaseUrl))
           loadError.value = '';
           activeExerciseId = '';
           nextTick(() => {
-            if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-            if (page.value === 'exercises' && categoryTitleElement.value) {
-              categoryTitleAnimation = animateText(categoryTitleElement.value, {
-                groups: 3,
-                stagger: 100,
-                steps: 8,
-                stepInterval: 100,
-              });
-            }
+            if (page.value === 'exercises') animateTitle(categoryTitleElement.value);
           });
           if (updateHistory) {
             const nextPath = `#/${encodeURIComponent(category.id)}`;
@@ -240,7 +244,7 @@ fetchJson(new URL('catalog.json', appBaseUrl))
           if (parts.length === 0) {
             ++loadSequence;
             stopPracticeTimer();
-            stopCategoryTitleAnimation();
+            stopTitleAnimation();
             loading.value = false;
             page.value = 'categories';
             selectedCategoryId.value = '';
@@ -332,7 +336,7 @@ fetchJson(new URL('catalog.json', appBaseUrl))
         onUnmounted(() => {
           window.removeEventListener('popstate', handlePopState);
           stopPracticeTimer();
-          stopCategoryTitleAnimation();
+          stopTitleAnimation();
         });
 
         return {
@@ -343,6 +347,7 @@ fetchJson(new URL('catalog.json', appBaseUrl))
           page,
           selectedCategoryTitle,
           categoryTitleElement,
+          practiceTitleElement,
           selectedCategoryPath,
           selectedCategoryId,
           exerciseCatalog,
