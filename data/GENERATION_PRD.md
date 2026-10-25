@@ -78,25 +78,30 @@ Use the red marker for every original/direct statement that the learner must tra
 
 ### 5. Passive Voice Transformation Format
 
-Passive Voice exercises practise changing a complete active sentence into a complete passive sentence. Show the active sentence in red, then provide one answer blank for the entire passive sentence. Do not provide only a verb-phrase blank inside a story.
+Passive Voice exercises practise changing a complete active sentence into a complete passive sentence. Include `task_instruction` and show each active source sentence in red parentheses, then provide one answer blank for the entire passive sentence. Do not provide only a verb-phrase blank inside a story. Store only the instruction text and red source text in JSON; the app adds the parentheses.
 
 Use this pattern:
 
 ```text
-{{red:Somebody sends emails.}} {{mask_1}}
+({{red:Somebody sends emails.}}) {{mask_1}}
 ```
 
 The mask target is the complete passive sentence:
 
 ```json
 {
-  "target": "Emails are sent.",
-  "acceptable_variants": [],
-  "hint": ""
+  "task_instruction": "Rewrite each active sentence in the passive voice.",
+  "masks": {
+    "mask_1": {
+      "target": "Emails are sent.",
+      "acceptable_variants": [],
+      "hint": ""
+    }
+  }
 }
 ```
 
-Use the red marker for every active sentence that the learner must transform. Preserve the tense and meaning when changing voice; include the agent with `by` only when it is important or specified. The complete target answer is revealed in red when the learner submits an incorrect answer. Count one complete active-to-passive transformation as one blank for the requested exercise length.
+Use the red marker for every active sentence that the learner must transform. Preserve the tense and meaning when changing voice; include the agent with `by` only when it is important or specified. The complete target answer is revealed in red when the learner submits an incorrect answer. Count one complete active-to-passive transformation as one blank for the requested exercise length. This applies to all Passive Voice exercises, including Mixed Tense Passive.
 
 For an exercise named `Mixed Tense Passive`, include active sentences in several different tenses and transform each into the corresponding passive tense. Do not keep all questions in one tense; choose tense variety appropriate to the requested level.
 

@@ -3,6 +3,7 @@
   "difficulty": "beginner",
   "created_at": "2026-10-22T01:31:27.472+08:00",
   "story_title": "The Community Center Festival",
+  "task_instruction": "Rewrite each active sentence in the passive voice.",
   "paragraphs": [
     "The volunteers are preparing a festival at the community center. Their tutor gives them active sentences about the preparations to change into passive sentences. {{red:The coordinator gives each volunteer a printed schedule every morning.}} {{mask_1}} {{red:The bakery sent the group two large boxes of bread yesterday.}} {{mask_2}} {{red:The art teacher is showing the children a new mural this morning.}} {{mask_3}} {{red:The mayor will give the center a special award at the opening.}} {{mask_4}} {{red:The center has offered Rosa a weekend job.}} {{mask_5}}",
     "The class continues with more examples from the festival. {{red:The manager had given every family a map before the doors opened.}} {{mask_6}} {{red:A local shop gave the group some paint on Friday.}} {{mask_7}} {{red:Volunteers are bringing the children snacks this afternoon.}} {{mask_8}} {{red:The city will lend the center ten folding tables for the festival.}} {{mask_9}} {{red:The music teacher teaches new students two simple songs each week.}} {{mask_10}}",

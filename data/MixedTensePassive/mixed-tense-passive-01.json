@@ -3,6 +3,7 @@
   "difficulty": "beginner",
   "created_at": "2026-10-22T01:26:48.972+08:00",
   "story_title": "The Old Train Station",
+  "task_instruction": "Rewrite each active sentence in the passive voice.",
   "paragraphs": [
     "The old train station is getting ready for its summer opening. The staff are working in every room, and the manager is checking their progress. {{red:The cleaner cleans the waiting room every morning.}} {{mask_1}} {{red:Workers installed new lights in the main hall yesterday.}} {{mask_2}} {{red:Two painters are painting the ticket windows now.}} {{mask_3}} {{red:A winter storm damaged the roof last year.}} {{mask_4}} {{red:The manager has ordered new signs for the entrance.}} {{mask_5}}",
     "The station team is making sure everything will be ready for visitors. {{red:The workers have not repaired the old clock yet.}} {{mask_6}} {{red:The team will finish the repairs before summer.}} {{mask_7}} {{red:The station manager must check the safety doors.}} {{mask_8}} Yesterday, a visitor found a toolbox near the entrance. {{red:Somebody left a toolbox near the entrance.}} {{mask_9}} At noon, the platform was busy with workers. {{red:The workers were cleaning the platform at noon.}} {{mask_10}} Soon, the restored station will welcome its first passengers."
