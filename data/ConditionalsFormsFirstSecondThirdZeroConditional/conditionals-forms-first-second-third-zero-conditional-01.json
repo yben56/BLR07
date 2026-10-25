@@ -38,7 +38,7 @@
     "mask_6": {
       "target": "will",
       "acceptable_variants": ["'ll"],
-      "hint": "will / would"
+      "hint": "will"
     },
     "mask_7": {
       "target": "rains",
@@ -48,7 +48,7 @@
     "mask_8": {
       "target": "will",
       "acceptable_variants": ["'ll"],
-      "hint": "will / would"
+      "hint": "will"
     },
     "mask_9": {
       "target": "delivers",
@@ -58,7 +58,7 @@
     "mask_10": {
       "target": "will",
       "acceptable_variants": ["'ll"],
-      "hint": "will / would"
+      "hint": "will"
     },
     "mask_11": {
       "target": "had",
@@ -68,7 +68,7 @@
     "mask_12": {
       "target": "would",
       "acceptable_variants": ["'d"],
-      "hint": "will / would"
+      "hint": "will"
     },
     "mask_13": {
       "target": "were",
@@ -78,7 +78,7 @@
     "mask_14": {
       "target": "would",
       "acceptable_variants": ["'d"],
-      "hint": "will / would"
+      "hint": "will"
     },
     "mask_15": {
       "target": "ran",
@@ -88,7 +88,7 @@
     "mask_16": {
       "target": "would",
       "acceptable_variants": ["'d"],
-      "hint": "will / would"
+      "hint": "will"
     },
     "mask_17": {
       "target": "had sent",
@@ -98,7 +98,7 @@
     "mask_18": {
       "target": "would have",
       "acceptable_variants": ["'d have"],
-      "hint": "would / would have"
+      "hint": "will"
     },
     "mask_19": {
       "target": "had left",
@@ -108,7 +108,7 @@
     "mask_20": {
       "target": "would have",
       "acceptable_variants": ["'d have"],
-      "hint": "would / would have"
+      "hint": "will"
     }
   }
 }
