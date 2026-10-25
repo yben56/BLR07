@@ -146,6 +146,7 @@ Use `target` for the preferred full answer. Use `acceptable_variants` for genuin
 - Each target and variant contains only the words inside its blank; words already supplied in the passage remain outside the placeholder and are never repeated in the expected answer.
 - Set each placeholder boundary deliberately to isolate only the grammar being tested. Keep all fixed sentence words, including modal and auxiliary verbs, outside the blank; never expand a blank to include extra words from the surrounding phrase.
 - `hint` should contain only the base verb or a single keyword. Do not add parentheses, grammar explanations, tense clues, alternative forms, or extra sentences; the learner should infer the form from context. In Conditional exercises, when a modal hint is useful, use only `will` rather than `will / would` or `would / would have`; learners must decide from context whether the answer needs `will`, `would`, or `would have`. For full-sentence Reported Statements and Passive Voice transformations, leave `hint` empty so the complete answer is not given away.
+- For Relative Clauses exercises, leave every `hint` empty; a hint such as `person`, `place`, `thing`, or `possession` gives away which relative word to use.
 
 ### 9. Length Targets
 

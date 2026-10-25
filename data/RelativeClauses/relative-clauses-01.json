@@ -11,52 +11,52 @@
     "mask_1": {
       "target": "who",
       "acceptable_variants": ["that"],
-      "hint": "person"
+      "hint": ""
     },
     "mask_2": {
       "target": "who",
       "acceptable_variants": ["that"],
-      "hint": "person"
+      "hint": ""
     },
     "mask_3": {
       "target": "where",
       "acceptable_variants": [],
-      "hint": "place"
+      "hint": ""
     },
     "mask_4": {
       "target": "which",
       "acceptable_variants": ["that"],
-      "hint": "thing"
+      "hint": ""
     },
     "mask_5": {
       "target": "whose",
       "acceptable_variants": [],
-      "hint": "possession"
+      "hint": ""
     },
     "mask_6": {
       "target": "who",
       "acceptable_variants": ["that"],
-      "hint": "person"
+      "hint": ""
     },
     "mask_7": {
       "target": "that",
       "acceptable_variants": ["which"],
-      "hint": "thing"
+      "hint": ""
     },
     "mask_8": {
       "target": "that",
       "acceptable_variants": ["which"],
-      "hint": "thing"
+      "hint": ""
     },
     "mask_9": {
       "target": "which",
       "acceptable_variants": ["that"],
-      "hint": "thing"
+      "hint": ""
     },
     "mask_10": {
       "target": "who",
       "acceptable_variants": ["that"],
-      "hint": "person"
+      "hint": ""
     }
   }
 }
