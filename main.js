@@ -292,12 +292,16 @@ fetchJson(new URL('catalog.json', appBaseUrl))
           applyRoute(window.location.hash ? window.location.hash.slice(1) : '/');
         }
 
+        function normalizeAnswer(answer) {
+          return answer.trim().toLocaleLowerCase().replace(/\.$/, '').trim();
+        }
+
         function submitAnswer(mask) {
           const maskData = exercise.masks[mask];
           const variants = maskData.acceptable_variants || maskData.variants || [];
           const acceptedAnswers = [maskData.target, ...variants];
-          const answer = answers[mask].trim().toLocaleLowerCase();
-          status[mask] = acceptedAnswers.some(value => value.trim().toLocaleLowerCase() === answer) ? 'correct' : 'wrong';
+          const answer = normalizeAnswer(answers[mask]);
+          status[mask] = acceptedAnswers.some(value => normalizeAnswer(value) === answer) ? 'correct' : 'wrong';
           const nextMask = maskOrder[maskOrder.indexOf(mask) + 1];
           if (nextMask) nextTick(() => focusMask(nextMask));
         }
