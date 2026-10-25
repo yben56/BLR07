@@ -150,11 +150,13 @@
           <div class="h-full rounded-full bg-cyan-400 transition-all duration-300" :style="{ width: `${correctPercentage}%` }"></div>
         </div>
 
-        <article class="article-copy w-full space-y-7 rounded-xl border border-slate-800 bg-slate-900/70 px-5 py-7 shadow-2xl shadow-black/10 sm:px-8 sm:py-9" aria-label="填入句子中的正確時態">
+        <p v-if="exercise.task_instruction" class="zh-tw mb-4 text-sm leading-6 text-slate-400">({{ exercise.task_instruction }})</p>
+
+        <article class="article-copy w-full space-y-7 rounded-xl border border-slate-800 bg-slate-900/70 px-5 py-7 shadow-2xl shadow-black/10 sm:px-8 sm:py-9" aria-label="依提示完成練習">
           <p v-for="(segments, paragraphIndex) in renderedParagraphs" :key="paragraphIndex" class="text-sm leading-[2.7] text-slate-300 sm:text-base">
             <template v-for="(segment, segmentIndex) in segments" :key="`${paragraphIndex}-${segmentIndex}`">
               <span v-if="segment.type === 'text'">{{ segment.value }}</span>
-              <span v-else-if="segment.type === 'red'" class="text-rose-400">{{ segment.value }}</span>
+              <span v-else-if="segment.type === 'red'" class="text-rose-400"><template v-if="exercise.task_instruction">(</template>{{ segment.value }}<template v-if="exercise.task_instruction">)</template></span>
               <span v-else class="mx-1.5 my-1 inline-flex max-w-full flex-col align-middle leading-normal">
                 <input
                   :ref="element => setInputRef(element, segment.mask)"

@@ -97,12 +97,37 @@ For an exercise named `Mixed Tense Passive`, include active sentences in several
 
 Passive exercises may focus on specific structures such as verbs with two objects or passive forms inside subordinate clauses. For two-object verbs, accept both natural passive patterns when applicable (for example, `Mia was given a book` / `A book was given to Mia`). For subordinate clauses, keep the main clause intact and change the relevant embedded clause to passive (for example, `They expect the staff to clean the room` → `They expect the room to be cleaned`). In mixed exercises, label or group the examples clearly in the passage context while preserving the full-sentence active prompt and full-sentence passive answer format.
 
-### 6. Smart Variants
+### 6. Negative Questions Transformation Format
 
-Use `target` for the preferred full answer. Use `acceptable_variants` for genuinely equivalent common forms, including natural contractions where applicable, e.g. `have been` / `'ve been`, `would have` / `would've`, or `am` / `'m`. Do not list a form that changes meaning, tense, grammatical function, or naturalness. Use an empty array when there are no reasonable alternatives. The app ignores case and leading/trailing whitespace, so do not list those as variants.
+When an exercise asks learners to rewrite or transform a sentence, show every source sentence in red and provide one answer blank for the rewritten form. Set the optional top-level `task_instruction` field to explain the transformation. The app displays this instruction in parentheses above the passage and encloses each red source sentence in parentheses; store only the instruction and source sentence text in JSON, without adding display parentheses. Do not put a colon immediately before a parenthesized source sentence. For Negative Questions, keep the question mark outside the blank when the target omits punctuation.
+
+Use this pattern:
+
+```text
+({{red:Leo was usually at the gate by eight.}}) {{mask_1}}?
+```
+
+```json
+{
+  "task_instruction": "Rewrite each affirmative statement as a negative question.",
+  "masks": {
+    "mask_1": {
+      "target": "Wasn't Leo usually at the gate by eight",
+      "acceptable_variants": ["Was Leo not usually at the gate by eight"],
+      "hint": "be"
+    }
+  }
+}
+```
+
+Preserve the source statement's tense, subject, and meaning in the negative question. Mark every source sentence consistently; do not leave only some transformation prompts in red. The app renders the source in parentheses when `task_instruction` is present, so do not type literal parentheses in the JSON passage.
+
+### 7. Smart Variants
+
+Use `target` for the preferred full answer. Use `acceptable_variants` for genuinely equivalent common forms, including natural contractions where applicable, e.g. `have been` / `'ve been`, `would have` / `would've`, or `am` / `'m`. Do not list a form that changes meaning, tense, grammatical function, or naturalness. Use an empty array when there are no reasonable alternatives. The app ignores case and leading/trailing whitespace, as well as one optional final period, during answer checking. Do not add punctuation-only variants for a final period.
 `target` and `acceptable_variants` must contain exactly the text the learner is expected to type inside the blank. The placeholder boundary must match the grammatical material being tested exactly: do not put fixed sentence text inside an answer, and do not hide fixed words in the blank merely because they belong to a longer verb phrase. Keep every supplied word outside `{{mask_N}}`, including words directly adjacent to the blank and fixed auxiliaries or modal verbs. For example, write `the surcharge {{mask_1}} effect` with target `had taken`, not target `had taken effect`; write `they might {{mask_2}} a lower price` with target `have negotiated`, not target `might have negotiated`. A learner must never be asked to type a word that the sentence already supplies.
 
-### 7. Masks and Hints
+### 8. Masks and Hints
 
 - Write blanks as `{{mask_1}}`, `{{mask_2}}`, etc. in `paragraphs`.
 - Wrap source statements and any other prompt text that should appear in red as `{{red:the text}}`. The app displays the wrapped text in red; do not use HTML tags.
@@ -112,7 +137,7 @@ Use `target` for the preferred full answer. Use `acceptable_variants` for genuin
 - Set each placeholder boundary deliberately to isolate only the grammar being tested. Keep all fixed sentence words, including modal and auxiliary verbs, outside the blank; never expand a blank to include extra words from the surrounding phrase.
 - `hint` should contain only the base verb or a single keyword. Do not add parentheses, grammar explanations, tense clues, or extra sentences; the learner should infer the form from context. For full-sentence Reported Statements and Passive Voice transformations, leave `hint` empty so the complete answer is not given away.
 
-### 8. Length Targets
+### 9. Length Targets
 
 Use the exact blank count for the requested length. Keep the story natural and divide it into enough paragraphs for readability:
 
@@ -122,16 +147,18 @@ Use the exact blank count for the requested length. Keep the story natural and d
 
 ## Required JSON Schema
 
-Output exactly these top-level fields: `topic`, `difficulty`, `created_at`, `story_title`, `paragraphs`, and `masks`.
+Include the required top-level fields `topic`, `difficulty`, `created_at`, `story_title`, `paragraphs`, and `masks`. `task_instruction` is optional and should be included when learners need an explicit instruction to transform or otherwise modify the source sentences.
 
 - `topic`: the requested exercise/module name.
 - `difficulty`: the requested `Level`, using `beginner`, `intermediate`, or `advanced`; default to `intermediate`.
 - `created_at`: the exercise creation time as an ISO 8601 timestamp with a timezone offset, for example `2026-10-22T01:35:00+08:00`.
 - `story_title`: a concise English title that fits the story.
+- `task_instruction` (optional): a concise English instruction shown in parentheses above the passage, e.g. `Rewrite each affirmative statement as a negative question.` Store only the instruction text, without parentheses. For exercises that transform sentences, each red source sentence is also displayed in parentheses; store only the source text inside the `red` marker, without literal parentheses. Do not place a colon immediately before the source sentence. Use this for any exercise type that asks learners to rewrite or transform a sentence.
 - `paragraphs`: a non-empty array of strings containing the complete passage/dialogue and mask placeholders.
 - `masks`: an object keyed by every placeholder. Each value has exactly `target`, `acceptable_variants`, and `hint`.
 - `target` and `hint` are strings. `acceptable_variants` is an array of strings, possibly empty.
 - Do not use the legacy key `variants` in new files.
+- When `task_instruction` is present, the app displays its text in parentheses; do not include the parentheses in the JSON value. For sentence-rewriting exercises, each sentence to be transformed must be marked in red and is displayed in parentheses; do not add literal parentheses or a colon before the source sentence. The instruction must clearly name the source and target form.
 
 Example shape:
 
@@ -167,13 +194,14 @@ This is a schema example only. Generate content for the user's requested exercis
 Before considering a file complete, verify:
 
 - It parses as strict JSON; no comments, trailing commas, Markdown fences, or extra prose.
-- Only the five required top-level keys are present.
+- Required top-level fields are present; use only the optional `task_instruction` field in addition to them when an explicit transformation instruction is needed.
 - `difficulty` is `beginner`, `intermediate`, or `advanced` and matches the requested `Level` (default `intermediate`).
 - `created_at` is a valid ISO 8601 timestamp with an explicit timezone offset.
 - `topic` matches `Category`, and the filename prefix is derived from `Category`.
 - The passage is coherent and has exactly 10, 15, or 20 blanks for `short`, `medium`, or `long`, respectively.
 - Every placeholder matches exactly one mask key; mask numbering is sequential and each appears once.
 - Every `target` is supported by context; variants are truly equivalent and stored in `acceptable_variants`.
+- Answers are checked case-insensitively and ignore surrounding whitespace; a single final period is optional, so learners are not marked wrong for omitting or adding it.
 - For every blank, verify that its target and variants contain no word already supplied immediately before or after the placeholder, including fixed modal or auxiliary verbs; check that the blank tests only the intended grammatical material.
 - Every hint is only a base verb or single keyword, with no parentheses or grammar explanation.
 - The file uses UTF-8 and does not overwrite another exercise.
