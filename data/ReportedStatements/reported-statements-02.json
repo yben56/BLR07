@@ -3,6 +3,7 @@
   "difficulty": "beginner",
   "created_at": "2026-10-22T01:20:44.412+08:00",
   "story_title": "The New Library",
+  "task_instruction": "Rewrite each direct statement as reported speech.",
   "paragraphs": [
     "Reporter Sam visited the new town library on its opening day. Librarian Mia welcomed him and shared some news. {{red:“I live near the library.”}} {{mask_1}} She showed him the reading room. {{red:“We are painting the walls today.”}} {{mask_2}} Mia had prepared the shelves before Sam arrived. {{red:“I have put the new books away.”}} {{mask_3}} Her assistant Ben talked about the day before. {{red:“I saw the mayor yesterday.”}} {{mask_4}} The library manager told Sam about the opening time. {{red:“We will open at nine tomorrow.”}} {{mask_5}} Ben offered to help. {{red:“I can bring more chairs.”}} {{mask_6}}",
     "Sam asked Mia a few questions for his article. {{red:“Are the doors open now?”}} {{mask_7}} Then he asked about the books. {{red:“Where do you keep the storybooks?”}} {{mask_8}} He wanted to know about the delivery. {{red:“Did the new books arrive this morning?”}} {{mask_9}} Mia asked Ben to help prepare the children's corner. {{red:“Please put these books on the table.”}} {{mask_10}} A painter gave the children a safety rule. {{red:“Don't touch the wet paint.”}} {{mask_11}} Mia asked Ben for one more favor. {{red:“Can you carry this box upstairs?”}} {{mask_12}}",

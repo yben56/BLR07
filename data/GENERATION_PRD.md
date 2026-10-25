@@ -51,21 +51,26 @@ Each blank must have a clear, natural target answer supported by context. Avoid 
 
 ### 4. Reported Statements Format
 
-Reported Statements exercises practise transforming a complete direct statement into a complete reported statement. Show the original statement in red, then provide one answer blank for the entire reported sentence. Do not split the answer into partial verb-form blanks.
+Reported Statements exercises practise transforming a complete direct statement into a complete reported statement. Include `task_instruction` and show each original statement in red parentheses, then provide one answer blank for the entire reported sentence. Do not split the answer into partial verb-form blanks. Store only the instruction text and red source text in JSON; the app adds the parentheses.
 
 Use this pattern:
 
 ```text
-{{red:He works in a bank.}} {{mask_1}}
+({{red:He works in a bank.}}) {{mask_1}}
 ```
 
 The mask target is the complete sentence, including the reporting clause:
 
 ```json
 {
-  "target": "She said that he worked in a bank.",
-  "acceptable_variants": ["She said he worked in a bank."],
-  "hint": ""
+  "task_instruction": "Rewrite each direct statement as reported speech.",
+  "masks": {
+    "mask_1": {
+      "target": "She said that he worked in a bank.",
+      "acceptable_variants": ["She said he worked in a bank."],
+      "hint": ""
+    }
+  }
 }
 ```
 
