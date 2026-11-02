@@ -1,0 +1,88 @@
+{
+  "topic": "Mixed Tenses Flow",
+  "difficulty": "beginner",
+  "created_at": "2026-11-02T23:36:23+08:00",
+  "story_title": "The Emergency Call",
+  "paragraphs": [
+    "At 8:30 p.m., I was cooking dinner when my phone {{mask_1}}. It was the hospital receptionist, and she said my father {{mask_2}} after a sudden chest pain. By the time I left the house, the ambulance {{mask_3}}.",
+    "When I got to the hospital, my mother {{mask_4}} outside the emergency room for almost an hour. She explained that she {{mask_5}} there since six o'clock, and she still {{mask_6}} any news from the doctors. I told her that once the surgeon checked him, he {{mask_7}} us what was happening.",
+    "By midnight, the nurses {{mask_8}} him to a room, and the doctor said the operation {{mask_9}} by morning. We all felt relieved because he {{mask_10}} much better by then. If the call had come earlier, we {{mask_11}} the whole family to the hospital sooner. Tomorrow, we {{mask_12}} his recovery with a quiet breakfast, and by next week he {{mask_13}} home. I hope the emergency team {{mask_14}} this kind of scare again, and I {{mask_15}} my phone on silent from now on."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "rang",
+      "acceptable_variants": [],
+      "hint": "ring"
+    },
+    "mask_2": {
+      "target": "had fallen",
+      "acceptable_variants": ["'d fallen"],
+      "hint": "fall"
+    },
+    "mask_3": {
+      "target": "had already arrived",
+      "acceptable_variants": ["'d already arrived"],
+      "hint": "arrive"
+    },
+    "mask_4": {
+      "target": "had been waiting",
+      "acceptable_variants": ["'d been waiting"],
+      "hint": "wait"
+    },
+    "mask_5": {
+      "target": "had been sitting",
+      "acceptable_variants": ["'d been sitting"],
+      "hint": "sit"
+    },
+    "mask_6": {
+      "target": "hadn't received",
+      "acceptable_variants": ["had not received"],
+      "hint": "receive"
+    },
+    "mask_7": {
+      "target": "would tell",
+      "acceptable_variants": ["'d tell"],
+      "hint": "tell"
+    },
+    "mask_8": {
+      "target": "had moved",
+      "acceptable_variants": ["'d moved"],
+      "hint": "move"
+    },
+    "mask_9": {
+      "target": "would be finished",
+      "acceptable_variants": ["'d be finished"],
+      "hint": "finish"
+    },
+    "mask_10": {
+      "target": "was feeling",
+      "acceptable_variants": [],
+      "hint": "feel"
+    },
+    "mask_11": {
+      "target": "would have brought",
+      "acceptable_variants": ["would've brought"],
+      "hint": "bring"
+    },
+    "mask_12": {
+      "target": "will celebrate",
+      "acceptable_variants": ["'ll celebrate"],
+      "hint": "celebrate"
+    },
+    "mask_13": {
+      "target": "will be back",
+      "acceptable_variants": ["'ll be back"],
+      "hint": "be"
+    },
+    "mask_14": {
+      "target": "will never see",
+      "acceptable_variants": ["'ll never see"],
+      "hint": "see"
+    },
+    "mask_15": {
+      "target": "will keep",
+      "acceptable_variants": ["'ll keep"],
+      "hint": "keep"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "topic": "Mixed Tenses Flow",
+  "difficulty": "intermediate",
+  "created_at": "2026-11-02T23:41:06+08:00",
+  "story_title": "The Board Briefing",
+  "paragraphs": [
+    "Before the board meeting, I had already revised the sales report when the manager called me at 7:30 a.m. She said the client {{mask_1}} the proposal by Friday, but I knew the team {{mask_2}} several changes before then.",
+    "By noon, our assistant {{mask_3}} three emails, and the finance director warned that if sales {{mask_4}} slower, we {{mask_5}} the launch date. While I sorted the figures, the IT staff {{mask_6}} the server, so we {{mask_7}} the deadline.",
+    "When the director arrived, he asked whether I {{mask_8}} the final summary yet. I told him that the draft {{mask_9}} earlier, and that by the time he checked it, everyone {{mask_10}} the key numbers. He said he {{mask_11}} to the meeting if the budget had not been approved.",
+    "By the end of the day, the client {{mask_12}} us a reply, and we {{mask_13}} the offer if the conditions had stayed the same. I hope the revised plan {{mask_14}} soon, and I {{mask_15}} a follow-up message before lunch tomorrow."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "would send",
+      "acceptable_variants": ["'d send"],
+      "hint": "send"
+    },
+    "mask_2": {
+      "target": "had made",
+      "acceptable_variants": ["'d made"],
+      "hint": "make"
+    },
+    "mask_3": {
+      "target": "had sent",
+      "acceptable_variants": ["'d sent"],
+      "hint": "send"
+    },
+    "mask_4": {
+      "target": "fell",
+      "acceptable_variants": [],
+      "hint": "fall"
+    },
+    "mask_5": {
+      "target": "would postpone",
+      "acceptable_variants": ["'d postpone"],
+      "hint": "postpone"
+    },
+    "mask_6": {
+      "target": "were fixing",
+      "acceptable_variants": [],
+      "hint": "fix"
+    },
+    "mask_7": {
+      "target": "would miss",
+      "acceptable_variants": ["'d miss"],
+      "hint": "miss"
+    },
+    "mask_8": {
+      "target": "had sent",
+      "acceptable_variants": ["'d sent"],
+      "hint": "send"
+    },
+    "mask_9": {
+      "target": "had been revised",
+      "acceptable_variants": ["'d been revised"],
+      "hint": "revise"
+    },
+    "mask_10": {
+      "target": "had checked",
+      "acceptable_variants": ["'d checked"],
+      "hint": "check"
+    },
+    "mask_11": {
+      "target": "would have come",
+      "acceptable_variants": ["would've come"],
+      "hint": "come"
+    },
+    "mask_12": {
+      "target": "had sent",
+      "acceptable_variants": ["'d sent"],
+      "hint": "send"
+    },
+    "mask_13": {
+      "target": "would have accepted",
+      "acceptable_variants": ["would've accepted"],
+      "hint": "accept"
+    },
+    "mask_14": {
+      "target": "will improve",
+      "acceptable_variants": ["'ll improve"],
+      "hint": "improve"
+    },
+    "mask_15": {
+      "target": "will send",
+      "acceptable_variants": ["'ll send"],
+      "hint": "send"
+    }
+  }
+}
