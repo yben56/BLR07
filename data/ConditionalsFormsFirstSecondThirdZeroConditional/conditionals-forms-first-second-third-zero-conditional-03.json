@@ -1,0 +1,115 @@
+{
+  "topic": "Conditionals: Forms",
+  "difficulty": "beginner",
+  "created_at": "2026-11-03T11:00:00+08:00",
+  "story_title": "A First Introduction to Inception",
+  "paragraphs": [
+    "On Friday afternoon, Sam and Nina were choosing a movie for the weekend. Nina asked what Inception was about. Sam smiled. \"If you {{mask_1}} science fiction, you {{mask_2}} probably like it.\" Nina said she liked exciting stories. \"If you {{mask_3}} closely, you {{mask_4}} notice lots of small details,\" Sam said.",
+    "Sam explained the basic idea without giving away the ending. \"Cobb is a man who enters people's dreams. If Cobb {{mask_5}} a dream, he {{mask_6}} for clues. He works with a team, too. If the team {{mask_7}} together, they {{mask_8}} the mission.\" Nina nodded. The idea sounded unusual, but easy to understand.",
+    "\"The movie is about dreams,\" Sam continued. \"If people {{mask_9}}, they {{mask_10}}. And if a dream {{mask_11}} real, the person often {{mask_12}} it is real. That's why some scenes can feel surprising.\" Nina asked if the movie was difficult. Sam said the story had a few puzzles, but the characters helped explain the main idea.",
+    "Nina checked the movie schedule on her phone. \"If we {{mask_13}} it together on Saturday, we {{mask_14}} about it afterward,\" she said. Sam agreed. \"If you {{mask_15}} to know the basic idea before we start, I {{mask_16}} it to you without spoilers.\" Nina said she would rather learn as she watched.",
+    "They chose a showtime for the next evening. Sam gave Nina one last tip: \"If the story {{mask_17}} many clues, you {{mask_18}} to pay attention. If you {{mask_19}} one part, I {{mask_20}} it after the movie.\" Nina was ready to go. She had not seen Inception before, but now she was curious to find out what made it special."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "enjoy",
+      "acceptable_variants": [],
+      "hint": "enjoy"
+    },
+    "mask_2": {
+      "target": "will",
+      "acceptable_variants": ["'ll"],
+      "hint": "will"
+    },
+    "mask_3": {
+      "target": "watch",
+      "acceptable_variants": [],
+      "hint": "watch"
+    },
+    "mask_4": {
+      "target": "will",
+      "acceptable_variants": ["'ll"],
+      "hint": "will"
+    },
+    "mask_5": {
+      "target": "enters",
+      "acceptable_variants": [],
+      "hint": "enter"
+    },
+    "mask_6": {
+      "target": "looks",
+      "acceptable_variants": [],
+      "hint": "look"
+    },
+    "mask_7": {
+      "target": "works",
+      "acceptable_variants": [],
+      "hint": "work"
+    },
+    "mask_8": {
+      "target": "complete",
+      "acceptable_variants": [],
+      "hint": "complete"
+    },
+    "mask_9": {
+      "target": "sleep",
+      "acceptable_variants": [],
+      "hint": "sleep"
+    },
+    "mask_10": {
+      "target": "dream",
+      "acceptable_variants": [],
+      "hint": "dream"
+    },
+    "mask_11": {
+      "target": "feels",
+      "acceptable_variants": [],
+      "hint": "feel"
+    },
+    "mask_12": {
+      "target": "believes",
+      "acceptable_variants": [],
+      "hint": "believe"
+    },
+    "mask_13": {
+      "target": "watch",
+      "acceptable_variants": [],
+      "hint": "watch"
+    },
+    "mask_14": {
+      "target": "will talk",
+      "acceptable_variants": ["'ll talk"],
+      "hint": "will"
+    },
+    "mask_15": {
+      "target": "want",
+      "acceptable_variants": [],
+      "hint": "want"
+    },
+    "mask_16": {
+      "target": "will explain",
+      "acceptable_variants": ["'ll explain"],
+      "hint": "will"
+    },
+    "mask_17": {
+      "target": "has",
+      "acceptable_variants": [],
+      "hint": "have"
+    },
+    "mask_18": {
+      "target": "need",
+      "acceptable_variants": [],
+      "hint": "need"
+    },
+    "mask_19": {
+      "target": "don't understand",
+      "acceptable_variants": ["do not understand"],
+      "hint": "understand"
+    },
+    "mask_20": {
+      "target": "will explain",
+      "acceptable_variants": ["'ll explain"],
+      "hint": "will"
+    }
+  }
+}
