@@ -1,0 +1,115 @@
+{
+  "topic": "Mixed Tenses Flow",
+  "difficulty": "beginner",
+  "created_at": "2026-11-02T23:55:25+08:00",
+  "story_title": "The Price Shock",
+  "paragraphs": [
+    "Last month, the news said inflation would rise, but by early spring the figures {{mask_1}} more slowly than people expected. While I {{mask_2}} the shopping list, my neighbor called and said the bakery {{mask_3}} bread because of the higher cost of flour.",
+    "At 8:30 a.m., the radio host {{mask_4}} that grocery prices {{mask_5}} for months. We were worried because the reports {{mask_6}} for two weeks, and many families {{mask_7}} their budgets before the new month started.",
+    "By noon, the market report {{mask_8}} calmer, and the economist explained that the rise {{mask_9}} earlier than expected. If we had checked the chart, we {{mask_10}} the same foods at a lower price.",
+    "When we reached the supermarket, the signs {{mask_11}} clearly, and the cashier said prices {{mask_12}} over the past year. The finance manager told us that by the end of the week the trend {{mask_13}} more stable, but the cost of milk {{mask_14}} after dark.",
+    "We stayed until evening because the shop {{mask_15}} busier, and by then everyone {{mask_16}} the change. I hope the rate of inflation {{mask_17}} down soon, and my aunt promised that she {{mask_18}} a new budget before next month. Tomorrow, I {{mask_19}} the latest numbers before I shop, and by Friday the report {{mask_20}} on the local news site."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "had risen",
+      "acceptable_variants": ["'d risen"],
+      "hint": "rise"
+    },
+    "mask_2": {
+      "target": "was checking",
+      "acceptable_variants": [],
+      "hint": "check"
+    },
+    "mask_3": {
+      "target": "had raised",
+      "acceptable_variants": ["'d raised"],
+      "hint": "raise"
+    },
+    "mask_4": {
+      "target": "announced",
+      "acceptable_variants": [],
+      "hint": "announce"
+    },
+    "mask_5": {
+      "target": "had been rising",
+      "acceptable_variants": ["'d been rising"],
+      "hint": "rise"
+    },
+    "mask_6": {
+      "target": "had been wrong",
+      "acceptable_variants": ["'d been wrong"],
+      "hint": "be"
+    },
+    "mask_7": {
+      "target": "had adjusted",
+      "acceptable_variants": ["'d adjusted"],
+      "hint": "adjust"
+    },
+    "mask_8": {
+      "target": "seemed",
+      "acceptable_variants": [],
+      "hint": "seem"
+    },
+    "mask_9": {
+      "target": "had slowed",
+      "acceptable_variants": ["'d slowed"],
+      "hint": "slow"
+    },
+    "mask_10": {
+      "target": "would have bought",
+      "acceptable_variants": ["would've bought"],
+      "hint": "buy"
+    },
+    "mask_11": {
+      "target": "were changing",
+      "acceptable_variants": [],
+      "hint": "change"
+    },
+    "mask_12": {
+      "target": "had increased",
+      "acceptable_variants": ["'d increased"],
+      "hint": "increase"
+    },
+    "mask_13": {
+      "target": "would become",
+      "acceptable_variants": ["'d become"],
+      "hint": "become"
+    },
+    "mask_14": {
+      "target": "would rise",
+      "acceptable_variants": ["'d rise"],
+      "hint": "rise"
+    },
+    "mask_15": {
+      "target": "was getting",
+      "acceptable_variants": [],
+      "hint": "get"
+    },
+    "mask_16": {
+      "target": "had noticed",
+      "acceptable_variants": ["'d noticed"],
+      "hint": "notice"
+    },
+    "mask_17": {
+      "target": "will fall",
+      "acceptable_variants": ["'ll fall"],
+      "hint": "fall"
+    },
+    "mask_18": {
+      "target": "will make",
+      "acceptable_variants": ["'ll make"],
+      "hint": "make"
+    },
+    "mask_19": {
+      "target": "will check",
+      "acceptable_variants": ["'ll check"],
+      "hint": "check"
+    },
+    "mask_20": {
+      "target": "will appear",
+      "acceptable_variants": ["'ll appear"],
+      "hint": "appear"
+    }
+  }
+}
