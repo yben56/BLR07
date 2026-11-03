@@ -40,6 +40,10 @@ fetchJson(new URL('catalog.json', appBaseUrl))
           exercises: Array.isArray(category.exercises) ? category.exercises : [],
           subcategories: Array.isArray(category.subcategories) ? category.subcategories : []
         }));
+        const favoriteError = ref('');
+        const favoriteCategoryIds = ref(readFavoriteCategoryIds());
+        const completedError = ref('');
+        const completed = ref(readCompletedSubcategoryIds());
         const copyrightYear = new Date().getFullYear();
         const categorySort = ref('custom');
         const sortedCategories = computed(() => [...categories].sort((left, right) => {
@@ -100,6 +104,114 @@ fetchJson(new URL('catalog.json', appBaseUrl))
         let timerStartedAt = 0;
         let timerInterval = null;
         let titleAnimation = null;
+
+        function readFavoriteCategoryIds() {
+          try {
+            const stored = localStorage.getItem('blr07-favorites');
+            if (stored !== null) {
+              const ids = JSON.parse(stored);
+              if (!Array.isArray(ids) || ids.some(id => typeof id !== 'string')) {
+                throw new TypeError('Favorite categories must be stored as an array of IDs.');
+              }
+              removeLegacyFavoriteCookie();
+              return ids.filter(id => categories.some(category => category.id === id));
+            }
+
+            const cookiePrefix = 'blr07-favorites=';
+            const cookie = document.cookie.split('; ').find(item => item.startsWith(cookiePrefix));
+            if (!cookie) return [];
+            const ids = JSON.parse(decodeURIComponent(cookie.slice(cookiePrefix.length)));
+            if (!Array.isArray(ids) || ids.some(id => typeof id !== 'string')) {
+              throw new TypeError('Legacy favorite cookie must contain an array of category IDs.');
+            }
+            const validIds = ids.filter(id => categories.some(category => category.id === id));
+            saveFavoriteCategoryIds(validIds);
+            removeLegacyFavoriteCookie();
+            return validIds;
+          } catch (error) {
+            console.error('Unable to read or migrate favorite categories in local storage.', error);
+            favoriteError.value = '無法讀取收藏設定，請檢查瀏覽器的網站儲存設定。';
+            return [];
+          }
+        }
+
+        function removeLegacyFavoriteCookie() {
+          const secure = window.location.protocol === 'https:' ? '; Secure' : '';
+          document.cookie = `blr07-favorites=; Path=${appBaseUrl.pathname}; Expires=Thu, 01 Jan 1970 00:00:00 GMT; SameSite=Lax${secure}`;
+        }
+
+        function saveFavoriteCategoryIds(ids) {
+          const value = JSON.stringify(ids);
+          localStorage.setItem('blr07-favorites', value);
+          if (localStorage.getItem('blr07-favorites') !== value) {
+            throw new Error('The browser did not save favorite categories.');
+          }
+        }
+
+        function isFavorite(categoryId) {
+          return favoriteCategoryIds.value.includes(categoryId);
+        }
+
+        function toggleFavorite(categoryId) {
+          const nextIds = isFavorite(categoryId)
+            ? favoriteCategoryIds.value.filter(id => id !== categoryId)
+            : [...favoriteCategoryIds.value, categoryId];
+
+          try {
+            saveFavoriteCategoryIds(nextIds);
+            favoriteCategoryIds.value = nextIds;
+            favoriteError.value = '';
+          } catch (error) {
+            console.error('Unable to save favorite categories to local storage.', error);
+            favoriteError.value = '無法儲存收藏，請檢查瀏覽器的網站儲存設定。';
+          }
+        }
+
+        function subcategoryCompletionId(subcategoryId) {
+          return `${selectedCategoryId.value}/${subcategoryId}`;
+        }
+
+        function readCompletedSubcategoryIds() {
+          try {
+            const stored = localStorage.getItem('blr07-completed');
+            if (stored === null) return [];
+            const ids = JSON.parse(stored);
+            if (!Array.isArray(ids) || ids.some(id => typeof id !== 'string')) {
+              throw new TypeError('Completed units must be stored as an array of IDs.');
+            }
+            return ids.filter(id => categories.some(category =>
+              category.subcategories.some(subcategory => `${category.id}/${subcategory.id}` === id)
+            ));
+          } catch (error) {
+            console.error('Unable to read completed units from local storage.', error);
+            completedError.value = '無法讀取單元完成紀錄，請檢查瀏覽器的網站儲存設定。';
+            return [];
+          }
+        }
+
+        function isCompleted(subcategoryId) {
+          return completed.value.includes(subcategoryCompletionId(subcategoryId));
+        }
+
+        function toggleCompleted(subcategoryId) {
+          const id = subcategoryCompletionId(subcategoryId);
+          const nextCompleted = isCompleted(subcategoryId)
+            ? completed.value.filter(item => item !== id)
+            : [...completed.value, id];
+
+          try {
+            const value = JSON.stringify(nextCompleted);
+            localStorage.setItem('blr07-completed', value);
+            if (localStorage.getItem('blr07-completed') !== value) {
+              throw new Error('The browser did not save completed units.');
+            }
+            completed.value = nextCompleted;
+            completedError.value = '';
+          } catch (error) {
+            console.error('Unable to save completed units to local storage.', error);
+            completedError.value = '無法儲存單元完成紀錄，請檢查瀏覽器的網站儲存設定。';
+          }
+        }
 
         const renderedParagraphs = computed(() => (exercise.paragraphs || []).map(paragraph => {
           const segments = [];
@@ -465,6 +577,12 @@ fetchJson(new URL('catalog.json', appBaseUrl))
           loading,
           loadError,
           catalogError,
+          favoriteError,
+          isFavorite,
+          toggleFavorite,
+          completedError,
+          isCompleted,
+          toggleCompleted,
           exercise,
           maskOrder,
           answers,
