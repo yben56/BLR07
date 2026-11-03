@@ -1,0 +1,115 @@
+{
+  "topic": "Past Simple vs Present Perfect",
+  "difficulty": "advanced",
+  "created_at": "2026-11-03T18:24:00+08:00",
+  "story_title": "An Evening at MJ Live",
+  "extra_info": "",
+  "paragraphs": [
+    "I {{mask_1}} to an MJ Live concert in Las Vegas twice, but last Friday's show {{mask_2}} special. My sister {{mask_3}} the tickets months ago, and she {{mask_4}} the date on her calendar ever since. Before we left the hotel, we {{mask_5}} dinner nearby and {{mask_6}} a short walk along the Strip.",
+    "The doors {{mask_7}} at seven, and we {{mask_8}} at 7:20. We {{mask_9}} our tickets and {{mask_10}} inside. The opening performer {{mask_11}} onto the stage just as we found our seats. I {{mask_12}} many tribute shows over the years, yet this production {{mask_13}} a lively atmosphere from the start.",
+    "During the performance, the dancers {{mask_14}} through several carefully arranged scenes while the band {{mask_15}} the music. My sister, who {{mask_16}} the performer since childhood, recognized the details in the costumes. She {{mask_17}} a few photos before the staff reminded everyone to keep the aisles clear.",
+    "After the final bow, the audience {{mask_18}} warmly. We {{mask_19}} the theater a few minutes later and {{mask_20}} the evening on our way back to the hotel. Since then, my sister has recommended the show to several friends, though I have not decided whether to see it again."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "have been",
+      "acceptable_variants": ["'ve been"],
+      "hint": "be"
+    },
+    "mask_2": {
+      "target": "felt",
+      "acceptable_variants": [],
+      "hint": "feel"
+    },
+    "mask_3": {
+      "target": "bought",
+      "acceptable_variants": [],
+      "hint": "buy"
+    },
+    "mask_4": {
+      "target": "has kept",
+      "acceptable_variants": ["'s kept"],
+      "hint": "keep"
+    },
+    "mask_5": {
+      "target": "had",
+      "acceptable_variants": [],
+      "hint": "have"
+    },
+    "mask_6": {
+      "target": "took",
+      "acceptable_variants": [],
+      "hint": "take"
+    },
+    "mask_7": {
+      "target": "opened",
+      "acceptable_variants": [],
+      "hint": "have"
+    },
+    "mask_8": {
+      "target": "arrived",
+      "acceptable_variants": [],
+      "hint": "open"
+    },
+    "mask_9": {
+      "target": "showed",
+      "acceptable_variants": [],
+      "hint": "show"
+    },
+    "mask_10": {
+      "target": "went",
+      "acceptable_variants": [],
+      "hint": "go"
+    },
+    "mask_11": {
+      "target": "stepped",
+      "acceptable_variants": [],
+      "hint": "step"
+    },
+    "mask_12": {
+      "target": "have attended",
+      "acceptable_variants": ["'ve attended"],
+      "hint": "attend"
+    },
+    "mask_13": {
+      "target": "created",
+      "acceptable_variants": [],
+      "hint": "create"
+    },
+    "mask_14": {
+      "target": "moved",
+      "acceptable_variants": [],
+      "hint": "move"
+    },
+    "mask_15": {
+      "target": "played",
+      "acceptable_variants": [],
+      "hint": "play"
+    },
+    "mask_16": {
+      "target": "has followed",
+      "acceptable_variants": ["'s followed"],
+      "hint": "follow"
+    },
+    "mask_17": {
+      "target": "took",
+      "acceptable_variants": [],
+      "hint": "take"
+    },
+    "mask_18": {
+      "target": "applauded",
+      "acceptable_variants": [],
+      "hint": "applaud"
+    },
+    "mask_19": {
+      "target": "left",
+      "acceptable_variants": [],
+      "hint": "leave"
+    },
+    "mask_20": {
+      "target": "discussed",
+      "acceptable_variants": [],
+      "hint": "discuss"
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "topic": "Meaning and Answers",
+  "difficulty": "intermediate",
+  "created_at": "2026-11-03T19:14:00+08:00",
+  "story_title": "Opening Night at the Little Theater",
+  "extra_info": "",
+  "task_instruction": "Answer each negative question with a short answer that matches the facts.",
+  "paragraphs": [
+    "The Little Theater is preparing for the opening night of a new play. The stage manager checks the room and asks, {{red:Isn't the stage ready yet?}} The crew is still arranging the chairs, so the director replies, {{mask_1}}. The actors arrive from the dressing room. The director asks, {{red:Haven't they learned their lines?}} They have rehearsed for several weeks and know every scene, so the stage manager answers, {{mask_2}}. Maya walks onto the stage in costume. The director asks, {{red:Isn't Maya playing the lead role?}} Her name is printed beside the lead role in the program, so the stage manager says, {{mask_3}}. Before rehearsal begins, the director checks the sound desk and asks, {{red:Doesn't the sound operator test the microphones every evening?}} The operator has just tested all of them, so Maya replies, {{mask_4}}.",
+    "During rehearsal, a prop table is missing a small clock. Maya asks, {{red:Hasn't someone put the clock on the table?}} The prop assistant is holding it and has not placed it yet, so the stage manager answers, {{mask_5}}. The director looks at the written schedule and asks, {{red:Isn't the second scene after the short break?}} The schedule lists it immediately after the break, so Maya says, {{mask_6}}. A new actor waits beside the curtain. Maya asks, {{red:Hasn't he performed in this theater before?}} This is his first visit to the theater, so the stage manager replies, {{mask_7}}. The lighting technician checks the control panel. The director asks, {{red:Can't the technician change the lights from this desk?}} The panel controls every stage light, so the technician answers, {{mask_8}}.",
+    "When the first rehearsal ends, the cast gathers in the lobby. Maya asks, {{red:Didn't the audience enjoy the preview last night?}} The director saw the audience smiling and applauding, so she replies, {{mask_9}}. The stage manager checks the ticket list and asks, {{red:Haven't we sold all the seats for tonight?}} Several seats are still available, so the box-office assistant answers, {{mask_10}}. A volunteer brings a basket of programs. Maya asks, {{red:Shouldn't we give one program to every guest?}} The theater's plan is to offer a program to each guest, so the volunteer says, {{mask_11}}. The director checks the clock and asks, {{red:Isn't it too early to open the doors?}} It is exactly the scheduled opening time, so the stage manager replies, {{mask_12}}.",
+    "Just before the show, the actors take their places. The director whispers, {{red:Are the musicians ready in the orchestra pit?}} They are seated with their instruments, so the stage manager answers, {{mask_13}}. Maya checks her costume and asks, {{red:Hasn't the costume assistant fixed this loose button?}} The button is still loose, so the assistant replies, {{mask_14}}. The director sees a note on the floor and asks, {{red:Didn't the stage manager leave this note here?}} The stage manager confirms that the note is hers, so Maya says, {{mask_15}}. From backstage, an actor asks, {{red:Won't the curtain open when the music starts?}} The cue sheet says it will open with the music, so the stage manager answers, {{mask_16}}.",
+    "The performance begins, and the cast follows the plan. During the final scene, Maya asks quietly, {{red:Isn't the final speech next?}} The script shows that the speech comes after the short pause, and the pause has just ended, so the director replies, {{mask_17}}. After the curtain call, the cast returns to the lobby. The director asks, {{red:Haven't the guests left the theater yet?}} Several guests are still talking by the exit, so the stage manager answers, {{mask_18}}. Maya checks the review posted by the local paper and asks, {{red:Doesn't the review praise the actors' teamwork?}} The review calls the teamwork strong, so the director says, {{mask_19}}. The crew starts packing the props. Maya asks, {{red:Shouldn't we put the borrowed clock back in its case?}} The prop assistant has already placed it safely in the case, so Maya answers, {{mask_20}}."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "No, it isn't",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "Yes, they have",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "Yes, she is",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "Yes, they do",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "No, they haven't",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "Yes, it is",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "No, he hasn't",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "Yes, I can",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "Yes, they did",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "No, we haven't",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "Yes, we should",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "No, it isn't",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "Yes, they are",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "No, they haven't",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "Yes, she did",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_16": {
+      "target": "Yes, it will",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_17": {
+      "target": "Yes, it is",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_18": {
+      "target": "No, they haven't",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_19": {
+      "target": "Yes, it does",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_20": {
+      "target": "No, we shouldn't",
+      "acceptable_variants": [],
+      "hint": ""
+    }
+  }
+}

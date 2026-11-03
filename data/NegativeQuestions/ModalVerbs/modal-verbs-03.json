@@ -1,0 +1,119 @@
+{
+  "topic": "Modal Verbs",
+  "difficulty": "advanced",
+  "created_at": "2026-11-03T19:11:00+08:00",
+  "story_title": "The Community Garden Plan",
+  "extra_info": "",
+  "task_instruction": "Rewrite each affirmative statement as a negative question.",
+  "paragraphs": [
+    "A neighborhood group is preparing a shared garden beside the library. {{red:They can use the sunny corner for vegetables.}} {{mask_1}}? The organizer measures the space before anyone starts digging. {{red:Each gardener must label their own tools.}} {{mask_2}}? The labels help everyone return the tools to the right shed.",
+    "On planting day, volunteers check the weather. {{red:They should cover the young seedlings tonight.}} {{mask_3}}? The forecast says the temperature may drop. {{red:The garden beds can hold more compost.}} {{mask_4}}? The group has brought several bags from the community center. {{red:You must wear gloves when handling the compost.}} {{mask_5}}? A volunteer places spare gloves near the gate.",
+    "A new gardener asks about the water system. {{red:She can use the rain barrel for the plants.}} {{mask_6}}? The organizer shows her the marked tap. {{red:Visitors must close the tap after watering.}} {{mask_7}}? The garden has limited water during dry weeks. {{red:The volunteers could build another raised bed.}} {{mask_8}}? They first need to check the available space.",
+    "In the afternoon, the group plants herbs along the path. {{red:They should leave room for people to walk.}} {{mask_9}}? The organizer has marked a clear path with string. {{red:Everyone must keep the entrance clear.}} {{mask_10}}? A delivery cart needs to pass through the gate. {{red:The children may help plant the small pots.}} {{mask_11}}? An adult stays with them and explains each step.",
+    "After planting, the team makes a weekly care schedule. {{red:Each volunteer can choose a day to water.}} {{mask_12}}? The organizer writes every name on the board. {{red:They should check the soil before watering.}} {{mask_13}}? Too much water can harm some plants. {{red:The group will share extra vegetables with the shelter.}} {{mask_14}}? The shelter has asked for fresh produce when it is available.",
+    "A few weeks later, the first leaves appear. {{red:The gardeners might need more plant labels.}} {{mask_15}}? Several seedlings look similar. {{red:They can put the labels beside each row.}} {{mask_16}}? The organizer brings a box of weatherproof markers. {{red:Visitors should wait before picking the vegetables.}} {{mask_17}}? The plants need more time to grow.",
+    "At the end of the month, the group meets to review the garden. {{red:They must remove weeds from the paths.}} {{mask_18}}? The volunteers bring small hand tools. {{red:The garden may attract more neighbors.}} {{mask_19}}? The library has posted an invitation on its noticeboard. {{red:Everyone should keep the shared space tidy.}} {{mask_20}}? The group agrees to meet again next Saturday."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "Can't they use the sunny corner for vegetables",
+      "acceptable_variants": ["Can they not use the sunny corner for vegetables"],
+      "hint": "can"
+    },
+    "mask_2": {
+      "target": "Mustn't each gardener label their own tools",
+      "acceptable_variants": ["Must each gardener not label their own tools"],
+      "hint": "must"
+    },
+    "mask_3": {
+      "target": "Shouldn't they cover the young seedlings tonight",
+      "acceptable_variants": ["Should they not cover the young seedlings tonight"],
+      "hint": "should"
+    },
+    "mask_4": {
+      "target": "Can't the garden beds hold more compost",
+      "acceptable_variants": ["Can the garden beds not hold more compost"],
+      "hint": "can"
+    },
+    "mask_5": {
+      "target": "Mustn't you wear gloves when handling the compost",
+      "acceptable_variants": ["Must you not wear gloves when handling the compost"],
+      "hint": "must"
+    },
+    "mask_6": {
+      "target": "Can't she use the rain barrel for the plants",
+      "acceptable_variants": ["Can she not use the rain barrel for the plants"],
+      "hint": "can"
+    },
+    "mask_7": {
+      "target": "Mustn't visitors close the tap after watering",
+      "acceptable_variants": ["Must visitors not close the tap after watering"],
+      "hint": "must"
+    },
+    "mask_8": {
+      "target": "Couldn't the volunteers build another raised bed",
+      "acceptable_variants": ["Could the volunteers not build another raised bed"],
+      "hint": "could"
+    },
+    "mask_9": {
+      "target": "Shouldn't they leave room for people to walk",
+      "acceptable_variants": ["Should they not leave room for people to walk"],
+      "hint": "should"
+    },
+    "mask_10": {
+      "target": "Mustn't everyone keep the entrance clear",
+      "acceptable_variants": ["Must everyone not keep the entrance clear"],
+      "hint": "must"
+    },
+    "mask_11": {
+      "target": "Can't the children help plant the small pots",
+      "acceptable_variants": ["Can the children not help plant the small pots"],
+      "hint": "can"
+    },
+    "mask_12": {
+      "target": "Can't each volunteer choose a day to water",
+      "acceptable_variants": ["Can each volunteer not choose a day to water"],
+      "hint": "can"
+    },
+    "mask_13": {
+      "target": "Shouldn't they check the soil before watering",
+      "acceptable_variants": ["Should they not check the soil before watering"],
+      "hint": "should"
+    },
+    "mask_14": {
+      "target": "Won't the group share extra vegetables with the shelter",
+      "acceptable_variants": ["Will the group not share extra vegetables with the shelter"],
+      "hint": "will"
+    },
+    "mask_15": {
+      "target": "Might the gardeners not need more plant labels",
+      "acceptable_variants": [],
+      "hint": "might"
+    },
+    "mask_16": {
+      "target": "Can't they put the labels beside each row",
+      "acceptable_variants": ["Can they not put the labels beside each row"],
+      "hint": "can"
+    },
+    "mask_17": {
+      "target": "Shouldn't visitors wait before picking the vegetables",
+      "acceptable_variants": ["Should visitors not wait before picking the vegetables"],
+      "hint": "should"
+    },
+    "mask_18": {
+      "target": "Mustn't they remove weeds from the paths",
+      "acceptable_variants": ["Must they not remove weeds from the paths"],
+      "hint": "must"
+    },
+    "mask_19": {
+      "target": "Might the garden not attract more neighbors",
+      "acceptable_variants": [],
+      "hint": "might"
+    },
+    "mask_20": {
+      "target": "Shouldn't everyone keep the shared space tidy",
+      "acceptable_variants": ["Should everyone not keep the shared space tidy"],
+      "hint": "should"
+    }
+  }
+}

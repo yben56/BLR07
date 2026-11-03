@@ -3,6 +3,7 @@
   "difficulty": "intermediate",
   "created_at": "2026-10-18T10:55:12.859+08:00",
   "story_title": "The Garden Open Day",
+  "extra_info": "",
   "task_instruction": "Rewrite each affirmative statement as a negative question.",
   "paragraphs": [
     "Nora arrived at the community garden early on Saturday to prepare for its first open day. At 8:15, the front gate was still locked. She remembered the caretaker's usual routine. {{red:Leo was usually at the gate by eight.}} {{mask_1}}? His phone went straight to voicemail. Nora knew there was a spare key in the blue cabinet: {{red:We have a spare key in the blue cabinet.}} {{mask_2}}? She and her neighbor Sam found it and opened the gate. The volunteers had filled the water tank the night before, but its gauge was nearly empty: {{red:The water tank is full.}} {{mask_3}}? Sam spotted a small leak near the valve. A message about the open day was still a draft in the group chat: {{red:You sent the notice yesterday.}} {{mask_4}}? Sam apologized and sent it to the neighborhood list.",

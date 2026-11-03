@@ -1,0 +1,119 @@
+{
+  "topic": "Be / Do / Have",
+  "difficulty": "intermediate",
+  "created_at": "2026-11-03T19:06:00+08:00",
+  "story_title": "A Day on the Mountain",
+  "extra_info": "",
+  "task_instruction": "Rewrite each affirmative statement as a negative question.",
+  "paragraphs": [
+    "Nora and her brother Liam arrived at a ski resort early on Saturday. {{red:The beginner slopes are open.}} {{mask_1}}? They check the trail map before choosing where to start. {{red:Nora has visited this resort before.}} {{mask_2}}? She recognizes the lodge near the main lift.",
+    "At the rental desk, Liam asks for a snowboard. {{red:He has brought his own helmet.}} {{mask_3}}? The staff member checks the fit before he goes outside. {{red:The boots are comfortable.}} {{mask_4}}? Liam walks across the room to test them. {{red:Nora does a short warm-up before skiing.}} {{mask_5}}? She stretches beside the trail sign.",
+    "Their instructor meets them at the practice area. {{red:She is waiting near the blue flag.}} {{mask_6}}? Nora waves when she sees her. {{red:The instructor has explained the safety rules.}} {{mask_7}}? She asks Liam to point out the closest marked trail. {{red:Liam understands the signs.}} {{mask_8}}? He identifies the green and blue symbols correctly.",
+    "During the first lesson, {{red:Nora is keeping her skis parallel.}} {{mask_9}}? The instructor shows her how to turn slowly. {{red:Liam is listening to the instructor.}} {{mask_10}}? He asks a question about stopping on a gentle slope. {{red:The instructor demonstrates the stopping position.}} {{mask_11}}? Liam practices it several times.",
+    "At midday, the siblings take a break in the lodge. {{red:They have eaten lunch already.}} {{mask_12}}? Nora checks the trail map again. {{red:Liam has had enough water.}} {{mask_13}}? He fills his bottle before they leave. {{red:The weather is changing quickly.}} {{mask_14}}? Dark clouds are moving over the higher slopes.",
+    "They return their rental equipment in the afternoon. {{red:Nora has enjoyed her first lesson.}} {{mask_15}}? She thanks the instructor before they say goodbye. {{red:Liam does want to try snowboarding again.}} {{mask_16}}? He tells Nora that he plans to book another lesson. {{red:The resort staff were helpful all day.}} {{mask_17}}? The family thanks them at the desk.",
+    "Before they leave, Nora checks the bus time. {{red:The next bus is arriving in ten minutes.}} {{mask_18}}? Liam carries their helmets to the stop. {{red:They have packed their gloves.}} {{mask_19}}? Nora looks inside the gear bag. {{red:The siblings are tired after their day outside.}} {{mask_20}}? They sit together and talk about what they learned."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "Aren't the beginner slopes open",
+      "acceptable_variants": ["Are the beginner slopes not open"],
+      "hint": "be"
+    },
+    "mask_2": {
+      "target": "Hasn't Nora visited this resort before",
+      "acceptable_variants": ["Has Nora not visited this resort before"],
+      "hint": "have"
+    },
+    "mask_3": {
+      "target": "Hasn't he brought his own helmet",
+      "acceptable_variants": ["Has he not brought his own helmet"],
+      "hint": "have"
+    },
+    "mask_4": {
+      "target": "Aren't the boots comfortable",
+      "acceptable_variants": ["Are the boots not comfortable"],
+      "hint": "be"
+    },
+    "mask_5": {
+      "target": "Doesn't Nora do a short warm-up before skiing",
+      "acceptable_variants": ["Does Nora not do a short warm-up before skiing"],
+      "hint": "do"
+    },
+    "mask_6": {
+      "target": "Isn't she waiting near the blue flag",
+      "acceptable_variants": ["Is she not waiting near the blue flag"],
+      "hint": "be"
+    },
+    "mask_7": {
+      "target": "Hasn't the instructor explained the safety rules",
+      "acceptable_variants": ["Has the instructor not explained the safety rules"],
+      "hint": "have"
+    },
+    "mask_8": {
+      "target": "Doesn't Liam understand the signs",
+      "acceptable_variants": ["Does Liam not understand the signs"],
+      "hint": "do"
+    },
+    "mask_9": {
+      "target": "Isn't Nora keeping her skis parallel",
+      "acceptable_variants": ["Is Nora not keeping her skis parallel"],
+      "hint": "be"
+    },
+    "mask_10": {
+      "target": "Isn't Liam listening to the instructor",
+      "acceptable_variants": ["Is Liam not listening to the instructor"],
+      "hint": "be"
+    },
+    "mask_11": {
+      "target": "Doesn't the instructor demonstrate the stopping position",
+      "acceptable_variants": ["Does the instructor not demonstrate the stopping position"],
+      "hint": "do"
+    },
+    "mask_12": {
+      "target": "Haven't they eaten lunch already",
+      "acceptable_variants": ["Have they not eaten lunch already"],
+      "hint": "have"
+    },
+    "mask_13": {
+      "target": "Hasn't Liam had enough water",
+      "acceptable_variants": ["Has Liam not had enough water"],
+      "hint": "have"
+    },
+    "mask_14": {
+      "target": "Isn't the weather changing quickly",
+      "acceptable_variants": ["Is the weather not changing quickly"],
+      "hint": "be"
+    },
+    "mask_15": {
+      "target": "Hasn't Nora enjoyed her first lesson",
+      "acceptable_variants": ["Has Nora not enjoyed her first lesson"],
+      "hint": "have"
+    },
+    "mask_16": {
+      "target": "Doesn't Liam want to try snowboarding again",
+      "acceptable_variants": ["Does Liam not want to try snowboarding again"],
+      "hint": "do"
+    },
+    "mask_17": {
+      "target": "Weren't the resort staff helpful all day",
+      "acceptable_variants": ["Were the resort staff not helpful all day"],
+      "hint": "be"
+    },
+    "mask_18": {
+      "target": "Isn't the next bus arriving in ten minutes",
+      "acceptable_variants": ["Is the next bus not arriving in ten minutes"],
+      "hint": "be"
+    },
+    "mask_19": {
+      "target": "Haven't they packed their gloves",
+      "acceptable_variants": ["Have they not packed their gloves"],
+      "hint": "have"
+    },
+    "mask_20": {
+      "target": "Aren't the siblings tired after their day outside",
+      "acceptable_variants": ["Are the siblings not tired after their day outside"],
+      "hint": "be"
+    }
+  }
+}

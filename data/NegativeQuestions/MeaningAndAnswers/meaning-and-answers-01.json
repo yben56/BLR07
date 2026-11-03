@@ -1,0 +1,119 @@
+{
+  "topic": "Meaning and Answers",
+  "difficulty": "beginner",
+  "created_at": "2026-11-03T19:12:00+08:00",
+  "story_title": "A Day at the Farm",
+  "extra_info": "",
+  "task_instruction": "Answer each negative question with a short answer that matches the facts.",
+  "paragraphs": [
+    "On Saturday, Lena visits her uncle's farm to help prepare for the spring planting. At the gate, she asks, {{red:Isn't the ground wet after last night's rain?}} Her uncle checks the dry path and replies, {{mask_1}}. Near the field, Lena sees dark soil. She asks, {{red:Isn't this soil still damp?}} He touches it and answers, {{mask_2}}.",
+    "They walk to the greenhouse. Lena notices the open windows and asks, {{red:Aren't the windows open?}} Her uncle looks up and says, {{mask_3}}. Inside, the fan is off. Lena asks, {{red:Isn't the fan on?}} Her uncle points to the switch and replies, {{mask_4}}. Some seedlings look small, so Lena asks, {{red:Haven't these seedlings grown much this week?}} Her uncle compares them with a photo and answers, {{mask_5}}.",
+    "Next, they check the water barrels. Lena sees water near the top and asks, {{red:Isn't the first barrel full?}} Her uncle looks inside and answers, {{mask_6}}. The second barrel is nearly empty. Lena asks, {{red:Isn't the second barrel almost empty?}} He checks the level and says, {{mask_7}}. A hose lies beside the barrels. Lena asks, {{red:Hasn't someone put the hose away?}} Her uncle sees it on the ground and replies, {{mask_8}}.",
+    "They prepare seed packets at a table. Lena asks, {{red:Don't these beans need a sunny place?}} Her uncle reads the packet and answers, {{mask_9}}. She picks up a packet of lettuce and asks, {{red:Doesn't lettuce grow well in cooler weather?}} He checks the instructions and says, {{mask_10}}. Lena looks at the calendar and asks, {{red:Isn't it too early to plant the tomatoes outside?}} Her uncle checks the forecast and answers, {{mask_11}}.",
+    "After lunch, they walk to the orchard. Lena notices pink blossoms on the apple trees and asks, {{red:Haven't the apple trees started to bloom?}} Her uncle looks at the branches and replies, {{mask_12}}. A nearby tree has no flowers yet. Lena asks, {{red:Isn't that tree still dormant?}} Her uncle checks its buds and answers, {{mask_13}}. They watch a bird pass through a gap in the fence. Lena asks, {{red:Can't birds get through that gap?}} Her uncle points to the narrow opening and says, {{mask_14}}.",
+    "Before they finish, Lena checks the toolshed. She sees the door closed but unlocked and asks, {{red:Isn't the toolshed locked?}} Her uncle tries the handle and replies, {{mask_15}}. A wheelbarrow is outside, so Lena asks, {{red:Hasn't anyone returned the wheelbarrow?}} Her uncle sees it beside the shed and answers, {{mask_16}}. They review the planting list, and every row is marked complete. Lena asks, {{red:Have we finished planting the early vegetables?}} Her uncle checks the plan and says, {{mask_17}}.",
+    "They wash their hands before leaving. Lena asks, {{red:Isn't there soap by the sink?}} Her uncle points to a soap bottle beside the tap and replies, {{mask_18}}. She notices a damp towel and asks, {{red:Isn't the towel dry?}} He touches it and answers, {{mask_19}}. At the gate, Lena asks, {{red:Didn't we have a useful day on the farm?}} Her uncle smiles and says, {{mask_20}}."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "No, it isn't",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "Yes, it is",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "Yes, they are",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "No, it isn't",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "Yes, they have",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "Yes, it is",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "Yes, it is",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "No, they haven't",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "Yes, they do",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "Yes, it does",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "Yes, it is",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "Yes, they have",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "Yes, it is",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "Yes, they can",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "No, it isn't",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_16": {
+      "target": "No, they haven't",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_17": {
+      "target": "Yes, we have",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_18": {
+      "target": "Yes, there is",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_19": {
+      "target": "No, it isn't",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_20": {
+      "target": "Yes, we did",
+      "acceptable_variants": [],
+      "hint": ""
+    }
+  }
+}

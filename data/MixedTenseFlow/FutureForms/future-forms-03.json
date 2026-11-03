@@ -1,0 +1,117 @@
+{
+  "topic": "Future Forms",
+  "difficulty": "advanced",
+  "created_at": "2026-11-03T18:52:00+08:00",
+  "story_title": "A Journey Through Japan",
+  "extra_info": "",
+  "paragraphs": [
+    "Nina and her brother are planning a trip to Japan for next spring. Their flight {{mask_1}} at 10:15 on Monday, according to the airline schedule. They have already booked a hotel in Kyoto, and they {{mask_2}} there for the first four nights. Nina has made a list of places she wants to visit, and she {{mask_3}} the final route this weekend.",
+    "On Tuesday morning, the siblings {{mask_4}} the train to Osaka; their seats are reserved. Nina's brother has promised to carry the larger suitcase, and he {{mask_5}} it through the station. The train timetable says their service {{mask_6}} Kyoto at 8:42. Nina expects the journey {{mask_7}} about thirty minutes.",
+    "They have arranged to meet a local guide at the station at 10:00, so they {{mask_8}} her there. The guide {{mask_9}} them through the old market before lunch. Nina thinks the food stalls {{mask_10}} busy by midday. Her brother has decided to try a new dish, and he {{mask_11}} something he has never tasted before.",
+    "On Wednesday, they have a confirmed reservation at a museum for 11:30, so they {{mask_12}} the special exhibition then. The museum's website says the next guided tour {{mask_13}} at noon. Nina has planned to take notes during the visit; she {{mask_14}} a small notebook in her day bag. The siblings believe they {{mask_15}} several useful facts about local history.",
+    "On Thursday, dark clouds are gathering over Kyoto, and the weather app shows a high chance of rain. Nina {{mask_16}} an umbrella before they leave the hotel. Their walking tour has already been arranged, so they {{mask_17}} it unless the guide cancels. In the evening, they {{mask_18}} dinner with their cousin at a restaurant near the river; the table is booked for seven.",
+    "Their return flight is scheduled for Saturday afternoon. By then, they {{mask_19}} the main sights on their list, and they {{mask_20}} hundreds of photos to share with their family. Nina thinks they will want to visit Japan again."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "leaves",
+      "acceptable_variants": [],
+      "hint": "leave"
+    },
+    "mask_2": {
+      "target": "are staying",
+      "acceptable_variants": [],
+      "hint": "stay"
+    },
+    "mask_3": {
+      "target": "is going to plan",
+      "acceptable_variants": [],
+      "hint": "plan"
+    },
+    "mask_4": {
+      "target": "are taking",
+      "acceptable_variants": [],
+      "hint": "take"
+    },
+    "mask_5": {
+      "target": "is carrying",
+      "acceptable_variants": [],
+      "hint": "carry"
+    },
+    "mask_6": {
+      "target": "departs",
+      "acceptable_variants": [],
+      "hint": "depart"
+    },
+    "mask_7": {
+      "target": "to take",
+      "acceptable_variants": [],
+      "hint": "take"
+    },
+    "mask_8": {
+      "target": "are meeting",
+      "acceptable_variants": [],
+      "hint": "meet"
+    },
+    "mask_9": {
+      "target": "will show",
+      "acceptable_variants": [],
+      "hint": "show"
+    },
+    "mask_10": {
+      "target": "will be",
+      "acceptable_variants": [],
+      "hint": "be"
+    },
+    "mask_11": {
+      "target": "is going to order",
+      "acceptable_variants": [],
+      "hint": "order"
+    },
+    "mask_12": {
+      "target": "are viewing",
+      "acceptable_variants": [],
+      "hint": "view"
+    },
+    "mask_13": {
+      "target": "begins",
+      "acceptable_variants": [],
+      "hint": "begin"
+    },
+    "mask_14": {
+      "target": "is bringing",
+      "acceptable_variants": [],
+      "hint": "bring"
+    },
+    "mask_15": {
+      "target": "will learn",
+      "acceptable_variants": [],
+      "hint": "learn"
+    },
+    "mask_16": {
+      "target": "is going to pack",
+      "acceptable_variants": [],
+      "hint": "pack"
+    },
+    "mask_17": {
+      "target": "are doing",
+      "acceptable_variants": [],
+      "hint": "do"
+    },
+    "mask_18": {
+      "target": "are having",
+      "acceptable_variants": [],
+      "hint": "have"
+    },
+    "mask_19": {
+      "target": "will have visited",
+      "acceptable_variants": [],
+      "hint": "visit"
+    },
+    "mask_20": {
+      "target": "will have taken",
+      "acceptable_variants": [],
+      "hint": "take"
+    }
+  }
+}

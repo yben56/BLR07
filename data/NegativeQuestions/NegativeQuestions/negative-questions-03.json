@@ -3,6 +3,7 @@
   "difficulty": "advanced",
   "created_at": "2026-11-03T11:00:00+08:00",
   "story_title": "The Model Behind the Headline",
+  "extra_info": "",
   "task_instruction": "Rewrite each affirmative statement as a negative question.",
   "paragraphs": [
     "At 6:20 on Tuesday morning, the AI desk at the Meridian Ledger received a tip about a new language model from Meridian Labs. The tip claimed that the company had quietly begun an external evaluation weeks before its public announcement. {{red:Meridian Labs began externally testing the agent six weeks ago.}} {{mask_1}}? The first benchmark table seemed to support the claim. {{red:The agent scored above the benchmark's declared threshold.}} {{mask_2}}?",

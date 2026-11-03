@@ -3,6 +3,7 @@
   "difficulty": "beginner",
   "created_at": "2026-11-03T14:11:01.264+08:00",
   "story_title": "Travel Notes",
+  "extra_info": "",
   "paragraphs": [
     "During our trip across Europe, we visited a town {{mask_1}} was famous for its river walks. The guide asked {{mask_2}} the old bridge was built for, and we learned it was for carts and horses. A map {{mask_3}} we borrowed from the hotel showed the route to the mountain pass. I wondered {{mask_4}} the village had chosen blue and white as its colors. The café {{mask_5}} we stopped at was near a hill {{mask_6}} looked over the valley.",
     "The driver told us about a road {{mask_7}} many people use in summer, and he asked {{mask_8}} the weather would be warm enough for cycling. We met a woman {{mask_9}} could speak three languages and explain {{mask_10}} the local trains stop so early. At the end of the day, we found a place {{mask_11}} the sunset was brightest, and everyone asked {{mask_12}} the path to that point was easy to follow."

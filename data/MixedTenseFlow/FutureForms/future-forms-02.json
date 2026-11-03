@@ -1,0 +1,116 @@
+{
+  "topic": "Future Forms",
+  "difficulty": "intermediate",
+  "created_at": "2026-11-03T18:46:00+08:00",
+  "story_title": "The Tariff Briefing",
+  "extra_info": "",
+  "paragraphs": [
+    "A small economics team at a fictional news desk is preparing a briefing about tariff proposals discussed by Donald Trump. The editor has scheduled a planning meeting for 9:00 tomorrow, so the team {{mask_1}} then. Maya has already decided to compare the possible effects on imported goods; she {{mask_2}} a chart tonight. The team thinks readers {{mask_3}} clear explanations rather than predictions presented as facts.",
+    "The newsroom calendar says the briefing {{mask_4}} on Friday morning. Maya has arranged an interview with a shop owner for 10:30, so she {{mask_5}} her then. Her colleague {{mask_6}} the economic data while the interview is taking place. The editor believes the discussion {{mask_7}} questions about prices and supply chains.",
+    "A reporter asks whether the team can include a simple example. “I {{mask_8}} one now,” Maya says, offering to write it. She has noticed that some readers find the numbers confusing, so she {{mask_9}} a short glossary after lunch. The data specialist has a call booked for 2:00; he {{mask_10}} with an economist then.",
+    "The team has decided to avoid guessing what any government will do next. They {{mask_11}} only confirmed details in the first section. At 3:00, the editor {{mask_12}} a review meeting, according to the shared calendar. By then, Maya {{mask_13}} the chart and the reporter {{mask_14}} notes from the interview.",
+    "The editor says, “The printer is out of paper, so I {{mask_15}} more from the supply room.” Maya has already planned to proofread the draft at home; she {{mask_16}} it after dinner. The newsroom's schedule says the final briefing {{mask_17}} online at 8:00 tomorrow morning. At that time, the team {{mask_18}} reader questions in the comments. Maya expects the explainer {{mask_19}} useful to people following the debate, and she is sure the team {{mask_20}} the article if new verified information becomes available."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "is meeting",
+      "acceptable_variants": [],
+      "hint": "meet"
+    },
+    "mask_2": {
+      "target": "is going to create",
+      "acceptable_variants": [],
+      "hint": "create"
+    },
+    "mask_3": {
+      "target": "will want",
+      "acceptable_variants": [],
+      "hint": "want"
+    },
+    "mask_4": {
+      "target": "starts",
+      "acceptable_variants": [],
+      "hint": "start"
+    },
+    "mask_5": {
+      "target": "is interviewing",
+      "acceptable_variants": [],
+      "hint": "interview"
+    },
+    "mask_6": {
+      "target": "will check",
+      "acceptable_variants": [],
+      "hint": "check"
+    },
+    "mask_7": {
+      "target": "will raise",
+      "acceptable_variants": [],
+      "hint": "raise"
+    },
+    "mask_8": {
+      "target": "will write",
+      "acceptable_variants": [],
+      "hint": "write"
+    },
+    "mask_9": {
+      "target": "is going to add",
+      "acceptable_variants": [],
+      "hint": "add"
+    },
+    "mask_10": {
+      "target": "is talking",
+      "acceptable_variants": [],
+      "hint": "talk"
+    },
+    "mask_11": {
+      "target": "will include",
+      "acceptable_variants": [],
+      "hint": "include"
+    },
+    "mask_12": {
+      "target": "holds",
+      "acceptable_variants": [],
+      "hint": "hold"
+    },
+    "mask_13": {
+      "target": "will have finished",
+      "acceptable_variants": [],
+      "hint": "finish"
+    },
+    "mask_14": {
+      "target": "will have collected",
+      "acceptable_variants": [],
+      "hint": "collect"
+    },
+    "mask_15": {
+      "target": "will get",
+      "acceptable_variants": [],
+      "hint": "get"
+    },
+    "mask_16": {
+      "target": "is going to proofread",
+      "acceptable_variants": [],
+      "hint": "proofread"
+    },
+    "mask_17": {
+      "target": "goes",
+      "acceptable_variants": [],
+      "hint": "go"
+    },
+    "mask_18": {
+      "target": "will be answering",
+      "acceptable_variants": [],
+      "hint": "answer"
+    },
+    "mask_19": {
+      "target": "will be",
+      "acceptable_variants": [],
+      "hint": "be"
+    },
+    "mask_20": {
+      "target": "will update",
+      "acceptable_variants": [],
+      "hint": "update"
+    }
+  }
+}

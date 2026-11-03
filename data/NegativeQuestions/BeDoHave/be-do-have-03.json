@@ -1,0 +1,119 @@
+{
+  "topic": "Be / Do / Have",
+  "difficulty": "advanced",
+  "created_at": "2026-11-03T19:07:00+08:00",
+  "story_title": "The Studio Recital",
+  "extra_info": "",
+  "task_instruction": "Rewrite each affirmative statement as a negative question.",
+  "paragraphs": [
+    "Maya arrived early for her piano lesson at the community music studio. {{red:The studio is quiet before the afternoon classes.}} {{mask_1}}? She can hear a piano in the next room. {{red:Her teacher has a copy of the recital program.}} {{mask_2}}? The teacher shows it to Maya.",
+    "Maya opens her music folder. {{red:She has brought the sheet music.}} {{mask_3}}? She checks each page before the lesson begins. {{red:The first piece is difficult.}} {{mask_4}}? Maya has practiced it slowly all week. {{red:She does the scales before every lesson.}} {{mask_5}}? Her teacher asks her to warm up.",
+    "At the piano, {{red:Maya is sitting with a straight back.}} {{mask_6}}? Her teacher adjusts the bench slightly. {{red:The teacher has explained the new fingering.}} {{mask_7}}? Maya tries the passage again. {{red:She remembers the hand position.}} {{mask_8}}? She watches the teacher's demonstration carefully.",
+    "Maya begins the piece. {{red:She is keeping a steady tempo.}} {{mask_9}}? Her teacher listens from the other side of the room. {{red:The teacher is watching her hands.}} {{mask_10}}? After the first section, the teacher gives her a small suggestion. {{red:Maya does follow the beat.}} {{mask_11}}? She starts again and counts softly.",
+    "During a short break, they review the recital plan. {{red:Maya has chosen a piece for the recital.}} {{mask_12}}? She points to the title in her folder. {{red:The teacher has heard Maya play it before.}} {{mask_13}}? Maya says she performed it at home for her family. {{red:The family is coming to the recital.}} {{mask_14}}? Her father has already saved the date.",
+    "The lesson is nearly over. {{red:Maya has finished the practice exercise.}} {{mask_15}}? Her teacher writes a few notes in the lesson book. {{red:Maya does understand the final instruction.}} {{mask_16}}? She asks one more question about the rhythm. {{red:The teacher is available next week.}} {{mask_17}}? They look at the studio calendar.",
+    "Before leaving, Maya packs her folder. {{red:She has put the recital program in her bag.}} {{mask_18}}? She checks the side pocket. {{red:Her music is safe inside the folder.}} {{mask_19}}? Maya closes it carefully. {{red:The lesson is over for today.}} {{mask_20}}? They say goodbye and agree to practice again next week."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "Isn't the studio quiet before the afternoon classes",
+      "acceptable_variants": ["Is the studio not quiet before the afternoon classes"],
+      "hint": "be"
+    },
+    "mask_2": {
+      "target": "Hasn't her teacher got a copy of the recital program",
+      "acceptable_variants": ["Has her teacher not got a copy of the recital program"],
+      "hint": "have"
+    },
+    "mask_3": {
+      "target": "Hasn't she brought the sheet music",
+      "acceptable_variants": ["Has she not brought the sheet music"],
+      "hint": "have"
+    },
+    "mask_4": {
+      "target": "Isn't the first piece difficult",
+      "acceptable_variants": ["Is the first piece not difficult"],
+      "hint": "be"
+    },
+    "mask_5": {
+      "target": "Doesn't she do the scales before every lesson",
+      "acceptable_variants": ["Does she not do the scales before every lesson"],
+      "hint": "do"
+    },
+    "mask_6": {
+      "target": "Isn't Maya sitting with a straight back",
+      "acceptable_variants": ["Is Maya not sitting with a straight back"],
+      "hint": "be"
+    },
+    "mask_7": {
+      "target": "Hasn't the teacher explained the new fingering",
+      "acceptable_variants": ["Has the teacher not explained the new fingering"],
+      "hint": "have"
+    },
+    "mask_8": {
+      "target": "Doesn't she remember the hand position",
+      "acceptable_variants": ["Does she not remember the hand position"],
+      "hint": "do"
+    },
+    "mask_9": {
+      "target": "Isn't she keeping a steady tempo",
+      "acceptable_variants": ["Is she not keeping a steady tempo"],
+      "hint": "be"
+    },
+    "mask_10": {
+      "target": "Isn't the teacher watching her hands",
+      "acceptable_variants": ["Is the teacher not watching her hands"],
+      "hint": "be"
+    },
+    "mask_11": {
+      "target": "Doesn't Maya follow the beat",
+      "acceptable_variants": ["Does Maya not follow the beat"],
+      "hint": "do"
+    },
+    "mask_12": {
+      "target": "Hasn't Maya chosen a piece for the recital",
+      "acceptable_variants": ["Has Maya not chosen a piece for the recital"],
+      "hint": "have"
+    },
+    "mask_13": {
+      "target": "Hasn't the teacher heard Maya play it before",
+      "acceptable_variants": ["Has the teacher not heard Maya play it before"],
+      "hint": "have"
+    },
+    "mask_14": {
+      "target": "Isn't the family coming to the recital",
+      "acceptable_variants": ["Is the family not coming to the recital"],
+      "hint": "be"
+    },
+    "mask_15": {
+      "target": "Hasn't Maya finished the practice exercise",
+      "acceptable_variants": ["Has Maya not finished the practice exercise"],
+      "hint": "have"
+    },
+    "mask_16": {
+      "target": "Doesn't Maya understand the final instruction",
+      "acceptable_variants": ["Does Maya not understand the final instruction"],
+      "hint": "do"
+    },
+    "mask_17": {
+      "target": "Isn't the teacher available next week",
+      "acceptable_variants": ["Is the teacher not available next week"],
+      "hint": "be"
+    },
+    "mask_18": {
+      "target": "Hasn't she put the recital program in her bag",
+      "acceptable_variants": ["Has she not put the recital program in her bag"],
+      "hint": "have"
+    },
+    "mask_19": {
+      "target": "Isn't her music safe inside the folder",
+      "acceptable_variants": ["Is her music not safe inside the folder"],
+      "hint": "be"
+    },
+    "mask_20": {
+      "target": "Isn't the lesson over for today",
+      "acceptable_variants": ["Is the lesson not over for today"],
+      "hint": "be"
+    }
+  }
+}

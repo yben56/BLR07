@@ -3,6 +3,7 @@
   "difficulty": "intermediate",
   "created_at": "2026-10-22T01:19:33.442+08:00",
   "story_title": "The Museum Interview",
+  "extra_info": "",
   "task_instruction": "Rewrite each direct statement as reported speech.",
   "paragraphs": [
     "Reporter Helen interviewed the team before the city museum opened its new gallery. Curator Nora began with a regular routine: {{red:“I work at the museum every weekend.”}} {{mask_1}} She described the current project: {{red:“We are preparing a new exhibit this month.”}} {{mask_2}} Then she shared some completed work: {{red:“I have finished the visitor guide.”}} {{mask_3}} Technician Leo explained what happened the previous day: {{red:“I saw the director yesterday.”}} {{mask_4}} The director described next week’s plan: {{red:“We will open the east gallery next Friday.”}} {{mask_5}} Nora also explained a current arrangement: {{red:“I am meeting the school group tomorrow.”}} {{mask_6}}",

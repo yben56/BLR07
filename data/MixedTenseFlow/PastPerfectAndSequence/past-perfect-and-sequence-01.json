@@ -1,0 +1,115 @@
+{
+  "topic": "Past Perfect and Sequence",
+  "difficulty": "beginner",
+  "created_at": "2026-11-03T18:16:00+08:00",
+  "story_title": "A Community Information Table",
+  "extra_info": "",
+  "paragraphs": [
+    "When the governor announced that a child in New York {{mask_1}} after contracting measles, fictional community librarian Elena Ortiz wanted to help neighbors find reliable information. Before she discussed the announcement with her manager, she {{mask_2}} it twice. She {{mask_3}} that it did not describe every detail of the family's experience. She {{mask_4}} to share only information from trusted public-health sources.",
+    "When Elena {{mask_5}} at the library, her manager {{mask_6}} a small information table near the entrance. The manager {{mask_7}} a short list of official resources earlier that morning. Elena {{mask_8}} the pages into clear folders and {{mask_9}} them beside a sign with the health department's contact information.",
+    "Before the doors opened, Elena {{mask_10}} every website link and {{mask_11}} short answers to common questions. At nine, the library doors {{mask_12}}. A visitor {{mask_13}} Elena where to find local health information. Elena {{mask_14}} the official list and {{mask_15}} that the visitor could also contact the local health department.",
+    "Later, a local reporter {{mask_16}} the library. Elena {{mask_17}} the manager's permission before she answered general questions. The manager {{mask_18}} the source list once more, and Elena {{mask_19}} that all the details were current. Before the table closed, several visitors {{mask_20}} information sheets to read at home."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "had died",
+      "acceptable_variants": [],
+      "hint": "die"
+    },
+    "mask_2": {
+      "target": "had read",
+      "acceptable_variants": [],
+      "hint": "read"
+    },
+    "mask_3": {
+      "target": "realized",
+      "acceptable_variants": ["realised"],
+      "hint": "realize"
+    },
+    "mask_4": {
+      "target": "decided",
+      "acceptable_variants": [],
+      "hint": "decide"
+    },
+    "mask_5": {
+      "target": "arrived",
+      "acceptable_variants": [],
+      "hint": "arrive"
+    },
+    "mask_6": {
+      "target": "had prepared",
+      "acceptable_variants": [],
+      "hint": "prepare"
+    },
+    "mask_7": {
+      "target": "had printed",
+      "acceptable_variants": [],
+      "hint": "print"
+    },
+    "mask_8": {
+      "target": "placed",
+      "acceptable_variants": [],
+      "hint": "place"
+    },
+    "mask_9": {
+      "target": "set",
+      "acceptable_variants": [],
+      "hint": "set"
+    },
+    "mask_10": {
+      "target": "had checked",
+      "acceptable_variants": [],
+      "hint": "check"
+    },
+    "mask_11": {
+      "target": "had written",
+      "acceptable_variants": [],
+      "hint": "write"
+    },
+    "mask_12": {
+      "target": "opened",
+      "acceptable_variants": [],
+      "hint": "open"
+    },
+    "mask_13": {
+      "target": "asked",
+      "acceptable_variants": [],
+      "hint": "ask"
+    },
+    "mask_14": {
+      "target": "showed",
+      "acceptable_variants": [],
+      "hint": "show"
+    },
+    "mask_15": {
+      "target": "explained",
+      "acceptable_variants": [],
+      "hint": "explain"
+    },
+    "mask_16": {
+      "target": "called",
+      "acceptable_variants": [],
+      "hint": "call"
+    },
+    "mask_17": {
+      "target": "had received",
+      "acceptable_variants": [],
+      "hint": "receive"
+    },
+    "mask_18": {
+      "target": "reviewed",
+      "acceptable_variants": [],
+      "hint": "review"
+    },
+    "mask_19": {
+      "target": "confirmed",
+      "acceptable_variants": [],
+      "hint": "confirm"
+    },
+    "mask_20": {
+      "target": "took",
+      "acceptable_variants": [],
+      "hint": "take"
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "topic": "Future Forms",
+  "difficulty": "beginner",
+  "created_at": "2026-11-03T18:18:00+08:00",
+  "story_title": "A Safer Route Home",
+  "extra_info": "",
+  "paragraphs": [
+    "At 8:00 on Friday morning, two cars had a minor collision on the Westbridge Freeway. Everyone was safe, but the road team closed one lane. The highway authority's published timetable says the north lane {{mask_1}} at 9:00. The tow truck's schedule says it {{mask_2}} at the north entrance at 8:30.",
+    "Dispatcher Lena has a confirmed plan with Officer Sam: she {{mask_3}} him at the control point at 8:25. Yesterday, Lena made another plan. She {{mask_4}} drivers toward the signed side road. She checks the live map. A long line of cars is already forming, so traffic {{mask_5}} longer if the lane stays closed. Lena thinks the delay {{mask_6}} for about twenty minutes.",
+    "The tow-truck driver calls and makes a promise: “I {{mask_7}} at 8:30.” A reporter asks who can send the public update. Lena answers, “I {{mask_8}} it to you now.” The bus timetable says the next bus {{mask_9}} from the nearby stop at 8:40.",
+    "Sam's appointment with the road crew is confirmed for 8:45, so he {{mask_10}} them then. Lena has planned to work outside with the team this morning; she {{mask_11}} with them after the meeting. Dark clouds are moving over the freeway, so it {{mask_12}} soon. The weather service's schedule says its next local forecast {{mask_13}} at 9:00.",
+    "At 8:50, an officer confirms that the side road is clear. Lena says, “I {{mask_14}} to the drivers about the safer route.” The traffic bulletin says the highway website {{mask_15}} another update at 9:15. Sam has a radio interview arranged for 9:20, so he {{mask_16}} with the local station then. Lena thinks traffic {{mask_17}} slowly once the lane reopens.",
+    "Lena decided yesterday to send a final message to the neighborhood group; she {{mask_18}} it after the road team checks the area. The printer has run out of paper. “I {{mask_19}} some from the office,” Sam says, making a quick offer. The official timetable says the road inspection {{mask_20}} at 10:00, and the authority will share another update after it is complete."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "reopens",
+      "acceptable_variants": [],
+      "hint": "reopen"
+    },
+    "mask_2": {
+      "target": "arrives",
+      "acceptable_variants": [],
+      "hint": "arrive"
+    },
+    "mask_3": {
+      "target": "is meeting",
+      "acceptable_variants": [],
+      "hint": "meet"
+    },
+    "mask_4": {
+      "target": "is going to direct",
+      "acceptable_variants": [],
+      "hint": "direct"
+    },
+    "mask_5": {
+      "target": "is going to get",
+      "acceptable_variants": [],
+      "hint": "get"
+    },
+    "mask_6": {
+      "target": "will last",
+      "acceptable_variants": [],
+      "hint": "last"
+    },
+    "mask_7": {
+      "target": "will arrive",
+      "acceptable_variants": [],
+      "hint": "arrive"
+    },
+    "mask_8": {
+      "target": "will send",
+      "acceptable_variants": [],
+      "hint": "send"
+    },
+    "mask_9": {
+      "target": "leaves",
+      "acceptable_variants": [],
+      "hint": "leave"
+    },
+    "mask_10": {
+      "target": "is meeting",
+      "acceptable_variants": [],
+      "hint": "meet"
+    },
+    "mask_11": {
+      "target": "is going to work",
+      "acceptable_variants": [],
+      "hint": "work"
+    },
+    "mask_12": {
+      "target": "is going to rain",
+      "acceptable_variants": [],
+      "hint": "rain"
+    },
+    "mask_13": {
+      "target": "starts",
+      "acceptable_variants": [],
+      "hint": "start"
+    },
+    "mask_14": {
+      "target": "will speak",
+      "acceptable_variants": [],
+      "hint": "speak"
+    },
+    "mask_15": {
+      "target": "posts",
+      "acceptable_variants": [],
+      "hint": "post"
+    },
+    "mask_16": {
+      "target": "is speaking",
+      "acceptable_variants": [],
+      "hint": "speak"
+    },
+    "mask_17": {
+      "target": "will move",
+      "acceptable_variants": [],
+      "hint": "move"
+    },
+    "mask_18": {
+      "target": "is going to send",
+      "acceptable_variants": [],
+      "hint": "send"
+    },
+    "mask_19": {
+      "target": "will get",
+      "acceptable_variants": [],
+      "hint": "get"
+    },
+    "mask_20": {
+      "target": "finishes",
+      "acceptable_variants": [],
+      "hint": "finish"
+    }
+  }
+}

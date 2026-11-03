@@ -79,6 +79,8 @@ If `Category` or `Exercise` is missing or unclear, ask one concise clarification
 
 Each exercise JSON must include a `created_at` field in ISO 8601 format with a timezone offset, recording when that exercise is created. The catalog uses the earliest exercise timestamp among all exercises in each main category as its creation time. The home page defaults to this stable main-category order: Mixed Tenses Flow, Negative Questions, Conditionals, Reported Speech, Mixed Tense Passive, Relative Clauses, and Relative Pronouns; other categories follow in creation-time order. Learners can switch to creation-time or name sorting.
 
+Use the required `extra_info` string for a short supplementary explanation that helps learners understand a concept or context before starting the passage. The app displays non-empty `extra_info` in its own green callout above the exercise passage. Keep it separate from `paragraphs` and do not put blanks, prompts, or story sentences in it. Set it to `""` when no supplementary explanation is needed.
+
 ## Generation Rules
 
 ### 1. Coherent Context
@@ -202,12 +204,13 @@ Use the exact blank count for the requested length. Keep the story natural and d
 
 ## Required JSON Schema
 
-Include the required top-level fields `topic`, `difficulty`, `created_at`, `story_title`, `paragraphs`, and `masks`. `task_instruction` is optional and should be included when learners need an explicit instruction to transform or otherwise modify the source sentences.
+Include the required top-level fields `topic`, `difficulty`, `created_at`, `story_title`, `extra_info`, `paragraphs`, and `masks`. Set `extra_info` to a concise supplementary explanation or to an empty string when none is needed. `task_instruction` is optional and should be included when learners need an explicit instruction to transform or otherwise modify the source sentences.
 
 - `topic`: the child page name.
 - `difficulty`: the requested `Level`, using `beginner`, `intermediate`, or `advanced`; default to `intermediate`.
 - `created_at`: the exercise creation time as an ISO 8601 timestamp with a timezone offset, for example `2026-10-22T01:35:00+08:00`.
 - `story_title`: a concise English title that fits the story.
+- `extra_info`: a concise English explanation shown in a separate green callout above the passage; use `""` if there is no extra information.
 - `task_instruction` (optional): a concise English instruction shown in parentheses above the passage, e.g. `Rewrite each affirmative statement as a negative question.` Store only the instruction text, without parentheses. For exercises that transform sentences, each red source sentence is also displayed in parentheses; store only the source text inside the `red` marker, without literal parentheses. Do not place a colon immediately before the source sentence. Use this for any exercise type that asks learners to rewrite or transform a sentence.
 - `paragraphs`: a non-empty array of strings containing the complete passage/dialogue and mask placeholders.
 - `masks`: an object keyed by every placeholder. Each value has exactly `target`, `acceptable_variants`, and `hint`.
@@ -223,6 +226,7 @@ Example shape:
   "difficulty": "intermediate",
   "created_at": "2026-10-22T01:35:00+08:00",
   "story_title": "A Busy Morning Routine",
+  "extra_info": "",
   "paragraphs": [
     "A connected sentence with {{mask_1}} in context.",
     "The next sentence continues the same story and uses {{mask_2}}."
@@ -249,7 +253,8 @@ This is a schema example only. Generate content for the user's requested exercis
 Before considering a file complete, verify:
 
 - It parses as strict JSON; no comments, trailing commas, Markdown fences, or extra prose.
-- Required top-level fields are present; use only the optional `task_instruction` field in addition to them when an explicit transformation instruction is needed.
+- Required top-level fields, including `extra_info`, are present; `extra_info` is either a concise supplementary explanation or an empty string.
+- Include only the optional `task_instruction` field in addition to the required fields when an explicit transformation instruction is needed.
 - `difficulty` is `beginner`, `intermediate`, or `advanced` and matches the requested `Level` (default `intermediate`).
 - `created_at` is a valid ISO 8601 timestamp with an explicit timezone offset.
 - `topic` matches the child page name; the filename prefix is derived from that child page folder.

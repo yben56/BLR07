@@ -1,0 +1,115 @@
+{
+  "topic": "Past Perfect and Sequence",
+  "difficulty": "intermediate",
+  "created_at": "2026-11-03T18:37:00+08:00",
+  "story_title": "A Night at the Ballpark",
+  "extra_info": "",
+  "paragraphs": [
+    "The Harbor City Hawks, a fictional MLB team, {{mask_1}} a close game on Saturday night. Before fans arrived, the grounds crew {{mask_2}} the infield and {{mask_3}} the lines. The starting pitcher {{mask_4}} his warm-up when a light rain {{mask_5}}. By the time the teams returned to the field, the rain {{mask_6}}.",
+    "In the third inning, the Hawks' leadoff hitter {{mask_7}} a single. He {{mask_8}} second base before the next batter {{mask_9}} a ground ball. The shortstop {{mask_10}} it, but the runner {{mask_11}} at second. The crowd cheered because the team {{mask_12}} a scoring chance.",
+    "Before the fifth inning began, the opposing manager {{mask_13}} a pitching change. His new pitcher {{mask_14}} several warm-up pitches before the umpire {{mask_15}} play. The Hawks' catcher {{mask_16}} the signs carefully because he {{mask_17}} the pitcher's style during their earlier series.",
+    "In the final inning, the Hawks {{mask_18}} behind by one run. Their last batter {{mask_19}} a double, and the runner from second {{mask_20}} home before the outfielder returned the ball. The game went into extra innings, and both teams kept playing until the Hawks won."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "played",
+      "acceptable_variants": [],
+      "hint": "play"
+    },
+    "mask_2": {
+      "target": "had watered",
+      "acceptable_variants": [],
+      "hint": "water"
+    },
+    "mask_3": {
+      "target": "had checked",
+      "acceptable_variants": [],
+      "hint": "check"
+    },
+    "mask_4": {
+      "target": "was warming up",
+      "acceptable_variants": [],
+      "hint": "warm"
+    },
+    "mask_5": {
+      "target": "started",
+      "acceptable_variants": [],
+      "hint": "start"
+    },
+    "mask_6": {
+      "target": "had stopped",
+      "acceptable_variants": [],
+      "hint": "stop"
+    },
+    "mask_7": {
+      "target": "hit",
+      "acceptable_variants": [],
+      "hint": "hit"
+    },
+    "mask_8": {
+      "target": "reached",
+      "acceptable_variants": [],
+      "hint": "reach"
+    },
+    "mask_9": {
+      "target": "hit",
+      "acceptable_variants": [],
+      "hint": "hit"
+    },
+    "mask_10": {
+      "target": "fielded",
+      "acceptable_variants": [],
+      "hint": "field"
+    },
+    "mask_11": {
+      "target": "was safe",
+      "acceptable_variants": [],
+      "hint": "be"
+    },
+    "mask_12": {
+      "target": "created",
+      "acceptable_variants": [],
+      "hint": "create"
+    },
+    "mask_13": {
+      "target": "called",
+      "acceptable_variants": [],
+      "hint": "call"
+    },
+    "mask_14": {
+      "target": "had thrown",
+      "acceptable_variants": [],
+      "hint": "throw"
+    },
+    "mask_15": {
+      "target": "resumed",
+      "acceptable_variants": [],
+      "hint": "resume"
+    },
+    "mask_16": {
+      "target": "studied",
+      "acceptable_variants": [],
+      "hint": "study"
+    },
+    "mask_17": {
+      "target": "had studied",
+      "acceptable_variants": [],
+      "hint": "observe"
+    },
+    "mask_18": {
+      "target": "were",
+      "acceptable_variants": [],
+      "hint": "be"
+    },
+    "mask_19": {
+      "target": "hit",
+      "acceptable_variants": [],
+      "hint": "hit"
+    },
+    "mask_20": {
+      "target": "reached",
+      "acceptable_variants": [],
+      "hint": "reach"
+    }
+  }
+}

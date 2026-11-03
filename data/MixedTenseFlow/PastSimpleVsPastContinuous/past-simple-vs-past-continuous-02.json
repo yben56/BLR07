@@ -1,0 +1,114 @@
+{
+  "topic": "Past Simple vs Past Continuous",
+  "difficulty": "advanced",
+  "created_at": "2026-11-03T18:28:00+08:00",
+  "story_title": "The Unexpected Signal",
+  "extra_info": "",
+  "paragraphs": [
+    "At 8:00 on Tuesday evening, a physics team {{mask_1}} a pendulum experiment in the university laboratory. Dr. Vale {{mask_2}} the sensor settings while two graduate students {{mask_3}} the apparatus. Outside, rain {{mask_4}} against the tall windows. The team {{mask_5}} how a small change in the pendulum's length affected its period.",
+    "While one student {{mask_6}} the timer, the other {{mask_7}} each swing in a notebook. The pendulum {{mask_8}} steadily when a warning light {{mask_9}} on the control panel. Dr. Vale {{mask_10}} the experiment, and the students {{mask_11}} the equipment. They {{mask_12}} for a loose cable when a monitor {{mask_13}} an unexpected signal.",
+    "The team {{mask_14}} the recording when the signal {{mask_15}} again. One student {{mask_16}} the readings on the main screen while Dr. Vale {{mask_17}} the sensor log. They discovered that a nearby ventilation fan {{mask_18}} whenever the laboratory door moved. An assistant {{mask_19}} the door as the fan {{mask_20}}."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "was preparing",
+      "acceptable_variants": [],
+      "hint": "prepare"
+    },
+    "mask_2": {
+      "target": "was checking",
+      "acceptable_variants": [],
+      "hint": "check"
+    },
+    "mask_3": {
+      "target": "were assembling",
+      "acceptable_variants": [],
+      "hint": "assemble"
+    },
+    "mask_4": {
+      "target": "was striking",
+      "acceptable_variants": [],
+      "hint": "strike"
+    },
+    "mask_5": {
+      "target": "was investigating",
+      "acceptable_variants": [],
+      "hint": "investigate"
+    },
+    "mask_6": {
+      "target": "was operating",
+      "acceptable_variants": [],
+      "hint": "operate"
+    },
+    "mask_7": {
+      "target": "was recording",
+      "acceptable_variants": [],
+      "hint": "record"
+    },
+    "mask_8": {
+      "target": "was swinging",
+      "acceptable_variants": [],
+      "hint": "swing"
+    },
+    "mask_9": {
+      "target": "came",
+      "acceptable_variants": [],
+      "hint": "come"
+    },
+    "mask_10": {
+      "target": "stopped",
+      "acceptable_variants": [],
+      "hint": "stop"
+    },
+    "mask_11": {
+      "target": "secured",
+      "acceptable_variants": [],
+      "hint": "secure"
+    },
+    "mask_12": {
+      "target": "were searching",
+      "acceptable_variants": [],
+      "hint": "search"
+    },
+    "mask_13": {
+      "target": "displayed",
+      "acceptable_variants": [],
+      "hint": "display"
+    },
+    "mask_14": {
+      "target": "was reviewing",
+      "acceptable_variants": [],
+      "hint": "review"
+    },
+    "mask_15": {
+      "target": "appeared",
+      "acceptable_variants": [],
+      "hint": "appear"
+    },
+    "mask_16": {
+      "target": "was comparing",
+      "acceptable_variants": [],
+      "hint": "compare"
+    },
+    "mask_17": {
+      "target": "was examining",
+      "acceptable_variants": [],
+      "hint": "examine"
+    },
+    "mask_18": {
+      "target": "turned on",
+      "acceptable_variants": [],
+      "hint": "turn"
+    },
+    "mask_19": {
+      "target": "opened",
+      "acceptable_variants": [],
+      "hint": "open"
+    },
+    "mask_20": {
+      "target": "was running",
+      "acceptable_variants": [],
+      "hint": "run"
+    }
+  }
+}

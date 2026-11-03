@@ -1,0 +1,115 @@
+{
+  "topic": "Past Simple vs Past Continuous",
+  "difficulty": "intermediate",
+  "created_at": "2026-11-03T18:32:00+08:00",
+  "story_title": "The Runway Rehearsal",
+  "extra_info": "",
+  "paragraphs": [
+    "At six o'clock, the crew {{mask_1}} the final rehearsal for a fashion show in an old theater. Models {{mask_2}} backstage while the stage manager {{mask_3}} the running order. A designer {{mask_4}} the last jacket when the lights {{mask_5}} without warning.",
+    "The models {{mask_6}} near the entrance, and the musicians {{mask_7}} their instruments in the dark. One technician {{mask_8}} toward the control booth while another {{mask_9}} the backup lights. The stage manager {{mask_10}} everyone to stay where they were. A few seconds later, the emergency lights {{mask_11}} on.",
+    "While the technicians {{mask_12}} the main system, the designer {{mask_13}} the jacket to a model. She {{mask_14}} across the stage slowly so the team could check its length. The musicians {{mask_15}} softly when the sound engineer {{mask_16}} a loud crackle from one speaker and quickly {{mask_17}} the volume down.",
+    "The main lights {{mask_18}} again just before the show began. The audience {{mask_19}} their seats as the host {{mask_20}} the designers. The rehearsal ran late, but the team completed every scene before the doors opened."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "was preparing",
+      "acceptable_variants": [],
+      "hint": "prepare"
+    },
+    "mask_2": {
+      "target": "were waiting",
+      "acceptable_variants": [],
+      "hint": "wait"
+    },
+    "mask_3": {
+      "target": "was checking",
+      "acceptable_variants": [],
+      "hint": "check"
+    },
+    "mask_4": {
+      "target": "was adjusting",
+      "acceptable_variants": [],
+      "hint": "adjust"
+    },
+    "mask_5": {
+      "target": "went out",
+      "acceptable_variants": [],
+      "hint": "go"
+    },
+    "mask_6": {
+      "target": "were standing",
+      "acceptable_variants": [],
+      "hint": "stand"
+    },
+    "mask_7": {
+      "target": "were tuning",
+      "acceptable_variants": [],
+      "hint": "tune"
+    },
+    "mask_8": {
+      "target": "ran",
+      "acceptable_variants": [],
+      "hint": "run"
+    },
+    "mask_9": {
+      "target": "turned on",
+      "acceptable_variants": [],
+      "hint": "turn"
+    },
+    "mask_10": {
+      "target": "asked",
+      "acceptable_variants": [],
+      "hint": "ask"
+    },
+    "mask_11": {
+      "target": "came",
+      "acceptable_variants": [],
+      "hint": "come"
+    },
+    "mask_12": {
+      "target": "were testing",
+      "acceptable_variants": [],
+      "hint": "test"
+    },
+    "mask_13": {
+      "target": "gave",
+      "acceptable_variants": [],
+      "hint": "give"
+    },
+    "mask_14": {
+      "target": "walked",
+      "acceptable_variants": [],
+      "hint": "walk"
+    },
+    "mask_15": {
+      "target": "were playing",
+      "acceptable_variants": [],
+      "hint": "play"
+    },
+    "mask_16": {
+      "target": "heard",
+      "acceptable_variants": [],
+      "hint": "hear"
+    },
+    "mask_17": {
+      "target": "turned",
+      "acceptable_variants": [],
+      "hint": "turn"
+    },
+    "mask_18": {
+      "target": "came on",
+      "acceptable_variants": [],
+      "hint": "come"
+    },
+    "mask_19": {
+      "target": "were taking",
+      "acceptable_variants": [],
+      "hint": "take"
+    },
+    "mask_20": {
+      "target": "introduced",
+      "acceptable_variants": [],
+      "hint": "introduce"
+    }
+  }
+}

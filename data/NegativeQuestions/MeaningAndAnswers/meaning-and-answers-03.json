@@ -1,0 +1,117 @@
+{
+  "topic": "Meaning and Answers",
+  "difficulty": "advanced",
+  "created_at": "2026-11-03T19:16:00+08:00",
+  "story_title": "The Climate Data Briefing",
+  "extra_info": "ENSO stands for El Niño–Southern Oscillation, a natural climate pattern involving changes in tropical Pacific Ocean temperatures and the atmosphere. El Niño is the pattern's warm phase and can influence weather in many parts of the world.",
+  "task_instruction": "Answer each negative question with a short answer that matches the facts.",
+  "paragraphs": [
+    "A fictional climate research team is preparing a public briefing about El Niño and long-term global warming. Researcher Nia reviews a graph and asks, {{red:Isn't El Niño a natural climate pattern?}} The team's reference guide describes it as a naturally occurring pattern, so colleague Omar answers, {{mask_1}}. Nia points to a separate line on the graph and asks, {{red:Doesn't the graph show a long-term rise in global average temperature?}} The line rises across several decades, so Omar replies, {{mask_2}}. Nia checks the meeting notes and asks, {{red:Haven't the researchers separated short-term variation from the long-term trend?}} The team has made two separate sections in the briefing, so Omar says, {{mask_3}}. A draft caption is still missing. Nia asks, {{red:Hasn't someone written a caption for this chart?}} The caption field is blank, so Omar answers, {{mask_4}}.",
+    "The team reviews a map of ocean temperatures. Nia asks, {{red:Isn't the warm-water area shown in the central and eastern tropical Pacific?}} The map labels that region, so Omar replies, {{mask_5}}. Another map shows rainfall patterns. Nia asks, {{red:Doesn't the map show rainfall changing in every region in the same way?}} The colors differ by region, so Omar answers, {{mask_6}}. Omar opens the data notes and asks, {{red:Haven't the notes listed the source of each dataset?}} Every dataset has a source citation, so Nia says, {{mask_7}}. A student asks about a forecast. Nia replies with a question, {{red:Can one seasonal forecast describe exactly what the weather will be every day?}} The team explains that it cannot, so Omar answers, {{mask_8}}.",
+    "During the briefing, Nia discusses the difference between climate and weather. She asks, {{red:Isn't weather the condition of the atmosphere over a short period?}} The team's glossary gives that definition, so Omar says, {{mask_9}}. Nia asks, {{red:Doesn't climate describe patterns over longer periods?}} The glossary says it does, so Omar replies, {{mask_10}}. A slide mentions greenhouse gases. Nia asks, {{red:Haven't human activities increased the amount of some greenhouse gases in the atmosphere?}} The cited report documents an increase, so Omar answers, {{mask_11}}. Then she points to a note about El Niño and asks, {{red:Isn't every El Niño event exactly the same?}} The research notes describe differences between events, so Omar says, {{mask_12}}.",
+    "Before the audience arrives, the team checks its slides. Nia asks, {{red:Hasn't the team checked the figures against the source tables?}} Two researchers have checked them, so Omar replies, {{mask_13}}. Nia looks at a chart title and asks, {{red:Isn't this chart showing a single year's data?}} It combines data from many years, so Omar answers, {{mask_14}}. Omar checks the printed handouts and asks, {{red:Have we included a note explaining the limits of the forecast?}} The note is on the final page, so Nia says, {{mask_15}}. The room is still empty. Nia asks, {{red:Aren't the audience members here yet?}} The doors have not opened, so Omar replies, {{mask_16}}.",
+    "The briefing begins, and the team presents its evidence carefully. After the talk, an audience member asks whether El Niño alone explains long-term warming. Nia responds, {{red:Doesn't the briefing say that one climate pattern alone explains the whole long-term warming trend?}} The briefing says it does not, so Omar answers, {{mask_17}}. Another person asks about local effects. Nia asks, {{red:Can the same local impact be assumed for every El Niño event?}} The team has explained that effects vary, so Omar replies, {{mask_18}}. After the questions, Nia reviews the feedback cards and asks, {{red:Haven't some audience members requested more information about the data?}} Several cards ask for the data sources, so Omar says, {{mask_19}}. The team plans to publish its references online. Nia asks, {{red:Shouldn't the references be available with the briefing?}} The editor has approved a page containing all the references, so Omar answers, {{mask_20}}."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "Yes, it is",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "Yes, it does",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "Yes, they have",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "No, they haven't",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "Yes, it is",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "No, it doesn't",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "Yes, they have",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "No, it can't",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "Yes, it is",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "Yes, it does",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "Yes, they have",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "No, it isn't",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "Yes, they have",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "No, it isn't",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "Yes, we have",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_16": {
+      "target": "No, they aren't",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_17": {
+      "target": "No, it doesn't",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_18": {
+      "target": "No, it can't",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_19": {
+      "target": "Yes, they have",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_20": {
+      "target": "Yes, they should",
+      "acceptable_variants": [],
+      "hint": ""
+    }
+  }
+}

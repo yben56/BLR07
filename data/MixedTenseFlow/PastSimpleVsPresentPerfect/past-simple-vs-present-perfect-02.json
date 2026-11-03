@@ -1,0 +1,116 @@
+{
+  "topic": "Past Simple vs Present Perfect",
+  "difficulty": "intermediate",
+  "created_at": "2026-11-03T18:21:00+08:00",
+  "story_title": "A New Use for Citrus Peels",
+  "extra_info": "",
+  "paragraphs": [
+    "A fictional science news site called Chemical News {{mask_1}} a story about a research team at North Coast University. The team {{mask_2}} its project in 2022, after a student {{mask_3}} that citrus peels were piling up outside a local juice shop. Since then, the researchers {{mask_4}} ways to turn the waste into useful materials, and they {{mask_5}} a simple biodegradable coating.",
+    "During an early lab session, the students {{mask_6}} peels from the shop, {{mask_7}} them, and {{mask_8}} them into small pieces. They {{mask_9}} the material with water and {{mask_10}} each sample on a scale. Before they left the lab that evening, they {{mask_11}} the results in a notebook.",
+    "Since that first trial, the team {{mask_12}} the experiment many times. Last month, the researchers {{mask_13}} several samples to a partner laboratory. The lab {{mask_14}} them on Tuesday and {{mask_15}} how quickly each one broke down. On Friday, the partner lab {{mask_16}} its report to the university.",
+    "Since the report appeared, readers {{mask_17}} the team questions about the coating. A science editor {{mask_18}} the project leader yesterday. She {{mask_19}} that the team still needs to test the material in different conditions before drawing conclusions.",
+    "The researchers {{mask_20}} that the coating is ready for sale. They say the early results are interesting, but more tests are needed. The team plans to share its next findings after the next round of laboratory work."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "has featured",
+      "acceptable_variants": ["'s featured"],
+      "hint": "feature"
+    },
+    "mask_2": {
+      "target": "started",
+      "acceptable_variants": [],
+      "hint": "start"
+    },
+    "mask_3": {
+      "target": "noticed",
+      "acceptable_variants": [],
+      "hint": "notice"
+    },
+    "mask_4": {
+      "target": "have explored",
+      "acceptable_variants": ["'ve explored"],
+      "hint": "explore"
+    },
+    "mask_5": {
+      "target": "have developed",
+      "acceptable_variants": ["'ve developed"],
+      "hint": "develop"
+    },
+    "mask_6": {
+      "target": "collected",
+      "acceptable_variants": [],
+      "hint": "collect"
+    },
+    "mask_7": {
+      "target": "dried",
+      "acceptable_variants": [],
+      "hint": "dry"
+    },
+    "mask_8": {
+      "target": "cut",
+      "acceptable_variants": [],
+      "hint": "cut"
+    },
+    "mask_9": {
+      "target": "mixed",
+      "acceptable_variants": [],
+      "hint": "mix"
+    },
+    "mask_10": {
+      "target": "weighed",
+      "acceptable_variants": [],
+      "hint": "weigh"
+    },
+    "mask_11": {
+      "target": "recorded",
+      "acceptable_variants": [],
+      "hint": "record"
+    },
+    "mask_12": {
+      "target": "has repeated",
+      "acceptable_variants": ["'s repeated"],
+      "hint": "repeat"
+    },
+    "mask_13": {
+      "target": "sent",
+      "acceptable_variants": [],
+      "hint": "send"
+    },
+    "mask_14": {
+      "target": "received",
+      "acceptable_variants": [],
+      "hint": "receive"
+    },
+    "mask_15": {
+      "target": "measured",
+      "acceptable_variants": [],
+      "hint": "measure"
+    },
+    "mask_16": {
+      "target": "sent",
+      "acceptable_variants": [],
+      "hint": "send"
+    },
+    "mask_17": {
+      "target": "have asked",
+      "acceptable_variants": ["'ve asked"],
+      "hint": "ask"
+    },
+    "mask_18": {
+      "target": "called",
+      "acceptable_variants": [],
+      "hint": "call"
+    },
+    "mask_19": {
+      "target": "explained",
+      "acceptable_variants": [],
+      "hint": "explain"
+    },
+    "mask_20": {
+      "target": "have not claimed",
+      "acceptable_variants": ["haven't claimed"],
+      "hint": "claim"
+    }
+  }
+}
