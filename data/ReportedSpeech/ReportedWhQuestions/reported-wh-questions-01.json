@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T21:46:00+08:00",
   "story_title": "A Visit to the City Art Gallery",
   "extra_info": "",
+  "tags": [
+    "#art",
+    "#museum",
+    "#education"
+  ],
   "task_instruction": "Rewrite each direct wh-question as a reported question.",
   "paragraphs": [
     "Mia visits the City Art Gallery with her class. At the entrance, their guide, Alex, welcomes them. Alex asked Mia, {{red:Where do you usually see art?}} {{mask_1}} Mia said she sometimes saw art at school. Alex asked, {{red:What kind of paintings do you like?}} {{mask_2}} Mia said she liked paintings of places. Alex asked, {{red:Who is your favorite artist?}} {{mask_3}} Mia named an artist she had studied in class. Alex asked, {{red:When did you last visit an art gallery?}} {{mask_4}} Mia said she had visited one with her family the year before.",

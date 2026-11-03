@@ -226,13 +226,12 @@
                 </svg>
               </button>
             </p>
+            <div v-show="extraInfoExpanded" id="practice-extra-info" class="mt-1.5 flex flex-wrap gap-x-2 gap-y-1 text-xs text-white" aria-label="補充資訊">
+              <a v-for="tag in exercise.tags" :key="tag" class="text-inherit">{{ tag }}</a>
+            </div>
           </div>
           <p class="mt-1 text-xs text-white tabular-nums" aria-label="練習時間">{{ formattedElapsedTime }}</p>
         </div>
-
-        <aside v-show="extraInfoExpanded" id="practice-extra-info" class="zh-tw mb-6 rounded-lg border border-slate-800 bg-slate-900/50 px-5 py-4 text-sm text-slate-400" aria-label="補充資訊">
-          資訊內容待提供。
-        </aside>
 
         <div class="mb-8 h-1 overflow-hidden rounded-full bg-slate-800" role="progressbar" :aria-valuenow="correctCount" :aria-valuemax="maskOrder.length" aria-label="答對進度">
           <div class="h-full rounded-full bg-cyan-400 transition-all duration-300" :style="{ width: `${correctPercentage}%` }"></div>

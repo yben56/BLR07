@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T22:48:00+08:00",
   "story_title": "Building a New Community",
   "extra_info": "",
+  "tags": [
+    "#immigration",
+    "#community",
+    "#settlement"
+  ],
   "task_instruction": "Complete each relative clause. Leave the blank empty when an object relative pronoun can be omitted.",
   "paragraphs": [
     "After moving to a new country, Lina joins a community program that helps newcomers find local services. The advisor {{mask_1}} meets her at the welcome center explains how the program works. Lina fills out a form {{mask_2}} the center uses to identify her goals. A volunteer {{mask_3}} speaks several languages helps her understand the information. They review the documents {{mask_4}} Lina brought to the appointment. The language class {{mask_5}} meets on weekday evenings is close to her apartment.",

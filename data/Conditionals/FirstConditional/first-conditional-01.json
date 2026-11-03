@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T20:18:00+08:00",
   "story_title": "A Sailing Trip on Saturday",
   "extra_info": "",
+  "tags": [
+    "#sailing",
+    "#travel",
+    "#weather"
+  ],
   "paragraphs": [
     "Mia and her uncle Ben are planning a sailing trip for Saturday. Ben checks the forecast and says, \"If the wind {{mask_1}} from the west, we {{mask_2}} along the coast.\" Mia looks at the map. \"If we {{mask_3}} the harbor before nine, we {{mask_4}} the morning breeze.\"",
     "They prepare their boat on Friday. Ben makes a list of supplies. \"If we {{mask_5}} enough water, everyone {{mask_6}} comfortable on the trip,\" he says. Mia packs sandwiches. \"If I {{mask_7}} the food in this cooler, it {{mask_8}} fresh until lunch.\"",

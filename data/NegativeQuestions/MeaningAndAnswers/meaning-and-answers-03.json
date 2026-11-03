@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T19:16:00+08:00",
   "story_title": "The Climate Data Briefing",
   "extra_info": "ENSO stands for El Niño–Southern Oscillation, a natural climate pattern involving changes in tropical Pacific Ocean temperatures and the atmosphere. El Niño is the pattern's warm phase and can influence weather in many parts of the world.",
+  "tags": [
+    "#climate",
+    "#research",
+    "#environment"
+  ],
   "task_instruction": "Answer each negative question with a short answer that matches the facts.",
   "paragraphs": [
     "A fictional climate research team is preparing a public briefing about El Niño and long-term global warming. Researcher Nia reviews a graph and asks, {{red:Isn't El Niño a natural climate pattern?}} The team's reference guide describes it as a naturally occurring pattern, so colleague Omar answers, {{mask_1}}. Nia points to a separate line on the graph and asks, {{red:Doesn't the graph show a long-term rise in global average temperature?}} The line rises across several decades, so Omar replies, {{mask_2}}. Nia checks the meeting notes and asks, {{red:Haven't the researchers separated short-term variation from the long-term trend?}} The team has made two separate sections in the briefing, so Omar says, {{mask_3}}. A draft caption is still missing. Nia asks, {{red:Hasn't someone written a caption for this chart?}} The caption field is blank, so Omar answers, {{mask_4}}.",

@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T21:42:00+08:00",
   "story_title": "A Conversation Before Surgery",
   "extra_info": "",
+  "tags": [
+    "#surgery",
+    "#hospital",
+    "#medical"
+  ],
   "task_instruction": "Rewrite each direct yes/no question as a reported question.",
   "paragraphs": [
     "Nora is at a hospital for a planned operation. Before the procedure, nurse Patel checks that Nora has had time to speak with the surgical team. Patel asked Nora, {{red:Have you spoken with the surgeon today?}} {{mask_1}} Nora said yes. Patel asked Nora, {{red:Do you understand why the operation is planned?}} {{mask_2}} Nora said that the surgeon had explained it. Patel then asked Nora, {{red:Would you like us to go over any information again?}} {{mask_3}}",

@@ -83,6 +83,8 @@ Each exercise JSON must include a `created_at` field in ISO 8601 format with a t
 
 Use the required `extra_info` string for a short supplementary explanation that helps learners understand a concept or context before starting the passage. The app displays non-empty `extra_info` in its own green callout above the exercise passage. Keep it separate from `paragraphs` and do not put blanks, prompts, or story sentences in it. Set it to `""` when no supplementary explanation is needed.
 
+Each exercise must also include a `tags` array containing 2-4 concise English hashtags that describe the story's subject matter (for example, `["#medical", "#sport"]`). Choose tags from the actual story context, not merely its grammar unit. Use lowercase, single-token hashtags beginning with `#`; do not include links or duplicate tags. These tags appear in the expandable information area and are intended to support future search.
+
 ## Generation Rules
 
 ### 1. Coherent Context
@@ -210,10 +212,11 @@ Use the exact blank count for the requested length. Keep the story natural and d
 
 ## Required JSON Schema
 
-Include the required top-level fields `topic`, `difficulty`, `created_at`, `story_title`, `extra_info`, `paragraphs`, and `masks`. Set `extra_info` to a concise supplementary explanation or to an empty string when none is needed. `task_instruction` is optional and should be included when learners need an explicit instruction to transform or otherwise modify the source sentences.
+Include the required top-level fields `topic`, `difficulty`, `created_at`, `story_title`, `extra_info`, `tags`, `paragraphs`, and `masks`. Set `extra_info` to a concise supplementary explanation or to an empty string when none is needed. `tags` is an array of 2-4 topical English hashtags. `task_instruction` is optional and should be included when learners need an explicit instruction to transform or otherwise modify the source sentences.
 
 - `topic`: the child page name.
 - `difficulty`: the requested `Level`, using `beginner`, `intermediate`, or `advanced`; default to `intermediate`.
+- `tags`: 2-4 concise, lowercase English hashtags describing the story topic, each beginning with `#`; do not add links.
 - `created_at`: the exercise creation time as an ISO 8601 timestamp with a timezone offset, for example `2026-10-22T01:35:00+08:00`.
 - `story_title`: a concise English title that fits the story.
 - `extra_info`: a concise English explanation shown in a separate green callout above the passage; use `""` if there is no extra information.
@@ -233,6 +236,7 @@ Example shape:
   "created_at": "2026-10-22T01:35:00+08:00",
   "story_title": "A Busy Morning Routine",
   "extra_info": "",
+  "tags": ["#dailylife", "#family"],
   "paragraphs": [
     "A connected sentence with {{mask_1}} in context.",
     "The next sentence continues the same story and uses {{mask_2}}."
@@ -260,6 +264,7 @@ Before considering a file complete, verify:
 
 - It parses as strict JSON; no comments, trailing commas, Markdown fences, or extra prose.
 - Required top-level fields, including `extra_info`, are present; `extra_info` is either a concise supplementary explanation or an empty string.
+- `tags` contains 2-4 unique, lowercase English topical hashtags, each beginning with `#`.
 - Include only the optional `task_instruction` field in addition to the required fields when an explicit transformation instruction is needed.
 - `difficulty` is `beginner`, `intermediate`, or `advanced` and matches the requested `Level` (default `intermediate`).
 - `created_at` is a valid ISO 8601 timestamp with an explicit timezone offset.

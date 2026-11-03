@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T20:20:00+08:00",
   "story_title": "A Smarter Training Week",
   "extra_info": "",
+  "tags": [
+    "#fitness",
+    "#running",
+    "#sport"
+  ],
   "paragraphs": [
     "At Harbor Point Gym, coach Elena meets advanced member Marcus to review his training plan. He wants to improve his endurance without overtraining. Elena says, \"If you {{mask_1}} your weekly mileage gradually, you {{mask_2}} your body time to adapt.\" Marcus asks about keeping a record. \"If I {{mask_3}} my pace and recovery after each run, I {{mask_4}} patterns more clearly.\"",
     "They review his strength sessions next. Elena points out that technique matters more than adding weight too quickly. \"If you {{mask_5}} the movement with control, you {{mask_6}} more consistent results.\" Marcus asks what he should do when his form changes near the end of a set. Elena replies, \"If your form {{mask_7}} unstable, you {{mask_8}} the weight and reset.\"",

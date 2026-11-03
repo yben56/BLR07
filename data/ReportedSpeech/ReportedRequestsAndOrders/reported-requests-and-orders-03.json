@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T21:57:00+08:00",
   "story_title": "A Community Workshop About Steam",
   "extra_info": "Steam is a digital game store and platform developed by Valve. It lets users buy, download, update, and play games, and includes community features.",
+  "tags": [
+    "#gaming",
+    "#steam",
+    "#technology"
+  ],
   "task_instruction": "Rewrite each direct request or order as reported speech.",
   "paragraphs": [
     "At a community technology center, facilitator Priya leads an advanced workshop about Steam. She begins by asking participants to organize their game libraries. Priya instructed the group, {{red:Create a collection for the games you play most often.}} {{mask_1}} Then she asked Jordan, {{red:Please explain how you sort your library.}} {{mask_2}} Jordan described using categories. Priya reminded everyone, {{red:Do not share your account password with anyone.}} {{mask_3}}",

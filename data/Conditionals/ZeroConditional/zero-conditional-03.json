@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T20:13:00+08:00",
   "story_title": "A Day at the Training Center",
   "extra_info": "",
+  "tags": [
+    "#military",
+    "#training",
+    "#education"
+  ],
   "paragraphs": [
     "At a military training center, Lieutenant Ellis leads an advanced English session in the history room. The group studies a glossary of military terms. \"If an instructor {{mask_1}} a term on the board, each trainee {{mask_2}} it in the vocabulary notebook,\" Ellis says. The first card reads lieutenant. \"If a learner {{mask_3}} this rank, the glossary {{mask_4}} that it is an officer rank.\"",
     "The next card describes airborne troops, who are trained to deploy from aircraft, often by parachute. Ellis explains, \"If a reader {{mask_5}} the word airborne, the definition {{mask_6}} how it relates to aircraft.\" A visitor asks about a caption on an old map. \"If a caption {{mask_7}} unclear, the reader {{mask_8}} the note beside the map for more context.\"",

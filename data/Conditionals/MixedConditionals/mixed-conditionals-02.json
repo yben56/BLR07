@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T20:35:00+08:00",
   "story_title": "The Dance Team's What-Ifs",
   "extra_info": "",
+  "tags": [
+    "#dance",
+    "#competition",
+    "#sport"
+  ],
   "paragraphs": [
     "After the regional dance competition, Maya and the team review their performance. Maya joined rehearsals late in the season, so she is still learning the choreography now. She says, \"If I {{mask_1}} rehearsals earlier, I {{mask_2}} the full routine better now.\" The coach remembers that Maya missed several practice sessions. \"If you {{mask_3}} more consistently, you {{mask_4}} more confident on stage today.\"",
     "The team also talks about its costumes. They chose simple outfits because they had little time to prepare, and they still do not have matching accessories for their next show. Leo says, \"If we {{mask_5}} our costumes sooner, we {{mask_6}} matching accessories now.\" Their instructor adds, \"If the group {{mask_7}} a design plan last month, everyone {{mask_8}} what to bring today.\"",

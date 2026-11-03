@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T21:44:00+08:00",
   "story_title": "An Evening at the Observatory",
   "extra_info": "",
+  "tags": [
+    "#astronomy",
+    "#space",
+    "#research"
+  ],
   "task_instruction": "Rewrite each direct yes/no question as a reported question.",
   "paragraphs": [
     "At an observatory, Dr. Ruiz interviews astronomer Maya Chen about a new research project. The next morning, Maya writes a summary of their conversation. Dr. Ruiz asked Maya, {{red:Have you identified a possible exoplanet?}} {{mask_1}} Maya had found a promising signal in the data. Dr. Ruiz asked, {{red:Does the signal repeat at regular intervals?}} {{mask_2}} She explained that repeated dips in a star's brightness could suggest a planet passing in front of it.",

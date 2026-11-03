@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T11:00:00+08:00",
   "story_title": "The AI Desk After Hours",
   "extra_info": "",
+  "tags": [
+    "#artificialintelligence",
+    "#journalism",
+    "#technology"
+  ],
   "paragraphs": [
     "Maya and Jules were leaving the newsroom when the AI assistant they had tested that afternoon appeared in a breaking-news alert. Maya pulled up their notes. \"If you give it two conflicting dates, it {{mask_1}} the newer one unless you ask it to check the source,\" she said. \"The lab says it has more evaluation logs. If it {{mask_2}} them today, I'll add them to the story.\" Jules scrolled through the draft. \"And if those logs {{mask_3}} the lab's claim, we can publish the comparison tonight.\"",
     "They stopped at a cafe to review the recording from their demo. Jules pointed to a moment where the assistant had cited a paper that did not exist. \"If I'd {{mask_4}} that warning before we ran the demo, we {{mask_5}} the clip before it went into the edit,\" Maya said. Jules nodded. \"If a chatbot {{mask_6}} a confident answer when the evidence is missing, I usually ask it to show its sources. And if it {{mask_7}} a citation that doesn't exist, I'll flag it in the notes.\"",

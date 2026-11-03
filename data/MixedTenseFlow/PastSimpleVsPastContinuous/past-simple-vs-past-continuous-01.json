@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T18:14:00+08:00",
   "story_title": "A Night on Stage",
   "extra_info": "",
+  "tags": [
+    "#music",
+    "#concert",
+    "#performance"
+  ],
   "paragraphs": [
     "At seven o'clock, the famous singer Ava Lane {{mask_1}} onto the stage while the band {{mask_2}} their instruments. Fans {{mask_3}} and {{mask_4}} photos as she waved. She {{mask_5}} them and {{mask_6}} the show.",
     "While Ava {{mask_7}} her first song, a camera operator {{mask_8}} across the stage. Two dancers {{mask_9}} behind her when one of the lights {{mask_10}}. Ava {{mask_11}} the music and {{mask_12}} toward the crew.",

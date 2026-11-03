@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T20:24:00+08:00",
   "story_title": "A Chinese Dinner to Remember",
   "extra_info": "",
+  "tags": [
+    "#chinesefood",
+    "#family",
+    "#cooking"
+  ],
   "paragraphs": [
     "Last Sunday, Mei helped her uncle prepare a Chinese dinner for their family. They went to the market, but they forgot to buy mushrooms. Uncle said, \"If we {{mask_1}} a shopping list, we {{mask_2}} the mushrooms.\" They also ran out of tofu before they started cooking. \"If we {{mask_3}} the pantry before we left, we {{mask_4}} enough tofu,\" Mei said.",
     "Back in the kitchen, Mei washed the vegetables while her uncle cooked rice. They were short on time. \"If I {{mask_5}} the vegetables earlier, I {{mask_6}} more time,\" Mei said. The rice became too soft because Uncle used too much water. He sighed. \"If I {{mask_7}} the recipe carefully, the rice {{mask_8}} better.\"",

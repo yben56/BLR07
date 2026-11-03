@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T21:39:00+08:00",
   "story_title": "A Tattoo Consultation",
   "extra_info": "",
+  "tags": [
+    "#tattoo",
+    "#art",
+    "#consultation"
+  ],
   "task_instruction": "Rewrite each direct yes/no question as a reported question.",
   "paragraphs": [
     "Sam visits a tattoo studio to ask about a small design. Artist Riley begins the consultation with a few questions. Riley asked Sam, {{red:Do you want a small tattoo?}} {{mask_1}} Riley also asked, {{red:Have you chosen a design?}} {{mask_2}} Sam said that a small bird might work. Riley asked, {{red:Do you want the bird on your arm?}} {{mask_3}} Then Riley asked, {{red:Is this your first tattoo?}} {{mask_4}}",

@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T22:26:00+08:00",
   "story_title": "Preparing a High-Speed Rail Line",
   "extra_info": "",
+  "tags": [
+    "#railways",
+    "#engineering",
+    "#transport"
+  ],
   "task_instruction": "Rewrite each active sentence in the passive voice.",
   "paragraphs": [
     "A new high-speed rail line is being prepared for its first full season of service. Engineers review the construction standards before trains begin running. {{red:Contractors must inspect every section of track before opening day.}} {{mask_1}} {{red:Technicians can monitor the rail temperature with remote sensors.}} {{mask_2}} {{red:The railway will test the signaling system overnight.}} {{mask_3}} {{red:Workers should clear all tools from the track area.}} {{mask_4}}",

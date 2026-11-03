@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T22:37:00+08:00",
   "story_title": "A Season at the North Pole Research Station",
   "extra_info": "",
+  "tags": [
+    "#arctic",
+    "#science",
+    "#climate"
+  ],
   "task_instruction": "Rewrite each sentence in the opposite voice: change active sentences to passive and passive sentences to active.",
   "paragraphs": [
     "At a research station near the North Pole, a team studies sea ice and changing weather. Dr. Chen leads the morning briefing. {{red:The researchers collect snow samples before sunrise.}} {{mask_1}} {{red:Satellite images are reviewed by the data team each morning.}} {{mask_2}} {{red:The station has recorded wind speeds above one hundred kilometers per hour.}} {{mask_3}} {{red:Several weather instruments were repaired by the technicians last week.}} {{mask_4}}",

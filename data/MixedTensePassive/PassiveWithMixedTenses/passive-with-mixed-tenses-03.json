@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T22:11:00+08:00",
   "story_title": "A Reproductive Health Science Exhibit",
   "extra_info": "",
+  "tags": [
+    "#reproductivehealth",
+    "#science",
+    "#museum"
+  ],
   "task_instruction": "Rewrite each active sentence in the passive voice.",
   "paragraphs": [
     "A science museum is preparing an exhibit about the female reproductive system. The education team reviews how the organs work. {{red:The ovaries release an egg during ovulation in many menstrual cycles.}} {{mask_1}} {{red:The body produces estrogen and progesterone in the ovaries.}} {{mask_2}} {{red:Researchers identified the influence of hormonal signals on the uterine lining in early studies.}} {{mask_3}} {{red:Clinicians are using ultrasound to examine the uterus during the demonstration.}} {{mask_4}}",

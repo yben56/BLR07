@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T18:28:00+08:00",
   "story_title": "The Unexpected Signal",
   "extra_info": "",
+  "tags": [
+    "#science",
+    "#physics",
+    "#university"
+  ],
   "paragraphs": [
     "At 8:00 on Tuesday evening, a physics team {{mask_1}} a pendulum experiment in the university laboratory. Dr. Vale {{mask_2}} the sensor settings while two graduate students {{mask_3}} the apparatus. Outside, rain {{mask_4}} against the tall windows. The team {{mask_5}} how a small change in the pendulum's length affected its period.",
     "While one student {{mask_6}} the timer, the other {{mask_7}} each swing in a notebook. The pendulum {{mask_8}} steadily when a warning light {{mask_9}} on the control panel. Dr. Vale {{mask_10}} the experiment, and the students {{mask_11}} the equipment. They {{mask_12}} for a loose cable when a monitor {{mask_13}} an unexpected signal.",

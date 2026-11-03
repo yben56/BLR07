@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T18:46:00+08:00",
   "story_title": "The Tariff Briefing",
   "extra_info": "",
+  "tags": [
+    "#economics",
+    "#trade",
+    "#politics"
+  ],
   "paragraphs": [
     "A small economics team at a fictional news desk is preparing a briefing about tariff proposals discussed by Donald Trump. The editor has scheduled a planning meeting for 9:00 tomorrow, so the team {{mask_1}} then. Maya has already decided to compare the possible effects on imported goods; she {{mask_2}} a chart tonight. The team thinks readers {{mask_3}} clear explanations rather than predictions presented as facts.",
     "The newsroom calendar says the briefing {{mask_4}} on Friday morning. Maya has arranged an interview with a shop owner for 10:30, so she {{mask_5}} her then. Her colleague {{mask_6}} the economic data while the interview is taking place. The editor believes the discussion {{mask_7}} questions about prices and supply chains.",

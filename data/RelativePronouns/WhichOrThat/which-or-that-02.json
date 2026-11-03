@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T22:50:00+08:00",
   "story_title": "A Day at the Amusement Park",
   "extra_info": "",
+  "tags": [
+    "#amusementpark",
+    "#science",
+    "#entertainment"
+  ],
   "paragraphs": [
     "Our class visits an amusement park for a science-themed school trip. The first ride {{mask_1}} we try travels slowly through a model solar system. The guide points out a planet {{mask_2}} has rings made of ice and rock. The main entrance, {{mask_3}} was rebuilt last year, has a wide glass roof. We read a sign {{mask_4}} explains how the ride uses magnets.",
     "After the ride, we explore an interactive science pavilion. A machine {{mask_5}} measures the force of a visitor's push displays the result on a screen. The pavilion, {{mask_6}} stands beside the lake, also has a small planetarium. Inside, we watch a film {{mask_7}} follows a spacecraft on its journey. The seats, {{mask_8}} can lean back, make it easy to look up at the ceiling.",

@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T20:29:00+08:00",
   "story_title": "A Shopping Day with Three Choices",
   "extra_info": "",
+  "tags": [
+    "#shopping",
+    "#family",
+    "#weather"
+  ],
   "paragraphs": [
     "On Saturday, Mia goes shopping with her brother Ben. They check the weather before they leave. The forecast says it may rain later. Ben says, \"If it {{mask_1}} this afternoon, we {{mask_2}} our umbrellas.\" Mia checks her shopping list. \"If we {{mask_3}} the market before noon, we {{mask_4}} the fresh bread.\"",
     "At the store, Mia sees a blue jacket she likes, but it costs more than she planned to spend. She says, \"If I {{mask_5}} more money, I {{mask_6}} this jacket.\" Ben points to a cheaper one. \"If this jacket {{mask_7}} warm enough, you {{mask_8}} it for the trip.\"",

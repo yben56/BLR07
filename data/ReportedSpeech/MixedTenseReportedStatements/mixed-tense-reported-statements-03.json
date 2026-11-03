@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T22:08:00+08:00",
   "story_title": "A Legal Aid Interview in India",
   "extra_info": "",
+  "tags": [
+    "#legal",
+    "#india",
+    "#courts"
+  ],
   "task_instruction": "Rewrite each direct statement as reported speech.",
   "paragraphs": [
     "Journalist Ananya visits a legal-aid clinic in an Indian district to write about support available during court proceedings in a fictional case. Lawyer Meera Rao explains her role. {{red:\"I work with people who need help understanding legal documents.\"}} {{mask_1}} She describes the clinic's current work. {{red:\"We are helping a client prepare for a hearing this week.\"}} {{mask_2}} The client, referred to by the pseudonym Nila, speaks about support she has received. {{red:\"I have met with a counselor twice.\"}} {{mask_3}} Meera explains how the case file was organized. {{red:\"The investigator recorded Nila's statement last Tuesday.\"}} {{mask_4}}",

@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T20:19:00+08:00",
   "story_title": "A Week of Better Food Choices",
   "extra_info": "",
+  "tags": [
+    "#nutrition",
+    "#food",
+    "#health"
+  ],
   "paragraphs": [
     "On Sunday evening, Nora meets her friend Daniel to plan simple meals for the week. Daniel wants to eat more vegetables, so they look through a recipe book. \"If we {{mask_1}} a meal plan tonight, we {{mask_2}} less time deciding what to cook,\" Nora says. Daniel points to a lentil soup recipe. \"If we {{mask_3}} the ingredients tomorrow, we {{mask_4}} the soup for lunch.\"",
     "They make a shopping list and check what is already in the kitchen. Nora says, \"If we {{mask_5}} the list at the market, we {{mask_6}} only what we need.\" Daniel notices that they have no fresh fruit. \"If I {{mask_7}} apples and oranges, we {{mask_8}} them with breakfast.\" They also choose plain yogurt and oats for quick snacks.",

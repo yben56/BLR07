@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T20:22:00+08:00",
   "story_title": "The Neighborhood Poll",
   "extra_info": "",
+  "tags": [
+    "#community",
+    "#parks",
+    "#civics"
+  ],
   "paragraphs": [
     "A neighborhood group is running a poll about how to improve the local park. At the community center, organizer Sam explains that the survey is hypothetical and asks residents what changes they would support. \"If the town {{mask_1}} more money for the park, we {{mask_2}} a shaded walking path,\" Sam says. A resident suggests adding benches. \"If there {{mask_3}} more seats along the path, older visitors {{mask_4}} more often.\"",
     "The poll asks about different activities. One question says, \"If the park {{mask_5}} a small outdoor stage, local groups {{mask_6}} free concerts there.\" Another resident imagines a garden. \"If volunteers {{mask_7}} a community garden, families {{mask_8}} fresh vegetables together.\" Sam writes both ideas on the survey board.",

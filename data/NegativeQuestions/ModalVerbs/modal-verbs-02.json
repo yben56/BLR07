@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T19:10:00+08:00",
   "story_title": "A Dog and a Cat at Home",
   "extra_info": "",
+  "tags": [
+    "#pets",
+    "#dogs",
+    "#cats"
+  ],
   "task_instruction": "Rewrite each affirmative statement as a negative question.",
   "paragraphs": [
     "When the Lee family adopted a dog and a cat, they made a simple care plan. {{red:The dog can sleep in the living room.}} {{mask_1}}? The cat has a quiet bed in a separate room. {{red:Both pets must have fresh water.}} {{mask_2}}? Their daughter checks the bowls every morning.",
@@ -17,102 +22,142 @@
   "masks": {
     "mask_1": {
       "target": "Can't the dog sleep in the living room",
-      "acceptable_variants": ["Can the dog not sleep in the living room"],
+      "acceptable_variants": [
+        "Can the dog not sleep in the living room"
+      ],
       "hint": "can"
     },
     "mask_2": {
       "target": "Mustn't both pets have fresh water",
-      "acceptable_variants": ["Must both pets not have fresh water"],
+      "acceptable_variants": [
+        "Must both pets not have fresh water"
+      ],
       "hint": "must"
     },
     "mask_3": {
       "target": "Shouldn't the dog wear a collar outside",
-      "acceptable_variants": ["Should the dog not wear a collar outside"],
+      "acceptable_variants": [
+        "Should the dog not wear a collar outside"
+      ],
       "hint": "should"
     },
     "mask_4": {
       "target": "Can't the cat go outside without supervision",
-      "acceptable_variants": ["Can the cat not go outside without supervision"],
+      "acceptable_variants": [
+        "Can the cat not go outside without supervision"
+      ],
       "hint": "can"
     },
     "mask_5": {
       "target": "Mustn't visitors close the front door carefully",
-      "acceptable_variants": ["Must visitors not close the front door carefully"],
+      "acceptable_variants": [
+        "Must visitors not close the front door carefully"
+      ],
       "hint": "must"
     },
     "mask_6": {
       "target": "Won't it get a small treat after training",
-      "acceptable_variants": ["Will it not get a small treat after training"],
+      "acceptable_variants": [
+        "Will it not get a small treat after training"
+      ],
       "hint": "will"
     },
     "mask_7": {
       "target": "Can't the cat eat the dog's food",
-      "acceptable_variants": ["Can the cat not eat the dog's food"],
+      "acceptable_variants": [
+        "Can the cat not eat the dog's food"
+      ],
       "hint": "can"
     },
     "mask_8": {
       "target": "Couldn't the dog learn to stay calm near the cat",
-      "acceptable_variants": ["Could the dog not learn to stay calm near the cat"],
+      "acceptable_variants": [
+        "Could the dog not learn to stay calm near the cat"
+      ],
       "hint": "could"
     },
     "mask_9": {
       "target": "Shouldn't they take the dog along the river path",
-      "acceptable_variants": ["Should they not take the dog along the river path"],
+      "acceptable_variants": [
+        "Should they not take the dog along the river path"
+      ],
       "hint": "should"
     },
     "mask_10": {
       "target": "Mustn't the dog stay on its lead near the road",
-      "acceptable_variants": ["Must the dog not stay on its lead near the road"],
+      "acceptable_variants": [
+        "Must the dog not stay on its lead near the road"
+      ],
       "hint": "must"
     },
     "mask_11": {
       "target": "Mightn't the cat enjoy a walk on a harness",
-      "acceptable_variants": ["Might the cat not enjoy a walk on a harness"],
+      "acceptable_variants": [
+        "Might the cat not enjoy a walk on a harness"
+      ],
       "hint": "might"
     },
     "mask_12": {
       "target": "Can't they keep the toys in one basket",
-      "acceptable_variants": ["Can they not keep the toys in one basket"],
+      "acceptable_variants": [
+        "Can they not keep the toys in one basket"
+      ],
       "hint": "can"
     },
     "mask_13": {
       "target": "Won't the cat use the scratching post",
-      "acceptable_variants": ["Will the cat not use the scratching post"],
+      "acceptable_variants": [
+        "Will the cat not use the scratching post"
+      ],
       "hint": "will"
     },
     "mask_14": {
       "target": "Shouldn't they check the toy labels for safety",
-      "acceptable_variants": ["Should they not check the toy labels for safety"],
+      "acceptable_variants": [
+        "Should they not check the toy labels for safety"
+      ],
       "hint": "should"
     },
     "mask_15": {
       "target": "Shouldn't the dog have a final walk",
-      "acceptable_variants": ["Should the dog not have a final walk"],
+      "acceptable_variants": [
+        "Should the dog not have a final walk"
+      ],
       "hint": "should"
     },
     "mask_16": {
       "target": "Can't the cat stay in its quiet room overnight",
-      "acceptable_variants": ["Can the cat not stay in its quiet room overnight"],
+      "acceptable_variants": [
+        "Can the cat not stay in its quiet room overnight"
+      ],
       "hint": "can"
     },
     "mask_17": {
       "target": "Mustn't the children wash their hands after cleaning the bowls",
-      "acceptable_variants": ["Must the children not wash their hands after cleaning the bowls"],
+      "acceptable_variants": [
+        "Must the children not wash their hands after cleaning the bowls"
+      ],
       "hint": "must"
     },
     "mask_18": {
       "target": "Can't the dog wait calmly while the cat eats",
-      "acceptable_variants": ["Can the dog not wait calmly while the cat eats"],
+      "acceptable_variants": [
+        "Can the dog not wait calmly while the cat eats"
+      ],
       "hint": "can"
     },
     "mask_19": {
       "target": "Can't the family leave the pets together when nobody is home",
-      "acceptable_variants": ["Can the family not leave the pets together when nobody is home"],
+      "acceptable_variants": [
+        "Can the family not leave the pets together when nobody is home"
+      ],
       "hint": "can"
     },
     "mask_20": {
       "target": "Shouldn't they keep following the care plan",
-      "acceptable_variants": ["Should they not keep following the care plan"],
+      "acceptable_variants": [
+        "Should they not keep following the care plan"
+      ],
       "hint": "should"
     }
   }

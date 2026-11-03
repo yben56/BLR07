@@ -4,6 +4,11 @@
   "created_at": "2026-11-02T23:51:55+08:00",
   "story_title": "The Clinical Trial Update",
   "extra_info": "",
+  "tags": [
+    "#medical",
+    "#science",
+    "#finance"
+  ],
   "paragraphs": [
     "By 9:00 a.m., the biotech company had released a brief statement about the new drug, but analysts were still debating its long-term effect when the market reporter {{mask_1}}. The investors had expected a smoother launch, and by noon the share price {{mask_2}} sharply after the trial data was published.",
     "A senior scientist explained that the team {{mask_3}} the treatment for more than three years before the regulator approved the final trial. She said that if the early results had been worse, they {{mask_4}} the product for at least another year.",

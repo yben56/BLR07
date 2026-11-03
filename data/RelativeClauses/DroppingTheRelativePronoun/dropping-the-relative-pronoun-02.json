@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T22:47:00+08:00",
   "story_title": "Cooking for the Neighborhood",
   "extra_info": "",
+  "tags": [
+    "#cooking",
+    "#food",
+    "#community"
+  ],
   "task_instruction": "Complete each relative clause. Leave the blank empty when an object relative pronoun can be omitted.",
   "paragraphs": [
     "A neighborhood cooking club is preparing a shared dinner. The chef {{mask_1}} leads the group starts by washing the vegetables. The carrots {{mask_2}} she bought at the market are set on the counter. A volunteer {{mask_3}} knows how to make fresh pasta measures the flour. The bowl {{mask_4}} the cook uses for the dough is made of wood. The recipe {{mask_5}} the club chose comes from a family cookbook.",

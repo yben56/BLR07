@@ -4,6 +4,11 @@
   "created_at": "2026-10-17T21:48:14.351+08:00",
   "story_title": "The Lighthouse Before the Storm",
   "extra_info": "",
+  "tags": [
+    "#history",
+    "#lighthouse",
+    "#weather"
+  ],
   "paragraphs": [
     "Maya usually records local histories, but this week she {{mask_1}} at the old harbor lighthouse. She {{mask_2}} the keeper's journal since Monday, and she still has two pages left.",
     "When she arrived on Tuesday, the restoration crew {{mask_3}} the iron stairs. While she {{mask_4}} the lantern room, the power suddenly failed. Outside, a storm {{mask_5}} over the water to the west, so everyone hurried downstairs.",

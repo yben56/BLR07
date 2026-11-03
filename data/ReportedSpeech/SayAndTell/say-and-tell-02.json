@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T22:00:00+08:00",
   "story_title": "A Day at the Blacksmith's Workshop",
   "extra_info": "",
+  "tags": [
+    "#crafts",
+    "#metalworking",
+    "#education"
+  ],
   "paragraphs": [
     "A group of students visits a blacksmith's workshop to learn how metal objects are made. The blacksmith, Mara, {{mask_1}} them that the workshop is an active work area. She {{mask_2}}, \"Please stand behind the yellow line.\" Her assistant {{mask_3}} the students to keep their bags away from the workbench. One student {{mask_4}} that the room smelled like warm metal.",
     "Mara explains the tools before starting a demonstration. She {{mask_5}} the students that the metal must be heated before it can be shaped. Then she {{mask_6}} to the group, \"Watch how I use the hammer.\" Her assistant {{mask_7}} them to wear protective glasses. A student {{mask_8}} Mara that the safety glasses felt comfortable.",

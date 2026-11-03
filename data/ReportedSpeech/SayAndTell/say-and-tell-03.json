@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T22:01:00+08:00",
   "story_title": "A Careful Conversation at the Dental Clinic",
   "extra_info": "",
+  "tags": [
+    "#dentalcare",
+    "#clinic",
+    "#medical"
+  ],
   "paragraphs": [
     "Before her appointment, Noor had already {{mask_1}} the clinic that one of her molars had been sensitive for several weeks. At reception, she {{mask_2}}, \"I also brought the notes from my previous dentist.\" The receptionist {{mask_3}} her that Dr. Patel was reviewing them. Noor {{mask_4}} that she was worried the tooth might need major treatment. She had been {{mask_5}} that a root canal was inevitable, but she wanted another opinion.",
     "When Dr. Patel invited her in, Noor began by explaining what had happened. She wanted to {{mask_6}} the dentist exactly when the discomfort started. Dr. Patel {{mask_7}} her that the notes mentioned a large filling. He {{mask_8}}, \"That does not automatically mean the tooth needs a root canal.\" Noor later {{mask_9}} that the explanation made her feel less anxious. She asked him to {{mask_10}} her whether the X-ray showed any damage near the nerve.",

@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T18:39:00+08:00",
   "story_title": "The House on Linden Street",
   "extra_info": "",
+  "tags": [
+    "#housing",
+    "#renovation",
+    "#realestate"
+  ],
   "paragraphs": [
     "When the Parkers found a house on Linden Street, the sellers {{mask_1}} the kitchen and {{mask_2}} the roof before the property went on the market. The listing agent {{mask_3}} the home online two weeks earlier, and several buyers {{mask_4}} viewings by the time the Parkers called. They {{mask_5}} the listing carefully before they {{mask_6}} a tour.",
     "At the viewing, the agent {{mask_7}} the home's recent repairs, but the Parkers {{mask_8}} a few questions about the heating system. They {{mask_9}} the basement before they {{mask_10}} their decision. By the time they reached the garden, they {{mask_11}} a good idea of the home's condition.",

@@ -4,6 +4,11 @@
   "created_at": "2026-11-02T23:41:06+08:00",
   "story_title": "The Board Briefing",
   "extra_info": "",
+  "tags": [
+    "#business",
+    "#workplace",
+    "#finance"
+  ],
   "paragraphs": [
     "Before the board meeting, I had already revised the sales report when the manager called me at 7:30 a.m. She said the client {{mask_1}} the proposal by Friday, but I knew the team {{mask_2}} several changes before then.",
     "By noon, our assistant {{mask_3}} three emails, and the finance director warned that if sales {{mask_4}} slower, we {{mask_5}} the launch date. While I sorted the figures, the IT staff {{mask_6}} the server, so we {{mask_7}} the deadline.",

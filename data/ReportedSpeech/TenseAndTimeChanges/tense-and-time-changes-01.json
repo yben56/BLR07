@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T22:04:00+08:00",
   "story_title": "Finding a Place to Rent",
   "extra_info": "",
+  "tags": [
+    "#housing",
+    "#renting",
+    "#apartments"
+  ],
   "task_instruction": "Rewrite each direct statement in reported speech. Change the tense and time expressions where necessary.",
   "paragraphs": [
     "Mia is looking for an apartment and speaks with the landlord, Mr. Lee. He tells her about the building. {{red:\"I own this apartment building.\"}} {{mask_1}} He shows her a one-bedroom apartment. {{red:\"The living room gets good sunlight.\"}} {{mask_2}} Mia asks about the rent. Mr. Lee explains, {{red:\"The rent is eight hundred dollars a month.\"}} {{mask_3}} He adds, {{red:\"I am painting the kitchen today.\"}} {{mask_4}}",

@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T18:24:00+08:00",
   "story_title": "An Evening at MJ Live",
   "extra_info": "",
+  "tags": [
+    "#music",
+    "#concert",
+    "#entertainment"
+  ],
   "paragraphs": [
     "I {{mask_1}} to an MJ Live concert in Las Vegas twice, but last Friday's show {{mask_2}} special. My sister {{mask_3}} the tickets months ago, and she {{mask_4}} the date on her calendar ever since. Before we left the hotel, we {{mask_5}} dinner nearby and {{mask_6}} a short walk along the Strip.",
     "The doors {{mask_7}} at seven, and we {{mask_8}} at 7:20. We {{mask_9}} our tickets and {{mask_10}} inside. The opening performer {{mask_11}} onto the stage just as we found our seats. I {{mask_12}} many tribute shows over the years, yet this production {{mask_13}} a lively atmosphere from the start.",
@@ -13,7 +18,9 @@
   "masks": {
     "mask_1": {
       "target": "have been",
-      "acceptable_variants": ["'ve been"],
+      "acceptable_variants": [
+        "'ve been"
+      ],
       "hint": "be"
     },
     "mask_2": {
@@ -28,7 +35,9 @@
     },
     "mask_4": {
       "target": "has kept",
-      "acceptable_variants": ["'s kept"],
+      "acceptable_variants": [
+        "'s kept"
+      ],
       "hint": "keep"
     },
     "mask_5": {
@@ -68,7 +77,9 @@
     },
     "mask_12": {
       "target": "have attended",
-      "acceptable_variants": ["'ve attended"],
+      "acceptable_variants": [
+        "'ve attended"
+      ],
       "hint": "attend"
     },
     "mask_13": {
@@ -88,7 +99,9 @@
     },
     "mask_16": {
       "target": "has followed",
-      "acceptable_variants": ["'s followed"],
+      "acceptable_variants": [
+        "'s followed"
+      ],
       "hint": "follow"
     },
     "mask_17": {

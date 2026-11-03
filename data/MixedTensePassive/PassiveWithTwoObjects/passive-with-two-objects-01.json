@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T22:15:00+08:00",
   "story_title": "Building Together with LEGO",
   "extra_info": "",
+  "tags": [
+    "#lego",
+    "#toys",
+    "#family"
+  ],
   "task_instruction": "Rewrite each active sentence in the passive voice. Use either object as the subject.",
   "paragraphs": [
     "A family is building a LEGO town together. They begin by sharing pieces and plans. {{red:Eva gives her brother a blue building plate.}} {{mask_1}} {{red:Their father shows the children a picture of a tall tower.}} {{mask_2}} {{red:Leo lends his sister a small plastic wheel.}} {{mask_3}} {{red:Their mother tells the family a story about a toy train.}} {{mask_4}}",

@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T22:06:00+08:00",
   "story_title": "Notes from the County Court",
   "extra_info": "",
+  "tags": [
+    "#courts",
+    "#law",
+    "#journalism"
+  ],
   "task_instruction": "Rewrite each direct statement in reported speech. Change the tense and time expressions where necessary.",
   "paragraphs": [
     "After a hearing at the county court, reporter Elena reviews her notes with the court clerk. The clerk explains how the file was prepared. {{red:\"I have checked every page in the case file.\"}} {{mask_1}} She points to the courtroom calendar. {{red:\"The hearing is taking place today.\"}} {{mask_2}} The clerk describes the witness schedule. {{red:\"The first witness arrived here yesterday.\"}} {{mask_3}} She adds, {{red:\"We will hear the final witness tomorrow.\"}} {{mask_4}}",

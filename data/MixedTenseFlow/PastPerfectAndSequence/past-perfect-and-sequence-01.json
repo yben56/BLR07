@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T18:16:00+08:00",
   "story_title": "A Community Information Table",
   "extra_info": "",
+  "tags": [
+    "#publichealth",
+    "#measles",
+    "#community"
+  ],
   "paragraphs": [
     "When the governor announced that a child in New York {{mask_1}} after contracting measles, fictional community librarian Elena Ortiz wanted to help neighbors find reliable information. Before she discussed the announcement with her manager, she {{mask_2}} it twice. She {{mask_3}} that it did not describe every detail of the family's experience. She {{mask_4}} to share only information from trusted public-health sources.",
     "When Elena {{mask_5}} at the library, her manager {{mask_6}} a small information table near the entrance. The manager {{mask_7}} a short list of official resources earlier that morning. Elena {{mask_8}} the pages into clear folders and {{mask_9}} them beside a sign with the health department's contact information.",
@@ -23,7 +28,9 @@
     },
     "mask_3": {
       "target": "realized",
-      "acceptable_variants": ["realised"],
+      "acceptable_variants": [
+        "realised"
+      ],
       "hint": "realize"
     },
     "mask_4": {

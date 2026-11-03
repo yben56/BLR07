@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T22:20:00+08:00",
   "story_title": "A Safe Ride Home Campaign",
   "extra_info": "",
+  "tags": [
+    "#roadsafety",
+    "#alcohol",
+    "#publichealth"
+  ],
   "task_instruction": "Rewrite each sentence in the passive voice. Change the verb in the subordinate clause and keep the main clause unchanged.",
   "paragraphs": [
     "A community center is preparing a road-safety campaign about choosing a safe way home after drinking alcohol. The instructor shares key information. {{red:Safety experts say that alcohol slows a driver's reaction time.}} {{mask_1}} {{red:Health educators explain that alcohol affects balance and judgment.}} {{mask_2}} {{red:The campaign teaches that a sober driver can take friends home safely.}} {{mask_3}} {{red:The center manager confirms that local taxi companies offer rides from the event hall.}} {{mask_4}}",

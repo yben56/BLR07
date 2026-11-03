@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T21:54:00+08:00",
   "story_title": "A Day Among Thailand's Monuments",
   "extra_info": "Ayutthaya is a historic city in Thailand and a UNESCO World Heritage Site, known for the ruins of its former capital and Buddhist temples.",
+  "tags": [
+    "#thailand",
+    "#history",
+    "#travel"
+  ],
   "task_instruction": "Rewrite each direct request or order as reported speech.",
   "paragraphs": [
     "A group of students visits the historic city of Ayutthaya in Thailand. Their guide, Mali, welcomes them near the entrance. Mali asked the students, {{red:Please stay with the group.}} {{mask_1}} She then told them, {{red:Keep the entrance clear.}} {{mask_2}}",

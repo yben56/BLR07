@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T22:28:00+08:00",
   "story_title": "A Clinic Visit for Near Vision",
   "extra_info": "",
+  "tags": [
+    "#eyecare",
+    "#vision",
+    "#medical"
+  ],
   "task_instruction": "Rewrite each active sentence in the passive voice.",
   "paragraphs": [
     "An optometrist explains presbyopia, a common age-related change that can make close-up focusing more difficult. During a consultation, the clinician reviews possible next steps. {{red:An eye-care professional should assess changes in near vision.}} {{mask_1}} {{red:An optometrist can measure a person's near focusing ability with a reading chart.}} {{mask_2}} {{red:The clinic will schedule a comprehensive eye examination next week.}} {{mask_3}} {{red:Patients must tell the clinician about sudden changes in their vision.}} {{mask_4}}",

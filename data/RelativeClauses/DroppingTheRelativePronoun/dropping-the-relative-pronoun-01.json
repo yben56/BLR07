@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T14:09:01.339+08:00",
   "story_title": "Life in the City",
   "extra_info": "",
+  "tags": [
+    "#kyiv",
+    "#community",
+    "#humanitarian"
+  ],
   "paragraphs": [
     "In Kyiv, a student {{mask_1}} I met at the library is helping organize food deliveries for families. The buses {{mask_2}} run through the center are crowded with volunteers. People {{mask_3}} we speak to at the shelter want quiet rooms to rest. The local clinic, {{mask_4}} many residents trust, is open for longer hours. The windows {{mask_5}} were broken in the old flats are being repaired.",
     "A teacher {{mask_6}} works at the community center made a list of books {{mask_7}} children can read during the evening. The volunteers, {{mask_8}} we thanked after the shift, were tired but hopeful. A building {{mask_9}} was damaged in the last storm now has a new roof. Families {{mask_10}} live nearby are sharing food and warm clothes with neighbors."

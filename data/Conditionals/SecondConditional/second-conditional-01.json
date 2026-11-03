@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T20:21:00+08:00",
   "story_title": "A Dream Airport Adventure",
   "extra_info": "",
+  "tags": [
+    "#travel",
+    "#airport",
+    "#family"
+  ],
   "paragraphs": [
     "Lena and her brother Max are waiting at the airport during a long layover. They imagine what they would do if they could design their own airport. Lena says, \"If I {{mask_1}} the airport, I {{mask_2}} a quiet garden near the gates.\" Max smiles. \"If the garden {{mask_3}} a small pond, travelers {{mask_4}} there while they wait.\"",
     "They walk past a crowded coffee shop and continue their imaginary plan. Max says, \"If the airport {{mask_5}} a free library, I {{mask_6}} a book before every flight.\" Lena adds, \"If the seats {{mask_7}} more comfortable, people {{mask_8}} better during a delay.\"",

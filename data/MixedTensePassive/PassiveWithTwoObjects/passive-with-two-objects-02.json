@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T22:17:00+08:00",
   "story_title": "A Royal Audience",
   "extra_info": "",
+  "tags": [
+    "#royalty",
+    "#history",
+    "#ceremony"
+  ],
   "task_instruction": "Rewrite each active sentence in the passive voice. Use either object as the subject.",
   "paragraphs": [
     "At the royal court, the steward prepares the great hall for an audience with the King and Queen. He welcomes the visitors with a respectful bow. {{red:The steward gives the King a list of the day's petitions.}} {{mask_1}} A page addresses the Queen formally. {{red:The page shows the Queen a map of the kingdom.}} {{mask_2}} The captain reports from the northern road. {{red:The captain has sent the royal council a message about the bridge.}} {{mask_3}} Before the doors open, the herald speaks to the gathered guests. {{red:The herald tells the guests a story about the founding of the castle.}} {{mask_4}}",

@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T14:03:12.402+08:00",
   "story_title": "The Lab Project",
   "extra_info": "",
+  "tags": [
+    "#science",
+    "#school",
+    "#robotics"
+  ],
   "paragraphs": [
     "At the science center, a student {{mask_1}} works with the robot team is collecting data for a school project. The teacher, {{mask_2}} we met yesterday, asked everyone to write a short report. A scientist {{mask_3}} we interviewed spoke about the moon samples. The lab assistant, {{mask_4}} the students trust, showed them how to use the microscope. The results, {{mask_5}} they copied into the notebook, were clearer than expected.",
     "The class also watched a video about an astronaut {{mask_6}} the crew invited to the conference. A device {{mask_7}} the team built can measure light in the room. The engineer {{mask_8}} designed the battery explained the problem carefully. The project manager, {{mask_9}} many people admire, gave the group a new schedule. Everyone thanked the volunteers {{mask_10}} helped carry the equipment to the lab."

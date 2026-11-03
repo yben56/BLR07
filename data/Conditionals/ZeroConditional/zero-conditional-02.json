@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T20:11:00+08:00",
   "story_title": "The Office That Runs on Routines",
   "extra_info": "",
+  "tags": [
+    "#workplace",
+    "#office",
+    "#routines"
+  ],
   "paragraphs": [
     "At Northstar Design, new employees spend their first morning with Priya, the office manager. She shows them how the team keeps its work moving. \"If a project lead {{mask_1}} a new job, the system {{mask_2}} a shared folder,\" she explains. \"If team members {{mask_3}} a file in that folder, everyone {{mask_4}} the latest version.\"",
     "Before a meeting, Priya checks the conference room. \"If someone {{mask_5}} the room on the calendar, the display {{mask_6}} the meeting time,\" she says. A new employee asks what happens when the screen stays dark. Priya replies, \"If the room tablet {{mask_7}} a connection, I {{mask_8}} the wireless hub.\"",

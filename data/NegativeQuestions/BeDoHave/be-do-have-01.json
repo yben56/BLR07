@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T18:56:00+08:00",
   "story_title": "A Busy Evening at the Restaurant",
   "extra_info": "",
+  "tags": [
+    "#restaurant",
+    "#foodservice",
+    "#workplace"
+  ],
   "task_instruction": "Rewrite each affirmative statement as a negative question.",
   "paragraphs": [
     "Mia works at a fictional KFC restaurant near the station. Her shift starts at five. {{red:Mia is usually at the counter by 4:50.}} {{mask_1}}? The first customers arrive soon after she begins.",
@@ -17,102 +22,142 @@
   "masks": {
     "mask_1": {
       "target": "Isn't Mia usually at the counter by 4:50",
-      "acceptable_variants": ["Is Mia not usually at the counter by 4:50"],
+      "acceptable_variants": [
+        "Is Mia not usually at the counter by 4:50"
+      ],
       "hint": "be"
     },
     "mask_2": {
       "target": "Isn't the dining room busy on Friday evenings",
-      "acceptable_variants": ["Is the dining room not busy on Friday evenings"],
+      "acceptable_variants": [
+        "Is the dining room not busy on Friday evenings"
+      ],
       "hint": "be"
     },
     "mask_3": {
       "target": "Hasn't Ben got his name badge on",
-      "acceptable_variants": ["Has Ben not got his name badge on"],
+      "acceptable_variants": [
+        "Has Ben not got his name badge on"
+      ],
       "hint": "have"
     },
     "mask_4": {
       "target": "Aren't the parents waiting near the menu",
-      "acceptable_variants": ["Are the parents not waiting near the menu"],
+      "acceptable_variants": [
+        "Are the parents not waiting near the menu"
+      ],
       "hint": "be"
     },
     "mask_5": {
       "target": "Haven't they got enough time before the movie",
-      "acceptable_variants": ["Have they not got enough time before the movie"],
+      "acceptable_variants": [
+        "Have they not got enough time before the movie"
+      ],
       "hint": "have"
     },
     "mask_6": {
       "target": "Isn't the cashier helping another customer",
-      "acceptable_variants": ["Is the cashier not helping another customer"],
+      "acceptable_variants": [
+        "Is the cashier not helping another customer"
+      ],
       "hint": "be"
     },
     "mask_7": {
       "target": "Doesn't he do this carefully",
-      "acceptable_variants": ["Does he not do this carefully"],
+      "acceptable_variants": [
+        "Does he not do this carefully"
+      ],
       "hint": "do"
     },
     "mask_8": {
       "target": "Hasn't the kitchen team got the order ready",
-      "acceptable_variants": ["Has the kitchen team not got the order ready"],
+      "acceptable_variants": [
+        "Has the kitchen team not got the order ready"
+      ],
       "hint": "have"
     },
     "mask_9": {
       "target": "Hasn't the family got a coupon for dinner",
-      "acceptable_variants": ["Has the family not got a coupon for dinner"],
+      "acceptable_variants": [
+        "Has the family not got a coupon for dinner"
+      ],
       "hint": "have"
     },
     "mask_10": {
       "target": "Doesn't she know what she wants",
-      "acceptable_variants": ["Does she not know what she wants"],
+      "acceptable_variants": [
+        "Does she not know what she wants"
+      ],
       "hint": "do"
     },
     "mask_11": {
       "target": "Isn't the customer happy with the explanation",
-      "acceptable_variants": ["Is the customer not happy with the explanation"],
+      "acceptable_variants": [
+        "Is the customer not happy with the explanation"
+      ],
       "hint": "be"
     },
     "mask_12": {
       "target": "Aren't the drinks cold and ready",
-      "acceptable_variants": ["Are the drinks not cold and ready"],
+      "acceptable_variants": [
+        "Are the drinks not cold and ready"
+      ],
       "hint": "be"
     },
     "mask_13": {
       "target": "Hasn't Mia finished her counter list",
-      "acceptable_variants": ["Has Mia not finished her counter list"],
+      "acceptable_variants": [
+        "Has Mia not finished her counter list"
+      ],
       "hint": "have"
     },
     "mask_14": {
       "target": "Isn't Ben ready to clean the tables",
-      "acceptable_variants": ["Is Ben not ready to clean the tables"],
+      "acceptable_variants": [
+        "Is Ben not ready to clean the tables"
+      ],
       "hint": "be"
     },
     "mask_15": {
       "target": "Hasn't Ben got a short break before closing",
-      "acceptable_variants": ["Has Ben not got a short break before closing"],
+      "acceptable_variants": [
+        "Has Ben not got a short break before closing"
+      ],
       "hint": "have"
     },
     "mask_16": {
       "target": "Doesn't the manager do the weekly schedule",
-      "acceptable_variants": ["Does the manager not do the weekly schedule"],
+      "acceptable_variants": [
+        "Does the manager not do the weekly schedule"
+      ],
       "hint": "do"
     },
     "mask_17": {
       "target": "Isn't the dining room clean now",
-      "acceptable_variants": ["Is the dining room not clean now"],
+      "acceptable_variants": [
+        "Is the dining room not clean now"
+      ],
       "hint": "be"
     },
     "mask_18": {
       "target": "Hasn't the team got enough napkins for tomorrow",
-      "acceptable_variants": ["Has the team not got enough napkins for tomorrow"],
+      "acceptable_variants": [
+        "Has the team not got enough napkins for tomorrow"
+      ],
       "hint": "have"
     },
     "mask_19": {
       "target": "Doesn't Mia remember the closing code",
-      "acceptable_variants": ["Does Mia not remember the closing code"],
+      "acceptable_variants": [
+        "Does Mia not remember the closing code"
+      ],
       "hint": "do"
     },
     "mask_20": {
       "target": "Isn't the front door locked",
-      "acceptable_variants": ["Is the front door not locked"],
+      "acceptable_variants": [
+        "Is the front door not locked"
+      ],
       "hint": "be"
     }
   }

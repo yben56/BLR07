@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T19:12:00+08:00",
   "story_title": "A Day at the Farm",
   "extra_info": "",
+  "tags": [
+    "#farming",
+    "#agriculture",
+    "#family"
+  ],
   "task_instruction": "Answer each negative question with a short answer that matches the facts.",
   "paragraphs": [
     "On Saturday, Lena visits her uncle's farm to help prepare for the spring planting. At the gate, she asks, {{red:Isn't the ground wet after last night's rain?}} Her uncle checks the dry path and replies, {{mask_1}}. Near the field, Lena sees dark soil. She asks, {{red:Isn't this soil still damp?}} He touches it and answers, {{mask_2}}.",

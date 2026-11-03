@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T19:14:00+08:00",
   "story_title": "Opening Night at the Little Theater",
   "extra_info": "",
+  "tags": [
+    "#theater",
+    "#performingarts",
+    "#community"
+  ],
   "task_instruction": "Answer each negative question with a short answer that matches the facts.",
   "paragraphs": [
     "The Little Theater is preparing for the opening night of a new play. The stage manager checks the room and asks, {{red:Isn't the stage ready yet?}} The crew is still arranging the chairs, so the director replies, {{mask_1}}. The actors arrive from the dressing room. The director asks, {{red:Haven't they learned their lines?}} They have rehearsed for several weeks and know every scene, so the stage manager answers, {{mask_2}}. Maya walks onto the stage in costume. The director asks, {{red:Isn't Maya playing the lead role?}} Her name is printed beside the lead role in the program, so the stage manager says, {{mask_3}}. Before rehearsal begins, the director checks the sound desk and asks, {{red:Doesn't the sound operator test the microphones every evening?}} The operator has just tested all of them, so Maya replies, {{mask_4}}.",

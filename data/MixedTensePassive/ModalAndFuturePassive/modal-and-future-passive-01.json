@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T22:25:00+08:00",
   "story_title": "Understanding a Traffic Fine",
   "extra_info": "",
+  "tags": [
+    "#traffic",
+    "#roadsafety",
+    "#law"
+  ],
   "task_instruction": "Rewrite each active sentence in the passive voice.",
   "paragraphs": [
     "A city office is explaining how traffic fines are handled. The notice lists the rules in simple language. {{red:Drivers must obey the speed limit on this road.}} {{mask_1}} {{red:Officers can record a violation with a camera.}} {{mask_2}} {{red:The city will send a fine notice to the registered vehicle owner.}} {{mask_3}} {{red:Drivers should read the notice carefully.}} {{mask_4}}",

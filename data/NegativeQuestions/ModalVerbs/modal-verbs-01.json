@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T19:09:00+08:00",
   "story_title": "A Hike in Pine Ridge Park",
   "extra_info": "",
+  "tags": [
+    "#hiking",
+    "#outdoors",
+    "#sport"
+  ],
   "task_instruction": "Rewrite each affirmative statement as a negative question.",
   "paragraphs": [
     "On Saturday morning, Alex and Priya began a hike in Pine Ridge Park. {{red:They can see the trail map from the entrance.}} {{mask_1}}? They stop to check the route. {{red:Alex can carry the extra water.}} {{mask_2}}? Priya gives him one bottle.",
@@ -17,77 +22,107 @@
   "masks": {
     "mask_1": {
       "target": "Can't they see the trail map from the entrance",
-      "acceptable_variants": ["Can they not see the trail map from the entrance"],
+      "acceptable_variants": [
+        "Can they not see the trail map from the entrance"
+      ],
       "hint": "can"
     },
     "mask_2": {
       "target": "Can't Alex carry the extra water",
-      "acceptable_variants": ["Can Alex not carry the extra water"],
+      "acceptable_variants": [
+        "Can Alex not carry the extra water"
+      ],
       "hint": "can"
     },
     "mask_3": {
       "target": "Mustn't hikers stay on the marked path",
-      "acceptable_variants": ["Must hikers not stay on the marked path"],
+      "acceptable_variants": [
+        "Must hikers not stay on the marked path"
+      ],
       "hint": "must"
     },
     "mask_4": {
       "target": "Shouldn't they take a paper map",
-      "acceptable_variants": ["Should they not take a paper map"],
+      "acceptable_variants": [
+        "Should they not take a paper map"
+      ],
       "hint": "should"
     },
     "mask_5": {
       "target": "Won't Alex need a warm jacket at the top",
-      "acceptable_variants": ["Will Alex not need a warm jacket at the top"],
+      "acceptable_variants": [
+        "Will Alex not need a warm jacket at the top"
+      ],
       "hint": "will"
     },
     "mask_6": {
       "target": "Couldn't they take the shorter path",
-      "acceptable_variants": ["Could they not take the shorter path"],
+      "acceptable_variants": [
+        "Could they not take the shorter path"
+      ],
       "hint": "could"
     },
     "mask_7": {
       "target": "Can't visitors use the wooden bridge",
-      "acceptable_variants": ["Can visitors not use the wooden bridge"],
+      "acceptable_variants": [
+        "Can visitors not use the wooden bridge"
+      ],
       "hint": "can"
     },
     "mask_8": {
       "target": "Can't they cross the stream here",
-      "acceptable_variants": ["Can they not cross the stream here"],
+      "acceptable_variants": [
+        "Can they not cross the stream here"
+      ],
       "hint": "can"
     },
     "mask_9": {
       "target": "Can't Priya walk up the steep section",
-      "acceptable_variants": ["Can Priya not walk up the steep section"],
+      "acceptable_variants": [
+        "Can Priya not walk up the steep section"
+      ],
       "hint": "can"
     },
     "mask_10": {
       "target": "Shouldn't they rest in the shade",
-      "acceptable_variants": ["Should they not rest in the shade"],
+      "acceptable_variants": [
+        "Should they not rest in the shade"
+      ],
       "hint": "should"
     },
     "mask_11": {
       "target": "Mustn't they leave the trail clean",
-      "acceptable_variants": ["Must they not leave the trail clean"],
+      "acceptable_variants": [
+        "Must they not leave the trail clean"
+      ],
       "hint": "must"
     },
     "mask_12": {
       "target": "Can't they eat at the tables",
-      "acceptable_variants": ["Can they not eat at the tables"],
+      "acceptable_variants": [
+        "Can they not eat at the tables"
+      ],
       "hint": "can"
     },
     "mask_13": {
       "target": "Won't Alex eat the fruit now",
-      "acceptable_variants": ["Will Alex not eat the fruit now"],
+      "acceptable_variants": [
+        "Will Alex not eat the fruit now"
+      ],
       "hint": "will"
     },
     "mask_14": {
       "target": "Shouldn't they refill their water bottles",
-      "acceptable_variants": ["Should they not refill their water bottles"],
+      "acceptable_variants": [
+        "Should they not refill their water bottles"
+      ],
       "hint": "should"
     },
     "mask_15": {
       "target": "Can't they reach the viewpoint before two",
-      "acceptable_variants": ["Can they not reach the viewpoint before two"],
+      "acceptable_variants": [
+        "Can they not reach the viewpoint before two"
+      ],
       "hint": "can"
     },
     "mask_16": {
@@ -97,22 +132,30 @@
     },
     "mask_17": {
       "target": "Shouldn't they take the left fork",
-      "acceptable_variants": ["Should they not take the left fork"],
+      "acceptable_variants": [
+        "Should they not take the left fork"
+      ],
       "hint": "should"
     },
     "mask_18": {
       "target": "Mustn't they stay behind the safety rail",
-      "acceptable_variants": ["Must they not stay behind the safety rail"],
+      "acceptable_variants": [
+        "Must they not stay behind the safety rail"
+      ],
       "hint": "must"
     },
     "mask_19": {
       "target": "Couldn't they see the lake through the clouds",
-      "acceptable_variants": ["Could they not see the lake through the clouds"],
+      "acceptable_variants": [
+        "Could they not see the lake through the clouds"
+      ],
       "hint": "could"
     },
     "mask_20": {
       "target": "Don't they have to start back before sunset",
-      "acceptable_variants": ["Do they not have to start back before sunset"],
+      "acceptable_variants": [
+        "Do they not have to start back before sunset"
+      ],
       "hint": "do"
     }
   }

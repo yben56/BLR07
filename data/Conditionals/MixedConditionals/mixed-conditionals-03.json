@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T20:36:00+08:00",
   "story_title": "The Extreme Sports Safety Review",
   "extra_info": "",
+  "tags": [
+    "#extremesports",
+    "#safety",
+    "#fitness"
+  ],
   "paragraphs": [
     "After a regional extreme-sports festival, coach Kira reviews the event with her team. She completed a certified safety course last winter, and she now recognizes when weather conditions need attention. Kira says, \"If I {{mask_1}} that course, I {{mask_2}} warning signs more confidently now.\" Sasha is naturally cautious and followed the guide's advice when visibility became poor before yesterday's mountain-bike session. \"If I {{mask_3}} so cautious, I {{mask_4}} the guide's advice yesterday,\" Sasha says.",
     "The team discusses first-aid preparation. Sam completed first-aid training before the season and now feels prepared to contact the event medical team when needed. \"If I {{mask_5}} that training, I {{mask_6}} less prepared now,\" he says. His teammate Noor is patient and listened carefully during the safety briefing. \"If I {{mask_7}} less patient, I {{mask_8}} an important detail yesterday.\"",

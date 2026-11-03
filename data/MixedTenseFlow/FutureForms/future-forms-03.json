@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T18:52:00+08:00",
   "story_title": "A Journey Through Japan",
   "extra_info": "",
+  "tags": [
+    "#travel",
+    "#japan",
+    "#tourism"
+  ],
   "paragraphs": [
     "Nina and her brother are planning a trip to Japan for next spring. Their flight {{mask_1}} at 10:15 on Monday, according to the airline schedule. They have already booked a hotel in Kyoto, and they {{mask_2}} there for the first four nights. Nina has made a list of places she wants to visit, and she {{mask_3}} the final route this weekend.",
     "On Tuesday morning, the siblings {{mask_4}} the train to Osaka; their seats are reserved. Nina's brother has promised to carry the larger suitcase, and he {{mask_5}} it through the station. The train timetable says their service {{mask_6}} Kyoto at 8:42. Nina expects the journey {{mask_7}} about thirty minutes.",

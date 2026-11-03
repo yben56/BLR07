@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T22:24:00+08:00",
   "story_title": "The Castle Chronicle",
   "extra_info": "",
+  "tags": [
+    "#medievalhistory",
+    "#castles",
+    "#writing"
+  ],
   "task_instruction": "Rewrite each sentence in the passive voice. Change the verb in the subordinate clause and keep the main clause unchanged.",
   "paragraphs": [
     "In the late Middle Ages, a royal historian records events at a stone castle. {{red:The steward explains that the masons built the outer wall after the northern raid.}} {{mask_1}} {{red:The reeve believes that the villagers have repaired the wooden bridge before the winter thaw.}} {{mask_2}} {{red:The castle captain reports that a messenger carried the duke's sealed letter through the eastern gate.}} {{mask_3}} {{red:The chronicler notes that the royal clerk is copying the treaty into the archive book.}} {{mask_4}}",

@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T22:05:00+08:00",
   "story_title": "The Graduation Ceremony",
   "extra_info": "",
+  "tags": [
+    "#graduation",
+    "#education",
+    "#school"
+  ],
   "task_instruction": "Rewrite each direct statement in reported speech. Change the tense and time expressions where necessary.",
   "paragraphs": [
     "The school newspaper reporter, Daniel, interviews graduates and staff after the ceremony. Graduate Aisha describes her final week at school. {{red:\"I have finished my last exams.\"}} {{mask_1}} She points to the decorated hall. {{red:\"Our families are arriving now.\"}} {{mask_2}} Her friend Mateo shares his plans. {{red:\"I will study engineering next year.\"}} {{mask_3}} He adds, {{red:\"We celebrated with our class yesterday.\"}} {{mask_4}}",

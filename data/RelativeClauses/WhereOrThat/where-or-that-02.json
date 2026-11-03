@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T22:45:00+08:00",
   "story_title": "A Neighborhood Social Media Project",
   "extra_info": "",
+  "tags": [
+    "#socialmedia",
+    "#community",
+    "#technology"
+  ],
   "paragraphs": [
     "A group of neighbors starts a social media page {{mask_1}} residents can share local news. They create a profile {{mask_2}} introduces the project to new followers. The community center {{mask_3}} the volunteers meet hosts a weekly planning session. A notice {{mask_4}} the team posts online explains how to submit an event. They also build a page {{mask_5}} lists useful neighborhood services.",
     "The volunteers discuss how to make the page welcoming and reliable. They use a shared folder {{mask_6}} everyone can save photos with permission. The team writes guidelines {{mask_7}} encourage respectful comments. A moderator checks a post {{mask_8}} includes information about a lost pet. The page links to a map {{mask_9}} people can find public meeting places. The map also marks a library {{mask_10}} offers free internet access.",

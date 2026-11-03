@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T20:30:00+08:00",
   "story_title": "Questions for the Health Workshop",
   "extra_info": "",
+  "tags": [
+    "#health",
+    "#puberty",
+    "#education"
+  ],
   "paragraphs": [
     "At a school health workshop, nurse Jordan explains that puberty is a normal stage of development, but it does not happen at the same age or pace for everyone. Alex has questions about body changes. Jordan says, \"If you {{mask_1}} a question after the workshop, I {{mask_2}} time to talk with you.\" Alex wonders what the class might be like with more time. \"If our school {{mask_3}} a longer health course, students {{mask_4}} more chances to ask questions.\"",
     "The group discusses hormones and growth. Jordan explains that hormones help guide many changes during puberty, such as growth and changes in skin or body hair. Alex says, \"If I {{mask_5}} the information sheet before class, I {{mask_6}} the word hormone sooner.\" Another student asks about periods. Jordan explains that menstrual cycles can vary, especially when periods first begin. \"If someone {{mask_7}} worried about a change, they {{mask_8}} a trusted adult or health professional.\"",

@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T20:40:00+08:00",
   "story_title": "Finding the Right Sneakers",
   "extra_info": "",
+  "tags": [
+    "#shoes",
+    "#running",
+    "#shopping"
+  ],
   "paragraphs": [
     "Jordan needs new sneakers for the school running club. At a sports shop, the assistant asks what kind of shoes Jordan wants. Jordan replies, \"I won't choose a pair {{mask_1}} it feels comfortable when I walk. I can try this model {{mask_2}} there is space for my toes.\"",
     "The assistant explains that shoes should fit well, not just look good. \"You shouldn't buy them {{mask_3}} your heel slips when you walk. You can compare another size {{mask_4}} you keep both shoes on while you test the fit.\" Jordan tries a different pair and walks slowly across the shop.",

@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T22:29:00+08:00",
   "story_title": "Good Manners at the Dinner Table",
   "extra_info": "",
+  "tags": [
+    "#dining",
+    "#family",
+    "#etiquette"
+  ],
   "task_instruction": "Rewrite each sentence in the opposite voice: change active sentences to passive and passive sentences to active.",
   "paragraphs": [
     "A family is teaching the children polite table manners before a special dinner. Their mother begins with simple examples. {{red:Guests use a napkin during the meal.}} {{mask_1}} {{red:The table is set by the children before dinner.}} {{mask_2}} {{red:Everyone keeps their elbows off the table.}} {{mask_3}} {{red:The soup is served by their father.}} {{mask_4}}",

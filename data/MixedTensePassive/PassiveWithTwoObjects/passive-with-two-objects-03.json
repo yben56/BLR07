@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T22:19:00+08:00",
   "story_title": "Support at the Oncology Clinic",
   "extra_info": "",
+  "tags": [
+    "#oncology",
+    "#chemotherapy",
+    "#medical"
+  ],
   "task_instruction": "Rewrite each active sentence in the passive voice. Use either object as the subject.",
   "paragraphs": [
     "At an oncology clinic, a care team helps patients understand their chemotherapy appointments and support options. A nurse welcomes a patient named Elena and reviews the information she requested. {{red:The nurse gives Elena a schedule for her treatment visits.}} {{mask_1}} The oncology pharmacist explains the medicine plan. {{red:The pharmacist has sent Elena a written summary of the medicines.}} {{mask_2}} A social worker describes practical services. {{red:The social worker offers Elena a list of transportation resources.}} {{mask_3}} Before the appointment, the clinic coordinator speaks with Elena's family. {{red:The coordinator gave them the clinic's telephone number.}} {{mask_4}}",

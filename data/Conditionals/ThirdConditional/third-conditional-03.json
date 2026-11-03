@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T20:28:00+08:00",
   "story_title": "Reading the Past with Care",
   "extra_info": "",
+  "tags": [
+    "#history",
+    "#museum",
+    "#research"
+  ],
   "paragraphs": [
     "At a history museum, curator Dr. Shah leads an advanced seminar on how historians discuss possible alternatives to events in World War II. She reminds the class that counterfactuals are questions, not established facts. A student studies a timeline of the 1930s and says, \"If European leaders {{mask_1}} a broader agreement earlier, the political crisis {{mask_2}} differently.\" Dr. Shah notes that historians cannot know for certain what would have followed.",
     "The class turns to the Battle of Britain in 1940. A display explains that the Royal Air Force defended the United Kingdom against German air attacks. A student asks, \"If radar stations {{mask_3}} the approaching aircraft less reliably, the defenders {{mask_4}} less warning.\" Dr. Shah points to the wording on the display. \"If the museum {{mask_5}} that evidence in context, visitors {{mask_6}} why historians describe several factors rather than one simple cause.\"",

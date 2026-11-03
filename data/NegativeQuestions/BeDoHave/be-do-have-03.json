@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T19:07:00+08:00",
   "story_title": "The Studio Recital",
   "extra_info": "",
+  "tags": [
+    "#piano",
+    "#music",
+    "#education"
+  ],
   "task_instruction": "Rewrite each affirmative statement as a negative question.",
   "paragraphs": [
     "Maya arrived early for her piano lesson at the community music studio. {{red:The studio is quiet before the afternoon classes.}} {{mask_1}}? She can hear a piano in the next room. {{red:Her teacher has a copy of the recital program.}} {{mask_2}}? The teacher shows it to Maya.",
@@ -17,102 +22,142 @@
   "masks": {
     "mask_1": {
       "target": "Isn't the studio quiet before the afternoon classes",
-      "acceptable_variants": ["Is the studio not quiet before the afternoon classes"],
+      "acceptable_variants": [
+        "Is the studio not quiet before the afternoon classes"
+      ],
       "hint": "be"
     },
     "mask_2": {
       "target": "Hasn't her teacher got a copy of the recital program",
-      "acceptable_variants": ["Has her teacher not got a copy of the recital program"],
+      "acceptable_variants": [
+        "Has her teacher not got a copy of the recital program"
+      ],
       "hint": "have"
     },
     "mask_3": {
       "target": "Hasn't she brought the sheet music",
-      "acceptable_variants": ["Has she not brought the sheet music"],
+      "acceptable_variants": [
+        "Has she not brought the sheet music"
+      ],
       "hint": "have"
     },
     "mask_4": {
       "target": "Isn't the first piece difficult",
-      "acceptable_variants": ["Is the first piece not difficult"],
+      "acceptable_variants": [
+        "Is the first piece not difficult"
+      ],
       "hint": "be"
     },
     "mask_5": {
       "target": "Doesn't she do the scales before every lesson",
-      "acceptable_variants": ["Does she not do the scales before every lesson"],
+      "acceptable_variants": [
+        "Does she not do the scales before every lesson"
+      ],
       "hint": "do"
     },
     "mask_6": {
       "target": "Isn't Maya sitting with a straight back",
-      "acceptable_variants": ["Is Maya not sitting with a straight back"],
+      "acceptable_variants": [
+        "Is Maya not sitting with a straight back"
+      ],
       "hint": "be"
     },
     "mask_7": {
       "target": "Hasn't the teacher explained the new fingering",
-      "acceptable_variants": ["Has the teacher not explained the new fingering"],
+      "acceptable_variants": [
+        "Has the teacher not explained the new fingering"
+      ],
       "hint": "have"
     },
     "mask_8": {
       "target": "Doesn't she remember the hand position",
-      "acceptable_variants": ["Does she not remember the hand position"],
+      "acceptable_variants": [
+        "Does she not remember the hand position"
+      ],
       "hint": "do"
     },
     "mask_9": {
       "target": "Isn't she keeping a steady tempo",
-      "acceptable_variants": ["Is she not keeping a steady tempo"],
+      "acceptable_variants": [
+        "Is she not keeping a steady tempo"
+      ],
       "hint": "be"
     },
     "mask_10": {
       "target": "Isn't the teacher watching her hands",
-      "acceptable_variants": ["Is the teacher not watching her hands"],
+      "acceptable_variants": [
+        "Is the teacher not watching her hands"
+      ],
       "hint": "be"
     },
     "mask_11": {
       "target": "Doesn't Maya follow the beat",
-      "acceptable_variants": ["Does Maya not follow the beat"],
+      "acceptable_variants": [
+        "Does Maya not follow the beat"
+      ],
       "hint": "do"
     },
     "mask_12": {
       "target": "Hasn't Maya chosen a piece for the recital",
-      "acceptable_variants": ["Has Maya not chosen a piece for the recital"],
+      "acceptable_variants": [
+        "Has Maya not chosen a piece for the recital"
+      ],
       "hint": "have"
     },
     "mask_13": {
       "target": "Hasn't the teacher heard Maya play it before",
-      "acceptable_variants": ["Has the teacher not heard Maya play it before"],
+      "acceptable_variants": [
+        "Has the teacher not heard Maya play it before"
+      ],
       "hint": "have"
     },
     "mask_14": {
       "target": "Isn't the family coming to the recital",
-      "acceptable_variants": ["Is the family not coming to the recital"],
+      "acceptable_variants": [
+        "Is the family not coming to the recital"
+      ],
       "hint": "be"
     },
     "mask_15": {
       "target": "Hasn't Maya finished the practice exercise",
-      "acceptable_variants": ["Has Maya not finished the practice exercise"],
+      "acceptable_variants": [
+        "Has Maya not finished the practice exercise"
+      ],
       "hint": "have"
     },
     "mask_16": {
       "target": "Doesn't Maya understand the final instruction",
-      "acceptable_variants": ["Does Maya not understand the final instruction"],
+      "acceptable_variants": [
+        "Does Maya not understand the final instruction"
+      ],
       "hint": "do"
     },
     "mask_17": {
       "target": "Isn't the teacher available next week",
-      "acceptable_variants": ["Is the teacher not available next week"],
+      "acceptable_variants": [
+        "Is the teacher not available next week"
+      ],
       "hint": "be"
     },
     "mask_18": {
       "target": "Hasn't she put the recital program in her bag",
-      "acceptable_variants": ["Has she not put the recital program in her bag"],
+      "acceptable_variants": [
+        "Has she not put the recital program in her bag"
+      ],
       "hint": "have"
     },
     "mask_19": {
       "target": "Isn't her music safe inside the folder",
-      "acceptable_variants": ["Is her music not safe inside the folder"],
+      "acceptable_variants": [
+        "Is her music not safe inside the folder"
+      ],
       "hint": "be"
     },
     "mask_20": {
       "target": "Isn't the lesson over for today",
-      "acceptable_variants": ["Is the lesson not over for today"],
+      "acceptable_variants": [
+        "Is the lesson not over for today"
+      ],
       "hint": "be"
     }
   }

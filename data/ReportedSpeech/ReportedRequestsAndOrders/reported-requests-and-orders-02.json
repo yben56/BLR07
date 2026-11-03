@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T21:56:00+08:00",
   "story_title": "Race Day at the Circuit",
   "extra_info": "",
+  "tags": [
+    "#motorsport",
+    "#racing",
+    "#workplace"
+  ],
   "task_instruction": "Rewrite each direct request or order as reported speech.",
   "paragraphs": [
     "At a professional car-racing circuit, team coordinator Elena briefs the crew before practice. She asked the mechanics, {{red:Check the tire pressures before the car leaves the garage.}} {{mask_1}} Then she told the driver, {{red:Please review the track map with me.}} {{mask_2}} A mechanic reminded the team, {{red:Do not leave tools beside the service lane.}} {{mask_3}}",

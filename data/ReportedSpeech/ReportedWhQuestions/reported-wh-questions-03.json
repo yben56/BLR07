@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T21:51:00+08:00",
   "story_title": "An Interview About El Capitan",
   "extra_info": "El Capitan is a granite rock formation in Yosemite National Park. It rises about 3,000 feet (900 meters) above Yosemite Valley.",
+  "tags": [
+    "#rockclimbing",
+    "#sport",
+    "#interviews"
+  ],
   "task_instruction": "Rewrite each direct wh-question as a reported question.",
   "paragraphs": [
     "A journalist interviews climber Alex Honnold about his 2017 free solo ascent of El Capitan. The journalist begins by asking about his preparation. The journalist asked Alex, {{red:When did you first decide to attempt the climb?}} {{mask_1}} Alex described how the idea developed over time. The journalist asked, {{red:How long had you been preparing for that route?}} {{mask_2}} Alex explained that he had spent years climbing and studying the route.",

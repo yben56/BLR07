@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T22:35:00+08:00",
   "story_title": "Behind the Scenes of a Video Channel",
   "extra_info": "",
+  "tags": [
+    "#youtube",
+    "#videoproduction",
+    "#technology"
+  ],
   "task_instruction": "Rewrite each sentence in the opposite voice: change active sentences to passive and passive sentences to active.",
   "paragraphs": [
     "Maya runs a video channel about practical science projects. She plans each episode with her small production team. {{red:Maya researches each topic before filming.}} {{mask_1}} {{red:The camera batteries are charged by her assistant the night before a shoot.}} {{mask_2}} {{red:Her editor is checking the sound levels now.}} {{mask_3}} {{red:The episode outline was written by Maya last weekend.}} {{mask_4}}",

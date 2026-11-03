@@ -4,6 +4,11 @@
   "created_at": "2026-11-03T21:48:00+08:00",
   "story_title": "A Movie Night with Dinosaurs",
   "extra_info": "",
+  "tags": [
+    "#dinosaurs",
+    "#film",
+    "#science"
+  ],
   "task_instruction": "Rewrite each direct wh-question as a reported question.",
   "paragraphs": [
     "After watching Jurassic Park at a neighborhood cinema, Mia and Alex go to a cafe and talk about dinosaurs. Alex asks Mia to share what she remembers from science class. Alex asked Mia, {{red:Which dinosaur did you find most interesting?}} {{mask_1}} Mia said she had been fascinated by Triceratops. Alex asked, {{red:What do you know about its horns?}} {{mask_2}} Mia explained that scientists study the skull and fossils to understand what the horns may have been used for.",
