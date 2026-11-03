@@ -1,0 +1,115 @@
+{
+  "topic": "Compound Relative Pronouns",
+  "difficulty": "advanced",
+  "created_at": "2026-11-03T23:04:56+08:00",
+  "story_title": "A Civil Preparedness Workshop in Seoul",
+  "extra_info": "",
+  "paragraphs": [
+    "A community center in Seoul hosts a civil preparedness workshop about how families can respond to official emergency alerts. The instructor explains that {{mask_1}} receives a warning should stay calm and follow directions from local authorities. Residents are encouraged to rely on {{mask_2}} information officials release, rather than forwarding unverified messages. Each household reviews {{mask_3}} of its agreed meeting places is easiest to reach safely. The instructor reminds participants that {{mask_4}} needs assistance should tell a trusted neighbor or contact local services. Families write down {{mask_5}} contact details they may need and keep the list accessible.",
+    "The workshop uses a fictional alert scenario involving a possible missile emergency on the Korean Peninsula. It does not discuss weapons or military operations; instead, participants practice finding official updates and following public safety instructions. The facilitator asks {{mask_6}} sees an alert to check its source before sharing it. She explains that {{mask_7}} authorities advise will depend on the specific situation and may change as reliable information becomes available. A family should go to {{mask_8}} location local officials identify as safe for its area. The group discusses {{mask_9}} members would do if they became separated, including how to reconnect through an agreed contact. The facilitator emphasizes that {{mask_10}} is unsure about an instruction should consult an official source rather than guess.",
+    "Participants then consider practical needs during a short disruption. They make a list of {{mask_11}} their household may need, such as essential medicines, water, and contact information, following guidance from relevant authorities. {{mask_12}} helps a neighbor prepare should respect that person's privacy and choices. The instructor asks residents to select {{mask_13}} communication method works for their household if mobile service is interrupted. Volunteers identify {{mask_14}} may need extra help, while avoiding assumptions about any individual. The center posts {{mask_15}} emergency information is confirmed by local authorities and updates it when official guidance changes.",
+    "Before the session ends, each family reviews its plan and identifies a trusted contact outside the immediate neighborhood. The instructor says {{mask_16}} receives a message should check whether it comes from a reliable source before acting on it. Families agree on {{mask_17}} route is safe and accessible if authorities direct them to leave their area. The center will share {{mask_18}} updates it receives through verified public channels. Residents are reminded that {{mask_19}} has a question can ask the local information desk for clarification. The workshop closes with a simple principle: follow {{mask_20}} instructions the appropriate authorities issue for the actual circumstances."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "whoever",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "whatever",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "whichever",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "whoever",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "whatever",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "whoever",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "whatever",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "whichever",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "whatever",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "whoever",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "whatever",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "whoever",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "whichever",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "whoever",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "whatever",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_16": {
+      "target": "whoever",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_17": {
+      "target": "whichever",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_18": {
+      "target": "whatever",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_19": {
+      "target": "whoever",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_20": {
+      "target": "whatever",
+      "acceptable_variants": [],
+      "hint": ""
+    }
+  }
+}

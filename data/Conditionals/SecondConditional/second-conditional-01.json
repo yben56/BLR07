@@ -1,0 +1,136 @@
+{
+  "topic": "Second Conditional",
+  "difficulty": "beginner",
+  "created_at": "2026-11-03T20:21:00+08:00",
+  "story_title": "A Dream Airport Adventure",
+  "extra_info": "",
+  "paragraphs": [
+    "Lena and her brother Max are waiting at the airport during a long layover. They imagine what they would do if they could design their own airport. Lena says, \"If I {{mask_1}} the airport, I {{mask_2}} a quiet garden near the gates.\" Max smiles. \"If the garden {{mask_3}} a small pond, travelers {{mask_4}} there while they wait.\"",
+    "They walk past a crowded coffee shop and continue their imaginary plan. Max says, \"If the airport {{mask_5}} a free library, I {{mask_6}} a book before every flight.\" Lena adds, \"If the seats {{mask_7}} more comfortable, people {{mask_8}} better during a delay.\"",
+    "A family nearby is looking for a place to eat. Lena imagines a better food court. \"If we {{mask_9}} more healthy meals, travelers {{mask_10}} more choices,\" she says. Max points to the long line. \"If the airport {{mask_11}} more small cafes, the lines {{mask_12}} shorter.\"",
+    "Their flight is delayed for another hour, so they look at the departure screens. Max says, \"If I {{mask_13}} the airport manager, I {{mask_14}} the announcements easier to understand.\" Lena thinks about people who speak different languages. \"If every gate {{mask_15}} clear signs in several languages, visitors {{mask_16}} their planes more easily.\"",
+    "Finally, they imagine how they would spend time between flights. Lena says, \"If we {{mask_17}} a longer break, we {{mask_18}} the airport art gallery.\" Max laughs. \"If our plane {{mask_19}} from a different gate, we {{mask_20}} our bags and walk there together.\" Their own flight is called soon, and they hurry to board."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "designed",
+      "acceptable_variants": [],
+      "hint": "design"
+    },
+    "mask_2": {
+      "target": "would build",
+      "acceptable_variants": [
+        "'d build"
+      ],
+      "hint": "would"
+    },
+    "mask_3": {
+      "target": "had",
+      "acceptable_variants": [],
+      "hint": "have"
+    },
+    "mask_4": {
+      "target": "would relax",
+      "acceptable_variants": [
+        "'d relax"
+      ],
+      "hint": "would"
+    },
+    "mask_5": {
+      "target": "had",
+      "acceptable_variants": [],
+      "hint": "have"
+    },
+    "mask_6": {
+      "target": "would borrow",
+      "acceptable_variants": [
+        "'d borrow"
+      ],
+      "hint": "would"
+    },
+    "mask_7": {
+      "target": "were",
+      "acceptable_variants": [],
+      "hint": "be"
+    },
+    "mask_8": {
+      "target": "would sleep",
+      "acceptable_variants": [
+        "'d sleep"
+      ],
+      "hint": "would"
+    },
+    "mask_9": {
+      "target": "offered",
+      "acceptable_variants": [],
+      "hint": "offer"
+    },
+    "mask_10": {
+      "target": "would have",
+      "acceptable_variants": [
+        "'d have"
+      ],
+      "hint": "would"
+    },
+    "mask_11": {
+      "target": "had",
+      "acceptable_variants": [],
+      "hint": "have"
+    },
+    "mask_12": {
+      "target": "would be",
+      "acceptable_variants": [
+        "'d be"
+      ],
+      "hint": "would"
+    },
+    "mask_13": {
+      "target": "managed",
+      "acceptable_variants": [],
+      "hint": "manage"
+    },
+    "mask_14": {
+      "target": "would make",
+      "acceptable_variants": [
+        "'d make"
+      ],
+      "hint": "would"
+    },
+    "mask_15": {
+      "target": "had",
+      "acceptable_variants": [],
+      "hint": "have"
+    },
+    "mask_16": {
+      "target": "would find",
+      "acceptable_variants": [
+        "'d find"
+      ],
+      "hint": "would"
+    },
+    "mask_17": {
+      "target": "had",
+      "acceptable_variants": [],
+      "hint": "have"
+    },
+    "mask_18": {
+      "target": "would visit",
+      "acceptable_variants": [
+        "'d visit"
+      ],
+      "hint": "would"
+    },
+    "mask_19": {
+      "target": "left",
+      "acceptable_variants": [],
+      "hint": "leave"
+    },
+    "mask_20": {
+      "target": "would collect",
+      "acceptable_variants": [
+        "'d collect"
+      ],
+      "hint": "would"
+    }
+  }
+}

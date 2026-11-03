@@ -1,0 +1,157 @@
+{
+  "topic": "Passive with Verbs with Two Objects",
+  "difficulty": "advanced",
+  "created_at": "2026-11-03T22:19:00+08:00",
+  "story_title": "Support at the Oncology Clinic",
+  "extra_info": "",
+  "task_instruction": "Rewrite each active sentence in the passive voice. Use either object as the subject.",
+  "paragraphs": [
+    "At an oncology clinic, a care team helps patients understand their chemotherapy appointments and support options. A nurse welcomes a patient named Elena and reviews the information she requested. {{red:The nurse gives Elena a schedule for her treatment visits.}} {{mask_1}} The oncology pharmacist explains the medicine plan. {{red:The pharmacist has sent Elena a written summary of the medicines.}} {{mask_2}} A social worker describes practical services. {{red:The social worker offers Elena a list of transportation resources.}} {{mask_3}} Before the appointment, the clinic coordinator speaks with Elena's family. {{red:The coordinator gave them the clinic's telephone number.}} {{mask_4}}",
+    "The team discusses how side effects are monitored and whom Elena can contact. {{red:The oncology nurse taught Elena the names of the members of her care team yesterday.}} {{mask_5}} The pharmacist checks that instructions are easy to follow. {{red:The pharmacist is showing Elena the medicine information sheet now.}} {{mask_6}} Elena asks about keeping track of questions between visits. {{red:The nurse will give her a symptom diary at the next appointment.}} {{mask_7}} The social worker answers a question about financial support. {{red:The hospital has offered Elena a consultation with a financial counselor.}} {{mask_8}}",
+    "At the next visit, the care team reviews Elena's notes and concerns. {{red:The physician showed Elena the expected schedule last week.}} {{mask_9}} A nurse helps her prepare for the following days. {{red:The nurse is bringing Elena a printed list of questions for her care team.}} {{mask_10}} The pharmacist reviews how to contact the clinic. {{red:The pharmacist will send Elena the after-hours telephone instructions.}} {{mask_11}} The counselor checks that Elena knows about available services. {{red:The counselor has promised Elena a call after the appointment.}} {{mask_12}}",
+    "The clinic also supports Elena's family, with her permission. {{red:The nurse gave Elena's sister a guide to supporting someone during treatment.}} {{mask_13}} The dietitian discusses food and hydration in general terms. {{red:The dietitian is offering Elena several meal-planning suggestions.}} {{mask_14}} Elena asks for a copy of the care plan. {{red:The coordinator had emailed Elena the appointment details before the visit.}} {{mask_15}} The social worker discusses community resources. {{red:The social worker will provide Elena's family with information about a local support group.}} {{mask_16}}",
+    "Before Elena leaves, the team makes sure she has clear contact information and understands her next steps. {{red:The physician has given Elena a copy of the updated care plan.}} {{mask_17}} The nurse checks whether she needs help arranging a ride home. {{red:The clinic offered Elena a ride home after her previous appointment.}} {{mask_18}} Elena asks how she will receive changes to her schedule. {{red:The coordinator will text her the new appointment time if it changes.}} {{mask_19}} The pharmacist closes the consultation by reviewing written instructions. {{red:The pharmacist read Elena the key points from the medicine guide.}} {{mask_20}} Elena leaves knowing that she can contact her care team with questions."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "Elena is given a schedule for her treatment visits by the nurse.",
+      "acceptable_variants": [
+        "A schedule for her treatment visits is given to Elena by the nurse."
+      ],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "Elena has been sent a written summary of the medicines by the pharmacist.",
+      "acceptable_variants": [
+        "A written summary of the medicines has been sent to Elena by the pharmacist."
+      ],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "Elena is offered a list of transportation resources by the social worker.",
+      "acceptable_variants": [
+        "A list of transportation resources is offered to Elena by the social worker."
+      ],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "They were given the clinic's telephone number by the coordinator.",
+      "acceptable_variants": [
+        "The clinic's telephone number was given to them by the coordinator."
+      ],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "Elena was taught the names of the members of her care team by the oncology nurse yesterday.",
+      "acceptable_variants": [
+        "The names of the members of her care team were taught to Elena by the oncology nurse yesterday."
+      ],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "Elena is being shown the medicine information sheet by the pharmacist now.",
+      "acceptable_variants": [
+        "The medicine information sheet is being shown to Elena by the pharmacist now."
+      ],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "She will be given a symptom diary by the nurse at the next appointment.",
+      "acceptable_variants": [
+        "A symptom diary will be given to her by the nurse at the next appointment."
+      ],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "Elena has been offered a consultation with a financial counselor by the hospital.",
+      "acceptable_variants": [
+        "A consultation with a financial counselor has been offered to Elena by the hospital."
+      ],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "Elena was shown the expected schedule by the physician last week.",
+      "acceptable_variants": [
+        "The expected schedule was shown to Elena by the physician last week."
+      ],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "Elena is being brought a printed list of questions for her care team by the nurse.",
+      "acceptable_variants": [
+        "A printed list of questions for her care team is being brought to Elena by the nurse."
+      ],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "Elena will be sent the after-hours telephone instructions by the pharmacist.",
+      "acceptable_variants": [
+        "The after-hours telephone instructions will be sent to Elena by the pharmacist."
+      ],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "Elena has been promised a call after the appointment by the counselor.",
+      "acceptable_variants": [
+        "A call after the appointment has been promised to Elena by the counselor."
+      ],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "Elena's sister was given a guide to supporting someone during treatment by the nurse.",
+      "acceptable_variants": [
+        "A guide to supporting someone during treatment was given to Elena's sister by the nurse."
+      ],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "Elena is being offered several meal-planning suggestions by the dietitian.",
+      "acceptable_variants": [
+        "Several meal-planning suggestions are being offered to Elena by the dietitian."
+      ],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "Elena had been emailed the appointment details by the coordinator before the visit.",
+      "acceptable_variants": [
+        "The appointment details had been emailed to Elena by the coordinator before the visit."
+      ],
+      "hint": ""
+    },
+    "mask_16": {
+      "target": "Elena's family will be provided with information about a local support group by the social worker.",
+      "acceptable_variants": [
+        "Information about a local support group will be provided to Elena's family by the social worker."
+      ],
+      "hint": ""
+    },
+    "mask_17": {
+      "target": "Elena has been given a copy of the updated care plan by the physician.",
+      "acceptable_variants": [
+        "A copy of the updated care plan has been given to Elena by the physician."
+      ],
+      "hint": ""
+    },
+    "mask_18": {
+      "target": "Elena was offered a ride home by the clinic after her previous appointment.",
+      "acceptable_variants": [
+        "A ride home was offered to Elena by the clinic after her previous appointment."
+      ],
+      "hint": ""
+    },
+    "mask_19": {
+      "target": "She will be texted the new appointment time by the coordinator if it changes.",
+      "acceptable_variants": [
+        "The new appointment time will be texted to her by the coordinator if it changes."
+      ],
+      "hint": ""
+    },
+    "mask_20": {
+      "target": "Elena was read the key points from the medicine guide by the pharmacist.",
+      "acceptable_variants": [
+        "The key points from the medicine guide were read to Elena by the pharmacist."
+      ],
+      "hint": ""
+    }
+  }
+}

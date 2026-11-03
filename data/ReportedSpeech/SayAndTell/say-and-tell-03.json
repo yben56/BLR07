@@ -1,0 +1,116 @@
+{
+  "topic": "Say and Tell",
+  "difficulty": "advanced",
+  "created_at": "2026-11-03T22:01:00+08:00",
+  "story_title": "A Careful Conversation at the Dental Clinic",
+  "extra_info": "",
+  "paragraphs": [
+    "Before her appointment, Noor had already {{mask_1}} the clinic that one of her molars had been sensitive for several weeks. At reception, she {{mask_2}}, \"I also brought the notes from my previous dentist.\" The receptionist {{mask_3}} her that Dr. Patel was reviewing them. Noor {{mask_4}} that she was worried the tooth might need major treatment. She had been {{mask_5}} that a root canal was inevitable, but she wanted another opinion.",
+    "When Dr. Patel invited her in, Noor began by explaining what had happened. She wanted to {{mask_6}} the dentist exactly when the discomfort started. Dr. Patel {{mask_7}} her that the notes mentioned a large filling. He {{mask_8}}, \"That does not automatically mean the tooth needs a root canal.\" Noor later {{mask_9}} that the explanation made her feel less anxious. She asked him to {{mask_10}} her whether the X-ray showed any damage near the nerve.",
+    "After examining the X-ray, Dr. Patel explained the possible causes of the sensitivity. He {{mask_11}} Noor that the nerve appeared healthy, although the filling might need adjustment. He also {{mask_12}} her to avoid chewing hard food on that side until the next visit. Then he {{mask_13}}, \"We can monitor the tooth before deciding on further treatment.\" Noor {{mask_14}} to him, \"I would prefer to understand each option before agreeing to a procedure.\"",
+    "Dr. Patel used a diagram to {{mask_15}} the difference between temporary sensitivity and signs of infection. He {{mask_16}} her that she should contact the clinic if the pain became constant or if swelling developed. Before leaving, Noor was {{mask_17}} to book a follow-up appointment in two weeks. The receptionist confirmed the time without {{mask_18}} her that the appointment could be changed if necessary.",
+    "At the desk, Noor {{mask_19}}, \"Thank you for explaining the choices instead of rushing me.\" Dr. Patel {{mask_20}} her to call the clinic if she had any new symptoms before the follow-up."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "told",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "said",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "told",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "said",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "told",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "tell",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "told",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "said",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "said",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "tell",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "told",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "told",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "said",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "said",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "tell",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_16": {
+      "target": "told",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_17": {
+      "target": "told",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_18": {
+      "target": "telling",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_19": {
+      "target": "said",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_20": {
+      "target": "told",
+      "acceptable_variants": [],
+      "hint": ""
+    }
+  }
+}

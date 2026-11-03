@@ -1,0 +1,145 @@
+{
+  "topic": "Where or That",
+  "difficulty": "advanced",
+  "created_at": "2026-11-03T22:45:00+08:00",
+  "story_title": "A Psychology Research Project",
+  "extra_info": "",
+  "paragraphs": [
+    "A university psychology team is studying how people make decisions in everyday settings. The laboratory {{mask_1}} participants complete the first task has adjustable lighting. Researchers designed a task {{mask_2}} measures attention under different conditions. The team records the activity {{mask_3}} each participant completes first. A quiet room {{mask_4}} volunteers can take a break is available nearby. The researchers explain a finding {{mask_5}} surprised the project coordinator.",
+    "The team is also interested in memory and learning. Participants visit a library {{mask_6}} they can read short passages without interruption. The study includes a test {{mask_7}} asks participants to recall details from a story. Researchers compare the answers with notes {{mask_8}} were recorded during the session. A screen {{mask_9}} displays the instructions is positioned at eye level. The team avoids making claims {{mask_10}} are not supported by the collected evidence.",
+    "During interviews, participants describe how they approached each task. One interview room {{mask_11}} the researchers speak with volunteers is designed to feel comfortable. A participant describes a strategy {{mask_12}} helped her focus on the passage. The researchers note the detail {{mask_13}} she remembered most clearly. Another volunteer mentions a distraction {{mask_14}} made it harder to remember the details. The team reviews a recording {{mask_15}} captured the session with the participant's permission.",
+    "After collecting the data, the researchers meet to discuss their results. They use a shared workspace {{mask_16}} team members can compare their notes. The analysis identifies a pattern {{mask_17}} appears across several tasks. The lead researcher explains the factor {{mask_18}} influenced the results most strongly. The team prepares a report {{mask_19}} describes the methods and limitations. They also plan a follow-up study {{mask_20}} will examine whether the pattern changes over time."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "where",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "where",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "where",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "where",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_16": {
+      "target": "where",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_17": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_18": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_19": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_20": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    }
+  }
+}

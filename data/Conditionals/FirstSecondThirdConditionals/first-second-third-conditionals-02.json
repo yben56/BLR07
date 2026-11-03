@@ -1,0 +1,134 @@
+{
+  "topic": "First, Second and Third Conditionals",
+  "difficulty": "intermediate",
+  "created_at": "2026-11-03T20:30:00+08:00",
+  "story_title": "Questions for the Health Workshop",
+  "extra_info": "",
+  "paragraphs": [
+    "At a school health workshop, nurse Jordan explains that puberty is a normal stage of development, but it does not happen at the same age or pace for everyone. Alex has questions about body changes. Jordan says, \"If you {{mask_1}} a question after the workshop, I {{mask_2}} time to talk with you.\" Alex wonders what the class might be like with more time. \"If our school {{mask_3}} a longer health course, students {{mask_4}} more chances to ask questions.\"",
+    "The group discusses hormones and growth. Jordan explains that hormones help guide many changes during puberty, such as growth and changes in skin or body hair. Alex says, \"If I {{mask_5}} the information sheet before class, I {{mask_6}} the word hormone sooner.\" Another student asks about periods. Jordan explains that menstrual cycles can vary, especially when periods first begin. \"If someone {{mask_7}} worried about a change, they {{mask_8}} a trusted adult or health professional.\"",
+    "Jordan also talks about feelings and privacy. People may feel different emotions, and everyone deserves respectful personal boundaries. Alex says, \"If I {{mask_9}} more confident talking about health, I {{mask_10}} my questions with the group.\" Jordan replies that no one has to share personal details in class. A student reflects, \"If the school {{mask_11}} a private question box, more students {{mask_12}} comfortable asking for information.\"",
+    "The workshop includes everyday hygiene and self-care. Jordan recommends learning how to care for skin and choosing comfortable, clean clothes. They explain that menstrual products should be used according to their instructions. Alex says, \"If I {{mask_13}} the product instructions at home, I {{mask_14}} what to bring in my school bag.\" A classmate adds, \"If our class {{mask_15}} a clear list of reliable health resources, we {{mask_16}} where to look for accurate answers.\"",
+    "Before the workshop ends, Jordan reminds everyone that trusted adults can help connect students with appropriate health support. Alex says, \"If I {{mask_17}} my question earlier, I {{mask_18}} an answer before I started worrying.\" Jordan smiles and adds, \"If you {{mask_19}} another question later, you {{mask_20}} me or the school counselor.\" The students leave with a resource sheet and a better understanding of where to get respectful, reliable information."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "have",
+      "acceptable_variants": [],
+      "hint": "have"
+    },
+    "mask_2": {
+      "target": "will make",
+      "acceptable_variants": [
+        "'ll make"
+      ],
+      "hint": "will"
+    },
+    "mask_3": {
+      "target": "offered",
+      "acceptable_variants": [],
+      "hint": "offer"
+    },
+    "mask_4": {
+      "target": "would have",
+      "acceptable_variants": [
+        "'d have"
+      ],
+      "hint": "will"
+    },
+    "mask_5": {
+      "target": "had read",
+      "acceptable_variants": [],
+      "hint": "read"
+    },
+    "mask_6": {
+      "target": "would have understood",
+      "acceptable_variants": [
+        "'d have understood"
+      ],
+      "hint": "will"
+    },
+    "mask_7": {
+      "target": "feels",
+      "acceptable_variants": [],
+      "hint": "feel"
+    },
+    "mask_8": {
+      "target": "will talk to",
+      "acceptable_variants": [
+        "'ll talk to"
+      ],
+      "hint": "will"
+    },
+    "mask_9": {
+      "target": "felt",
+      "acceptable_variants": [],
+      "hint": "feel"
+    },
+    "mask_10": {
+      "target": "would share",
+      "acceptable_variants": [
+        "'d share"
+      ],
+      "hint": "will"
+    },
+    "mask_11": {
+      "target": "had",
+      "acceptable_variants": [],
+      "hint": "have"
+    },
+    "mask_12": {
+      "target": "would feel",
+      "acceptable_variants": [
+        "'d feel"
+      ],
+      "hint": "will"
+    },
+    "mask_13": {
+      "target": "read",
+      "acceptable_variants": [],
+      "hint": "read"
+    },
+    "mask_14": {
+      "target": "will know",
+      "acceptable_variants": [
+        "'ll know"
+      ],
+      "hint": "will"
+    },
+    "mask_15": {
+      "target": "had",
+      "acceptable_variants": [],
+      "hint": "have"
+    },
+    "mask_16": {
+      "target": "would know",
+      "acceptable_variants": [
+        "'d know"
+      ],
+      "hint": "will"
+    },
+    "mask_17": {
+      "target": "had asked",
+      "acceptable_variants": [],
+      "hint": "ask"
+    },
+    "mask_18": {
+      "target": "would have received",
+      "acceptable_variants": [
+        "'d have received"
+      ],
+      "hint": "will"
+    },
+    "mask_19": {
+      "target": "have",
+      "acceptable_variants": [],
+      "hint": "have"
+    },
+    "mask_20": {
+      "target": "can contact",
+      "acceptable_variants": [],
+      "hint": "will"
+    }
+  }
+}

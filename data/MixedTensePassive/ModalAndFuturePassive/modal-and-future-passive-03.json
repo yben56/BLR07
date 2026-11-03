@@ -1,0 +1,155 @@
+{
+  "topic": "Modal and Future Passive",
+  "difficulty": "advanced",
+  "created_at": "2026-11-03T22:28:00+08:00",
+  "story_title": "A Clinic Visit for Near Vision",
+  "extra_info": "",
+  "task_instruction": "Rewrite each active sentence in the passive voice.",
+  "paragraphs": [
+    "An optometrist explains presbyopia, a common age-related change that can make close-up focusing more difficult. During a consultation, the clinician reviews possible next steps. {{red:An eye-care professional should assess changes in near vision.}} {{mask_1}} {{red:An optometrist can measure a person's near focusing ability with a reading chart.}} {{mask_2}} {{red:The clinic will schedule a comprehensive eye examination next week.}} {{mask_3}} {{red:Patients must tell the clinician about sudden changes in their vision.}} {{mask_4}}",
+    "After the examination, the clinician discusses options that may support near tasks. {{red:An eye-care professional may recommend reading glasses for some activities.}} {{mask_5}} {{red:The optician can adjust the frames to fit the patient comfortably.}} {{mask_6}} {{red:The clinic will explain the differences between single-vision and multifocal lenses.}} {{mask_7}} {{red:Patients should compare the available lens options with their clinician.}} {{mask_8}}",
+    "The clinic also provides guidance about follow-up care. {{red:Staff can send appointment reminders by email.}} {{mask_9}} {{red:An optometrist must check the prescription if close work remains difficult.}} {{mask_10}} {{red:The clinic may arrange another assessment after the patient tries the new lenses.}} {{mask_11}} {{red:Patients should report discomfort to the eye-care team.}} {{mask_12}}",
+    "The clinician answers questions about everyday activities and eye health. {{red:People can use brighter lighting for reading.}} {{mask_13}} {{red:An eye-care professional should investigate persistent headaches or blurred vision.}} {{mask_14}} {{red:The practice will give each patient written instructions about lens care.}} {{mask_15}} {{red:Patients must clean their lenses according to the manufacturer's guidance.}} {{mask_16}}",
+    "Before the visit ends, the optometrist reviews what will happen next. {{red:The receptionist will confirm the follow-up appointment by text.}} {{mask_17}} {{red:Patients may ask the clinic to explain any unfamiliar terms.}} {{mask_18}} {{red:The optometrist can discuss other options if the first lenses do not feel suitable.}} {{mask_19}} {{red:The clinic will update the patient's record after every examination.}} {{mask_20}} The clinician reminds patients that an eye-care professional can provide advice tailored to their needs."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "Changes in near vision should be assessed by an eye-care professional.",
+      "acceptable_variants": [
+        "Changes in near vision should be assessed."
+      ],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "A person's near focusing ability can be measured with a reading chart by an optometrist.",
+      "acceptable_variants": [
+        "A person's near focusing ability can be measured with a reading chart."
+      ],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "A comprehensive eye examination will be scheduled by the clinic next week.",
+      "acceptable_variants": [
+        "A comprehensive eye examination will be scheduled next week."
+      ],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "Sudden changes in vision must be reported to the clinician by patients.",
+      "acceptable_variants": [
+        "Sudden changes in vision must be reported to the clinician."
+      ],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "Reading glasses may be recommended for some activities by an eye-care professional.",
+      "acceptable_variants": [
+        "Reading glasses may be recommended for some activities."
+      ],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "The frames can be adjusted to fit the patient comfortably by the optician.",
+      "acceptable_variants": [
+        "The frames can be adjusted to fit the patient comfortably."
+      ],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "The differences between single-vision and multifocal lenses will be explained by the clinic.",
+      "acceptable_variants": [
+        "The differences between single-vision and multifocal lenses will be explained."
+      ],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "The available lens options should be compared with the clinician by patients.",
+      "acceptable_variants": [
+        "The available lens options should be compared with the clinician."
+      ],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "Appointment reminders can be sent by staff via email.",
+      "acceptable_variants": [
+        "Appointment reminders can be sent by email."
+      ],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "The prescription must be checked by an optometrist if close work remains difficult.",
+      "acceptable_variants": [
+        "The prescription must be checked if close work remains difficult."
+      ],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "Another assessment may be arranged by the clinic after the patient tries the new lenses.",
+      "acceptable_variants": [
+        "Another assessment may be arranged after the patient tries the new lenses."
+      ],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "Discomfort should be reported to the eye-care team by patients.",
+      "acceptable_variants": [
+        "Discomfort should be reported to the eye-care team."
+      ],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "Brighter lighting can be used for reading.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "Persistent headaches or blurred vision should be investigated by an eye-care professional.",
+      "acceptable_variants": [
+        "Persistent headaches or blurred vision should be investigated."
+      ],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "Each patient will be given written instructions about lens care by the practice.",
+      "acceptable_variants": [
+        "Written instructions about lens care will be given to each patient by the practice."
+      ],
+      "hint": ""
+    },
+    "mask_16": {
+      "target": "The lenses must be cleaned according to the manufacturer's guidance by patients.",
+      "acceptable_variants": [
+        "The lenses must be cleaned according to the manufacturer's guidance."
+      ],
+      "hint": ""
+    },
+    "mask_17": {
+      "target": "The follow-up appointment will be confirmed by the receptionist via text.",
+      "acceptable_variants": [
+        "The follow-up appointment will be confirmed by text."
+      ],
+      "hint": ""
+    },
+    "mask_18": {
+      "target": "The clinic may be asked by patients to explain any unfamiliar terms.",
+      "acceptable_variants": [
+        "The clinic may be asked to explain any unfamiliar terms."
+      ],
+      "hint": ""
+    },
+    "mask_19": {
+      "target": "Other options can be discussed by the optometrist if the first lenses do not feel suitable.",
+      "acceptable_variants": [
+        "Other options can be discussed if the first lenses do not feel suitable."
+      ],
+      "hint": ""
+    },
+    "mask_20": {
+      "target": "The patient's record will be updated by the clinic after every examination.",
+      "acceptable_variants": [
+        "The patient's record will be updated after every examination."
+      ],
+      "hint": ""
+    }
+  }
+}

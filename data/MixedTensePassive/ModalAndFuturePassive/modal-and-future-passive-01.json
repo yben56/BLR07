@@ -1,0 +1,155 @@
+{
+  "topic": "Modal and Future Passive",
+  "difficulty": "beginner",
+  "created_at": "2026-11-03T22:25:00+08:00",
+  "story_title": "Understanding a Traffic Fine",
+  "extra_info": "",
+  "task_instruction": "Rewrite each active sentence in the passive voice.",
+  "paragraphs": [
+    "A city office is explaining how traffic fines are handled. The notice lists the rules in simple language. {{red:Drivers must obey the speed limit on this road.}} {{mask_1}} {{red:Officers can record a violation with a camera.}} {{mask_2}} {{red:The city will send a fine notice to the registered vehicle owner.}} {{mask_3}} {{red:Drivers should read the notice carefully.}} {{mask_4}}",
+    "The office explains what happens after a notice arrives. {{red:People may pay the fine online.}} {{mask_5}} {{red:The payment system will accept card payments.}} {{mask_6}} {{red:Drivers must include the notice number with their payment.}} {{mask_7}} {{red:The office can answer questions by phone.}} {{mask_8}}",
+    "A driver can check the details before paying. {{red:Staff will review a reported mistake.}} {{mask_9}} {{red:Drivers may ask the office for more information.}} {{mask_10}} {{red:The city must protect personal information.}} {{mask_11}} {{red:An officer can explain the reason for the fine.}} {{mask_12}}",
+    "The office also describes the next steps. {{red:Drivers should keep a copy of the receipt.}} {{mask_13}} {{red:The payment service will email a receipt to the driver.}} {{mask_14}} {{red:The office may extend the payment date in special cases.}} {{mask_15}} {{red:Drivers must update their contact details.}} {{mask_16}}",
+    "The city wants every driver to understand the process. {{red:Officials will publish the payment instructions online.}} {{mask_17}} {{red:Drivers can appeal a fine through the city website.}} {{mask_18}} {{red:The review team will check each appeal.}} {{mask_19}} {{red:The city should explain every decision clearly.}} {{mask_20}} The office advises drivers to read official notices and meet the payment deadline."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "The speed limit must be obeyed by drivers on this road.",
+      "acceptable_variants": [
+        "The speed limit must be obeyed on this road."
+      ],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "A violation can be recorded with a camera by officers.",
+      "acceptable_variants": [
+        "A violation can be recorded with a camera."
+      ],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "A fine notice will be sent to the registered vehicle owner by the city.",
+      "acceptable_variants": [
+        "The registered vehicle owner will be sent a fine notice by the city."
+      ],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "The notice should be read carefully by drivers.",
+      "acceptable_variants": [
+        "The notice should be read carefully."
+      ],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "The fine may be paid online.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "Card payments will be accepted by the payment system.",
+      "acceptable_variants": [
+        "Card payments will be accepted."
+      ],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "The notice number must be included with their payment by drivers.",
+      "acceptable_variants": [
+        "The notice number must be included with the payment."
+      ],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "Questions can be answered by phone by the office.",
+      "acceptable_variants": [
+        "Questions can be answered by phone."
+      ],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "A reported mistake will be reviewed by staff.",
+      "acceptable_variants": [
+        "A reported mistake will be reviewed."
+      ],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "More information may be requested from the office by drivers.",
+      "acceptable_variants": [
+        "More information may be requested from the office."
+      ],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "Personal information must be protected by the city.",
+      "acceptable_variants": [
+        "Personal information must be protected."
+      ],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "The reason for the fine can be explained by an officer.",
+      "acceptable_variants": [
+        "The reason for the fine can be explained."
+      ],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "A copy of the receipt should be kept by drivers.",
+      "acceptable_variants": [
+        "A copy of the receipt should be kept."
+      ],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "A receipt will be emailed to the driver by the payment service.",
+      "acceptable_variants": [
+        "The driver will be emailed a receipt by the payment service."
+      ],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "The payment date may be extended by the office in special cases.",
+      "acceptable_variants": [
+        "The payment date may be extended in special cases."
+      ],
+      "hint": ""
+    },
+    "mask_16": {
+      "target": "Contact details must be updated by drivers.",
+      "acceptable_variants": [
+        "Contact details must be updated."
+      ],
+      "hint": ""
+    },
+    "mask_17": {
+      "target": "The payment instructions will be published online by officials.",
+      "acceptable_variants": [
+        "The payment instructions will be published online."
+      ],
+      "hint": ""
+    },
+    "mask_18": {
+      "target": "A fine can be appealed through the city website by drivers.",
+      "acceptable_variants": [
+        "A fine can be appealed through the city website."
+      ],
+      "hint": ""
+    },
+    "mask_19": {
+      "target": "Each appeal will be checked by the review team.",
+      "acceptable_variants": [
+        "Each appeal will be checked."
+      ],
+      "hint": ""
+    },
+    "mask_20": {
+      "target": "Every decision should be explained clearly by the city.",
+      "acceptable_variants": [
+        "Every decision should be explained clearly."
+      ],
+      "hint": ""
+    }
+  }
+}

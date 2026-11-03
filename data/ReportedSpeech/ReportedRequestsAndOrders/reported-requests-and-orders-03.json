@@ -1,0 +1,119 @@
+{
+  "topic": "Reported Requests and Orders",
+  "difficulty": "advanced",
+  "created_at": "2026-11-03T21:57:00+08:00",
+  "story_title": "A Community Workshop About Steam",
+  "extra_info": "Steam is a digital game store and platform developed by Valve. It lets users buy, download, update, and play games, and includes community features.",
+  "task_instruction": "Rewrite each direct request or order as reported speech.",
+  "paragraphs": [
+    "At a community technology center, facilitator Priya leads an advanced workshop about Steam. She begins by asking participants to organize their game libraries. Priya instructed the group, {{red:Create a collection for the games you play most often.}} {{mask_1}} Then she asked Jordan, {{red:Please explain how you sort your library.}} {{mask_2}} Jordan described using categories. Priya reminded everyone, {{red:Do not share your account password with anyone.}} {{mask_3}}",
+    "The group reviews account security and privacy settings. Priya advised the participants, {{red:Enable the security options available on your account.}} {{mask_4}} Jordan asked Priya, {{red:Could you show us where the privacy settings are?}} {{mask_5}} Priya opened the settings menu. She warned the group, {{red:Never approve a sign-in request you did not start.}} {{mask_6}}",
+    "Next, the participants discuss game updates and storage space. Priya told Jordan, {{red:Check the download settings before you install a large game.}} {{mask_7}} Jordan asked her, {{red:Please demonstrate how to pause an update.}} {{mask_8}} Priya showed the relevant controls. She reminded the group, {{red:Do not turn off your computer while an update is still running.}} {{mask_9}}",
+    "The workshop moves to community features. Priya asked the attendees, {{red:Please review your profile before making it public.}} {{mask_10}} One participant asked, {{red:Could you explain how a friend invitation works?}} {{mask_11}} Priya described the invitation process. She cautioned everyone, {{red:Do not post personal contact details on a public profile.}} {{mask_12}}",
+    "A participant wants to organize a shared game night. Jordan asked the group, {{red:Please suggest a time that works for everyone.}} {{mask_13}} Priya instructed Jordan, {{red:Write the event details in the group announcement.}} {{mask_14}} Another attendee requested, {{red:Please include the time zone in the announcement.}} {{mask_15}} Jordan updated the draft.",
+    "Before the session ends, Priya helps the group find official support information. She encouraged participants, {{red:Use the official help page if you have an account problem.}} {{mask_16}} Jordan asked Priya, {{red:Could you send us the workshop notes afterward?}} {{mask_17}} Priya agreed. She reminded everyone, {{red:Do not enter your password on a page unless you have checked that it is the official service.}} {{mask_18}}",
+    "The participants review what they learned. Priya asked Jordan, {{red:Please summarize the main account-safety points.}} {{mask_19}} Jordan mentioned strong account protection and careful privacy choices. Priya told the group, {{red:Keep your recovery information up to date.}} {{mask_20}} The workshop ended with questions about libraries, updates, and community tools."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "Priya instructed the group to create a collection for the games they played most often.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "Priya asked Jordan to explain how he sorted his library.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "Priya reminded everyone not to share their account passwords with anyone.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "Priya advised the participants to enable the security options available on their accounts.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "Jordan asked Priya to show them where the privacy settings were.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "Priya warned the group never to approve a sign-in request they had not started.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "Priya told Jordan to check the download settings before he installed a large game.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "Jordan asked Priya to demonstrate how to pause an update.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "Priya reminded the group not to turn off their computers while an update was still running.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "Priya asked the attendees to review their profiles before making them public.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "One participant asked Priya to explain how a friend invitation worked.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "Priya cautioned everyone not to post personal contact details on a public profile.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "Jordan asked the group to suggest a time that worked for everyone.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "Priya instructed Jordan to write the event details in the group announcement.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "Another attendee requested Jordan to include the time zone in the announcement.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_16": {
+      "target": "Priya encouraged the participants to use the official help page if they had an account problem.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_17": {
+      "target": "Jordan asked Priya to send them the workshop notes afterward.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_18": {
+      "target": "Priya reminded everyone not to enter their passwords on a page unless they had checked that it was the official service.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_19": {
+      "target": "Priya asked Jordan to summarize the main account-safety points.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_20": {
+      "target": "Priya told the group to keep their recovery information up to date.",
+      "acceptable_variants": [],
+      "hint": ""
+    }
+  }
+}

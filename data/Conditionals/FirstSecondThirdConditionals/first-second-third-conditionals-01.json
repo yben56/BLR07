@@ -1,0 +1,136 @@
+{
+  "topic": "First, Second and Third Conditionals",
+  "difficulty": "beginner",
+  "created_at": "2026-11-03T20:29:00+08:00",
+  "story_title": "A Shopping Day with Three Choices",
+  "extra_info": "",
+  "paragraphs": [
+    "On Saturday, Mia goes shopping with her brother Ben. They check the weather before they leave. The forecast says it may rain later. Ben says, \"If it {{mask_1}} this afternoon, we {{mask_2}} our umbrellas.\" Mia checks her shopping list. \"If we {{mask_3}} the market before noon, we {{mask_4}} the fresh bread.\"",
+    "At the store, Mia sees a blue jacket she likes, but it costs more than she planned to spend. She says, \"If I {{mask_5}} more money, I {{mask_6}} this jacket.\" Ben points to a cheaper one. \"If this jacket {{mask_7}} warm enough, you {{mask_8}} it for the trip.\"",
+    "They remember that they forgot their reusable bags at home. Ben says, \"If we {{mask_9}} our bags by the door, we {{mask_10}} them before leaving.\" Mia laughs and imagines their home with a reminder board. \"If we {{mask_11}} a board near the door, we {{mask_12}} forget our bags so often.\"",
+    "At the grocery store, Mia notices that she has left her shopping list at home. She says, \"If I {{mask_13}} the list in my phone, I {{mask_14}} every item.\" Ben looks at the shelf and asks about the last loaf of bread. \"If we {{mask_15}} it earlier, we {{mask_16}} it before the other shoppers.\"",
+    "They pay for their things and walk to the bus stop. The next bus is due soon, but the sky is getting dark. Ben says, \"If the bus {{mask_17}} on time, we {{mask_18}} home before the rain.\" Mia smiles. \"If we {{mask_19}} everything on our list today, we {{mask_20}} a free afternoon tomorrow.\" They head home together, carrying their purchases."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "rains",
+      "acceptable_variants": [],
+      "hint": "rain"
+    },
+    "mask_2": {
+      "target": "will use",
+      "acceptable_variants": [
+        "'ll use"
+      ],
+      "hint": "will"
+    },
+    "mask_3": {
+      "target": "reach",
+      "acceptable_variants": [],
+      "hint": "reach"
+    },
+    "mask_4": {
+      "target": "will buy",
+      "acceptable_variants": [
+        "'ll buy"
+      ],
+      "hint": "will"
+    },
+    "mask_5": {
+      "target": "had",
+      "acceptable_variants": [],
+      "hint": "have"
+    },
+    "mask_6": {
+      "target": "would buy",
+      "acceptable_variants": [
+        "'d buy"
+      ],
+      "hint": "will"
+    },
+    "mask_7": {
+      "target": "were",
+      "acceptable_variants": [],
+      "hint": "be"
+    },
+    "mask_8": {
+      "target": "would choose",
+      "acceptable_variants": [
+        "'d choose"
+      ],
+      "hint": "will"
+    },
+    "mask_9": {
+      "target": "had put",
+      "acceptable_variants": [],
+      "hint": "put"
+    },
+    "mask_10": {
+      "target": "would have remembered",
+      "acceptable_variants": [
+        "'d have remembered"
+      ],
+      "hint": "will"
+    },
+    "mask_11": {
+      "target": "had",
+      "acceptable_variants": [],
+      "hint": "have"
+    },
+    "mask_12": {
+      "target": "would not",
+      "acceptable_variants": [
+        "wouldn't"
+      ],
+      "hint": "will"
+    },
+    "mask_13": {
+      "target": "had saved",
+      "acceptable_variants": [],
+      "hint": "save"
+    },
+    "mask_14": {
+      "target": "would have remembered",
+      "acceptable_variants": [
+        "'d have remembered"
+      ],
+      "hint": "will"
+    },
+    "mask_15": {
+      "target": "had chosen",
+      "acceptable_variants": [],
+      "hint": "choose"
+    },
+    "mask_16": {
+      "target": "would have bought",
+      "acceptable_variants": [
+        "'d have bought"
+      ],
+      "hint": "will"
+    },
+    "mask_17": {
+      "target": "comes",
+      "acceptable_variants": [],
+      "hint": "come"
+    },
+    "mask_18": {
+      "target": "will get",
+      "acceptable_variants": [
+        "'ll get"
+      ],
+      "hint": "will"
+    },
+    "mask_19": {
+      "target": "finish",
+      "acceptable_variants": [],
+      "hint": "finish"
+    },
+    "mask_20": {
+      "target": "will have",
+      "acceptable_variants": [
+        "'ll have"
+      ],
+      "hint": "will"
+    }
+  }
+}

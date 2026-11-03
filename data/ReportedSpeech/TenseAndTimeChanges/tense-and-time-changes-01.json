@@ -1,0 +1,157 @@
+{
+  "topic": "Tense and Time Changes",
+  "difficulty": "beginner",
+  "created_at": "2026-11-03T22:04:00+08:00",
+  "story_title": "Finding a Place to Rent",
+  "extra_info": "",
+  "task_instruction": "Rewrite each direct statement in reported speech. Change the tense and time expressions where necessary.",
+  "paragraphs": [
+    "Mia is looking for an apartment and speaks with the landlord, Mr. Lee. He tells her about the building. {{red:\"I own this apartment building.\"}} {{mask_1}} He shows her a one-bedroom apartment. {{red:\"The living room gets good sunlight.\"}} {{mask_2}} Mia asks about the rent. Mr. Lee explains, {{red:\"The rent is eight hundred dollars a month.\"}} {{mask_3}} He adds, {{red:\"I am painting the kitchen today.\"}} {{mask_4}}",
+    "Mia asks when she can move in. Mr. Lee checks his calendar and says, {{red:\"The apartment is ready now.\"}} {{mask_5}} He points to a note on the table. {{red:\"I will send you the rental agreement tomorrow.\"}} {{mask_6}} Mia asks about the furniture. Mr. Lee replies, {{red:\"You can use this table and these chairs.\"}} {{mask_7}} He also says, {{red:\"The previous tenant left the keys here yesterday.\"}} {{mask_8}}",
+    "Mia calls her brother after the viewing to tell him what the landlord said. She explains, {{red:\"Mr. Lee says the building is quiet.\"}} {{mask_9}} She tells him, {{red:\"He is checking the water heater now.\"}} {{mask_10}} Then she says, {{red:\"He will call me this evening.\"}} {{mask_11}} Her brother asks about the neighborhood. Mia answers, {{red:\"There is a grocery store near the apartment.\"}} {{mask_12}}",
+    "The next day, Mr. Lee calls Mia with an update. After the call, Mia tells her brother, {{red:\"Mr. Lee said the agreement was ready today.\"}} {{mask_13}} She adds, {{red:\"He said I could read it at his office.\"}} {{mask_14}} Mia remembers another detail. {{red:\"He said the repair worker arrived yesterday.\"}} {{mask_15}} She also says, {{red:\"He said the worker is coming back tomorrow.\"}} {{mask_16}}",
+    "Mia meets Mr. Lee at his office to read the agreement. Afterwards, she tells her brother, {{red:\"Mr. Lee said the rent included water.\"}} {{mask_17}} She continues, {{red:\"He said the apartment had a small balcony.\"}} {{mask_18}} Mia explains that she asked about moving day. {{red:\"He said I could collect the keys there on Friday.\"}} {{mask_19}} Before ending the call, she says, {{red:\"He said he would keep a copy for me.\"}} {{mask_20}}"
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "Mr. Lee said that he owned that apartment building.",
+      "acceptable_variants": [
+        "Mr. Lee said he owned that apartment building."
+      ],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "Mr. Lee said that the living room got good sunlight.",
+      "acceptable_variants": [
+        "Mr. Lee said the living room got good sunlight."
+      ],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "Mr. Lee said that the rent was eight hundred dollars a month.",
+      "acceptable_variants": [
+        "Mr. Lee said the rent was eight hundred dollars a month."
+      ],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "Mr. Lee said that he was painting the kitchen that day.",
+      "acceptable_variants": [
+        "Mr. Lee said he was painting the kitchen that day."
+      ],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "Mr. Lee said that the apartment was ready then.",
+      "acceptable_variants": [
+        "Mr. Lee said the apartment was ready then."
+      ],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "Mr. Lee said that he would send her the rental agreement the next day.",
+      "acceptable_variants": [
+        "Mr. Lee said he would send her the rental agreement the next day."
+      ],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "Mr. Lee said that she could use that table and those chairs.",
+      "acceptable_variants": [
+        "Mr. Lee said she could use that table and those chairs."
+      ],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "Mr. Lee said that the previous tenant had left the keys there the day before.",
+      "acceptable_variants": [
+        "Mr. Lee said the previous tenant had left the keys there the day before."
+      ],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "Mia told her brother that Mr. Lee had said the building was quiet.",
+      "acceptable_variants": [
+        "Mia told her brother Mr. Lee had said the building was quiet."
+      ],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "Mia told her brother that Mr. Lee had been checking the water heater then.",
+      "acceptable_variants": [
+        "Mia told her brother Mr. Lee had been checking the water heater then."
+      ],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "Mia told her brother that Mr. Lee would call her that evening.",
+      "acceptable_variants": [
+        "Mia told her brother Mr. Lee would call her that evening."
+      ],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "Mia told her brother that there was a grocery store near the apartment.",
+      "acceptable_variants": [
+        "Mia told her brother there was a grocery store near the apartment."
+      ],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "Mia told her brother that Mr. Lee had said the agreement was ready that day.",
+      "acceptable_variants": [
+        "Mia told her brother Mr. Lee had said the agreement was ready that day."
+      ],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "Mia told her brother that Mr. Lee had said she could read it at his office.",
+      "acceptable_variants": [
+        "Mia told her brother Mr. Lee had said she could read it at his office."
+      ],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "Mia told her brother that Mr. Lee had said the repair worker had arrived the day before.",
+      "acceptable_variants": [
+        "Mia told her brother Mr. Lee had said the repair worker had arrived the day before."
+      ],
+      "hint": ""
+    },
+    "mask_16": {
+      "target": "Mia told her brother that Mr. Lee had said the worker was coming back the next day.",
+      "acceptable_variants": [
+        "Mia told her brother Mr. Lee had said the worker was coming back the next day."
+      ],
+      "hint": ""
+    },
+    "mask_17": {
+      "target": "Mia told her brother that Mr. Lee had said the rent included water.",
+      "acceptable_variants": [
+        "Mia told her brother Mr. Lee had said the rent included water."
+      ],
+      "hint": ""
+    },
+    "mask_18": {
+      "target": "Mia told her brother that Mr. Lee had said the apartment had a small balcony.",
+      "acceptable_variants": [
+        "Mia told her brother Mr. Lee had said the apartment had a small balcony."
+      ],
+      "hint": ""
+    },
+    "mask_19": {
+      "target": "Mia told her brother that Mr. Lee had said she could collect the keys there on Friday.",
+      "acceptable_variants": [
+        "Mia told her brother Mr. Lee had said she could collect the keys there on Friday."
+      ],
+      "hint": ""
+    },
+    "mask_20": {
+      "target": "Mia told her brother that Mr. Lee had said he would keep a copy for her.",
+      "acceptable_variants": [
+        "Mia told her brother Mr. Lee had said he would keep a copy for her."
+      ],
+      "hint": ""
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "topic": "First Conditional",
+  "difficulty": "beginner",
+  "created_at": "2026-11-03T20:18:00+08:00",
+  "story_title": "A Sailing Trip on Saturday",
+  "extra_info": "",
+  "paragraphs": [
+    "Mia and her uncle Ben are planning a sailing trip for Saturday. Ben checks the forecast and says, \"If the wind {{mask_1}} from the west, we {{mask_2}} along the coast.\" Mia looks at the map. \"If we {{mask_3}} the harbor before nine, we {{mask_4}} the morning breeze.\"",
+    "They prepare their boat on Friday. Ben makes a list of supplies. \"If we {{mask_5}} enough water, everyone {{mask_6}} comfortable on the trip,\" he says. Mia packs sandwiches. \"If I {{mask_7}} the food in this cooler, it {{mask_8}} fresh until lunch.\"",
+    "On Saturday morning, they meet their friend Leo at the marina. The sky is cloudy, but the forecast says the rain will stop soon. Ben tells the group, \"If the rain {{mask_9}} before we leave, we {{mask_10}} the final safety checks together.\" Leo checks the ropes. \"If I {{mask_11}} a loose rope, I {{mask_12}} you right away.\"",
+    "Before they leave, Ben explains the basic safety plan. \"If the waves {{mask_13}} too high, we {{mask_14}} back to the marina.\" He gives Mia a life jacket. \"If you {{mask_15}} this jacket correctly, it {{mask_16}} you safe in the water.\" Mia puts it on and checks the straps.",
+    "The clouds begin to clear, and a light breeze moves across the water. Ben smiles. \"If the weather {{mask_17}} good, we {{mask_18}} at the small island for lunch.\" Mia looks forward to seeing it. \"If we {{mask_19}} a quiet place to stop, I {{mask_20}} some photos.\" The friends board the boat, ready for a careful and enjoyable day."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "comes",
+      "acceptable_variants": [],
+      "hint": "come"
+    },
+    "mask_2": {
+      "target": "will sail",
+      "acceptable_variants": [
+        "'ll sail"
+      ],
+      "hint": "will"
+    },
+    "mask_3": {
+      "target": "leave",
+      "acceptable_variants": [],
+      "hint": "leave"
+    },
+    "mask_4": {
+      "target": "will catch",
+      "acceptable_variants": [
+        "'ll catch"
+      ],
+      "hint": "will"
+    },
+    "mask_5": {
+      "target": "bring",
+      "acceptable_variants": [],
+      "hint": "bring"
+    },
+    "mask_6": {
+      "target": "will stay",
+      "acceptable_variants": [
+        "'ll stay"
+      ],
+      "hint": "will"
+    },
+    "mask_7": {
+      "target": "put",
+      "acceptable_variants": [],
+      "hint": "put"
+    },
+    "mask_8": {
+      "target": "will stay",
+      "acceptable_variants": [
+        "'ll stay"
+      ],
+      "hint": "will"
+    },
+    "mask_9": {
+      "target": "stops",
+      "acceptable_variants": [],
+      "hint": "stop"
+    },
+    "mask_10": {
+      "target": "will prepare",
+      "acceptable_variants": [
+        "'ll prepare"
+      ],
+      "hint": "will"
+    },
+    "mask_11": {
+      "target": "notice",
+      "acceptable_variants": [],
+      "hint": "notice"
+    },
+    "mask_12": {
+      "target": "will tell",
+      "acceptable_variants": [
+        "'ll tell"
+      ],
+      "hint": "will"
+    },
+    "mask_13": {
+      "target": "are",
+      "acceptable_variants": [],
+      "hint": "be"
+    },
+    "mask_14": {
+      "target": "will return",
+      "acceptable_variants": [
+        "'ll return"
+      ],
+      "hint": "will"
+    },
+    "mask_15": {
+      "target": "wear",
+      "acceptable_variants": [],
+      "hint": "wear"
+    },
+    "mask_16": {
+      "target": "will keep",
+      "acceptable_variants": [
+        "'ll keep"
+      ],
+      "hint": "will"
+    },
+    "mask_17": {
+      "target": "stays",
+      "acceptable_variants": [],
+      "hint": "stay"
+    },
+    "mask_18": {
+      "target": "will stop",
+      "acceptable_variants": [
+        "'ll stop"
+      ],
+      "hint": "will"
+    },
+    "mask_19": {
+      "target": "find",
+      "acceptable_variants": [],
+      "hint": "find"
+    },
+    "mask_20": {
+      "target": "will take",
+      "acceptable_variants": [
+        "'ll take"
+      ],
+      "hint": "will"
+    }
+  }
+}

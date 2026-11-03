@@ -1,0 +1,136 @@
+{
+  "topic": "First Conditional",
+  "difficulty": "intermediate",
+  "created_at": "2026-11-03T20:19:00+08:00",
+  "story_title": "A Week of Better Food Choices",
+  "extra_info": "",
+  "paragraphs": [
+    "On Sunday evening, Nora meets her friend Daniel to plan simple meals for the week. Daniel wants to eat more vegetables, so they look through a recipe book. \"If we {{mask_1}} a meal plan tonight, we {{mask_2}} less time deciding what to cook,\" Nora says. Daniel points to a lentil soup recipe. \"If we {{mask_3}} the ingredients tomorrow, we {{mask_4}} the soup for lunch.\"",
+    "They make a shopping list and check what is already in the kitchen. Nora says, \"If we {{mask_5}} the list at the market, we {{mask_6}} only what we need.\" Daniel notices that they have no fresh fruit. \"If I {{mask_7}} apples and oranges, we {{mask_8}} them with breakfast.\" They also choose plain yogurt and oats for quick snacks.",
+    "On Monday, Daniel prepares lunch before work. He puts the soup into a reusable container. \"If I {{mask_9}} it in the fridge overnight, it {{mask_10}} cool until lunchtime,\" he says. Nora packs a salad separately. \"If you {{mask_11}} the dressing in a small jar, the lettuce {{mask_12}} crisp.\" They agree to bring water bottles instead of buying drinks during the day.",
+    "Midweek, their schedules become busy. Nora suggests cooking extra rice with dinner. \"If we {{mask_13}} a larger portion, we {{mask_14}} leftovers for tomorrow,\" she says. Daniel checks the recipe and sees that it needs less salt than he usually adds. \"If I {{mask_15}} the herbs and lemon, the dish {{mask_16}} plenty of flavor.\" He decides to try it.",
+    "On Friday, they review how the plan worked. Daniel says he felt more organized when he packed lunch the night before. Nora agrees. \"If we {{mask_17}} our meals ahead of time, we {{mask_18}} fewer last-minute choices.\" They choose two new recipes for next week. Daniel smiles. \"If we {{mask_19}} one new vegetable each week, we {{mask_20}} more meals we enjoy.\" They save the list and make plans to shop together again."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "make",
+      "acceptable_variants": [],
+      "hint": "make"
+    },
+    "mask_2": {
+      "target": "will spend",
+      "acceptable_variants": [
+        "'ll spend"
+      ],
+      "hint": "will"
+    },
+    "mask_3": {
+      "target": "buy",
+      "acceptable_variants": [],
+      "hint": "buy"
+    },
+    "mask_4": {
+      "target": "will prepare",
+      "acceptable_variants": [
+        "'ll prepare"
+      ],
+      "hint": "will"
+    },
+    "mask_5": {
+      "target": "follow",
+      "acceptable_variants": [],
+      "hint": "follow"
+    },
+    "mask_6": {
+      "target": "will purchase",
+      "acceptable_variants": [
+        "'ll purchase"
+      ],
+      "hint": "will"
+    },
+    "mask_7": {
+      "target": "buy",
+      "acceptable_variants": [],
+      "hint": "buy"
+    },
+    "mask_8": {
+      "target": "will eat",
+      "acceptable_variants": [
+        "'ll eat"
+      ],
+      "hint": "will"
+    },
+    "mask_9": {
+      "target": "store",
+      "acceptable_variants": [],
+      "hint": "store"
+    },
+    "mask_10": {
+      "target": "will stay",
+      "acceptable_variants": [
+        "'ll stay"
+      ],
+      "hint": "will"
+    },
+    "mask_11": {
+      "target": "keep",
+      "acceptable_variants": [],
+      "hint": "keep"
+    },
+    "mask_12": {
+      "target": "will remain",
+      "acceptable_variants": [
+        "'ll remain"
+      ],
+      "hint": "will"
+    },
+    "mask_13": {
+      "target": "cook",
+      "acceptable_variants": [],
+      "hint": "cook"
+    },
+    "mask_14": {
+      "target": "will have",
+      "acceptable_variants": [
+        "'ll have"
+      ],
+      "hint": "will"
+    },
+    "mask_15": {
+      "target": "use",
+      "acceptable_variants": [],
+      "hint": "use"
+    },
+    "mask_16": {
+      "target": "will have",
+      "acceptable_variants": [
+        "'ll have"
+      ],
+      "hint": "will"
+    },
+    "mask_17": {
+      "target": "plan",
+      "acceptable_variants": [],
+      "hint": "plan"
+    },
+    "mask_18": {
+      "target": "will make",
+      "acceptable_variants": [
+        "'ll make"
+      ],
+      "hint": "will"
+    },
+    "mask_19": {
+      "target": "try",
+      "acceptable_variants": [],
+      "hint": "try"
+    },
+    "mask_20": {
+      "target": "will discover",
+      "acceptable_variants": [
+        "'ll discover"
+      ],
+      "hint": "will"
+    }
+  }
+}

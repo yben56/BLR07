@@ -1,0 +1,121 @@
+{
+  "topic": "Unless / As Long As",
+  "difficulty": "advanced",
+  "created_at": "2026-11-03T20:41:00+08:00",
+  "story_title": "A Seminar on Modern Chinese History",
+  "extra_info": "",
+  "paragraphs": [
+    "At a university seminar, Professor Lin asks students to examine the history of the Chinese Communist Party and the People's Republic of China using reliable sources. \"You can compare different accounts {{mask_1}} you check who produced them and when,\" she says. \"A source is difficult to evaluate {{mask_2}} you know its context.\"",
+    "The class begins with the establishment of the People's Republic in 1949 and the political changes that followed. Professor Lin explains that historians use the term planned economy for systems in which public authorities set major production goals. \"You should not treat every decade as identical {{mask_3}} the evidence supports that comparison,\" she says. Students can discuss the party's role in government {{mask_4}} they distinguish institutions from individual citizens.",
+    "Next, the class studies collectivization and the establishment of people's communes in the 1950s. Students read excerpts describing how rural production was organized. \"You cannot understand a policy {{mask_5}} you examine how it worked in daily life,\" Professor Lin says. \"You can compare the textbook and the archival document {{mask_6}} you note their different purposes.\"",
+    "A student asks about the Great Leap Forward, a campaign launched in 1958 that sought rapid economic and social change. The seminar discusses its severe consequences, including widespread famine, while avoiding unsupported claims about individual experiences. Professor Lin says, \"We should not make a precise claim about a local event {{mask_7}} a reliable source supports it. We can study the effects of a national campaign {{mask_8}} we also recognize that local conditions varied.\"",
+    "The conversation turns to economic reforms that began in the late 1970s. The class considers changes in agriculture, markets, and international trade. \"You can describe a reform as successful {{mask_9}} you explain which measure you are using,\" Professor Lin says. \"A graph can be useful {{mask_10}} its dates, units, and source are clear.\"",
+    "The students compare several statistics and notice that the data sets cover different years. \"We should not combine these figures {{mask_11}} they refer to the same period and measure,\" says a student. Professor Lin agrees. \"You may draw a conclusion {{mask_12}} the evidence supports it, but you should state what the evidence cannot show.\"",
+    "Later, the seminar considers how the Chinese Communist Party describes its own ideology and governance. Professor Lin asks the class to distinguish official statements from independent analysis. \"You can quote an official document {{mask_13}} you identify it clearly as an official position,\" she says. \"Do not assume that one statement represents every person's view {{mask_14}} you have evidence for that conclusion.\"",
+    "The students prepare short presentations in pairs. One pair studies changes in urban life, while another looks at education and public policy. Professor Lin says, \"You can compare these topics {{mask_15}} you explain the limits of the comparison. A presentation will be stronger {{mask_16}} it separates documented facts from interpretation.\"",
+    "Before the seminar ends, the class discusses how to handle disagreement. Professor Lin encourages respectful questions and careful use of evidence. \"You may challenge an interpretation {{mask_17}} you explain your reasons. A debate is productive {{mask_18}} everyone listens and responds to the evidence.\"",
+    "The students submit their source lists and outlines. Professor Lin reminds them, \"You should not cite a source {{mask_19}} you have checked that it supports the point you make.\" The class will continue its discussion next week. Students can revise their arguments {{mask_20}} they use credible evidence and represent different views accurately."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "as long as",
+      "acceptable_variants": [],
+      "hint": "condition"
+    },
+    "mask_2": {
+      "target": "unless",
+      "acceptable_variants": [],
+      "hint": "not"
+    },
+    "mask_3": {
+      "target": "unless",
+      "acceptable_variants": [],
+      "hint": "not"
+    },
+    "mask_4": {
+      "target": "as long as",
+      "acceptable_variants": [],
+      "hint": "condition"
+    },
+    "mask_5": {
+      "target": "unless",
+      "acceptable_variants": [],
+      "hint": "not"
+    },
+    "mask_6": {
+      "target": "as long as",
+      "acceptable_variants": [],
+      "hint": "condition"
+    },
+    "mask_7": {
+      "target": "unless",
+      "acceptable_variants": [],
+      "hint": "not"
+    },
+    "mask_8": {
+      "target": "as long as",
+      "acceptable_variants": [],
+      "hint": "condition"
+    },
+    "mask_9": {
+      "target": "as long as",
+      "acceptable_variants": [],
+      "hint": "condition"
+    },
+    "mask_10": {
+      "target": "as long as",
+      "acceptable_variants": [],
+      "hint": "condition"
+    },
+    "mask_11": {
+      "target": "unless",
+      "acceptable_variants": [],
+      "hint": "not"
+    },
+    "mask_12": {
+      "target": "as long as",
+      "acceptable_variants": [],
+      "hint": "condition"
+    },
+    "mask_13": {
+      "target": "as long as",
+      "acceptable_variants": [],
+      "hint": "condition"
+    },
+    "mask_14": {
+      "target": "unless",
+      "acceptable_variants": [],
+      "hint": "not"
+    },
+    "mask_15": {
+      "target": "as long as",
+      "acceptable_variants": [],
+      "hint": "condition"
+    },
+    "mask_16": {
+      "target": "as long as",
+      "acceptable_variants": [],
+      "hint": "condition"
+    },
+    "mask_17": {
+      "target": "as long as",
+      "acceptable_variants": [],
+      "hint": "condition"
+    },
+    "mask_18": {
+      "target": "as long as",
+      "acceptable_variants": [],
+      "hint": "condition"
+    },
+    "mask_19": {
+      "target": "unless",
+      "acceptable_variants": [],
+      "hint": "not"
+    },
+    "mask_20": {
+      "target": "as long as",
+      "acceptable_variants": [],
+      "hint": "condition"
+    }
+  }
+}

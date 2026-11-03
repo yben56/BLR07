@@ -1,0 +1,138 @@
+{
+  "topic": "Third Conditional",
+  "difficulty": "intermediate",
+  "created_at": "2026-11-03T20:26:00+08:00",
+  "story_title": "The Road to the Concert",
+  "extra_info": "",
+  "paragraphs": [
+    "On Friday evening, Ava and her brother Noah drove across town to a concert. They left later than planned and got stuck in a traffic jam. Ava said, \"If we {{mask_1}} home earlier, we {{mask_2}} the worst traffic.\" Noah checked the map. \"If I {{mask_3}} the traffic report before we left, I {{mask_4}} this road.\"",
+    "The cars moved very slowly, and the concert was about to begin. Ava had forgotten to buy parking tickets online. She said, \"If I {{mask_5}} the tickets yesterday, we {{mask_6}} time at the entrance.\" Noah noticed a side street, but it was closed for repairs. \"If we {{mask_7}} that street, we {{mask_8}} the venue sooner,\" he said.",
+    "They called their friend Mia, who was already inside. Mia said she had saved two seats. \"If you {{mask_9}} me about the delay, I {{mask_10}} the seats for you,\" she said. Ava apologized. Noah looked at the clock. \"If the traffic {{mask_11}} so heavy, we {{mask_12}} the opening song.\"",
+    "At last, they reached the parking area, but every nearby space was full. Ava remembered a public garage two blocks away. \"If I {{mask_13}} the garage on the map earlier, we {{mask_14}} time looking for parking.\" They parked and walked quickly toward the theater. Noah said, \"If we {{mask_15}} comfortable shoes, the walk {{mask_16}} easier.\"",
+    "They entered the concert hall during the second song. Mia waved from their seats, and the three friends enjoyed the rest of the show. Afterward, Ava said, \"If we {{mask_17}} the house sooner, we {{mask_18}} the first song.\" Noah laughed. \"If the roads {{mask_19}} clear, we {{mask_20}} on time even after leaving late.\" They decided to plan their next trip more carefully."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "had left",
+      "acceptable_variants": [],
+      "hint": "leave"
+    },
+    "mask_2": {
+      "target": "would have missed",
+      "acceptable_variants": [
+        "'d have missed"
+      ],
+      "hint": "miss"
+    },
+    "mask_3": {
+      "target": "had checked",
+      "acceptable_variants": [],
+      "hint": "check"
+    },
+    "mask_4": {
+      "target": "would have avoided",
+      "acceptable_variants": [
+        "'d have avoided"
+      ],
+      "hint": "avoid"
+    },
+    "mask_5": {
+      "target": "had bought",
+      "acceptable_variants": [],
+      "hint": "buy"
+    },
+    "mask_6": {
+      "target": "would have saved",
+      "acceptable_variants": [
+        "'d have saved"
+      ],
+      "hint": "save"
+    },
+    "mask_7": {
+      "target": "had taken",
+      "acceptable_variants": [],
+      "hint": "take"
+    },
+    "mask_8": {
+      "target": "would have reached",
+      "acceptable_variants": [
+        "'d have reached"
+      ],
+      "hint": "reach"
+    },
+    "mask_9": {
+      "target": "had told",
+      "acceptable_variants": [],
+      "hint": "tell"
+    },
+    "mask_10": {
+      "target": "would have saved",
+      "acceptable_variants": [
+        "'d have saved"
+      ],
+      "hint": "save"
+    },
+    "mask_11": {
+      "target": "had not been",
+      "acceptable_variants": [
+        "hadn't been"
+      ],
+      "hint": "be"
+    },
+    "mask_12": {
+      "target": "would have heard",
+      "acceptable_variants": [
+        "'d have heard"
+      ],
+      "hint": "hear"
+    },
+    "mask_13": {
+      "target": "had noticed",
+      "acceptable_variants": [],
+      "hint": "notice"
+    },
+    "mask_14": {
+      "target": "would have spent",
+      "acceptable_variants": [
+        "'d have spent"
+      ],
+      "hint": "spend"
+    },
+    "mask_15": {
+      "target": "had worn",
+      "acceptable_variants": [],
+      "hint": "wear"
+    },
+    "mask_16": {
+      "target": "would have been",
+      "acceptable_variants": [
+        "'d have been"
+      ],
+      "hint": "be"
+    },
+    "mask_17": {
+      "target": "had left",
+      "acceptable_variants": [],
+      "hint": "leave"
+    },
+    "mask_18": {
+      "target": "would have heard",
+      "acceptable_variants": [
+        "'d have heard"
+      ],
+      "hint": "hear"
+    },
+    "mask_19": {
+      "target": "had been",
+      "acceptable_variants": [],
+      "hint": "be"
+    },
+    "mask_20": {
+      "target": "would have arrived",
+      "acceptable_variants": [
+        "'d have arrived"
+      ],
+      "hint": "arrive"
+    }
+  }
+}

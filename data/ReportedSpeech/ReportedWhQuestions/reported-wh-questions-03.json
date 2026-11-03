@@ -1,0 +1,118 @@
+{
+  "topic": "Reported Wh Questions",
+  "difficulty": "advanced",
+  "created_at": "2026-11-03T21:51:00+08:00",
+  "story_title": "An Interview About El Capitan",
+  "extra_info": "El Capitan is a granite rock formation in Yosemite National Park. It rises about 3,000 feet (900 meters) above Yosemite Valley.",
+  "task_instruction": "Rewrite each direct wh-question as a reported question.",
+  "paragraphs": [
+    "A journalist interviews climber Alex Honnold about his 2017 free solo ascent of El Capitan. The journalist begins by asking about his preparation. The journalist asked Alex, {{red:When did you first decide to attempt the climb?}} {{mask_1}} Alex described how the idea developed over time. The journalist asked, {{red:How long had you been preparing for that route?}} {{mask_2}} Alex explained that he had spent years climbing and studying the route.",
+    "They discuss the scale of the wall and the route known as Freerider. The journalist asked Alex, {{red:Which section required the most careful planning?}} {{mask_3}} Alex described the sections that demanded close attention. The journalist asked, {{red:What made the route especially challenging?}} {{mask_4}} Alex talked about its length and technical difficulty. The journalist asked, {{red:How did you remember the sequence of moves?}} {{mask_5}} Alex explained that repeated practice helped him learn it.",
+    "The journalist asks about the term free solo. Alex clarifies that it means climbing without a rope or protective equipment, making the activity exceptionally dangerous. The journalist asked, {{red:Why did you choose to climb without a rope?}} {{mask_6}} Alex explained his personal reasons without presenting them as advice. The journalist asked, {{red:What risks did you consider before the ascent?}} {{mask_7}} Alex said that a fall could have fatal consequences. The journalist asked, {{red:How did you decide whether the conditions were suitable?}} {{mask_8}} Alex described assessing the conditions and his own readiness.",
+    "They talk about concentration during a long climb. The journalist asked Alex, {{red:Where did you focus your attention on the wall?}} {{mask_9}} Alex described concentrating on the next section of the route. The journalist asked, {{red:What did you do when you reached a difficult sequence?}} {{mask_10}} Alex explained how he managed his attention. The journalist asked, {{red:How often had you practiced those movements before the climb?}} {{mask_11}} Alex said that he had repeated them many times while preparing. The journalist asked, {{red:Who supported you during the planning process?}} {{mask_12}} Alex spoke about the people who had helped him prepare.",
+    "The interview turns to how the public responded. The journalist asked Alex, {{red:What questions did viewers ask after the climb?}} {{mask_13}} Alex said many people had asked about the preparation and the risks. The journalist asked, {{red:How did the experience change your view of climbing?}} {{mask_14}} Alex reflected on how the ascent had affected him. The journalist asked, {{red:Which part of the media coverage surprised you most?}} {{mask_15}} Alex described one unexpected reaction. The journalist asked, {{red:What would you tell someone who is curious about climbing?}} {{mask_16}} Alex encouraged people to learn from qualified instructors and to use appropriate safety equipment.",
+    "Before the interview ends, the journalist asks what Alex hopes viewers will understand. The journalist asked, {{red:Why is it important to distinguish a professional's experience from general safety advice?}} {{mask_17}} Alex said that individual experience should not be treated as a safe method for others. The journalist asked, {{red:Where can beginners learn about climbing safely?}} {{mask_18}} Alex recommended seeking instruction from qualified professionals. The journalist asked, {{red:What should people consider before choosing a climbing activity?}} {{mask_19}} Alex said they should consider training, conditions, and appropriate protection. Finally, the journalist asked, {{red:How do you hope people will remember the ascent?}} {{mask_20}} Alex said he hoped they would remember both the achievement and the importance of understanding its risks."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "The journalist asked Alex when he had first decided to attempt the climb.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "The journalist asked Alex how long he had been preparing for that route.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "The journalist asked Alex which section had required the most careful planning.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "The journalist asked Alex what had made the route especially challenging.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "The journalist asked Alex how he had remembered the sequence of moves.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "The journalist asked Alex why he had chosen to climb without a rope.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "The journalist asked Alex what risks he had considered before the ascent.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "The journalist asked Alex how he had decided whether the conditions were suitable.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "The journalist asked Alex where he had focused his attention on the wall.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "The journalist asked Alex what he had done when he reached a difficult sequence.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "The journalist asked Alex how often he had practiced those movements before the climb.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "The journalist asked Alex who had supported him during the planning process.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "The journalist asked Alex what questions viewers had asked after the climb.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "The journalist asked Alex how the experience had changed his view of climbing.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "The journalist asked Alex which part of the media coverage had surprised him most.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_16": {
+      "target": "The journalist asked Alex what he would tell someone who was curious about climbing.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_17": {
+      "target": "The journalist asked Alex why it was important to distinguish a professional's experience from general safety advice.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_18": {
+      "target": "The journalist asked Alex where beginners could learn about climbing safely.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_19": {
+      "target": "The journalist asked Alex what people should consider before choosing a climbing activity.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_20": {
+      "target": "The journalist asked Alex how he hoped people would remember the ascent.",
+      "acceptable_variants": [],
+      "hint": ""
+    }
+  }
+}

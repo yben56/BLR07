@@ -1,0 +1,158 @@
+{
+  "topic": "Reported Yes/No Questions",
+  "difficulty": "advanced",
+  "created_at": "2026-11-03T21:44:00+08:00",
+  "story_title": "An Evening at the Observatory",
+  "extra_info": "",
+  "task_instruction": "Rewrite each direct yes/no question as a reported question.",
+  "paragraphs": [
+    "At an observatory, Dr. Ruiz interviews astronomer Maya Chen about a new research project. The next morning, Maya writes a summary of their conversation. Dr. Ruiz asked Maya, {{red:Have you identified a possible exoplanet?}} {{mask_1}} Maya had found a promising signal in the data. Dr. Ruiz asked, {{red:Does the signal repeat at regular intervals?}} {{mask_2}} She explained that repeated dips in a star's brightness could suggest a planet passing in front of it.",
+    "Dr. Ruiz asked Maya, {{red:Did you compare the observations from both telescopes?}} {{mask_3}} She had compared them the previous night. Dr. Ruiz then asked, {{red:Are you checking the measurements for instrument errors?}} {{mask_4}} Maya was reviewing the calibration records. He asked, {{red:Have you ruled out changes in the star itself?}} {{mask_5}} Maya said that the team was still investigating that possibility.",
+    "The interview moved to the team's methods. Dr. Ruiz asked Maya, {{red:Will the observatory collect more data next month?}} {{mask_6}} The team had booked additional observation time. He asked, {{red:Can your team use spectroscopy to study the planet's atmosphere?}} {{mask_7}} Maya said that the equipment could analyze light from the distant system. Dr. Ruiz asked, {{red:Have you estimated the planet's orbital period?}} {{mask_8}} Maya had calculated an early estimate but wanted more observations.",
+    "Dr. Ruiz asked Maya, {{red:Would you describe the current result as preliminary?}} {{mask_9}} Maya said that more evidence was needed. He asked, {{red:Could the telescope observe the target star again tonight?}} {{mask_10}} The forecast suggested that clouds might arrive. Dr. Ruiz asked, {{red:Did the team include the uncertainty range in its report?}} {{mask_11}} Maya confirmed that the report included it. He also asked, {{red:Are the raw observations available to other researchers?}} {{mask_12}} Maya explained that the data would be shared after review.",
+    "Their discussion turned to how astronomers check an unusual result. Dr. Ruiz asked Maya, {{red:Has another observatory confirmed the signal?}} {{mask_13}} No independent team had confirmed it yet. He asked, {{red:Do you think the signal could come from a binary star?}} {{mask_14}} Maya said that the team had tested that explanation. Dr. Ruiz asked, {{red:Will you publish the analysis if the evidence remains strong?}} {{mask_15}} Maya said that the team planned to submit its work for peer review.",
+    "At the end of the interview, Dr. Ruiz asked Maya, {{red:Have you prepared a diagram of the star's light curve?}} {{mask_16}} She had made a clear graph for the presentation. He asked, {{red:Can you explain why the star becomes slightly dimmer during a transit?}} {{mask_17}} Maya said she could explain the observation with a simple model. Dr. Ruiz asked, {{red:Are you presenting the results at the astronomy meeting next week?}} {{mask_18}} Maya said that she was preparing a presentation. Before they left, he asked, {{red:Would you like us to include your team's data in the public archive?}} {{mask_19}} Maya agreed, provided the final paper cited the team. Dr. Ruiz asked one last question, {{red:Do you expect the next observation to clarify the signal?}} {{mask_20}} Maya said that it might provide useful evidence."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "Dr. Ruiz asked Maya if she had identified a possible exoplanet.",
+      "acceptable_variants": [
+        "Dr. Ruiz asked Maya whether she had identified a possible exoplanet."
+      ],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "Dr. Ruiz asked Maya if the signal repeated at regular intervals.",
+      "acceptable_variants": [
+        "Dr. Ruiz asked Maya whether the signal repeated at regular intervals."
+      ],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "Dr. Ruiz asked Maya if she had compared the observations from both telescopes.",
+      "acceptable_variants": [
+        "Dr. Ruiz asked Maya whether she had compared the observations from both telescopes."
+      ],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "Dr. Ruiz asked Maya if she was checking the measurements for instrument errors.",
+      "acceptable_variants": [
+        "Dr. Ruiz asked Maya whether she was checking the measurements for instrument errors."
+      ],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "Dr. Ruiz asked Maya if she had ruled out changes in the star itself.",
+      "acceptable_variants": [
+        "Dr. Ruiz asked Maya whether she had ruled out changes in the star itself."
+      ],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "Dr. Ruiz asked Maya if the observatory would collect more data the following month.",
+      "acceptable_variants": [
+        "Dr. Ruiz asked Maya whether the observatory would collect more data the following month."
+      ],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "Dr. Ruiz asked Maya if her team could use spectroscopy to study the planet's atmosphere.",
+      "acceptable_variants": [
+        "Dr. Ruiz asked Maya whether her team could use spectroscopy to study the planet's atmosphere."
+      ],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "Dr. Ruiz asked Maya if she had estimated the planet's orbital period.",
+      "acceptable_variants": [
+        "Dr. Ruiz asked Maya whether she had estimated the planet's orbital period."
+      ],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "Dr. Ruiz asked Maya if she would describe the current result as preliminary.",
+      "acceptable_variants": [
+        "Dr. Ruiz asked Maya whether she would describe the current result as preliminary."
+      ],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "Dr. Ruiz asked Maya if the telescope could observe the target star again that night.",
+      "acceptable_variants": [
+        "Dr. Ruiz asked Maya whether the telescope could observe the target star again that night."
+      ],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "Dr. Ruiz asked Maya if the team had included the uncertainty range in its report.",
+      "acceptable_variants": [
+        "Dr. Ruiz asked Maya whether the team had included the uncertainty range in its report."
+      ],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "Dr. Ruiz asked Maya if the raw observations were available to other researchers.",
+      "acceptable_variants": [
+        "Dr. Ruiz asked Maya whether the raw observations were available to other researchers."
+      ],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "Dr. Ruiz asked Maya if another observatory had confirmed the signal.",
+      "acceptable_variants": [
+        "Dr. Ruiz asked Maya whether another observatory had confirmed the signal."
+      ],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "Dr. Ruiz asked Maya if she thought the signal could come from a binary star.",
+      "acceptable_variants": [
+        "Dr. Ruiz asked Maya whether she thought the signal could come from a binary star."
+      ],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "Dr. Ruiz asked Maya if she would publish the analysis if the evidence remained strong.",
+      "acceptable_variants": [
+        "Dr. Ruiz asked Maya whether she would publish the analysis if the evidence remained strong."
+      ],
+      "hint": ""
+    },
+    "mask_16": {
+      "target": "Dr. Ruiz asked Maya if she had prepared a diagram of the star's light curve.",
+      "acceptable_variants": [
+        "Dr. Ruiz asked Maya whether she had prepared a diagram of the star's light curve."
+      ],
+      "hint": ""
+    },
+    "mask_17": {
+      "target": "Dr. Ruiz asked Maya if she could explain why the star became slightly dimmer during a transit.",
+      "acceptable_variants": [
+        "Dr. Ruiz asked Maya whether she could explain why the star became slightly dimmer during a transit."
+      ],
+      "hint": ""
+    },
+    "mask_18": {
+      "target": "Dr. Ruiz asked Maya if she was presenting the results at the astronomy meeting the following week.",
+      "acceptable_variants": [
+        "Dr. Ruiz asked Maya whether she was presenting the results at the astronomy meeting the following week."
+      ],
+      "hint": ""
+    },
+    "mask_19": {
+      "target": "Dr. Ruiz asked Maya if she would like them to include her team's data in the public archive.",
+      "acceptable_variants": [
+        "Dr. Ruiz asked Maya whether she would like them to include her team's data in the public archive."
+      ],
+      "hint": ""
+    },
+    "mask_20": {
+      "target": "Dr. Ruiz asked Maya if she expected the next observation to clarify the signal.",
+      "acceptable_variants": [
+        "Dr. Ruiz asked Maya whether she expected the next observation to clarify the signal."
+      ],
+      "hint": ""
+    }
+  }
+}

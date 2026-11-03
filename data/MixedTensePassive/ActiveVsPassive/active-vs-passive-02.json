@@ -1,0 +1,117 @@
+{
+  "topic": "Active vs Passive",
+  "difficulty": "intermediate",
+  "created_at": "2026-11-03T22:35:00+08:00",
+  "story_title": "Behind the Scenes of a Video Channel",
+  "extra_info": "",
+  "task_instruction": "Rewrite each sentence in the opposite voice: change active sentences to passive and passive sentences to active.",
+  "paragraphs": [
+    "Maya runs a video channel about practical science projects. She plans each episode with her small production team. {{red:Maya researches each topic before filming.}} {{mask_1}} {{red:The camera batteries are charged by her assistant the night before a shoot.}} {{mask_2}} {{red:Her editor is checking the sound levels now.}} {{mask_3}} {{red:The episode outline was written by Maya last weekend.}} {{mask_4}}",
+    "On filming day, the team sets up lights and microphones in a quiet room. {{red:Maya records the introduction beside the worktable.}} {{mask_5}} {{red:The demonstration materials have been arranged by the production assistant.}} {{mask_6}} {{red:A second camera captures close-up shots of the experiment.}} {{mask_7}} {{red:The room is being prepared by the team for the next scene.}} {{mask_8}}",
+    "After filming, Maya and her editor review the footage together. {{red:The editor has removed several long pauses from the video.}} {{mask_9}} {{red:Maya writes captions for viewers who prefer to read along.}} {{mask_10}} {{red:The final music track was selected by the team.}} {{mask_11}} {{red:A designer is creating a clear thumbnail for the episode.}} {{mask_12}}",
+    "The team checks the finished episode before publishing it. {{red:The video will be uploaded by Maya on Friday.}} {{mask_13}} {{red:The subtitles are reviewed by a volunteer before publication.}} {{mask_14}} {{red:Viewers can suggest future topics in the comments.}} {{mask_15}} {{red:The publication time has been changed by Maya.}} {{mask_16}}",
+    "After the episode goes live, Maya reads comments and plans the next project. {{red:Her assistant answers common questions about the materials.}} {{mask_17}} {{red:The most useful viewer suggestions are saved by Maya for future episodes.}} {{mask_18}} {{red:The team will discuss the next video idea at its meeting.}} {{mask_19}} {{red:A short behind-the-scenes clip was posted by the editor yesterday.}} {{mask_20}} Maya thanks her viewers and reminds them to follow safety instructions when trying projects at home."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "Each topic is researched by Maya before filming.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "Her assistant charges the camera batteries the night before a shoot.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "The sound levels are being checked by her editor now.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "Maya wrote the episode outline last weekend.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "The introduction is recorded by Maya beside the worktable.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "The production assistant has arranged the demonstration materials.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "Close-up shots of the experiment are captured by a second camera.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "The team is preparing the room for the next scene.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "Several long pauses have been removed from the video by the editor.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "Captions are written by Maya for viewers who prefer to read along.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "The team selected the final music track.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "A clear thumbnail is being created by a designer for the episode.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "Maya will upload the video on Friday.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "A volunteer reviews the subtitles before publication.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "Future topics can be suggested in the comments by viewers.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_16": {
+      "target": "Maya has changed the publication time.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_17": {
+      "target": "Common questions about the materials are answered by her assistant.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_18": {
+      "target": "Maya saves the most useful viewer suggestions for future episodes.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_19": {
+      "target": "The next video idea will be discussed by the team at its meeting.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_20": {
+      "target": "The editor posted a short behind-the-scenes clip yesterday.",
+      "acceptable_variants": [],
+      "hint": ""
+    }
+  }
+}

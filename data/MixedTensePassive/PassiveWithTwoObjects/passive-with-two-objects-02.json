@@ -1,0 +1,157 @@
+{
+  "topic": "Passive with Verbs with Two Objects",
+  "difficulty": "intermediate",
+  "created_at": "2026-11-03T22:17:00+08:00",
+  "story_title": "A Royal Audience",
+  "extra_info": "",
+  "task_instruction": "Rewrite each active sentence in the passive voice. Use either object as the subject.",
+  "paragraphs": [
+    "At the royal court, the steward prepares the great hall for an audience with the King and Queen. He welcomes the visitors with a respectful bow. {{red:The steward gives the King a list of the day's petitions.}} {{mask_1}} A page addresses the Queen formally. {{red:The page shows the Queen a map of the kingdom.}} {{mask_2}} The captain reports from the northern road. {{red:The captain has sent the royal council a message about the bridge.}} {{mask_3}} Before the doors open, the herald speaks to the gathered guests. {{red:The herald tells the guests a story about the founding of the castle.}} {{mask_4}}",
+    "The council considers requests from towns across the realm. {{red:The Queen offered the village a grant for its new well.}} {{mask_5}} The King reviews the proposal for the market square. {{red:The King will give the builders clear instructions tomorrow.}} {{mask_6}} The royal physician prepares a report for the Queen. {{red:The physician is bringing Her Majesty a report on the winter stores.}} {{mask_7}} A messenger arrives with news from the coast. {{red:The messenger has read the council a letter from the harbor master.}} {{mask_8}}",
+    "After the meeting, the royal household makes arrangements for a visiting ambassador. {{red:The Queen promised the ambassador a private audience.}} {{mask_9}} The steward arranges the guest rooms. {{red:The steward is offering the ambassador a room overlooking the gardens.}} {{mask_10}} The King speaks with the court tutor. {{red:The King taught the young prince a lesson in diplomacy last winter.}} {{mask_11}} The ambassador asks about the local customs. {{red:The court tutor will teach the visitors a traditional greeting.}} {{mask_12}}",
+    "The royal family then visits the castle library. {{red:The librarian lent the Queen a rare book about the realm's history.}} {{mask_13}} The Queen inspects a newly restored painting. {{red:The artist has shown the royal family the original colors beneath the old varnish.}} {{mask_14}} A musician performs in the gallery. {{red:The composer gave the princess a songbook for the midsummer feast.}} {{mask_15}} The steward checks that the guests are comfortable. {{red:The servants brought the visitors warm cloaks before sunset.}} {{mask_16}}",
+    "At the evening banquet, the King thanks those who served the court. {{red:The Queen gave each guest a small silver token.}} {{mask_17}} The royal treasurer presents an account of the year's work. {{red:The treasurer has given the council a detailed report on the royal farms.}} {{mask_18}} Before the guests depart, the herald makes one final announcement. {{red:The herald will tell the people the date of the spring festival.}} {{mask_19}} The King speaks kindly to the visiting musicians. {{red:The King offered the musicians a place at court for the winter.}} {{mask_20}} The guests bow and reply, \"Thank you, Your Majesty,\" before leaving the hall."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "The King is given a list of the day's petitions by the steward.",
+      "acceptable_variants": [
+        "A list of the day's petitions is given to the King by the steward."
+      ],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "The Queen is shown a map of the kingdom by the page.",
+      "acceptable_variants": [
+        "A map of the kingdom is shown to the Queen by the page."
+      ],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "The royal council has been sent a message about the bridge by the captain.",
+      "acceptable_variants": [
+        "A message about the bridge has been sent to the royal council by the captain."
+      ],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "The guests are told a story about the founding of the castle by the herald.",
+      "acceptable_variants": [
+        "A story about the founding of the castle is told to the guests by the herald."
+      ],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "The village was offered a grant for its new well by the Queen.",
+      "acceptable_variants": [
+        "A grant for its new well was offered to the village by the Queen."
+      ],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "The builders will be given clear instructions by the King tomorrow.",
+      "acceptable_variants": [
+        "Clear instructions will be given to the builders by the King tomorrow."
+      ],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "Her Majesty is being brought a report on the winter stores by the royal physician.",
+      "acceptable_variants": [
+        "A report on the winter stores is being brought to Her Majesty by the royal physician."
+      ],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "The council has been read a letter from the harbor master by the messenger.",
+      "acceptable_variants": [
+        "A letter from the harbor master has been read to the council by the messenger."
+      ],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "The ambassador was promised a private audience by the Queen.",
+      "acceptable_variants": [
+        "A private audience was promised to the ambassador by the Queen."
+      ],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "The ambassador is being offered a room overlooking the gardens by the steward.",
+      "acceptable_variants": [
+        "A room overlooking the gardens is being offered to the ambassador by the steward."
+      ],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "The young prince was taught a lesson in diplomacy by the King last winter.",
+      "acceptable_variants": [
+        "A lesson in diplomacy was taught to the young prince by the King last winter."
+      ],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "The visitors will be taught a traditional greeting by the court tutor.",
+      "acceptable_variants": [
+        "A traditional greeting will be taught to the visitors by the court tutor."
+      ],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "The Queen was lent a rare book about the realm's history by the librarian.",
+      "acceptable_variants": [
+        "A rare book about the realm's history was lent to the Queen by the librarian."
+      ],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "The royal family has been shown the original colors beneath the old varnish by the artist.",
+      "acceptable_variants": [
+        "The original colors beneath the old varnish have been shown to the royal family by the artist."
+      ],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "The princess was given a songbook for the midsummer feast by the composer.",
+      "acceptable_variants": [
+        "A songbook for the midsummer feast was given to the princess by the composer."
+      ],
+      "hint": ""
+    },
+    "mask_16": {
+      "target": "The visitors were brought warm cloaks by the servants before sunset.",
+      "acceptable_variants": [
+        "Warm cloaks were brought to the visitors by the servants before sunset."
+      ],
+      "hint": ""
+    },
+    "mask_17": {
+      "target": "Each guest was given a small silver token by the Queen.",
+      "acceptable_variants": [
+        "A small silver token was given to each guest by the Queen."
+      ],
+      "hint": ""
+    },
+    "mask_18": {
+      "target": "The council has been given a detailed report on the royal farms by the treasurer.",
+      "acceptable_variants": [
+        "A detailed report on the royal farms has been given to the council by the treasurer."
+      ],
+      "hint": ""
+    },
+    "mask_19": {
+      "target": "The people will be told the date of the spring festival by the herald.",
+      "acceptable_variants": [
+        "The date of the spring festival will be told to the people by the herald."
+      ],
+      "hint": ""
+    },
+    "mask_20": {
+      "target": "The musicians were offered a place at court for the winter by the King.",
+      "acceptable_variants": [
+        "A place at court for the winter was offered to the musicians by the King."
+      ],
+      "hint": ""
+    }
+  }
+}

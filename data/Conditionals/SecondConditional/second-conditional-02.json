@@ -1,0 +1,134 @@
+{
+  "topic": "Second Conditional",
+  "difficulty": "intermediate",
+  "created_at": "2026-11-03T20:22:00+08:00",
+  "story_title": "The Neighborhood Poll",
+  "extra_info": "",
+  "paragraphs": [
+    "A neighborhood group is running a poll about how to improve the local park. At the community center, organizer Sam explains that the survey is hypothetical and asks residents what changes they would support. \"If the town {{mask_1}} more money for the park, we {{mask_2}} a shaded walking path,\" Sam says. A resident suggests adding benches. \"If there {{mask_3}} more seats along the path, older visitors {{mask_4}} more often.\"",
+    "The poll asks about different activities. One question says, \"If the park {{mask_5}} a small outdoor stage, local groups {{mask_6}} free concerts there.\" Another resident imagines a garden. \"If volunteers {{mask_7}} a community garden, families {{mask_8}} fresh vegetables together.\" Sam writes both ideas on the survey board.",
+    "Several people want the park to be easier to reach. A student says, \"If the bus {{mask_9}} more frequently on weekends, more people {{mask_10}} without driving.\" A parent adds, \"If the town {{mask_11}} a safe bike lane to the park, my children {{mask_12}} there with me.\" The group notes that both suggestions would need further planning.",
+    "The poll also asks how residents would spend time at the park. A retired teacher says, \"If there {{mask_13}} a quiet reading area, I {{mask_14}} there on sunny afternoons.\" A teenager has a different idea. \"If the park {{mask_15}} a public art wall, local artists {{mask_16}} their work.\" Sam reminds everyone that the poll collects opinions and does not promise that every idea will be adopted.",
+    "Before the meeting ends, residents review the final questions. Sam asks, \"If you {{mask_17}} one improvement, which one {{mask_18}} first?\" People discuss their choices and complete the forms. A volunteer looks at the response box and says, \"If we {{mask_19}} enough answers, we {{mask_20}} the results at next month's meeting.\" The group thanks everyone for sharing thoughtful ideas."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "provided",
+      "acceptable_variants": [],
+      "hint": "provide"
+    },
+    "mask_2": {
+      "target": "would build",
+      "acceptable_variants": [
+        "'d build"
+      ],
+      "hint": "would"
+    },
+    "mask_3": {
+      "target": "were",
+      "acceptable_variants": [],
+      "hint": "be"
+    },
+    "mask_4": {
+      "target": "would rest",
+      "acceptable_variants": [
+        "'d rest"
+      ],
+      "hint": "would"
+    },
+    "mask_5": {
+      "target": "had",
+      "acceptable_variants": [],
+      "hint": "have"
+    },
+    "mask_6": {
+      "target": "would perform",
+      "acceptable_variants": [
+        "'d perform"
+      ],
+      "hint": "would"
+    },
+    "mask_7": {
+      "target": "started",
+      "acceptable_variants": [],
+      "hint": "start"
+    },
+    "mask_8": {
+      "target": "would grow",
+      "acceptable_variants": [
+        "'d grow"
+      ],
+      "hint": "would"
+    },
+    "mask_9": {
+      "target": "ran",
+      "acceptable_variants": [],
+      "hint": "run"
+    },
+    "mask_10": {
+      "target": "would arrive",
+      "acceptable_variants": [
+        "'d arrive"
+      ],
+      "hint": "would"
+    },
+    "mask_11": {
+      "target": "built",
+      "acceptable_variants": [],
+      "hint": "build"
+    },
+    "mask_12": {
+      "target": "would cycle",
+      "acceptable_variants": [
+        "'d cycle"
+      ],
+      "hint": "would"
+    },
+    "mask_13": {
+      "target": "were",
+      "acceptable_variants": [],
+      "hint": "be"
+    },
+    "mask_14": {
+      "target": "would read",
+      "acceptable_variants": [
+        "'d read"
+      ],
+      "hint": "would"
+    },
+    "mask_15": {
+      "target": "had",
+      "acceptable_variants": [],
+      "hint": "have"
+    },
+    "mask_16": {
+      "target": "would display",
+      "acceptable_variants": [
+        "'d display"
+      ],
+      "hint": "would"
+    },
+    "mask_17": {
+      "target": "could choose",
+      "acceptable_variants": [],
+      "hint": "choose"
+    },
+    "mask_18": {
+      "target": "would you prioritize",
+      "acceptable_variants": [],
+      "hint": "prioritize"
+    },
+    "mask_19": {
+      "target": "received",
+      "acceptable_variants": [],
+      "hint": "receive"
+    },
+    "mask_20": {
+      "target": "would present",
+      "acceptable_variants": [
+        "'d present"
+      ],
+      "hint": "would"
+    }
+  }
+}

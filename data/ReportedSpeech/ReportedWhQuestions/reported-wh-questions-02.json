@@ -1,0 +1,118 @@
+{
+  "topic": "Reported Wh Questions",
+  "difficulty": "intermediate",
+  "created_at": "2026-11-03T21:48:00+08:00",
+  "story_title": "A Movie Night with Dinosaurs",
+  "extra_info": "",
+  "task_instruction": "Rewrite each direct wh-question as a reported question.",
+  "paragraphs": [
+    "After watching Jurassic Park at a neighborhood cinema, Mia and Alex go to a cafe and talk about dinosaurs. Alex asks Mia to share what she remembers from science class. Alex asked Mia, {{red:Which dinosaur did you find most interesting?}} {{mask_1}} Mia said she had been fascinated by Triceratops. Alex asked, {{red:What do you know about its horns?}} {{mask_2}} Mia explained that scientists study the skull and fossils to understand what the horns may have been used for.",
+    "They compare different kinds of dinosaurs. Alex asked Mia, {{red:How large was a Tyrannosaurus rex?}} {{mask_3}} Mia said its size varied, and that fossil evidence helped scientists estimate it. Alex asked, {{red:What did herbivorous dinosaurs eat?}} {{mask_4}} Mia answered that many ate plants. Alex asked, {{red:Where have paleontologists found dinosaur fossils?}} {{mask_5}} Mia said fossils had been discovered on several continents.",
+    "Alex opens a science article on his phone. He asked Mia, {{red:Why do scientists compare fossils from different places?}} {{mask_6}} Mia explained that comparisons could reveal similarities and differences between species. Alex asked, {{red:When did the Jurassic Period begin?}} {{mask_7}} Mia said it began millions of years ago, long before humans existed. Alex asked, {{red:Which period came after the Jurassic Period?}} {{mask_8}} Mia replied that the Cretaceous Period followed it.",
+    "The friends discuss how researchers learn about extinct animals. Alex asked Mia, {{red:How can a fossil show the shape of an animal's teeth?}} {{mask_9}} Mia said that a fossilized jaw could preserve the tooth shapes. Alex asked, {{red:What were scientists studying when they found the new fossil?}} {{mask_10}} Mia said they were examining rock layers. Alex asked, {{red:Who discovered the fossil at the site?}} {{mask_11}} Mia read that a field team had found it. Alex asked, {{red:How long had the fossil been buried?}} {{mask_12}} Mia said that the researchers were still studying the rock around it.",
+    "Alex asks about popular ideas in dinosaur movies. He asked Mia, {{red:Why do filmmakers use sound effects for dinosaurs?}} {{mask_13}} Mia said that sound effects could make a scene feel dramatic. Alex asked, {{red:What can movie effects tell us about real dinosaur sounds?}} {{mask_14}} Mia replied that movies could not prove exactly what the animals sounded like. Alex asked, {{red:How do paleontologists decide whether a dinosaur walked on two legs?}} {{mask_15}} Mia said they studied bones and fossil tracks. Alex asked, {{red:Which details in a film are based on scientific evidence?}} {{mask_16}} Mia said that some details were inspired by research, while others were invented for the story.",
+    "Before they leave, Alex asks Mia what she wants to learn next. Alex asked Mia, {{red:What would you like to study about dinosaurs?}} {{mask_17}} Mia said she would like to learn how different species lived in their environments. Alex asked, {{red:Where will you look for reliable information?}} {{mask_18}} Mia said she would read museum and university resources. Alex asked, {{red:Who is giving a talk about fossils at the museum next week?}} {{mask_19}} Mia checked the event page and found the speaker's name. At the door, Alex asked, {{red:When are you going to visit the exhibit?}} {{mask_20}} Mia said she planned to go the following Saturday."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "Alex asked Mia which dinosaur she had found most interesting.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "Alex asked Mia what she knew about its horns.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "Alex asked Mia how large a Tyrannosaurus rex had been.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "Alex asked Mia what herbivorous dinosaurs had eaten.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "Alex asked Mia where paleontologists had found dinosaur fossils.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "Alex asked Mia why scientists compared fossils from different places.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "Alex asked Mia when the Jurassic Period had begun.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "Alex asked Mia which period had come after the Jurassic Period.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "Alex asked Mia how a fossil could show the shape of an animal's teeth.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "Alex asked Mia what scientists had been studying when they found the new fossil.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "Alex asked Mia who had discovered the fossil at the site.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "Alex asked Mia how long the fossil had been buried.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "Alex asked Mia why filmmakers used sound effects for dinosaurs.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "Alex asked Mia what movie effects could tell them about real dinosaur sounds.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "Alex asked Mia how paleontologists decided whether a dinosaur walked on two legs.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_16": {
+      "target": "Alex asked Mia which details in a film were based on scientific evidence.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_17": {
+      "target": "Alex asked Mia what she would like to study about dinosaurs.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_18": {
+      "target": "Alex asked Mia where she would look for reliable information.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_19": {
+      "target": "Alex asked Mia who was giving a talk about fossils at the museum the following week.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_20": {
+      "target": "Alex asked Mia when she was going to visit the exhibit.",
+      "acceptable_variants": [],
+      "hint": ""
+    }
+  }
+}

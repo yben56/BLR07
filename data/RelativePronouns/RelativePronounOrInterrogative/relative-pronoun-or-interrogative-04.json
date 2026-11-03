@@ -1,0 +1,121 @@
+{
+  "topic": "Relative Pronoun or Interrogative?",
+  "difficulty": "advanced",
+  "created_at": "2026-11-03T23:01:20+08:00",
+  "story_title": "Responding to a Contagious Disease",
+  "extra_info": "",
+  "paragraphs": [
+    "When a contagious disease is reported in a town, public health workers share guidance with residents. A nurse {{mask_1}} coordinates the clinic's information desk explains {{mask_2}} people can do to reduce the chance of spreading infection. The clinic posts notices {{mask_3}} describe current services and directs visitors to a room {{mask_4}} staff can answer questions privately. A resident {{mask_5}} child has a fever calls the clinic to ask {{mask_6}} symptoms should prompt a call to a healthcare professional.",
+    "The nurse explains that individual advice depends on a person's circumstances and encourages the family to contact a qualified clinician. She asks {{mask_7}} the child has any difficulty breathing or other urgent warning signs. The parent describes the symptoms {{mask_8}} began that morning and asks {{mask_9}} the clinic recommends as the next step. A clinician {{mask_10}} reviews the case gives guidance based on the child's age and health history. The family follows the instructions and learns {{mask_11}} to seek further help if the condition changes.",
+    "At a community meeting, an epidemiologist {{mask_12}} studies patterns of disease explains how public health teams monitor reports. She describes the process {{mask_13}} laboratories share test information with authorized health agencies. A volunteer asks {{mask_14}} officials decide whether additional prevention measures are needed. The epidemiologist explains {{mask_15}} information is considered, including the number of cases and possible links between them. She also outlines how a notice {{mask_16}} the team updates as evidence changes helps residents find reliable guidance.",
+    "The town organizes an information session {{mask_17}} residents can hear updates from local health staff. A translator {{mask_18}} speaks several languages helps visitors understand the materials. Some attendees ask {{mask_19}} they should do if they were near someone who later became ill, while others want to know {{mask_20}} they can find current local recommendations. The team encourages everyone to follow advice from qualified health authorities and to seek medical care for urgent concerns."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "who",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "what",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "which",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "where",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "whose",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "what",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "whether",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "which",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "what",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "who",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "when",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "who",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "how",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "how",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "what",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_16": {
+      "target": "which",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    },
+    "mask_17": {
+      "target": "where",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_18": {
+      "target": "who",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_19": {
+      "target": "what",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_20": {
+      "target": "where",
+      "acceptable_variants": [],
+      "hint": ""
+    }
+  }
+}

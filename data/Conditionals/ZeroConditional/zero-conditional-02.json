@@ -1,0 +1,116 @@
+{
+  "topic": "Zero Conditional",
+  "difficulty": "intermediate",
+  "created_at": "2026-11-03T20:11:00+08:00",
+  "story_title": "The Office That Runs on Routines",
+  "extra_info": "",
+  "paragraphs": [
+    "At Northstar Design, new employees spend their first morning with Priya, the office manager. She shows them how the team keeps its work moving. \"If a project lead {{mask_1}} a new job, the system {{mask_2}} a shared folder,\" she explains. \"If team members {{mask_3}} a file in that folder, everyone {{mask_4}} the latest version.\"",
+    "Before a meeting, Priya checks the conference room. \"If someone {{mask_5}} the room on the calendar, the display {{mask_6}} the meeting time,\" she says. A new employee asks what happens when the screen stays dark. Priya replies, \"If the room tablet {{mask_7}} a connection, I {{mask_8}} the wireless hub.\"",
+    "The team also has simple rules for busy mornings. \"If a delivery {{mask_9}} at reception, the front desk {{mask_10}} the person who ordered it,\" Priya says. \"If a package {{mask_11}} cold storage, the receptionist {{mask_12}} it in the kitchen fridge.\" She points out the clear labels on the shelves so nobody takes the wrong lunch.",
+    "At ten o'clock, the designers review their work. Priya explains, \"If a designer {{mask_13}} a draft, the team {{mask_14}} feedback in the project channel. If a comment {{mask_15}} a clear example, the writer {{mask_16}} it more easily.\" One new employee wonders how the team handles a problem that needs a quick decision. \"If an issue {{mask_17}} urgent, the project lead {{mask_18}} the team right away,\" Priya says.",
+    "At the end of the tour, Priya describes the office's safety routine. \"If the fire alarm {{mask_19}}, everyone {{mask_20}} the building by the nearest safe exit.\" The new employees save the emergency number and find the marked routes on the wall map. By lunchtime, the office feels less like a maze and more like a place they can navigate with confidence."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "opens",
+      "acceptable_variants": [],
+      "hint": "open"
+    },
+    "mask_2": {
+      "target": "creates",
+      "acceptable_variants": [],
+      "hint": "create"
+    },
+    "mask_3": {
+      "target": "save",
+      "acceptable_variants": [],
+      "hint": "save"
+    },
+    "mask_4": {
+      "target": "sees",
+      "acceptable_variants": [],
+      "hint": "see"
+    },
+    "mask_5": {
+      "target": "books",
+      "acceptable_variants": [],
+      "hint": "book"
+    },
+    "mask_6": {
+      "target": "shows",
+      "acceptable_variants": [],
+      "hint": "show"
+    },
+    "mask_7": {
+      "target": "loses",
+      "acceptable_variants": [],
+      "hint": "lose"
+    },
+    "mask_8": {
+      "target": "restart",
+      "acceptable_variants": [],
+      "hint": "restart"
+    },
+    "mask_9": {
+      "target": "arrives",
+      "acceptable_variants": [],
+      "hint": "arrive"
+    },
+    "mask_10": {
+      "target": "calls",
+      "acceptable_variants": [],
+      "hint": "call"
+    },
+    "mask_11": {
+      "target": "needs",
+      "acceptable_variants": [],
+      "hint": "need"
+    },
+    "mask_12": {
+      "target": "puts",
+      "acceptable_variants": [],
+      "hint": "put"
+    },
+    "mask_13": {
+      "target": "shares",
+      "acceptable_variants": [],
+      "hint": "share"
+    },
+    "mask_14": {
+      "target": "leaves",
+      "acceptable_variants": [],
+      "hint": "leave"
+    },
+    "mask_15": {
+      "target": "includes",
+      "acceptable_variants": [],
+      "hint": "include"
+    },
+    "mask_16": {
+      "target": "understands",
+      "acceptable_variants": [],
+      "hint": "understand"
+    },
+    "mask_17": {
+      "target": "is",
+      "acceptable_variants": [],
+      "hint": "be"
+    },
+    "mask_18": {
+      "target": "alerts",
+      "acceptable_variants": [],
+      "hint": "alert"
+    },
+    "mask_19": {
+      "target": "sounds",
+      "acceptable_variants": [],
+      "hint": "sound"
+    },
+    "mask_20": {
+      "target": "leaves",
+      "acceptable_variants": [],
+      "hint": "leave"
+    }
+  }
+}

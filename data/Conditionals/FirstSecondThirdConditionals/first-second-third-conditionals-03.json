@@ -1,0 +1,128 @@
+{
+  "topic": "First, Second and Third Conditionals",
+  "difficulty": "advanced",
+  "created_at": "2026-11-03T20:32:00+08:00",
+  "story_title": "A Community Forum on Substance Misuse",
+  "extra_info": "",
+  "paragraphs": [
+    "A community center is holding a forum about substance misuse, its effects, and ways to find support. Public health educator Dana opens the meeting by emphasizing that people deserve compassion, not blame. \"If someone {{mask_1}} worried about their own substance use, they {{mask_2}} a health professional for confidential guidance,\" Dana says. A resident asks what the center would do if it had a larger budget. Dana replies, \"If the center {{mask_3}} more funding, it {{mask_4}} more counseling appointments.\"",
+    "The group discusses how family and friends can respond. Dana explains that listening without judgment can make it easier for someone to speak honestly. One participant says, \"If I {{mask_5}} that approach earlier, I {{mask_6}} the conversation with my brother differently.\" Another asks about training for volunteers. \"If volunteers {{mask_7}} a short course on supportive communication, they {{mask_8}} more confident when someone asks for help.\"",
+    "A local clinician describes how support can involve health care, counseling, and practical assistance. Dana reminds the audience that needs differ from person to person. \"If a person {{mask_9}} immediate medical danger, call local emergency services,\" the clinician says. A resident wonders what she would do if she felt unsure how to help. \"If I {{mask_10}} in that situation, I {{mask_11}} a trained professional for advice.\"",
+    "The forum also covers prevention and reliable information. Dana warns that online claims can be misleading and encourages people to use reputable health sources. \"If the center {{mask_12}} a list of trusted resources, residents {{mask_13}} accurate information more easily,\" she says. A volunteer recalls sharing an unverified post last year. \"If I {{mask_14}} its source before reposting it, I {{mask_15}} confusion in my neighborhood.\"",
+    "At the end, the group plans a follow-up session and a resource table. Dana says, \"If more residents {{mask_16}} next month's meeting, we {{mask_17}} a wider range of questions.\" A participant reflects on what he might have done differently in the past. \"If I {{mask_18}} help when my friend first asked, I {{mask_19}} him connect with support sooner.\" Dana adds, \"If you {{mask_20}} support later, you can use the contact sheet to reach a local service.\" The center reminds everyone that urgent medical concerns require immediate professional help."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "feels",
+      "acceptable_variants": [],
+      "hint": "feel"
+    },
+    "mask_2": {
+      "target": "will contact",
+      "acceptable_variants": [
+        "'ll contact"
+      ],
+      "hint": "will"
+    },
+    "mask_3": {
+      "target": "had",
+      "acceptable_variants": [],
+      "hint": "have"
+    },
+    "mask_4": {
+      "target": "could offer",
+      "acceptable_variants": [],
+      "hint": "will"
+    },
+    "mask_5": {
+      "target": "had understood",
+      "acceptable_variants": [],
+      "hint": "understand"
+    },
+    "mask_6": {
+      "target": "would have handled",
+      "acceptable_variants": [
+        "'d have handled"
+      ],
+      "hint": "will"
+    },
+    "mask_7": {
+      "target": "received",
+      "acceptable_variants": [],
+      "hint": "receive"
+    },
+    "mask_8": {
+      "target": "would feel",
+      "acceptable_variants": [
+        "'d feel"
+      ],
+      "hint": "will"
+    },
+    "mask_9": {
+      "target": "faces",
+      "acceptable_variants": [],
+      "hint": "face"
+    },
+    "mask_10": {
+      "target": "were",
+      "acceptable_variants": [],
+      "hint": "be"
+    },
+    "mask_11": {
+      "target": "would ask",
+      "acceptable_variants": [
+        "'d ask"
+      ],
+      "hint": "will"
+    },
+    "mask_12": {
+      "target": "published",
+      "acceptable_variants": [],
+      "hint": "publish"
+    },
+    "mask_13": {
+      "target": "would find",
+      "acceptable_variants": [
+        "'d find"
+      ],
+      "hint": "will"
+    },
+    "mask_14": {
+      "target": "had checked",
+      "acceptable_variants": [],
+      "hint": "check"
+    },
+    "mask_15": {
+      "target": "could have prevented",
+      "acceptable_variants": [],
+      "hint": "will"
+    },
+    "mask_16": {
+      "target": "attend",
+      "acceptable_variants": [],
+      "hint": "attend"
+    },
+    "mask_17": {
+      "target": "will hear",
+      "acceptable_variants": [
+        "'ll hear"
+      ],
+      "hint": "will"
+    },
+    "mask_18": {
+      "target": "had offered",
+      "acceptable_variants": [],
+      "hint": "offer"
+    },
+    "mask_19": {
+      "target": "could have helped",
+      "acceptable_variants": [],
+      "hint": "will"
+    },
+    "mask_20": {
+      "target": "need",
+      "acceptable_variants": [],
+      "hint": "need"
+    }
+  }
+}

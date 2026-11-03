@@ -1,0 +1,138 @@
+{
+  "topic": "Mixed Conditionals",
+  "difficulty": "intermediate",
+  "created_at": "2026-11-03T20:35:00+08:00",
+  "story_title": "The Dance Team's What-Ifs",
+  "extra_info": "",
+  "paragraphs": [
+    "After the regional dance competition, Maya and the team review their performance. Maya joined rehearsals late in the season, so she is still learning the choreography now. She says, \"If I {{mask_1}} rehearsals earlier, I {{mask_2}} the full routine better now.\" The coach remembers that Maya missed several practice sessions. \"If you {{mask_3}} more consistently, you {{mask_4}} more confident on stage today.\"",
+    "The team also talks about its costumes. They chose simple outfits because they had little time to prepare, and they still do not have matching accessories for their next show. Leo says, \"If we {{mask_5}} our costumes sooner, we {{mask_6}} matching accessories now.\" Their instructor adds, \"If the group {{mask_7}} a design plan last month, everyone {{mask_8}} what to bring today.\"",
+    "During the review, the dancers discuss two moments from yesterday's performance. Leo is sometimes careless with details, and he forgot a step when the music changed. He says, \"If I {{mask_9}} more careful, I {{mask_10}} the next step yesterday.\" Maya is flexible and learned the ending quickly. \"If I {{mask_11}} less flexible, I {{mask_12}} that turn during the final dance,\" she says.",
+    "The judges praised the team's energy, but the dancers want to improve their timing. Maya has a good sense of rhythm now because she practices with a metronome. \"If I {{mask_13}} with a metronome before the competition, I {{mask_14}} the beat more easily now.\" Leo is very organized and keeps a practice calendar. \"If I {{mask_15}} so organized, I {{mask_16}} the rehearsal time yesterday.\"",
+    "The team plans another performance for next month. Their coach says, \"If we {{mask_17}} our spacing more carefully last week, we {{mask_18}} fewer corrections to make now.\" Leo looks at the stage and smiles. He is not afraid of performing in front of an audience. \"If I {{mask_19}} more shy, I {{mask_20}} the solo yesterday.\" The dancers write down their ideas and agree to keep practicing together."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "had joined",
+      "acceptable_variants": [],
+      "hint": "join"
+    },
+    "mask_2": {
+      "target": "would know",
+      "acceptable_variants": [
+        "'d know"
+      ],
+      "hint": "will"
+    },
+    "mask_3": {
+      "target": "had practiced",
+      "acceptable_variants": [],
+      "hint": "practice"
+    },
+    "mask_4": {
+      "target": "would feel",
+      "acceptable_variants": [
+        "'d feel"
+      ],
+      "hint": "will"
+    },
+    "mask_5": {
+      "target": "had planned",
+      "acceptable_variants": [],
+      "hint": "plan"
+    },
+    "mask_6": {
+      "target": "would have",
+      "acceptable_variants": [
+        "'d have"
+      ],
+      "hint": "will"
+    },
+    "mask_7": {
+      "target": "had made",
+      "acceptable_variants": [],
+      "hint": "make"
+    },
+    "mask_8": {
+      "target": "would know",
+      "acceptable_variants": [
+        "'d know"
+      ],
+      "hint": "will"
+    },
+    "mask_9": {
+      "target": "were",
+      "acceptable_variants": [],
+      "hint": "be"
+    },
+    "mask_10": {
+      "target": "would have remembered",
+      "acceptable_variants": [
+        "'d have remembered"
+      ],
+      "hint": "will"
+    },
+    "mask_11": {
+      "target": "were",
+      "acceptable_variants": [],
+      "hint": "be"
+    },
+    "mask_12": {
+      "target": "would have missed",
+      "acceptable_variants": [
+        "'d have missed"
+      ],
+      "hint": "will"
+    },
+    "mask_13": {
+      "target": "had trained",
+      "acceptable_variants": [],
+      "hint": "train"
+    },
+    "mask_14": {
+      "target": "would follow",
+      "acceptable_variants": [
+        "'d follow"
+      ],
+      "hint": "will"
+    },
+    "mask_15": {
+      "target": "weren't",
+      "acceptable_variants": [
+        "wasn't"
+      ],
+      "hint": "be"
+    },
+    "mask_16": {
+      "target": "would have forgotten",
+      "acceptable_variants": [
+        "'d have forgotten"
+      ],
+      "hint": "will"
+    },
+    "mask_17": {
+      "target": "had planned",
+      "acceptable_variants": [],
+      "hint": "plan"
+    },
+    "mask_18": {
+      "target": "would have",
+      "acceptable_variants": [
+        "'d have"
+      ],
+      "hint": "will"
+    },
+    "mask_19": {
+      "target": "were",
+      "acceptable_variants": [],
+      "hint": "be"
+    },
+    "mask_20": {
+      "target": "would have avoided",
+      "acceptable_variants": [
+        "'d have avoided"
+      ],
+      "hint": "will"
+    }
+  }
+}

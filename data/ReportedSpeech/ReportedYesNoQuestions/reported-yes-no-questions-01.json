@@ -1,0 +1,157 @@
+{
+  "topic": "Reported Yes/No Questions",
+  "difficulty": "beginner",
+  "created_at": "2026-11-03T21:39:00+08:00",
+  "story_title": "A Tattoo Consultation",
+  "extra_info": "",
+  "task_instruction": "Rewrite each direct yes/no question as a reported question.",
+  "paragraphs": [
+    "Sam visits a tattoo studio to ask about a small design. Artist Riley begins the consultation with a few questions. Riley asked Sam, {{red:Do you want a small tattoo?}} {{mask_1}} Riley also asked, {{red:Have you chosen a design?}} {{mask_2}} Sam said that a small bird might work. Riley asked, {{red:Do you want the bird on your arm?}} {{mask_3}} Then Riley asked, {{red:Is this your first tattoo?}} {{mask_4}}",
+    "Riley explains that the studio discusses size and placement before making an appointment. Riley asked Sam, {{red:Would you like to see some design examples?}} {{mask_5}} Sam said yes. Riley asked, {{red:Can you bring your own drawing?}} {{mask_6}} Sam had a sketch on a phone. Riley asked, {{red:Have you saved the drawing on your phone?}} {{mask_7}} Sam showed the sketch. Riley asked, {{red:Are you happy with this size?}} {{mask_8}}",
+    "They talk about preparation and studio procedures. Riley asked Sam, {{red:Do you have any questions about the appointment?}} {{mask_9}} Sam asked how long it might take. Riley asked, {{red:Will you have enough time this afternoon?}} {{mask_10}} Sam had another appointment later. Riley asked, {{red:Did you read the studio's information sheet?}} {{mask_11}} Sam had read it that morning. Riley asked, {{red:Can you contact us if you need to change the appointment?}} {{mask_12}}",
+    "Before they finish, Riley reviews the design details. Riley asked Sam, {{red:Does the bird need any changes?}} {{mask_13}} Sam wanted to make one line thinner. Riley asked, {{red:Would you prefer a different position?}} {{mask_14}} Sam preferred the original position. Riley asked, {{red:Are you comfortable with the final design?}} {{mask_15}} Sam said yes. Riley asked, {{red:Have you checked the spelling in the design?}} {{mask_16}} Sam checked it carefully.",
+    "Sam writes a short summary after leaving the studio. Riley had asked whether Sam wanted a small tattoo and whether Sam had chosen a design. Sam notes that Riley asked, {{red:Do you understand that you can take more time to decide?}} {{mask_17}} Riley also asked, {{red:Would you like to book another consultation?}} {{mask_18}} Sam decided to think about it. At the end, Riley asked, {{red:Can we send you the appointment details by email?}} {{mask_19}} Sam agreed. Riley asked, {{red:Will you let us know your decision next week?}} {{mask_20}} Sam planned to reply after considering the design."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "Riley asked Sam if he wanted a small tattoo.",
+      "acceptable_variants": [
+        "Riley asked Sam whether he wanted a small tattoo."
+      ],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "Riley asked Sam if he had chosen a design.",
+      "acceptable_variants": [
+        "Riley asked Sam whether he had chosen a design."
+      ],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "Riley asked Sam if he wanted the bird on his arm.",
+      "acceptable_variants": [
+        "Riley asked Sam whether he wanted the bird on his arm."
+      ],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "Riley asked Sam if it was his first tattoo.",
+      "acceptable_variants": [
+        "Riley asked Sam whether it was his first tattoo."
+      ],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "Riley asked Sam if he would like to see some design examples.",
+      "acceptable_variants": [
+        "Riley asked Sam whether he would like to see some design examples."
+      ],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "Riley asked Sam if he could bring his own drawing.",
+      "acceptable_variants": [
+        "Riley asked Sam whether he could bring his own drawing."
+      ],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "Riley asked Sam if he had saved the drawing on his phone.",
+      "acceptable_variants": [
+        "Riley asked Sam whether he had saved the drawing on his phone."
+      ],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "Riley asked Sam if he was happy with that size.",
+      "acceptable_variants": [
+        "Riley asked Sam whether he was happy with that size."
+      ],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "Riley asked Sam if he had any questions about the appointment.",
+      "acceptable_variants": [
+        "Riley asked Sam whether he had any questions about the appointment."
+      ],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "Riley asked Sam if he would have enough time that afternoon.",
+      "acceptable_variants": [
+        "Riley asked Sam whether he would have enough time that afternoon."
+      ],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "Riley asked Sam if he had read the studio's information sheet.",
+      "acceptable_variants": [
+        "Riley asked Sam whether he had read the studio's information sheet."
+      ],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "Riley asked Sam if he could contact them if he needed to change the appointment.",
+      "acceptable_variants": [
+        "Riley asked Sam whether he could contact them if he needed to change the appointment."
+      ],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "Riley asked Sam if the bird needed any changes.",
+      "acceptable_variants": [
+        "Riley asked Sam whether the bird needed any changes."
+      ],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "Riley asked Sam if he would prefer a different position.",
+      "acceptable_variants": [
+        "Riley asked Sam whether he would prefer a different position."
+      ],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "Riley asked Sam if he was comfortable with the final design.",
+      "acceptable_variants": [
+        "Riley asked Sam whether he was comfortable with the final design."
+      ],
+      "hint": ""
+    },
+    "mask_16": {
+      "target": "Riley asked Sam if he had checked the spelling in the design.",
+      "acceptable_variants": [
+        "Riley asked Sam whether he had checked the spelling in the design."
+      ],
+      "hint": ""
+    },
+    "mask_17": {
+      "target": "Riley asked Sam if he understood that he could take more time to decide.",
+      "acceptable_variants": [
+        "Riley asked Sam whether he understood that he could take more time to decide."
+      ],
+      "hint": ""
+    },
+    "mask_18": {
+      "target": "Riley asked Sam if he would like to book another consultation.",
+      "acceptable_variants": [
+        "Riley asked Sam whether he would like to book another consultation."
+      ],
+      "hint": ""
+    },
+    "mask_19": {
+      "target": "Riley asked Sam if they could send him the appointment details by email.",
+      "acceptable_variants": [
+        "Riley asked Sam whether they could send him the appointment details by email."
+      ],
+      "hint": ""
+    },
+    "mask_20": {
+      "target": "Riley asked Sam if he would let them know his decision the following week.",
+      "acceptable_variants": [
+        "Riley asked Sam whether he would let them know his decision the following week."
+      ],
+      "hint": ""
+    }
+  }
+}

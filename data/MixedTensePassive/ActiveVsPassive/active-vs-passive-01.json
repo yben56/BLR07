@@ -1,0 +1,117 @@
+{
+  "topic": "Active vs Passive",
+  "difficulty": "beginner",
+  "created_at": "2026-11-03T22:29:00+08:00",
+  "story_title": "Good Manners at the Dinner Table",
+  "extra_info": "",
+  "task_instruction": "Rewrite each sentence in the opposite voice: change active sentences to passive and passive sentences to active.",
+  "paragraphs": [
+    "A family is teaching the children polite table manners before a special dinner. Their mother begins with simple examples. {{red:Guests use a napkin during the meal.}} {{mask_1}} {{red:The table is set by the children before dinner.}} {{mask_2}} {{red:Everyone keeps their elbows off the table.}} {{mask_3}} {{red:The soup is served by their father.}} {{mask_4}}",
+    "The family talks about sharing food and speaking politely. {{red:Children pass the bread to other guests.}} {{mask_5}} {{red:The water glasses are filled by Grandma.}} {{mask_6}} {{red:People use the word \"please\" when they ask for something.}} {{mask_7}} {{red:The vegetables are offered by the host.}} {{mask_8}}",
+    "During dinner, the parents explain how to behave at the table. {{red:Guests respect the person who is speaking.}} {{mask_9}} {{red:The plates are cleared by the children after the meal.}} {{mask_10}} {{red:Everyone thanks the cook for dinner.}} {{mask_11}} {{red:The leftovers are stored by their mother.}} {{mask_12}}",
+    "The children remember the advice as they help their family. {{red:People wash their hands before a meal.}} {{mask_13}} {{red:The dessert is brought to the table by their father.}} {{mask_14}} {{red:Guests share the dessert after everyone has eaten.}} {{mask_15}} {{red:The chairs are pushed in by the children.}} {{mask_16}}",
+    "After dinner, the family reviews the good manners they practiced. {{red:The children wash the serving dishes.}} {{mask_17}} {{red:The dining room is cleaned by the whole family.}} {{mask_18}} {{red:Everyone puts their napkin beside their plate.}} {{mask_19}} {{red:The tablecloth is folded by Grandma.}} {{mask_20}} The family agrees that kindness and consideration make a meal pleasant for everyone."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "A napkin is used by guests during the meal.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "The children set the table before dinner.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "Elbows are kept off the table by everyone.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "Their father serves the soup.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "The bread is passed to other guests by children.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "Grandma fills the water glasses.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "The word \"please\" is used when people ask for something.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "The host offers the vegetables.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "The person who is speaking is respected by guests.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "The children clear the plates after the meal.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "The cook is thanked for dinner by everyone.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "Their mother stores the leftovers.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "Hands are washed by people before a meal.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "Their father brings the dessert to the table.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "The dessert is shared by guests after everyone has eaten.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_16": {
+      "target": "The children push in the chairs.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_17": {
+      "target": "The serving dishes are washed by the children.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_18": {
+      "target": "The whole family cleans the dining room.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_19": {
+      "target": "Napkins are put beside their plates by everyone.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_20": {
+      "target": "Grandma folds the tablecloth.",
+      "acceptable_variants": [],
+      "hint": ""
+    }
+  }
+}

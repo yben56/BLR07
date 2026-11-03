@@ -1,0 +1,136 @@
+{
+  "topic": "General Relative Clauses",
+  "difficulty": "advanced",
+  "created_at": "2026-11-03T22:43:00+08:00",
+  "story_title": "A Visit to Grandmother's Grave",
+  "extra_info": "",
+  "paragraphs": [
+    "On the anniversary of their grandmother's death, the Rahman family visits the cemetery {{mask_1}} she is buried. They follow a stone path {{mask_2}} winds between old trees. Their grandmother, {{mask_3}} had taught literature for many years, is remembered with affection. The family brings a small bouquet {{mask_4}} they arranged at home. They also carry a notebook, {{mask_5}} contains some of her favorite poems.",
+    "Aunt Samira tells the children about the woman {{mask_6}} encouraged her students to read widely. She recalls a story {{mask_7}} her grandmother used to tell after dinner. The family pauses beside a bench {{mask_8}} they can sit and talk quietly. Their uncle, {{mask_9}} lives in another city, has joined them for the visit. He brings flowers {{mask_10}} colors remind him of his grandmother's garden.",
+    "A caretaker {{mask_11}} the family recognizes from earlier visits greets them near the entrance. He points out a section {{mask_12}} recently planted trees provide shade. The family finds the grave {{mask_13}} is marked with a simple stone. They gently remove leaves {{mask_14}} have gathered around its base. The children place the flowers in a small jar {{mask_15}} their aunt has brought.",
+    "While they sit together, each person shares a memory {{mask_16}} reflects something their grandmother taught them. Samira describes the classroom {{mask_17}} her grandmother first began teaching. Her cousin, {{mask_18}} has brought a photograph from an old family album, passes it around. The picture, {{mask_19}} was taken during a summer gathering, makes everyone smile. Before leaving, they thank the caretaker {{mask_20}} keeps the cemetery paths clean and welcoming."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "where",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "who",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "which",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "who",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "where",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "who",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "whose",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "whom",
+      "acceptable_variants": [
+        "who",
+        "that"
+      ],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "where",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_16": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_17": {
+      "target": "where",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_18": {
+      "target": "who",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_19": {
+      "target": "which",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_20": {
+      "target": "who",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    }
+  }
+}

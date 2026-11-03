@@ -1,0 +1,136 @@
+{
+  "topic": "Which or That",
+  "difficulty": "intermediate",
+  "created_at": "2026-11-03T22:50:00+08:00",
+  "story_title": "A Day at the Amusement Park",
+  "extra_info": "",
+  "paragraphs": [
+    "Our class visits an amusement park for a science-themed school trip. The first ride {{mask_1}} we try travels slowly through a model solar system. The guide points out a planet {{mask_2}} has rings made of ice and rock. The main entrance, {{mask_3}} was rebuilt last year, has a wide glass roof. We read a sign {{mask_4}} explains how the ride uses magnets.",
+    "After the ride, we explore an interactive science pavilion. A machine {{mask_5}} measures the force of a visitor's push displays the result on a screen. The pavilion, {{mask_6}} stands beside the lake, also has a small planetarium. Inside, we watch a film {{mask_7}} follows a spacecraft on its journey. The seats, {{mask_8}} can lean back, make it easy to look up at the ceiling.",
+    "At lunchtime, our teacher leads us to a picnic area. We choose a table {{mask_9}} is near a fountain. The fountain, {{mask_10}} was designed by a local artist, changes color in the afternoon. A food stall {{mask_11}} sells vegetable wraps has a short line. The menu, {{mask_12}} lists ingredients for each dish, helps students with food allergies.",
+    "In the afternoon, we visit the park's engineering workshop. The model bridge {{mask_13}} the students build must hold a small toy train. A technician, {{mask_14}} works at the park, shows us how to test the supports. We use a tool {{mask_15}} measures the bridge's strength. The workshop, {{mask_16}} opened earlier this spring, is popular with school groups.",
+    "Before we leave, we watch a parade near the central plaza. The floats {{mask_17}} move along the main path carry bright decorations. A dragon float, {{mask_18}} has lights inside its wings, is the children's favorite. Our teacher takes a photo, {{mask_19}} includes the whole class. The park, {{mask_20}} welcomes thousands of visitors each year, has given us plenty to discuss on the bus ride home."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "which",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "which",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "which",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "which",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "which",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "which",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_16": {
+      "target": "which",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_17": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_18": {
+      "target": "which",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_19": {
+      "target": "which",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_20": {
+      "target": "which",
+      "acceptable_variants": [],
+      "hint": ""
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "topic": "Who or Whom",
+  "difficulty": "intermediate",
+  "created_at": "2026-11-03T22:53:35+08:00",
+  "story_title": "A Day at IKEA",
+  "extra_info": "",
+  "paragraphs": [
+    "Maya visits IKEA with her cousin Daniel, who is moving into a smaller apartment. An employee {{mask_1}} welcomes them points out the room displays and explains where to find kitchen furniture. They meet a designer {{mask_2}} Maya spoke with during an earlier visit. Daniel also calls his friend, {{mask_3}} recently furnished a studio apartment, to ask for advice. Before choosing a table, they meet an installer with {{mask_4}} they had arranged a delivery. The installer describes the available time slots and asks them to confirm their address.",
+    "In the kitchen department, a salesperson {{mask_5}} knows the cabinet options helps Maya compare sizes. Daniel shows her a photo of a chef {{mask_6}} he follows online, hoping to choose a similar work surface. A kitchen specialist to {{mask_7}} they direct their questions explains how to measure the space at home. Maya asks a customer {{mask_8}} she recognizes from her building about the shelves on display. An adviser {{mask_9}} works at the planning desk sketches a layout. She gives the plan to a customer for {{mask_10}} she has already prepared a list of options.",
+    "They continue to the dining area, where they test several chairs and tables. A friend {{mask_11}} shops there by chance joins them for a few minutes. The group notices a couple {{mask_12}} are comparing two different table sizes and gives them room to decide. A department manager {{mask_13}} oversees the dining displays answers a question about the materials. A staff member {{mask_14}} has assembled one of the sample tables shows them how its leaf extends. They also meet an interior design student, for {{mask_15}} the visit is part of a class project about small spaces.",
+    "After choosing a table and two chairs, Maya and Daniel head to the warehouse area. A technician {{mask_16}} checks the stock information confirms that the items are available. They ask a worker {{mask_17}} they met near the storage shelves where to collect the packages. A service coordinator from {{mask_18}} they receive their delivery details reviews the order with them. Outside, a driver {{mask_19}} is loading a nearby van explains how the delivery team will contact them. Daniel sends a message to his cousin, {{mask_20}} he wants to thank for lending him a measuring tape, and they leave with a plan for setting up the new apartment."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "who",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "whom",
+      "acceptable_variants": [
+        "who"
+      ],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "who",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "whom",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "who",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "whom",
+      "acceptable_variants": [
+        "who"
+      ],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "whom",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "whom",
+      "acceptable_variants": [
+        "who"
+      ],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "who",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "whom",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "who",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "who",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "who",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "who",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "whom",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_16": {
+      "target": "who",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_17": {
+      "target": "whom",
+      "acceptable_variants": [
+        "who"
+      ],
+      "hint": ""
+    },
+    "mask_18": {
+      "target": "whom",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_19": {
+      "target": "who",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_20": {
+      "target": "whom",
+      "acceptable_variants": [
+        "who"
+      ],
+      "hint": ""
+    }
+  }
+}

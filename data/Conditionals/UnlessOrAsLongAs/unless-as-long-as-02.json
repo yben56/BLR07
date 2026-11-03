@@ -1,0 +1,120 @@
+{
+  "topic": "Unless / As Long As",
+  "difficulty": "intermediate",
+  "created_at": "2026-11-03T20:40:00+08:00",
+  "story_title": "Finding the Right Sneakers",
+  "extra_info": "",
+  "paragraphs": [
+    "Jordan needs new sneakers for the school running club. At a sports shop, the assistant asks what kind of shoes Jordan wants. Jordan replies, \"I won't choose a pair {{mask_1}} it feels comfortable when I walk. I can try this model {{mask_2}} there is space for my toes.\"",
+    "The assistant explains that shoes should fit well, not just look good. \"You shouldn't buy them {{mask_3}} your heel slips when you walk. You can compare another size {{mask_4}} you keep both shoes on while you test the fit.\" Jordan tries a different pair and walks slowly across the shop.",
+    "Jordan's friend Casey is shopping too. Casey likes a bright pair with thin soles. Jordan says, \"You may enjoy that style {{mask_5}} it supports your feet well. You shouldn't use it for long runs {{mask_6}} the shop label says it is made for running.\" Casey checks the product information before deciding.",
+    "The assistant talks about caring for sneakers. \"They will last longer {{mask_7}} you let them dry after a wet walk. Don't put them near a heater {{mask_8}} the care label says it is safe.\" Jordan asks about cleaning them. The assistant replies, \"You can use a soft brush {{mask_9}} you follow the cleaning instructions.\"",
+    "Jordan finds a pair that feels comfortable, but wants to check the price. \"I won't buy them {{mask_10}} they fit my budget,\" Jordan says. The assistant points out a discount on last season's colors. \"You can get the lower price {{mask_11}} you choose one of these colors.\" Casey finds a similar offer on another shelf.",
+    "Before they leave, the friends compare their choices. Casey says, \"I won't wear these for the running club {{mask_12}} they feel secure when I jog.\" Jordan agrees and checks that the shoes are the right size. \"You can keep your receipt {{mask_13}} you may need to exchange them.\" The assistant reminds them to check the store's return policy.",
+    "On their first club practice, Jordan tests the new sneakers on the track. The coach says, \"You can start with an easy run {{mask_14}} you feel comfortable. You should continue {{mask_15}} you feel comfortable.\" Casey asks if they should wear the new shoes every day. Jordan replies, \"They should feel comfortable {{mask_16}} you wear them for longer practice.\"",
+    "After practice, both friends clean dust from their shoes. Casey says, \"I can use this cloth {{mask_17}} it does not damage the material.\" Jordan checks the care label again. \"We shouldn't store the sneakers in a closed bag {{mask_18}} they are completely dry.\" They leave the shoes in a ventilated place.",
+    "A week later, Jordan says the sneakers still feel good. Casey asks whether the shop will accept an exchange for a different color. Jordan answers, \"They may exchange them {{mask_19}} you bring the receipt and follow the return policy.\" The friends decide that comfort matters most. They will keep the shoes {{mask_20}} they continue to fit well."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "unless",
+      "acceptable_variants": [],
+      "hint": "not"
+    },
+    "mask_2": {
+      "target": "as long as",
+      "acceptable_variants": [],
+      "hint": "condition"
+    },
+    "mask_3": {
+      "target": "unless",
+      "acceptable_variants": [],
+      "hint": "not"
+    },
+    "mask_4": {
+      "target": "as long as",
+      "acceptable_variants": [],
+      "hint": "condition"
+    },
+    "mask_5": {
+      "target": "as long as",
+      "acceptable_variants": [],
+      "hint": "condition"
+    },
+    "mask_6": {
+      "target": "unless",
+      "acceptable_variants": [],
+      "hint": "not"
+    },
+    "mask_7": {
+      "target": "as long as",
+      "acceptable_variants": [],
+      "hint": "condition"
+    },
+    "mask_8": {
+      "target": "unless",
+      "acceptable_variants": [],
+      "hint": "not"
+    },
+    "mask_9": {
+      "target": "as long as",
+      "acceptable_variants": [],
+      "hint": "condition"
+    },
+    "mask_10": {
+      "target": "unless",
+      "acceptable_variants": [],
+      "hint": "not"
+    },
+    "mask_11": {
+      "target": "as long as",
+      "acceptable_variants": [],
+      "hint": "condition"
+    },
+    "mask_12": {
+      "target": "unless",
+      "acceptable_variants": [],
+      "hint": "not"
+    },
+    "mask_13": {
+      "target": "as long as",
+      "acceptable_variants": [],
+      "hint": "condition"
+    },
+    "mask_14": {
+      "target": "as long as",
+      "acceptable_variants": [],
+      "hint": "condition"
+    },
+    "mask_15": {
+      "target": "as long as",
+      "acceptable_variants": [],
+      "hint": "condition"
+    },
+    "mask_16": {
+      "target": "as long as",
+      "acceptable_variants": [],
+      "hint": "condition"
+    },
+    "mask_17": {
+      "target": "as long as",
+      "acceptable_variants": [],
+      "hint": "condition"
+    },
+    "mask_18": {
+      "target": "unless",
+      "acceptable_variants": [],
+      "hint": "not"
+    },
+    "mask_19": {
+      "target": "as long as",
+      "acceptable_variants": [],
+      "hint": "condition"
+    },
+    "mask_20": {
+      "target": "as long as",
+      "acceptable_variants": [],
+      "hint": "condition"
+    }
+  }
+}

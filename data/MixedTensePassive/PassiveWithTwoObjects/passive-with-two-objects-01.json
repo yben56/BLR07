@@ -1,0 +1,157 @@
+{
+  "topic": "Passive with Verbs with Two Objects",
+  "difficulty": "beginner",
+  "created_at": "2026-11-03T22:15:00+08:00",
+  "story_title": "Building Together with LEGO",
+  "extra_info": "",
+  "task_instruction": "Rewrite each active sentence in the passive voice. Use either object as the subject.",
+  "paragraphs": [
+    "A family is building a LEGO town together. They begin by sharing pieces and plans. {{red:Eva gives her brother a blue building plate.}} {{mask_1}} {{red:Their father shows the children a picture of a tall tower.}} {{mask_2}} {{red:Leo lends his sister a small plastic wheel.}} {{mask_3}} {{red:Their mother tells the family a story about a toy train.}} {{mask_4}}",
+    "The family sorts the bricks and decides what to build next. {{red:Grandma sends the children a box of extra bricks.}} {{mask_5}} {{red:Eva teaches Leo a simple way to build a strong wall.}} {{mask_6}} {{red:Their father has given Eva the instruction booklet.}} {{mask_7}} {{red:Leo is handing his sister the red bricks now.}} {{mask_8}}",
+    "Soon, the group adds houses, roads, and a station to the town. {{red:Eva will give her brother a small LEGO car.}} {{mask_9}} {{red:Their mother is bringing the builders some snacks.}} {{mask_10}} {{red:Grandma gave the family a new LEGO set last week.}} {{mask_11}} {{red:Leo has promised his sister a place for her garden.}} {{mask_12}}",
+    "The builders help each other finish the details. {{red:Their father gave the station a glass roof.}} {{mask_13}} {{red:Eva is lending Leo her green bricks for the park.}} {{mask_14}} {{red:Grandma will tell the children a story about the finished town.}} {{mask_15}} {{red:Leo offered his sister the last yellow brick.}} {{mask_16}}",
+    "At the end of the afternoon, the family looks at the completed LEGO town. {{red:Eva has shown her parents the train station.}} {{mask_17}} {{red:Their father will send Grandma a photo of the model.}} {{mask_18}} {{red:Grandma gave the builders some ideas for a bridge.}} {{mask_19}} {{red:The children gave their parents a thank-you card.}} {{mask_20}} The family plans to add more buildings during their next visit."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "Her brother is given a blue building plate by Eva.",
+      "acceptable_variants": [
+        "A blue building plate is given to her brother by Eva."
+      ],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "The children are shown a picture of a tall tower by their father.",
+      "acceptable_variants": [
+        "A picture of a tall tower is shown to the children by their father."
+      ],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "His sister is lent a small plastic wheel by Leo.",
+      "acceptable_variants": [
+        "A small plastic wheel is lent to his sister by Leo."
+      ],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "The family is told a story about a toy train by their mother.",
+      "acceptable_variants": [
+        "A story about a toy train is told to the family by their mother."
+      ],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "The children were sent a box of extra bricks by Grandma.",
+      "acceptable_variants": [
+        "A box of extra bricks was sent to the children by Grandma."
+      ],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "Leo is taught a simple way to build a strong wall by Eva.",
+      "acceptable_variants": [
+        "A simple way to build a strong wall is taught to Leo by Eva."
+      ],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "Eva has been given the instruction booklet by their father.",
+      "acceptable_variants": [
+        "The instruction booklet has been given to Eva by their father."
+      ],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "His sister is being handed the red bricks by Leo.",
+      "acceptable_variants": [
+        "The red bricks are being handed to his sister by Leo."
+      ],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "Her brother will be given a small LEGO car by Eva.",
+      "acceptable_variants": [
+        "A small LEGO car will be given to her brother by Eva."
+      ],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "The builders are being brought some snacks by their mother.",
+      "acceptable_variants": [
+        "Some snacks are being brought to the builders by their mother."
+      ],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "The family was given a new LEGO set by Grandma last week.",
+      "acceptable_variants": [
+        "A new LEGO set was given to the family by Grandma last week."
+      ],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "His sister has been promised a place for her garden by Leo.",
+      "acceptable_variants": [
+        "A place for her garden has been promised to his sister by Leo."
+      ],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "The station was given a glass roof by their father.",
+      "acceptable_variants": [
+        "A glass roof was given to the station by their father."
+      ],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "Leo is being lent Eva's green bricks for the park.",
+      "acceptable_variants": [
+        "Eva's green bricks are being lent to Leo for the park."
+      ],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "The children will be told a story about the finished town by Grandma.",
+      "acceptable_variants": [
+        "A story about the finished town will be told to the children by Grandma."
+      ],
+      "hint": ""
+    },
+    "mask_16": {
+      "target": "His sister was offered the last yellow brick by Leo.",
+      "acceptable_variants": [
+        "The last yellow brick was offered to his sister by Leo."
+      ],
+      "hint": ""
+    },
+    "mask_17": {
+      "target": "Her parents have been shown the train station by Eva.",
+      "acceptable_variants": [
+        "The train station has been shown to her parents by Eva."
+      ],
+      "hint": ""
+    },
+    "mask_18": {
+      "target": "Grandma will be sent a photo of the model by their father.",
+      "acceptable_variants": [
+        "A photo of the model will be sent to Grandma by their father."
+      ],
+      "hint": ""
+    },
+    "mask_19": {
+      "target": "The builders were given some ideas for a bridge by Grandma.",
+      "acceptable_variants": [
+        "Some ideas for a bridge were given to the builders by Grandma."
+      ],
+      "hint": ""
+    },
+    "mask_20": {
+      "target": "Their parents were given a thank-you card by the children.",
+      "acceptable_variants": [
+        "A thank-you card was given to their parents by the children."
+      ],
+      "hint": ""
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "topic": "Say and Tell",
+  "difficulty": "intermediate",
+  "created_at": "2026-11-03T22:00:00+08:00",
+  "story_title": "A Day at the Blacksmith's Workshop",
+  "extra_info": "",
+  "paragraphs": [
+    "A group of students visits a blacksmith's workshop to learn how metal objects are made. The blacksmith, Mara, {{mask_1}} them that the workshop is an active work area. She {{mask_2}}, \"Please stand behind the yellow line.\" Her assistant {{mask_3}} the students to keep their bags away from the workbench. One student {{mask_4}} that the room smelled like warm metal.",
+    "Mara explains the tools before starting a demonstration. She {{mask_5}} the students that the metal must be heated before it can be shaped. Then she {{mask_6}} to the group, \"Watch how I use the hammer.\" Her assistant {{mask_7}} them to wear protective glasses. A student {{mask_8}} Mara that the safety glasses felt comfortable.",
+    "During the demonstration, Mara heats a small piece of steel. She {{mask_9}}, \"The metal changes color as it gets hotter.\" The assistant {{mask_10}} the visitors that they should stay in the marked area. A student {{mask_11}} to her friend that the hammer looked heavier than it was. Mara {{mask_12}} the group that each tool had a special purpose.",
+    "After the demonstration, the students ask about the finished objects. Mara {{mask_13}} them that blacksmiths can make gates, hooks, and decorative pieces. She {{mask_14}} to a student, \"You can ask me about the design.\" The student {{mask_15}} Mara that she wanted to learn how to make a small hook. The assistant {{mask_16}} the class that they could see examples on the display table.",
+    "Before the visit ends, Mara shows the group a finished iron flower. She {{mask_17}}, \"I made this design for the town garden.\" The teacher {{mask_18}} the students that it was time to return to school. One student {{mask_19}} to Mara, \"Thank you for showing us your workshop.\" Mara {{mask_20}} them that they were welcome to visit again."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "tells",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "says",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "tells",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "says",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "tells",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "says",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "tells",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "tells",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "says",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "tells",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "says",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "tells",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "tells",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "says",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "tells",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_16": {
+      "target": "tells",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_17": {
+      "target": "says",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_18": {
+      "target": "tells",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_19": {
+      "target": "says",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_20": {
+      "target": "tells",
+      "acceptable_variants": [],
+      "hint": ""
+    }
+  }
+}

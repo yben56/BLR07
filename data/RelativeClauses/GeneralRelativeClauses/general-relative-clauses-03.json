@@ -1,0 +1,143 @@
+{
+  "topic": "General Relative Clauses",
+  "difficulty": "beginner",
+  "created_at": "2026-11-03T22:40:00+08:00",
+  "story_title": "A Hip-Hop Community Workshop",
+  "extra_info": "",
+  "paragraphs": [
+    "A neighborhood arts center is hosting a hip-hop workshop for young people. The instructor {{mask_1}} leads the class is a local dancer. She welcomes a rapper {{mask_2}} writes lyrics about community life. The group meets in a studio {{mask_3}} has a wooden floor for dancing. The center, {{mask_4}} opened ten years ago, offers free arts activities. Participants bring notebooks {{mask_5}} help them plan their verses.",
+    "The instructor introduces several parts of hip-hop culture. She plays a track {{mask_6}} has a strong drum rhythm. A DJ {{mask_7}} performs at local events demonstrates how to mix records. The class visits a wall {{mask_8}} local artists have painted colorful designs. One participant, {{mask_9}} older brother is a beatmaker, talks about creating music at home. They listen to a song {{mask_10}} tells a story about growing up in the city.",
+    "Next, the group practices writing and performing short verses. A student {{mask_11}} enjoys poetry shares a few lines with the class. The instructor gives everyone a beat {{mask_12}} they can practice their timing. They use a microphone {{mask_13}} makes each voice easier to hear. The room {{mask_14}} the workshop is held has space for a small audience. A dancer {{mask_15}} teaches breakdance shows the group a safe warm-up.",
+    "At the end of the session, the participants plan a community showcase. They choose a date {{mask_16}} most families are available. The stage {{mask_17}} the performers will dance is beside the center's garden. A designer {{mask_18}} posters are displayed in local shops creates the event flyer. The group selects a name {{mask_19}} reflects the neighborhood's energy. Everyone thanks the volunteers {{mask_20}} helped make the workshop possible."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "who",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "who",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "which",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "who",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "where",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "whose",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "who",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "where",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "who",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    },
+    "mask_16": {
+      "target": "when",
+      "acceptable_variants": [
+        "on which"
+      ],
+      "hint": ""
+    },
+    "mask_17": {
+      "target": "where",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_18": {
+      "target": "whose",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_19": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_20": {
+      "target": "who",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    }
+  }
+}

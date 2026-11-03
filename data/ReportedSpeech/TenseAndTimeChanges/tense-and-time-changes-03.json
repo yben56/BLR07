@@ -1,0 +1,157 @@
+{
+  "topic": "Tense and Time Changes",
+  "difficulty": "advanced",
+  "created_at": "2026-11-03T22:06:00+08:00",
+  "story_title": "Notes from the County Court",
+  "extra_info": "",
+  "task_instruction": "Rewrite each direct statement in reported speech. Change the tense and time expressions where necessary.",
+  "paragraphs": [
+    "After a hearing at the county court, reporter Elena reviews her notes with the court clerk. The clerk explains how the file was prepared. {{red:\"I have checked every page in the case file.\"}} {{mask_1}} She points to the courtroom calendar. {{red:\"The hearing is taking place today.\"}} {{mask_2}} The clerk describes the witness schedule. {{red:\"The first witness arrived here yesterday.\"}} {{mask_3}} She adds, {{red:\"We will hear the final witness tomorrow.\"}} {{mask_4}}",
+    "Elena speaks with the building manager about the court records. He says, {{red:\"I have been keeping these records for twelve years.\"}} {{mask_5}} He explains the archive system. {{red:\"We are moving the older files this week.\"}} {{mask_6}} He describes a recent change. {{red:\"The court installed new recording equipment last month.\"}} {{mask_7}} He then says, {{red:\"I can show you the archive after lunch.\"}} {{mask_8}}",
+    "The next day, Elena interviews a witness who had testified at the hearing. The witness describes what she observed. {{red:\"I was waiting outside the courthouse when I heard the announcement.\"}} {{mask_9}} She explains what she did afterwards. {{red:\"I have already given my statement to the investigator.\"}} {{mask_10}} She adds, {{red:\"My lawyer is reviewing the transcript now.\"}} {{mask_11}} Then she describes her next appointment. {{red:\"I will meet the investigator here next Friday.\"}} {{mask_12}}",
+    "Elena also records comments from the attorneys. The defense attorney explains a document. {{red:\"I received this letter two days ago.\"}} {{mask_13}} He says, {{red:\"My client has been answering questions since this morning.\"}} {{mask_14}} The prosecutor describes evidence submitted earlier. {{red:\"We had collected these records before the investigation began.\"}} {{mask_15}} She adds, {{red:\"The judge will consider the request later today.\"}} {{mask_16}}",
+    "When Elena writes her article that evening, she reports what the court staff and participants told her. The clerk said, {{red:\"I will finish the index tonight.\"}} {{mask_17}} The building manager said, {{red:\"The archive was closed last week.\"}} {{mask_18}} The witness said, {{red:\"I may return here next month.\"}} {{mask_19}} The prosecutor said, {{red:\"We are expecting the written decision soon.\"}} {{mask_20}} Elena checks the dates in her notes before publishing the report."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "The clerk said that she had checked every page in the case file.",
+      "acceptable_variants": [
+        "The clerk said she had checked every page in the case file."
+      ],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "The clerk said that the hearing was taking place that day.",
+      "acceptable_variants": [
+        "The clerk said the hearing was taking place that day."
+      ],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "The clerk said that the first witness had arrived there the day before.",
+      "acceptable_variants": [
+        "The clerk said the first witness had arrived there the day before."
+      ],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "The clerk said that they would hear the final witness the next day.",
+      "acceptable_variants": [
+        "The clerk said they would hear the final witness the next day."
+      ],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "The building manager said that he had been keeping those records for twelve years.",
+      "acceptable_variants": [
+        "The building manager said he had been keeping those records for twelve years."
+      ],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "The building manager said that they were moving the older files that week.",
+      "acceptable_variants": [
+        "The building manager said they were moving the older files that week."
+      ],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "The building manager said that the court had installed new recording equipment the month before.",
+      "acceptable_variants": [
+        "The building manager said the court had installed new recording equipment the month before."
+      ],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "The building manager said that he could show her the archive after lunch.",
+      "acceptable_variants": [
+        "The building manager said he could show her the archive after lunch."
+      ],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "The witness said that she had been waiting outside the courthouse when she heard the announcement.",
+      "acceptable_variants": [
+        "The witness said she had been waiting outside the courthouse when she heard the announcement."
+      ],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "The witness said that she had already given her statement to the investigator.",
+      "acceptable_variants": [
+        "The witness said she had already given her statement to the investigator."
+      ],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "The witness said that her lawyer was reviewing the transcript then.",
+      "acceptable_variants": [
+        "The witness said her lawyer was reviewing the transcript then."
+      ],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "The witness said that she would meet the investigator there the following Friday.",
+      "acceptable_variants": [
+        "The witness said she would meet the investigator there the following Friday."
+      ],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "The defense attorney said that he had received that letter two days before.",
+      "acceptable_variants": [
+        "The defense attorney said he had received that letter two days before."
+      ],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "The defense attorney said that his client had been answering questions since that morning.",
+      "acceptable_variants": [
+        "The defense attorney said his client had been answering questions since that morning."
+      ],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "The prosecutor said that they had collected those records before the investigation began.",
+      "acceptable_variants": [
+        "The prosecutor said they had collected those records before the investigation began."
+      ],
+      "hint": ""
+    },
+    "mask_16": {
+      "target": "The prosecutor said that the judge would consider the request later that day.",
+      "acceptable_variants": [
+        "The prosecutor said the judge would consider the request later that day."
+      ],
+      "hint": ""
+    },
+    "mask_17": {
+      "target": "The clerk said that she would finish the index that night.",
+      "acceptable_variants": [
+        "The clerk said she would finish the index that night."
+      ],
+      "hint": ""
+    },
+    "mask_18": {
+      "target": "The building manager said that the archive had been closed the week before.",
+      "acceptable_variants": [
+        "The building manager said the archive had been closed the week before."
+      ],
+      "hint": ""
+    },
+    "mask_19": {
+      "target": "The witness said that she might return there the following month.",
+      "acceptable_variants": [
+        "The witness said she might return there the following month."
+      ],
+      "hint": ""
+    },
+    "mask_20": {
+      "target": "The prosecutor said that they were expecting the written decision soon.",
+      "acceptable_variants": [
+        "The prosecutor said they were expecting the written decision soon."
+      ],
+      "hint": ""
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "topic": "Modal and Future Passive",
+  "difficulty": "intermediate",
+  "created_at": "2026-11-03T22:26:00+08:00",
+  "story_title": "Preparing a High-Speed Rail Line",
+  "extra_info": "",
+  "task_instruction": "Rewrite each active sentence in the passive voice.",
+  "paragraphs": [
+    "A new high-speed rail line is being prepared for its first full season of service. Engineers review the construction standards before trains begin running. {{red:Contractors must inspect every section of track before opening day.}} {{mask_1}} {{red:Technicians can monitor the rail temperature with remote sensors.}} {{mask_2}} {{red:The railway will test the signaling system overnight.}} {{mask_3}} {{red:Workers should clear all tools from the track area.}} {{mask_4}}",
+    "The operations team plans how to manage passenger services. {{red:Station staff may guide passengers to the correct platforms.}} {{mask_5}} {{red:The control center will coordinate train movements across the line.}} {{mask_6}} {{red:Maintenance crews must check the overhead power equipment.}} {{mask_7}} {{red:Passengers can buy tickets through the railway website.}} {{mask_8}}",
+    "The railway also prepares for delays and changing weather. {{red:Dispatchers will send delay updates to station screens.}} {{mask_9}} {{red:Staff may move a train to a different platform.}} {{mask_10}} {{red:Engineers must examine the bridge after severe weather.}} {{mask_11}} {{red:Inspectors can identify small cracks with specialized equipment.}} {{mask_12}}",
+    "Before the launch, the team reviews safety and accessibility features. {{red:Operators should announce important changes clearly.}} {{mask_13}} {{red:The railway will provide step-free access at every new station.}} {{mask_14}} {{red:Staff can assist passengers with reduced mobility.}} {{mask_15}} {{red:The control team must report any signal failure immediately.}} {{mask_16}}",
+    "On opening day, the railway expects a large number of travelers. {{red:Station managers will open additional ticket gates.}} {{mask_17}} {{red:Passengers should keep their tickets until they leave the station.}} {{mask_18}} {{red:Security staff may inspect large items at the entrance.}} {{mask_19}} {{red:The railway will publish service information in several languages.}} {{mask_20}} The new line is designed to connect regional cities with reliable, frequent service."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "Every section of track must be inspected by contractors before opening day.",
+      "acceptable_variants": [
+        "Every section of track must be inspected before opening day."
+      ],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "The rail temperature can be monitored with remote sensors by technicians.",
+      "acceptable_variants": [
+        "The rail temperature can be monitored with remote sensors."
+      ],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "The signaling system will be tested overnight by the railway.",
+      "acceptable_variants": [
+        "The signaling system will be tested overnight."
+      ],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "All tools should be cleared from the track area by workers.",
+      "acceptable_variants": [
+        "All tools should be cleared from the track area."
+      ],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "Passengers may be guided to the correct platforms by station staff.",
+      "acceptable_variants": [
+        "Passengers may be guided to the correct platforms."
+      ],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "Train movements across the line will be coordinated by the control center.",
+      "acceptable_variants": [
+        "Train movements across the line will be coordinated."
+      ],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "The overhead power equipment must be checked by maintenance crews.",
+      "acceptable_variants": [
+        "The overhead power equipment must be checked."
+      ],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "Tickets can be bought through the railway website by passengers.",
+      "acceptable_variants": [
+        "Tickets can be bought through the railway website."
+      ],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "Delay updates will be sent to station screens by dispatchers.",
+      "acceptable_variants": [
+        "Station screens will be sent delay updates by dispatchers."
+      ],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "A train may be moved to a different platform by staff.",
+      "acceptable_variants": [
+        "A train may be moved to a different platform."
+      ],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "The bridge must be examined by engineers after severe weather.",
+      "acceptable_variants": [
+        "The bridge must be examined after severe weather."
+      ],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "Small cracks can be identified with specialized equipment by inspectors.",
+      "acceptable_variants": [
+        "Small cracks can be identified with specialized equipment."
+      ],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "Important changes should be announced clearly by operators.",
+      "acceptable_variants": [
+        "Important changes should be announced clearly."
+      ],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "Step-free access will be provided at every new station by the railway.",
+      "acceptable_variants": [
+        "Step-free access will be provided at every new station."
+      ],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "Passengers with reduced mobility can be assisted by staff.",
+      "acceptable_variants": [
+        "Passengers with reduced mobility can be assisted."
+      ],
+      "hint": ""
+    },
+    "mask_16": {
+      "target": "Any signal failure must be reported immediately by the control team.",
+      "acceptable_variants": [
+        "Any signal failure must be reported immediately."
+      ],
+      "hint": ""
+    },
+    "mask_17": {
+      "target": "Additional ticket gates will be opened by station managers.",
+      "acceptable_variants": [
+        "Additional ticket gates will be opened."
+      ],
+      "hint": ""
+    },
+    "mask_18": {
+      "target": "Tickets should be kept by passengers until they leave the station.",
+      "acceptable_variants": [
+        "Tickets should be kept until passengers leave the station."
+      ],
+      "hint": ""
+    },
+    "mask_19": {
+      "target": "Large items may be inspected at the entrance by security staff.",
+      "acceptable_variants": [
+        "Large items may be inspected at the entrance."
+      ],
+      "hint": ""
+    },
+    "mask_20": {
+      "target": "Service information will be published in several languages by the railway.",
+      "acceptable_variants": [
+        "Service information will be published in several languages."
+      ],
+      "hint": ""
+    }
+  }
+}

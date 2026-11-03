@@ -1,0 +1,157 @@
+{
+  "topic": "Tense and Time Changes",
+  "difficulty": "intermediate",
+  "created_at": "2026-11-03T22:05:00+08:00",
+  "story_title": "The Graduation Ceremony",
+  "extra_info": "",
+  "task_instruction": "Rewrite each direct statement in reported speech. Change the tense and time expressions where necessary.",
+  "paragraphs": [
+    "The school newspaper reporter, Daniel, interviews graduates and staff after the ceremony. Graduate Aisha describes her final week at school. {{red:\"I have finished my last exams.\"}} {{mask_1}} She points to the decorated hall. {{red:\"Our families are arriving now.\"}} {{mask_2}} Her friend Mateo shares his plans. {{red:\"I will study engineering next year.\"}} {{mask_3}} He adds, {{red:\"We celebrated with our class yesterday.\"}} {{mask_4}}",
+    "Daniel speaks with the principal, Ms. Chen, about the ceremony. She explains, {{red:\"The students have worked hard this year.\"}} {{mask_5}} She looks at the stage and says, {{red:\"We are giving every graduate a certificate today.\"}} {{mask_6}} A teacher tells Daniel, {{red:\"I have taught this class for three years.\"}} {{mask_7}} The principal adds, {{red:\"The school will post the photographs tomorrow.\"}} {{mask_8}}",
+    "Several graduates talk about their experiences. Aisha says, {{red:\"I was nervous before the speeches began.\"}} {{mask_9}} Mateo tells Daniel, {{red:\"My parents are waiting outside the hall.\"}} {{mask_10}} Another graduate explains, {{red:\"I can speak to the guests after the ceremony.\"}} {{mask_11}} Her classmate adds, {{red:\"We may visit our teachers next month.\"}} {{mask_12}}",
+    "Later, Daniel interviews the music teacher, Mr. Lewis. He explains why the school choir performed. {{red:\"We have practiced this song since September.\"}} {{mask_13}} He points to the choir and says, {{red:\"They are singing their final song now.\"}} {{mask_14}} He recalls the rehearsal. {{red:\"The graduates chose the music last week.\"}} {{mask_15}} Then he describes the next event. {{red:\"We will hold a reception here this evening.\"}} {{mask_16}}",
+    "Daniel writes his article the following morning and includes several comments from the ceremony. Aisha said, {{red:\"I am proud of my classmates.\"}} {{mask_17}} Mateo said, {{red:\"I have already received an offer from a university.\"}} {{mask_18}} Ms. Chen said, {{red:\"The graduates will remain part of our school community.\"}} {{mask_19}} Mr. Lewis said, {{red:\"The choir performed beautifully last night.\"}} {{mask_20}} Daniel finishes by describing the graduates' plans and the joyful ceremony."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "Aisha said that she had finished her last exams.",
+      "acceptable_variants": [
+        "Aisha said she had finished her last exams."
+      ],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "Aisha said that their families were arriving then.",
+      "acceptable_variants": [
+        "Aisha said their families were arriving then."
+      ],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "Mateo said that he would study engineering the following year.",
+      "acceptable_variants": [
+        "Mateo said he would study engineering the following year."
+      ],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "Mateo said that they had celebrated with their class the day before.",
+      "acceptable_variants": [
+        "Mateo said they had celebrated with their class the day before."
+      ],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "Ms. Chen said that the students had worked hard that year.",
+      "acceptable_variants": [
+        "Ms. Chen said the students had worked hard that year."
+      ],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "Ms. Chen said that they were giving every graduate a certificate that day.",
+      "acceptable_variants": [
+        "Ms. Chen said they were giving every graduate a certificate that day."
+      ],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "The teacher told Daniel that he had taught that class for three years.",
+      "acceptable_variants": [
+        "The teacher told Daniel he had taught that class for three years."
+      ],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "The principal said that the school would post the photographs the next day.",
+      "acceptable_variants": [
+        "The principal said the school would post the photographs the next day."
+      ],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "Aisha said that she had been nervous before the speeches began.",
+      "acceptable_variants": [
+        "Aisha said she had been nervous before the speeches began."
+      ],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "Mateo told Daniel that his parents were waiting outside the hall.",
+      "acceptable_variants": [
+        "Mateo told Daniel his parents were waiting outside the hall."
+      ],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "The graduate said that she could speak to the guests after the ceremony.",
+      "acceptable_variants": [
+        "The graduate said she could speak to the guests after the ceremony."
+      ],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "The classmate said that they might visit their teachers the following month.",
+      "acceptable_variants": [
+        "The classmate said they might visit their teachers the following month."
+      ],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "Mr. Lewis said that they had practiced that song since September.",
+      "acceptable_variants": [
+        "Mr. Lewis said they had practiced that song since September."
+      ],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "Mr. Lewis said that they were singing their final song then.",
+      "acceptable_variants": [
+        "Mr. Lewis said they were singing their final song then."
+      ],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "Mr. Lewis said that the graduates had chosen the music the week before.",
+      "acceptable_variants": [
+        "Mr. Lewis said the graduates had chosen the music the week before."
+      ],
+      "hint": ""
+    },
+    "mask_16": {
+      "target": "Mr. Lewis said that they would hold a reception there that evening.",
+      "acceptable_variants": [
+        "Mr. Lewis said they would hold a reception there that evening."
+      ],
+      "hint": ""
+    },
+    "mask_17": {
+      "target": "Aisha said that she was proud of her classmates.",
+      "acceptable_variants": [
+        "Aisha said she was proud of her classmates."
+      ],
+      "hint": ""
+    },
+    "mask_18": {
+      "target": "Mateo said that he had already received an offer from a university.",
+      "acceptable_variants": [
+        "Mateo said he had already received an offer from a university."
+      ],
+      "hint": ""
+    },
+    "mask_19": {
+      "target": "Ms. Chen said that the graduates would remain part of their school community.",
+      "acceptable_variants": [
+        "Ms. Chen said the graduates would remain part of their school community."
+      ],
+      "hint": ""
+    },
+    "mask_20": {
+      "target": "Mr. Lewis said that the choir had performed beautifully the night before.",
+      "acceptable_variants": [
+        "Mr. Lewis said the choir had performed beautifully the night before."
+      ],
+      "hint": ""
+    }
+  }
+}

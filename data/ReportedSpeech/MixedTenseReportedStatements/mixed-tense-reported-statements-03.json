@@ -1,0 +1,157 @@
+{
+  "topic": "Mixed Tense Reported Statements",
+  "difficulty": "advanced",
+  "created_at": "2026-11-03T22:08:00+08:00",
+  "story_title": "A Legal Aid Interview in India",
+  "extra_info": "",
+  "task_instruction": "Rewrite each direct statement as reported speech.",
+  "paragraphs": [
+    "Journalist Ananya visits a legal-aid clinic in an Indian district to write about support available during court proceedings in a fictional case. Lawyer Meera Rao explains her role. {{red:\"I work with people who need help understanding legal documents.\"}} {{mask_1}} She describes the clinic's current work. {{red:\"We are helping a client prepare for a hearing this week.\"}} {{mask_2}} The client, referred to by the pseudonym Nila, speaks about support she has received. {{red:\"I have met with a counselor twice.\"}} {{mask_3}} Meera explains how the case file was organized. {{red:\"The investigator recorded Nila's statement last Tuesday.\"}} {{mask_4}}",
+    "Counselor Farah talks about how she first heard from Nila. {{red:\"I was waiting at the clinic when Nila called.\"}} {{mask_5}} Interpreter Dev describes his experience. {{red:\"I have been translating court documents since 2021.\"}} {{mask_6}} Meera reviews the schedule. {{red:\"The hearing will begin at ten tomorrow.\"}} {{mask_7}} Investigator Arjun explains how a record was located. {{red:\"We found the original call log in this office yesterday.\"}} {{mask_8}}",
+    "Ananya asks about the steps before the hearing. Meera says, {{red:\"The magistrate is reviewing the application now.\"}} {{mask_9}} She explains what she can do for Nila. {{red:\"I can explain each step before the hearing.\"}} {{mask_10}} Farah describes Nila's choices. {{red:\"She may decide whether to provide additional evidence.\"}} {{mask_11}} Meera emphasizes privacy. {{red:\"Our team must keep her address confidential.\"}} {{mask_12}}",
+    "Farah describes a conversation at the clinic. {{red:\"Nila was speaking with me when her advocate arrived.\"}} {{mask_13}} She explains what happened after the meeting. {{red:\"I gave her a list of support services after our meeting.\"}} {{mask_14}} Meera describes the clinic's approach to privacy. {{red:\"We have not discussed the case outside the legal team.\"}} {{mask_15}} Dev explains a translation decision. {{red:\"I changed this phrase because the original wording was unclear.\"}} {{mask_16}}",
+    "Ananya completes her interviews and writes her article the following morning. Meera describes a document she plans to submit. {{red:\"I will file the translated affidavit next week.\"}} {{mask_17}} Nila speaks about her daily routine. {{red:\"I am studying for my exams while the case continues.\"}} {{mask_18}} Farah describes a step completed before a phone change. {{red:\"I had saved copies of every notice before I changed phones.\"}} {{mask_19}} Finally, Meera updates Ananya about the schedule. {{red:\"We have scheduled the next hearing for next month.\"}} {{mask_20}} The article focuses on legal vocabulary, confidentiality, and access to support without identifying the people involved."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "Meera said that she worked with people who needed help understanding legal documents.",
+      "acceptable_variants": [
+        "Meera said she worked with people who needed help understanding legal documents."
+      ],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "Meera said that they were helping a client prepare for a hearing that week.",
+      "acceptable_variants": [
+        "Meera said they were helping a client prepare for a hearing that week."
+      ],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "Nila said that she had met with a counselor twice.",
+      "acceptable_variants": [
+        "Nila said she had met with a counselor twice."
+      ],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "Meera said that the investigator had recorded Nila's statement the previous Tuesday.",
+      "acceptable_variants": [
+        "Meera said the investigator had recorded Nila's statement the previous Tuesday."
+      ],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "Farah said that she had been waiting at the clinic when Nila called.",
+      "acceptable_variants": [
+        "Farah said she had been waiting at the clinic when Nila called."
+      ],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "Dev said that he had been translating court documents since 2021.",
+      "acceptable_variants": [
+        "Dev said he had been translating court documents since 2021."
+      ],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "Meera said that the hearing would begin at ten the next day.",
+      "acceptable_variants": [
+        "Meera said the hearing would begin at ten the next day."
+      ],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "Arjun said that they had found the original call log in that office the day before.",
+      "acceptable_variants": [
+        "Arjun said they had found the original call log in that office the day before."
+      ],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "Meera said that the magistrate was reviewing the application then.",
+      "acceptable_variants": [
+        "Meera said the magistrate was reviewing the application then."
+      ],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "Meera said that she could explain each step before the hearing.",
+      "acceptable_variants": [
+        "Meera said she could explain each step before the hearing."
+      ],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "Farah said that Nila might decide whether to provide additional evidence.",
+      "acceptable_variants": [
+        "Farah said Nila might decide whether to provide additional evidence."
+      ],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "Meera said that their team had to keep Nila's address confidential.",
+      "acceptable_variants": [
+        "Meera said their team had to keep Nila's address confidential."
+      ],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "Farah said that Nila had been speaking with her when her advocate arrived.",
+      "acceptable_variants": [
+        "Farah said Nila had been speaking with her when her advocate arrived."
+      ],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "Farah said that she had given Nila a list of support services after their meeting.",
+      "acceptable_variants": [
+        "Farah said she had given Nila a list of support services after their meeting."
+      ],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "Meera said that they had not discussed the case outside the legal team.",
+      "acceptable_variants": [
+        "Meera said they had not discussed the case outside the legal team."
+      ],
+      "hint": ""
+    },
+    "mask_16": {
+      "target": "Dev said that he had changed that phrase because the original wording had been unclear.",
+      "acceptable_variants": [
+        "Dev said he had changed that phrase because the original wording had been unclear."
+      ],
+      "hint": ""
+    },
+    "mask_17": {
+      "target": "Meera said that she would file the translated affidavit the following week.",
+      "acceptable_variants": [
+        "Meera said she would file the translated affidavit the following week."
+      ],
+      "hint": ""
+    },
+    "mask_18": {
+      "target": "Nila said that she was studying for her exams while the case continued.",
+      "acceptable_variants": [
+        "Nila said she was studying for her exams while the case continued."
+      ],
+      "hint": ""
+    },
+    "mask_19": {
+      "target": "Farah said that she had saved copies of every notice before she changed phones.",
+      "acceptable_variants": [
+        "Farah said she had saved copies of every notice before she changed phones."
+      ],
+      "hint": ""
+    },
+    "mask_20": {
+      "target": "Meera said that they had scheduled the next hearing for the following month.",
+      "acceptable_variants": [
+        "Meera said they had scheduled the next hearing for the following month."
+      ],
+      "hint": ""
+    }
+  }
+}

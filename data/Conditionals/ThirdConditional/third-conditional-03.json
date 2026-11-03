@@ -1,0 +1,126 @@
+{
+  "topic": "Third Conditional",
+  "difficulty": "advanced",
+  "created_at": "2026-11-03T20:28:00+08:00",
+  "story_title": "Reading the Past with Care",
+  "extra_info": "",
+  "paragraphs": [
+    "At a history museum, curator Dr. Shah leads an advanced seminar on how historians discuss possible alternatives to events in World War II. She reminds the class that counterfactuals are questions, not established facts. A student studies a timeline of the 1930s and says, \"If European leaders {{mask_1}} a broader agreement earlier, the political crisis {{mask_2}} differently.\" Dr. Shah notes that historians cannot know for certain what would have followed.",
+    "The class turns to the Battle of Britain in 1940. A display explains that the Royal Air Force defended the United Kingdom against German air attacks. A student asks, \"If radar stations {{mask_3}} the approaching aircraft less reliably, the defenders {{mask_4}} less warning.\" Dr. Shah points to the wording on the display. \"If the museum {{mask_5}} that evidence in context, visitors {{mask_6}} why historians describe several factors rather than one simple cause.\"",
+    "Next, the group examines records about the Allied landings in Normandy in June 1944. The students compare maps, diaries, and official documents. One student says, \"If the weather {{mask_7}} worse on the chosen date, the landing planners {{mask_8}} a different decision.\" Another adds, \"If the Allies {{mask_9}} more reliable information about conditions, they {{mask_10}} their plans with greater confidence.\" Dr. Shah emphasizes that these statements explore possibilities and do not change what the records show happened.",
+    "In the archive room, the class studies how civilians experienced wartime shortages. A diary describes rationing and long waits for food. A student reflects, \"If local families {{mask_11}} a more dependable supply network, they {{mask_12}} some shortages.\" Dr. Shah replies that this is a useful question, but the answer would depend on many conditions. \"If researchers {{mask_13}} more personal accounts, they {{mask_14}} a fuller picture of daily life.\"",
+    "Before the seminar ends, Dr. Shah asks the class to write a careful conclusion. One student says, \"If I {{mask_15}} the sources more closely, I {{mask_16}} the difference between evidence and speculation.\" Another adds, \"If we {{mask_17}} every claim against reliable records, we {{mask_18}} unsupported conclusions.\" Dr. Shah smiles. \"If historians {{mask_19}} the limits of what they can know, readers {{mask_20}} the past with greater care.\""
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "had reached",
+      "acceptable_variants": [],
+      "hint": "reach"
+    },
+    "mask_2": {
+      "target": "might have developed",
+      "acceptable_variants": [],
+      "hint": "might"
+    },
+    "mask_3": {
+      "target": "had detected",
+      "acceptable_variants": [],
+      "hint": "detect"
+    },
+    "mask_4": {
+      "target": "would have received",
+      "acceptable_variants": [
+        "'d have received"
+      ],
+      "hint": "will"
+    },
+    "mask_5": {
+      "target": "had presented",
+      "acceptable_variants": [],
+      "hint": "present"
+    },
+    "mask_6": {
+      "target": "would have understood",
+      "acceptable_variants": [
+        "'d have understood"
+      ],
+      "hint": "will"
+    },
+    "mask_7": {
+      "target": "had been",
+      "acceptable_variants": [],
+      "hint": "be"
+    },
+    "mask_8": {
+      "target": "might have made",
+      "acceptable_variants": [],
+      "hint": "might"
+    },
+    "mask_9": {
+      "target": "had received",
+      "acceptable_variants": [],
+      "hint": "receive"
+    },
+    "mask_10": {
+      "target": "could have adjusted",
+      "acceptable_variants": [],
+      "hint": "could"
+    },
+    "mask_11": {
+      "target": "had had",
+      "acceptable_variants": [],
+      "hint": "have"
+    },
+    "mask_12": {
+      "target": "might have faced",
+      "acceptable_variants": [],
+      "hint": "might"
+    },
+    "mask_13": {
+      "target": "had collected",
+      "acceptable_variants": [],
+      "hint": "collect"
+    },
+    "mask_14": {
+      "target": "would have gained",
+      "acceptable_variants": [
+        "'d have gained"
+      ],
+      "hint": "will"
+    },
+    "mask_15": {
+      "target": "had examined",
+      "acceptable_variants": [],
+      "hint": "examine"
+    },
+    "mask_16": {
+      "target": "would have seen",
+      "acceptable_variants": [
+        "'d have seen"
+      ],
+      "hint": "will"
+    },
+    "mask_17": {
+      "target": "had checked",
+      "acceptable_variants": [],
+      "hint": "check"
+    },
+    "mask_18": {
+      "target": "would have avoided",
+      "acceptable_variants": [
+        "'d have avoided"
+      ],
+      "hint": "will"
+    },
+    "mask_19": {
+      "target": "had recognized",
+      "acceptable_variants": [],
+      "hint": "recognize"
+    },
+    "mask_20": {
+      "target": "would have approached",
+      "acceptable_variants": [],
+      "hint": "will"
+    }
+  }
+}

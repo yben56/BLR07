@@ -1,0 +1,158 @@
+{
+  "topic": "Reported Yes/No Questions",
+  "difficulty": "intermediate",
+  "created_at": "2026-11-03T21:42:00+08:00",
+  "story_title": "A Conversation Before Surgery",
+  "extra_info": "",
+  "task_instruction": "Rewrite each direct yes/no question as a reported question.",
+  "paragraphs": [
+    "Nora is at a hospital for a planned operation. Before the procedure, nurse Patel checks that Nora has had time to speak with the surgical team. Patel asked Nora, {{red:Have you spoken with the surgeon today?}} {{mask_1}} Nora said yes. Patel asked Nora, {{red:Do you understand why the operation is planned?}} {{mask_2}} Nora said that the surgeon had explained it. Patel then asked Nora, {{red:Would you like us to go over any information again?}} {{mask_3}}",
+    "The surgeon, Dr. Chen, joins them to review the consent form. Dr. Chen asked Nora, {{red:Have you read the consent form?}} {{mask_4}} Nora said she had read it the night before. Dr. Chen asked Nora, {{red:Do you have any questions about the procedure?}} {{mask_5}} Nora wanted to ask about the expected schedule. Dr. Chen asked Nora, {{red:Can I explain what usually happens before you go to the operating room?}} {{mask_6}}",
+    "Nurse Patel confirms some routine details for the care team. Patel asked Nora, {{red:Are you taking any medicines at the moment?}} {{mask_7}} Nora listed the medicines she uses. Patel asked Nora, {{red:Have you told the team about any allergies?}} {{mask_8}} Nora said she had mentioned a medicine allergy. Patel asked Nora, {{red:Do you have your identification band?}} {{mask_9}} Nora showed it to her.",
+    "Dr. Chen returns to discuss the recovery area and answer Nora's questions. The doctor asked Nora, {{red:Would you like a family member to receive an update?}} {{mask_10}} Nora said yes. Dr. Chen asked Nora, {{red:Will someone be able to take you home when you are ready to leave?}} {{mask_11}} Nora said that her sister would come. The doctor asked Nora, {{red:Do you know whom to contact if you have questions after discharge?}} {{mask_12}} Nora said she had the hospital's contact information.",
+    "Before Nora leaves for the preparation area, nurse Patel reviews the plan once more. Patel asked Nora, {{red:Are you comfortable proceeding today?}} {{mask_13}} Nora said she wanted to ask one final question. Patel asked Nora, {{red:Would you like the surgeon to speak with you again?}} {{mask_14}} Nora said yes, and Dr. Chen returned. The surgeon asked Nora, {{red:Have we answered your questions?}} {{mask_15}} Nora said that the team had answered them.",
+    "After the conversation, Nora's sister calls the hospital desk. The receptionist asked Nora's sister, {{red:Are you Nora's contact person?}} {{mask_16}} She confirmed that she was. The receptionist asked Nora's sister, {{red:Would you like me to confirm that the team received your phone number?}} {{mask_17}} She said yes. Later, nurse Patel asked Nora, {{red:Do you feel ready to meet the care team?}} {{mask_18}} Nora said she did. Patel asked Nora, {{red:Can I answer anything else before we begin the preparation steps?}} {{mask_19}} Nora said no. Dr. Chen asked Nora one last time, {{red:Do you understand that you can ask the team questions at any point?}} {{mask_20}} Nora said she understood."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "Nurse Patel asked Nora if she had spoken with the surgeon that day.",
+      "acceptable_variants": [
+        "Nurse Patel asked Nora whether she had spoken with the surgeon that day."
+      ],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "Nurse Patel asked Nora if she understood why the operation was planned.",
+      "acceptable_variants": [
+        "Nurse Patel asked Nora whether she understood why the operation was planned."
+      ],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "Nurse Patel asked Nora if she would like them to go over any information again.",
+      "acceptable_variants": [
+        "Nurse Patel asked Nora whether she would like them to go over any information again."
+      ],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "Dr. Chen asked Nora if she had read the consent form.",
+      "acceptable_variants": [
+        "Dr. Chen asked Nora whether she had read the consent form."
+      ],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "Dr. Chen asked Nora if she had any questions about the procedure.",
+      "acceptable_variants": [
+        "Dr. Chen asked Nora whether she had any questions about the procedure."
+      ],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "Dr. Chen asked Nora if he could explain what usually happened before she went to the operating room.",
+      "acceptable_variants": [
+        "Dr. Chen asked Nora whether he could explain what usually happened before she went to the operating room."
+      ],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "Nurse Patel asked Nora if she was taking any medicines at that moment.",
+      "acceptable_variants": [
+        "Nurse Patel asked Nora whether she was taking any medicines at that moment."
+      ],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "Nurse Patel asked Nora if she had told the team about any allergies.",
+      "acceptable_variants": [
+        "Nurse Patel asked Nora whether she had told the team about any allergies."
+      ],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "Nurse Patel asked Nora if she had her identification band.",
+      "acceptable_variants": [
+        "Nurse Patel asked Nora whether she had her identification band."
+      ],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "Dr. Chen asked Nora if she would like a family member to receive an update.",
+      "acceptable_variants": [
+        "Dr. Chen asked Nora whether she would like a family member to receive an update."
+      ],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "Dr. Chen asked Nora if someone would be able to take her home when she was ready to leave.",
+      "acceptable_variants": [
+        "Dr. Chen asked Nora whether someone would be able to take her home when she was ready to leave."
+      ],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "Dr. Chen asked Nora if she knew whom to contact if she had questions after discharge.",
+      "acceptable_variants": [
+        "Dr. Chen asked Nora whether she knew whom to contact if she had questions after discharge."
+      ],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "Nurse Patel asked Nora if she was comfortable proceeding that day.",
+      "acceptable_variants": [
+        "Nurse Patel asked Nora whether she was comfortable proceeding that day."
+      ],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "Nurse Patel asked Nora if she would like the surgeon to speak with her again.",
+      "acceptable_variants": [
+        "Nurse Patel asked Nora whether she would like the surgeon to speak with her again."
+      ],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "Dr. Chen asked Nora if they had answered her questions.",
+      "acceptable_variants": [
+        "Dr. Chen asked Nora whether they had answered her questions."
+      ],
+      "hint": ""
+    },
+    "mask_16": {
+      "target": "The receptionist asked Nora's sister if she was Nora's contact person.",
+      "acceptable_variants": [
+        "The receptionist asked Nora's sister whether she was Nora's contact person."
+      ],
+      "hint": ""
+    },
+    "mask_17": {
+      "target": "The receptionist asked Nora's sister if she would like her to confirm that the team had received her phone number.",
+      "acceptable_variants": [
+        "The receptionist asked Nora's sister whether she would like her to confirm that the team had received her phone number."
+      ],
+      "hint": ""
+    },
+    "mask_18": {
+      "target": "Nurse Patel asked Nora if she felt ready to meet the care team.",
+      "acceptable_variants": [
+        "Nurse Patel asked Nora whether she felt ready to meet the care team."
+      ],
+      "hint": ""
+    },
+    "mask_19": {
+      "target": "Nurse Patel asked Nora if she could answer anything else before they began the preparation steps.",
+      "acceptable_variants": [
+        "Nurse Patel asked Nora whether she could answer anything else before they began the preparation steps."
+      ],
+      "hint": ""
+    },
+    "mask_20": {
+      "target": "Dr. Chen asked Nora if she understood that she could ask the team questions at any point.",
+      "acceptable_variants": [
+        "Dr. Chen asked Nora whether she understood that she could ask the team questions at any point."
+      ],
+      "hint": ""
+    }
+  }
+}

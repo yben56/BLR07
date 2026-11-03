@@ -1,0 +1,157 @@
+{
+  "topic": "Passive in Subordinate Clauses",
+  "difficulty": "intermediate",
+  "created_at": "2026-11-03T22:22:00+08:00",
+  "story_title": "The Observatory Time Gate",
+  "extra_info": "",
+  "task_instruction": "Rewrite each sentence in the passive voice. Change the verb in the subordinate clause and keep the main clause unchanged.",
+  "paragraphs": [
+    "At a remote observatory, engineer Lena and historian Omar test an experimental time gate. {{red:Professor Vale believes that a solar storm damaged the observatory's first clock in 2042.}} {{mask_1}} {{red:Lena discovers that the gate uses a sequence of magnetic pulses.}} {{mask_2}} {{red:Omar suspects that a visitor moved the brass control key during the night.}} {{mask_3}} {{red:The team confirms that a power surge has erased several entries from the arrival log.}} {{mask_4}}",
+    "The researchers check the gate's records before opening it again. {{red:Lena explains that technicians are calibrating the time sensors this morning.}} {{mask_5}} {{red:Professor Vale expects that the engineers will replace the damaged relay tomorrow.}} {{mask_6}} {{red:Omar remembers that an assistant had stored the paper maps in a locked cabinet.}} {{mask_7}} {{red:The team knows that the gate can transport a small metal object between two dates.}} {{mask_8}}",
+    "Their first test sends a sealed brass capsule to a nearby year. {{red:Lena reports that the machine delivered the capsule safely.}} {{mask_9}} {{red:Omar notices that the capsule has changed the temperature of the water inside it.}} {{mask_10}} {{red:Professor Vale says that the team is recording every change in a laboratory notebook.}} {{mask_11}} {{red:The assistants believe that the gate will return the capsule at midnight.}} {{mask_12}}",
+    "A brief warning light appears, so the team pauses the experiment. {{red:Lena insists that an operator must check the emergency switch before each test.}} {{mask_13}} {{red:Professor Vale admits that a loose cable caused the warning earlier.}} {{mask_14}} {{red:Omar observes that the backup system is protecting the control room now.}} {{mask_15}} {{red:The team learns that a technician has repaired the secondary power supply.}} {{mask_16}}",
+    "By evening, the observatory is ready for another carefully monitored test. {{red:Professor Vale announces that the engineers have completed the safety inspection.}} {{mask_17}} {{red:Lena believes that the control computer will store the next reading automatically.}} {{mask_18}} {{red:Omar hopes that the research team can publish its findings next year.}} {{mask_19}} {{red:Everyone agrees that the director should review the final checklist before the test begins.}} {{mask_20}} The time gate starts, and the brass capsule disappears from the table."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "Professor Vale believes that the observatory's first clock was damaged by a solar storm in 2042.",
+      "acceptable_variants": [
+        "Professor Vale believes that the observatory's first clock was damaged in 2042 by a solar storm."
+      ],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "Lena discovers that a sequence of magnetic pulses is used by the gate.",
+      "acceptable_variants": [
+        "Lena discovers that a sequence of magnetic pulses is used."
+      ],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "Omar suspects that the brass control key was moved by a visitor during the night.",
+      "acceptable_variants": [
+        "Omar suspects that the brass control key was moved during the night."
+      ],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "The team confirms that several entries have been erased from the arrival log by a power surge.",
+      "acceptable_variants": [
+        "The team confirms that several entries have been erased from the arrival log."
+      ],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "Lena explains that the time sensors are being calibrated by technicians this morning.",
+      "acceptable_variants": [
+        "Lena explains that the time sensors are being calibrated this morning."
+      ],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "Professor Vale expects that the damaged relay will be replaced by the engineers tomorrow.",
+      "acceptable_variants": [
+        "Professor Vale expects that the damaged relay will be replaced tomorrow."
+      ],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "Omar remembers that the paper maps had been stored in a locked cabinet by an assistant.",
+      "acceptable_variants": [
+        "Omar remembers that the paper maps had been stored in a locked cabinet."
+      ],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "The team knows that a small metal object can be transported between two dates by the gate.",
+      "acceptable_variants": [
+        "The team knows that a small metal object can be transported between two dates."
+      ],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "Lena reports that the capsule was delivered safely by the machine.",
+      "acceptable_variants": [
+        "Lena reports that the capsule was delivered safely."
+      ],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "Omar notices that the temperature of the water inside it has been changed by the capsule.",
+      "acceptable_variants": [
+        "Omar notices that the temperature of the water inside it has been changed."
+      ],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "Professor Vale says that every change is being recorded in a laboratory notebook by the team.",
+      "acceptable_variants": [
+        "Professor Vale says that every change is being recorded in a laboratory notebook."
+      ],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "The assistants believe that the capsule will be returned by the gate at midnight.",
+      "acceptable_variants": [
+        "The assistants believe that the capsule will be returned at midnight."
+      ],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "Lena insists that the emergency switch must be checked by an operator before each test.",
+      "acceptable_variants": [
+        "Lena insists that the emergency switch must be checked before each test."
+      ],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "Professor Vale admits that the warning was caused by a loose cable earlier.",
+      "acceptable_variants": [
+        "Professor Vale admits that the warning was caused earlier by a loose cable."
+      ],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "Omar observes that the control room is being protected by the backup system now.",
+      "acceptable_variants": [
+        "Omar observes that the control room is being protected now."
+      ],
+      "hint": ""
+    },
+    "mask_16": {
+      "target": "The team learns that the secondary power supply has been repaired by a technician.",
+      "acceptable_variants": [
+        "The team learns that the secondary power supply has been repaired."
+      ],
+      "hint": ""
+    },
+    "mask_17": {
+      "target": "Professor Vale announces that the safety inspection has been completed by the engineers.",
+      "acceptable_variants": [
+        "Professor Vale announces that the safety inspection has been completed."
+      ],
+      "hint": ""
+    },
+    "mask_18": {
+      "target": "Lena believes that the next reading will be stored automatically by the control computer.",
+      "acceptable_variants": [
+        "Lena believes that the next reading will be stored automatically."
+      ],
+      "hint": ""
+    },
+    "mask_19": {
+      "target": "Omar hopes that the findings can be published by the research team next year.",
+      "acceptable_variants": [
+        "Omar hopes that the findings can be published next year."
+      ],
+      "hint": ""
+    },
+    "mask_20": {
+      "target": "Everyone agrees that the final checklist should be reviewed by the director before the test begins.",
+      "acceptable_variants": [
+        "Everyone agrees that the final checklist should be reviewed before the test begins."
+      ],
+      "hint": ""
+    }
+  }
+}

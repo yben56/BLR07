@@ -1,0 +1,149 @@
+{
+  "topic": "Passive with Mixed Tenses",
+  "difficulty": "advanced",
+  "created_at": "2026-11-03T22:11:00+08:00",
+  "story_title": "A Reproductive Health Science Exhibit",
+  "extra_info": "",
+  "task_instruction": "Rewrite each active sentence in the passive voice.",
+  "paragraphs": [
+    "A science museum is preparing an exhibit about the female reproductive system. The education team reviews how the organs work. {{red:The ovaries release an egg during ovulation in many menstrual cycles.}} {{mask_1}} {{red:The body produces estrogen and progesterone in the ovaries.}} {{mask_2}} {{red:Researchers identified the influence of hormonal signals on the uterine lining in early studies.}} {{mask_3}} {{red:Clinicians are using ultrasound to examine the uterus during the demonstration.}} {{mask_4}}",
+    "The next display explains how the cycle is regulated. {{red:The pituitary gland releases hormones that affect ovarian activity.}} {{mask_5}} {{red:Scientists have studied changes in the uterine lining throughout the menstrual cycle.}} {{mask_6}} {{red:Laboratory staff were examining tissue samples when the curator arrived.}} {{mask_7}} {{red:The museum will present the new exhibit to local schools next month.}} {{mask_8}}",
+    "A medical educator checks the wording for accuracy and clarity. {{red:The guide describes the ovaries, uterine tubes, uterus, cervix, and vagina.}} {{mask_9}} {{red:Teachers explain the difference between menstruation and ovulation in the workshop.}} {{mask_10}} {{red:Hormonal changes can affect the thickness of the uterine lining.}} {{mask_11}} {{red:The team has not included personal medical advice in the exhibit.}} {{mask_12}}",
+    "The exhibit also describes fertilization and early development in general terms. {{red:Fimbriae guide a released egg toward a uterine tube.}} {{mask_13}} {{red:Tiny cilia and muscular contractions move the egg through the uterine tube.}} {{mask_14}} {{red:A fertilized egg may reach the uterus several days later.}} {{mask_15}} {{red:Clinicians use medical history and examination results to assess reproductive health.}} {{mask_16}}",
+    "Before opening day, the museum team reviews the displays with health educators. {{red:The designers are adding a diagram of the menstrual cycle this week.}} {{mask_17}} {{red:The curator had checked every scientific caption before the exhibit was installed.}} {{mask_18}} {{red:Researchers will update the information when new evidence becomes available.}} {{mask_19}} {{red:Public health teams should provide people with clear and reliable reproductive health information.}} {{mask_20}} The exhibit encourages visitors to discuss personal health questions with qualified clinicians."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "An egg is released by the ovaries during ovulation in many menstrual cycles.",
+      "acceptable_variants": [
+        "An egg is released during ovulation in many menstrual cycles."
+      ],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "Estrogen and progesterone are produced in the ovaries.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "The influence of hormonal signals on the uterine lining was identified in early studies.",
+      "acceptable_variants": [
+        "The influence of hormonal signals on the uterine lining was identified in early studies by researchers."
+      ],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "The uterus is being examined by clinicians during the demonstration.",
+      "acceptable_variants": [
+        "The uterus is being examined during the demonstration."
+      ],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "Hormones that affect ovarian activity are released by the pituitary gland.",
+      "acceptable_variants": [
+        "Hormones that affect ovarian activity are released."
+      ],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "Changes in the uterine lining have been studied by scientists throughout the menstrual cycle.",
+      "acceptable_variants": [
+        "Changes in the uterine lining have been studied throughout the menstrual cycle."
+      ],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "Tissue samples were being examined by laboratory staff when the curator arrived.",
+      "acceptable_variants": [
+        "Tissue samples were being examined when the curator arrived."
+      ],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "The new exhibit will be presented to local schools by the museum next month.",
+      "acceptable_variants": [
+        "The new exhibit will be presented to local schools next month."
+      ],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "The ovaries, uterine tubes, uterus, cervix, and vagina are described in the guide.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "The difference between menstruation and ovulation is explained by teachers in the workshop.",
+      "acceptable_variants": [
+        "The difference between menstruation and ovulation is explained in the workshop."
+      ],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "The thickness of the uterine lining can be affected by hormonal changes.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "Personal medical advice has not been included in the exhibit by the team.",
+      "acceptable_variants": [
+        "Personal medical advice has not been included in the exhibit."
+      ],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "A released egg is guided toward a uterine tube by fimbriae.",
+      "acceptable_variants": [
+        "A released egg is guided toward a uterine tube."
+      ],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "The egg is moved through the uterine tube by tiny cilia and muscular contractions.",
+      "acceptable_variants": [
+        "The egg is moved through the uterine tube."
+      ],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "The uterus may be reached by a fertilized egg several days later.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_16": {
+      "target": "Reproductive health is assessed by clinicians using medical history and examination results.",
+      "acceptable_variants": [
+        "Reproductive health is assessed using medical history and examination results."
+      ],
+      "hint": ""
+    },
+    "mask_17": {
+      "target": "A diagram of the menstrual cycle is being added by the designers this week.",
+      "acceptable_variants": [
+        "A diagram of the menstrual cycle is being added this week."
+      ],
+      "hint": ""
+    },
+    "mask_18": {
+      "target": "Every scientific caption had been checked by the curator before the exhibit was installed.",
+      "acceptable_variants": [
+        "Every scientific caption had been checked before the exhibit was installed."
+      ],
+      "hint": ""
+    },
+    "mask_19": {
+      "target": "The information will be updated by researchers when new evidence becomes available.",
+      "acceptable_variants": [
+        "The information will be updated when new evidence becomes available."
+      ],
+      "hint": ""
+    },
+    "mask_20": {
+      "target": "People should be provided with clear and reliable reproductive health information by public health teams.",
+      "acceptable_variants": [
+        "People should be provided with clear and reliable reproductive health information."
+      ],
+      "hint": ""
+    }
+  }
+}

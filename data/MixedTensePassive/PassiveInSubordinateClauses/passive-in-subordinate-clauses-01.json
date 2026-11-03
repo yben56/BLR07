@@ -1,0 +1,155 @@
+{
+  "topic": "Passive in Subordinate Clauses",
+  "difficulty": "beginner",
+  "created_at": "2026-11-03T22:20:00+08:00",
+  "story_title": "A Safe Ride Home Campaign",
+  "extra_info": "",
+  "task_instruction": "Rewrite each sentence in the passive voice. Change the verb in the subordinate clause and keep the main clause unchanged.",
+  "paragraphs": [
+    "A community center is preparing a road-safety campaign about choosing a safe way home after drinking alcohol. The instructor shares key information. {{red:Safety experts say that alcohol slows a driver's reaction time.}} {{mask_1}} {{red:Health educators explain that alcohol affects balance and judgment.}} {{mask_2}} {{red:The campaign teaches that a sober driver can take friends home safely.}} {{mask_3}} {{red:The center manager confirms that local taxi companies offer rides from the event hall.}} {{mask_4}}",
+    "The team discusses practical choices before the event begins. {{red:The coordinator says that a designated driver helps the whole group get home safely.}} {{mask_5}} {{red:A safety poster explains that event organizers provide free water at the entrance.}} {{mask_6}} {{red:The instructor reminds everyone that friends can call a taxi if they need a ride.}} {{mask_7}} {{red:The center announces that volunteers will share ride information at the front desk.}} {{mask_8}}",
+    "During the workshop, participants review common safety messages. {{red:The instructor reports that last year's campaign reached many local families.}} {{mask_9}} {{red:A volunteer remembers that the center gave visitors a list of transport services.}} {{mask_10}} {{red:The team notes that organizers checked the ride information before the event.}} {{mask_11}} {{red:The coordinator explains that a local radio station is sharing the campaign message this week.}} {{mask_12}}",
+    "The group also talks about supporting friends. {{red:The counselor says that people should ask a trusted friend for help when they need a safe ride.}} {{mask_13}} {{red:The instructor explains that drivers must keep passengers safe during the journey.}} {{mask_14}} {{red:A volunteer adds that the event team has placed reminder cards on every table.}} {{mask_15}} {{red:The center manager says that staff are giving visitors the phone number for a local taxi service.}} {{mask_16}}",
+    "At the end, the team agrees to keep the advice clear and practical. {{red:The coordinator says that the center will post the transport options online tomorrow.}} {{mask_17}} {{red:The instructor explains that clear plans can prevent people from making unsafe choices.}} {{mask_18}} {{red:A volunteer reports that the team has shared the campaign with nearby restaurants.}} {{mask_19}} {{red:The manager hopes that every visitor chooses a safe way home.}} {{mask_20}} The campaign encourages everyone to plan ahead and never drive after drinking."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "Safety experts say that a driver's reaction time is slowed by alcohol.",
+      "acceptable_variants": [
+        "Safety experts say that a driver's reaction time is slowed."
+      ],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "Health educators explain that balance and judgment are affected by alcohol.",
+      "acceptable_variants": [
+        "Health educators explain that balance and judgment are affected."
+      ],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "The campaign teaches that friends can be taken home safely by a sober driver.",
+      "acceptable_variants": [
+        "The campaign teaches that friends can be taken home safely."
+      ],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "The center manager confirms that rides are offered from the event hall by local taxi companies.",
+      "acceptable_variants": [
+        "The center manager confirms that rides are offered from the event hall."
+      ],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "The coordinator says that the whole group is helped to get home safely by a designated driver.",
+      "acceptable_variants": [
+        "The coordinator says that the whole group is helped to get home safely."
+      ],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "A safety poster explains that free water is provided at the entrance by event organizers.",
+      "acceptable_variants": [
+        "A safety poster explains that free water is provided at the entrance."
+      ],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "The instructor reminds everyone that a taxi can be called if they need a ride.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "The center announces that ride information will be shared at the front desk by volunteers.",
+      "acceptable_variants": [
+        "The center announces that ride information will be shared at the front desk."
+      ],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "The instructor reports that many local families were reached by last year's campaign.",
+      "acceptable_variants": [
+        "The instructor reports that many local families were reached."
+      ],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "A volunteer remembers that visitors were given a list of transport services by the center.",
+      "acceptable_variants": [
+        "A volunteer remembers that a list of transport services was given to visitors by the center."
+      ],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "The team notes that the ride information was checked by organizers before the event.",
+      "acceptable_variants": [
+        "The team notes that the ride information was checked before the event."
+      ],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "The coordinator explains that the campaign message is being shared by a local radio station this week.",
+      "acceptable_variants": [
+        "The coordinator explains that the campaign message is being shared this week."
+      ],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "The counselor says that a trusted friend should be asked for help when a safe ride is needed.",
+      "acceptable_variants": [
+        "The counselor says that a trusted friend should be asked for help."
+      ],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "The instructor explains that passengers must be kept safe during the journey by drivers.",
+      "acceptable_variants": [
+        "The instructor explains that passengers must be kept safe during the journey."
+      ],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "A volunteer adds that reminder cards have been placed on every table by the event team.",
+      "acceptable_variants": [
+        "A volunteer adds that reminder cards have been placed on every table."
+      ],
+      "hint": ""
+    },
+    "mask_16": {
+      "target": "The center manager says that visitors are being given the phone number for a local taxi service by staff.",
+      "acceptable_variants": [
+        "The center manager says that the phone number for a local taxi service is being given to visitors by staff."
+      ],
+      "hint": ""
+    },
+    "mask_17": {
+      "target": "The coordinator says that the transport options will be posted online by the center tomorrow.",
+      "acceptable_variants": [
+        "The coordinator says that the transport options will be posted online tomorrow."
+      ],
+      "hint": ""
+    },
+    "mask_18": {
+      "target": "The instructor explains that unsafe choices can be prevented by clear plans.",
+      "acceptable_variants": [
+        "The instructor explains that unsafe choices can be prevented."
+      ],
+      "hint": ""
+    },
+    "mask_19": {
+      "target": "A volunteer reports that the campaign has been shared with nearby restaurants by the team.",
+      "acceptable_variants": [
+        "A volunteer reports that the campaign has been shared with nearby restaurants."
+      ],
+      "hint": ""
+    },
+    "mask_20": {
+      "target": "The manager hopes that a safe way home is chosen by every visitor.",
+      "acceptable_variants": [
+        "The manager hopes that a safe way home is chosen."
+      ],
+      "hint": ""
+    }
+  }
+}

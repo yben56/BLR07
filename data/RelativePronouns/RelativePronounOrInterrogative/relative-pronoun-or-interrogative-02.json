@@ -1,0 +1,123 @@
+{
+  "topic": "Relative Pronoun or Interrogative?",
+  "difficulty": "intermediate",
+  "created_at": "2026-11-03T22:58:09+08:00",
+  "story_title": "The Gold Digger's Plan",
+  "extra_info": "",
+  "paragraphs": [
+    "Nina was a young woman {{mask_1}} enjoyed expensive restaurants and designer clothes. Her friends wondered {{mask_2}} she had become so interested in wealthy men. She wore a necklace {{mask_3}} she said had belonged to her grandmother. At a dinner, she asked her date {{mask_4}} he expected from their relationship. The restaurant {{mask_5}} they met was famous for its high prices.",
+    "Her date, Victor, was an investor {{mask_6}} owned several businesses. Nina tried to find out {{mask_7}} he had a yacht and a holiday home. She also asked about a partner {{mask_8}} company had recently opened a hotel. Victor explained {{mask_9}} he had built his business, but Nina was more interested in the city {{mask_10}} he planned to buy an apartment.",
+    "At a charity gala, Nina asked Victor {{mask_11}} he thought of her taste in jewelry. She introduced him to a businessman {{mask_12}} she had met at another event. Victor wanted to know {{mask_13}} the man would arrive and {{mask_14}} car was waiting outside. A friend {{mask_15}} knew Nina well noticed how carefully she steered each conversation toward money.",
+    "Later, Nina considered {{mask_16}} she should continue seeing Victor. She wondered {{mask_17}} she could find a more generous partner and admired the jewelry {{mask_18}} he had given her. Her friend asked {{mask_19}} Nina wanted from life beyond gifts and expensive dinners. Nina finally admitted that she did not want to be known only as a gold digger, a label {{mask_20}} people used to judge women who dated wealthy men."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "who",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "why",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "which",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "what",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "where",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "who",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "whether",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "whose",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "how",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "where",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "what",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "whom",
+      "acceptable_variants": [
+        "who"
+      ],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "when",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "whose",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "who",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_16": {
+      "target": "whether",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_17": {
+      "target": "where",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_18": {
+      "target": "which",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    },
+    "mask_19": {
+      "target": "what",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_20": {
+      "target": "which",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    }
+  }
+}

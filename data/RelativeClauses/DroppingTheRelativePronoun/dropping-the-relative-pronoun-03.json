@@ -1,0 +1,136 @@
+{
+  "topic": "Dropping the Relative Pronoun",
+  "difficulty": "advanced",
+  "created_at": "2026-11-03T22:48:00+08:00",
+  "story_title": "Building a New Community",
+  "extra_info": "",
+  "task_instruction": "Complete each relative clause. Leave the blank empty when an object relative pronoun can be omitted.",
+  "paragraphs": [
+    "After moving to a new country, Lina joins a community program that helps newcomers find local services. The advisor {{mask_1}} meets her at the welcome center explains how the program works. Lina fills out a form {{mask_2}} the center uses to identify her goals. A volunteer {{mask_3}} speaks several languages helps her understand the information. They review the documents {{mask_4}} Lina brought to the appointment. The language class {{mask_5}} meets on weekday evenings is close to her apartment.",
+    "Lina also visits a legal information clinic for guidance about her paperwork. A lawyer {{mask_6}} the clinic recommended explains which questions she can ask an official. The interpreter {{mask_7}} supports the weekly sessions helps Lina follow the discussion. She keeps a list {{mask_8}} the lawyer prepared for her. The appointment {{mask_9}} Lina scheduled for next month gives her time to gather the remaining papers. A caseworker {{mask_10}} Lina met at the center helps her find a nearby school.",
+    "Outside the welcome center, Lina begins meeting neighbors. A gardener {{mask_11}} runs a community plot invites her to help plant vegetables. Lina enjoys the garden {{mask_12}} the neighbors created beside the library. The children attend a school {{mask_13}} offers language support to families. Their teacher recommends books {{mask_14}} Lina can read with her daughter. A neighbor {{mask_15}} recently moved to the area shares information about the bus route.",
+    "As the months pass, Lina gains confidence using local services. She attends a workshop {{mask_16}} the settlement worker sent her information about. The settlement worker {{mask_17}} leads the workshop explains how to find public programs. Lina completes an application {{mask_18}} a volunteer helped her review. The community library {{mask_19}} opened a conversation group welcomes residents every Thursday. Lina thanks the people {{mask_20}} offered advice and made her feel at home."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "who",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "who",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "who",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "who",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "who",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    },
+    "mask_16": {
+      "target": "",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_17": {
+      "target": "who",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    },
+    "mask_18": {
+      "target": "",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_19": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_20": {
+      "target": "who",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    }
+  }
+}

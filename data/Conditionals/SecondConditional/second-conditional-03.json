@@ -1,0 +1,136 @@
+{
+  "topic": "Second Conditional",
+  "difficulty": "advanced",
+  "created_at": "2026-11-03T20:23:00+08:00",
+  "story_title": "A Possible Strike in Harbor City",
+  "extra_info": "",
+  "paragraphs": [
+    "In the fictional city of Harbor City, transit workers and the bus company are negotiating a new contract. A reporter explains that no strike has begun; the city is discussing what might happen if an agreement were not reached. \"If the union {{mask_1}} a strike date, the company {{mask_2}} more urgency to the talks,\" she says. A labor mediator adds, \"If both sides {{mask_3}} the negotiation table again, we {{mask_4}} the main disagreements one by one.\"",
+    "The workers' representative describes the contract issues at a community meeting. \"If the company {{mask_5}} a fairer schedule, many drivers {{mask_6}} more control over their time off.\" A driver mentions collective bargaining, the process in which workers negotiate together through their representatives. \"If employees {{mask_7}} a stronger voice in those talks, they {{mask_8}} their concerns more clearly.\"",
+    "Residents are also thinking about the effect on daily travel. The city transit planner says, \"If a strike {{mask_9}} for several days, commuters {{mask_10}} other ways to get to work.\" A local college student adds, \"If the city {{mask_11}} temporary shuttle buses, students {{mask_12}} their classes more easily.\" Shop owners are concerned, too. \"If fewer people {{mask_13}} downtown, small businesses {{mask_14}} fewer customers,\" one owner says.",
+    "The mediator suggests that both sides consider mediation, a process in which a neutral person helps people find common ground. \"If the negotiators {{mask_15}} mediation, they {{mask_16}} a solution before the deadline,\" she says. The company spokesperson replies, \"If we {{mask_17}} our cost estimates in more detail, the union {{mask_18}} why some proposals are difficult.\" The union representative agrees that clear information could help.",
+    "At the end of the meeting, the reporter asks what would happen if an agreement were reached. The mediator says, \"If both sides {{mask_19}} a contract, the workers {{mask_20}} the proposed terms to their members.\" Everyone emphasizes that the outcome is uncertain. For now, the city continues to follow the negotiations and prepares to share accurate updates with the public."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "announced",
+      "acceptable_variants": [],
+      "hint": "announce"
+    },
+    "mask_2": {
+      "target": "would bring",
+      "acceptable_variants": [
+        "'d bring"
+      ],
+      "hint": "would"
+    },
+    "mask_3": {
+      "target": "returned to",
+      "acceptable_variants": [],
+      "hint": "return"
+    },
+    "mask_4": {
+      "target": "would address",
+      "acceptable_variants": [
+        "'d address"
+      ],
+      "hint": "would"
+    },
+    "mask_5": {
+      "target": "offered",
+      "acceptable_variants": [],
+      "hint": "offer"
+    },
+    "mask_6": {
+      "target": "would have",
+      "acceptable_variants": [
+        "'d have"
+      ],
+      "hint": "would"
+    },
+    "mask_7": {
+      "target": "had",
+      "acceptable_variants": [],
+      "hint": "have"
+    },
+    "mask_8": {
+      "target": "would explain",
+      "acceptable_variants": [
+        "'d explain"
+      ],
+      "hint": "would"
+    },
+    "mask_9": {
+      "target": "continued",
+      "acceptable_variants": [],
+      "hint": "continue"
+    },
+    "mask_10": {
+      "target": "would consider",
+      "acceptable_variants": [
+        "'d consider"
+      ],
+      "hint": "would"
+    },
+    "mask_11": {
+      "target": "provided",
+      "acceptable_variants": [],
+      "hint": "provide"
+    },
+    "mask_12": {
+      "target": "would reach",
+      "acceptable_variants": [
+        "'d reach"
+      ],
+      "hint": "would"
+    },
+    "mask_13": {
+      "target": "visited",
+      "acceptable_variants": [],
+      "hint": "visit"
+    },
+    "mask_14": {
+      "target": "would receive",
+      "acceptable_variants": [
+        "'d receive"
+      ],
+      "hint": "would"
+    },
+    "mask_15": {
+      "target": "accepted",
+      "acceptable_variants": [],
+      "hint": "accept"
+    },
+    "mask_16": {
+      "target": "would have",
+      "acceptable_variants": [
+        "'d have"
+      ],
+      "hint": "would"
+    },
+    "mask_17": {
+      "target": "shared",
+      "acceptable_variants": [],
+      "hint": "share"
+    },
+    "mask_18": {
+      "target": "would understand",
+      "acceptable_variants": [
+        "'d understand"
+      ],
+      "hint": "would"
+    },
+    "mask_19": {
+      "target": "reached",
+      "acceptable_variants": [],
+      "hint": "reach"
+    },
+    "mask_20": {
+      "target": "would present",
+      "acceptable_variants": [
+        "'d present"
+      ],
+      "hint": "would"
+    }
+  }
+}

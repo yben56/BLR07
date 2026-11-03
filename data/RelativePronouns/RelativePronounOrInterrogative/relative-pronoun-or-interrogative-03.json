@@ -1,0 +1,125 @@
+{
+  "topic": "Relative Pronoun or Interrogative?",
+  "difficulty": "advanced",
+  "created_at": "2026-11-03T23:00:14+08:00",
+  "story_title": "The Fire Station Open Day",
+  "extra_info": "",
+  "paragraphs": [
+    "During an open day at a city fire station, visitors meet firefighters {{mask_1}} respond to emergencies across the district. A child asks {{mask_2}} a crew does when an alarm sounds. The captain introduces a fire engine {{mask_3}} carries hoses, ladders, and breathing equipment. She explains {{mask_4}} the team checks its equipment before each shift. A firefighter {{mask_5}} helmet is displayed nearby describes how protective gear is inspected.",
+    "The crew demonstrates the radio system {{mask_6}} they use to receive dispatch information. Visitors learn {{mask_7}} a dispatcher gathers details and sends the appropriate units. A volunteer asks {{mask_8}} a smoke alarm should be installed in a two-story home. The educator points to a diagram {{mask_9}} shows how smoke can travel through hallways and stairs. Families also discuss {{mask_10}} they should go to leave the building.",
+    "At the training area, a recruit {{mask_11}} joined the station last year explains how firefighters practice using ladders. The instructor asks {{mask_12}} the group would do if a doorway felt hot. She stresses that everyone should leave immediately and call emergency services from a safe place. A firefighter {{mask_13}} the visitors meet in the practice room demonstrates how a hose is handled. The team shows visitors {{mask_14}} crews use to check for hidden heat after a fire has been extinguished.",
+    "Before the event ends, the captain invites questions from the audience. One visitor wants to know {{mask_15}} firefighters decide whether a building is safe to re-enter. Another asks {{mask_16}} residents should keep in an emergency kit. The captain describes a training course {{mask_17}} prepares new recruits for demanding situations and introduces an instructor, explaining {{mask_18}} students can contact the station for more information. A local reporter, {{mask_19}} has covered several community safety events, asks how the station works with neighborhood groups. The captain thanks everyone {{mask_20}} came to learn about fire prevention and emergency response."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "who",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "what",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "which",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "how",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "whose",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "which",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "how",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "where",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "which",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "where",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "who",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "what",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "whom",
+      "acceptable_variants": [
+        "who"
+      ],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "what",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "how",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_16": {
+      "target": "what",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_17": {
+      "target": "which",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    },
+    "mask_18": {
+      "target": "when",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_19": {
+      "target": "who",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_20": {
+      "target": "who",
+      "acceptable_variants": [],
+      "hint": ""
+    }
+  }
+}

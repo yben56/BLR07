@@ -1,0 +1,116 @@
+{
+  "topic": "Zero Conditional",
+  "difficulty": "advanced",
+  "created_at": "2026-11-03T20:13:00+08:00",
+  "story_title": "A Day at the Training Center",
+  "extra_info": "",
+  "paragraphs": [
+    "At a military training center, Lieutenant Ellis leads an advanced English session in the history room. The group studies a glossary of military terms. \"If an instructor {{mask_1}} a term on the board, each trainee {{mask_2}} it in the vocabulary notebook,\" Ellis says. The first card reads lieutenant. \"If a learner {{mask_3}} this rank, the glossary {{mask_4}} that it is an officer rank.\"",
+    "The next card describes airborne troops, who are trained to deploy from aircraft, often by parachute. Ellis explains, \"If a reader {{mask_5}} the word airborne, the definition {{mask_6}} how it relates to aircraft.\" A visitor asks about a caption on an old map. \"If a caption {{mask_7}} unclear, the reader {{mask_8}} the note beside the map for more context.\"",
+    "A display about the Second World War includes the term Blitzkrieg. The label explains that it is a German word meaning \"lightning war,\" commonly used for fast, coordinated military campaigns in that historical period. \"If a visitor {{mask_9}} this term, the exhibit {{mask_10}} its historical meaning,\" Ellis says. \"If someone {{mask_11}} a reference book, the checkout sheet {{mask_12}} who has it.\" She reminds the group that historical terms make more sense when they are read in context.",
+    "The next section introduces logistics: the planning and coordination of people, equipment, and supplies. \"If a trainee {{mask_13}} an unfamiliar term, the instructor {{mask_14}} its meaning with an example,\" Ellis explains. \"If a glossary {{mask_15}} a pronunciation guide, the audio guide {{mask_16}} it aloud.\" The group listens, takes notes, and compares the definitions with the captions.",
+    "Before the session ends, Ellis reviews the center's general safety procedures. \"If an alarm {{mask_17}}, everyone {{mask_18}} the posted instructions and checks in at the designated assembly area.\" She adds, \"If a person {{mask_19}} an injury, the nearest trained responder {{mask_20}} the medical team.\" The trainees discuss the new vocabulary and leave with a clearer understanding of both the terms and their historical context."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "changes",
+      "acceptable_variants": [],
+      "hint": "change"
+    },
+    "mask_2": {
+      "target": "records",
+      "acceptable_variants": [],
+      "hint": "record"
+    },
+    "mask_3": {
+      "target": "reads",
+      "acceptable_variants": [],
+      "hint": "read"
+    },
+    "mask_4": {
+      "target": "explains",
+      "acceptable_variants": [],
+      "hint": "explain"
+    },
+    "mask_5": {
+      "target": "sees",
+      "acceptable_variants": [],
+      "hint": "see"
+    },
+    "mask_6": {
+      "target": "shows",
+      "acceptable_variants": [],
+      "hint": "show"
+    },
+    "mask_7": {
+      "target": "seems",
+      "acceptable_variants": [],
+      "hint": "seem"
+    },
+    "mask_8": {
+      "target": "asks",
+      "acceptable_variants": [],
+      "hint": "ask"
+    },
+    "mask_9": {
+      "target": "encounters",
+      "acceptable_variants": [],
+      "hint": "encounter"
+    },
+    "mask_10": {
+      "target": "explains",
+      "acceptable_variants": [],
+      "hint": "explain"
+    },
+    "mask_11": {
+      "target": "checks out",
+      "acceptable_variants": [],
+      "hint": "check out"
+    },
+    "mask_12": {
+      "target": "shows",
+      "acceptable_variants": [],
+      "hint": "show"
+    },
+    "mask_13": {
+      "target": "encounters",
+      "acceptable_variants": [],
+      "hint": "encounter"
+    },
+    "mask_14": {
+      "target": "explains",
+      "acceptable_variants": [],
+      "hint": "explain"
+    },
+    "mask_15": {
+      "target": "includes",
+      "acceptable_variants": [],
+      "hint": "include"
+    },
+    "mask_16": {
+      "target": "repeats",
+      "acceptable_variants": [],
+      "hint": "repeat"
+    },
+    "mask_17": {
+      "target": "sounds",
+      "acceptable_variants": [],
+      "hint": "sound"
+    },
+    "mask_18": {
+      "target": "follows",
+      "acceptable_variants": [],
+      "hint": "follow"
+    },
+    "mask_19": {
+      "target": "reports",
+      "acceptable_variants": [],
+      "hint": "report"
+    },
+    "mask_20": {
+      "target": "contacts",
+      "acceptable_variants": [],
+      "hint": "contact"
+    }
+  }
+}

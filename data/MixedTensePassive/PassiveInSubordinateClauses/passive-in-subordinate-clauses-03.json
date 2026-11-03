@@ -1,0 +1,157 @@
+{
+  "topic": "Passive in Subordinate Clauses",
+  "difficulty": "advanced",
+  "created_at": "2026-11-03T22:24:00+08:00",
+  "story_title": "The Castle Chronicle",
+  "extra_info": "",
+  "task_instruction": "Rewrite each sentence in the passive voice. Change the verb in the subordinate clause and keep the main clause unchanged.",
+  "paragraphs": [
+    "In the late Middle Ages, a royal historian records events at a stone castle. {{red:The steward explains that the masons built the outer wall after the northern raid.}} {{mask_1}} {{red:The reeve believes that the villagers have repaired the wooden bridge before the winter thaw.}} {{mask_2}} {{red:The castle captain reports that a messenger carried the duke's sealed letter through the eastern gate.}} {{mask_3}} {{red:The chronicler notes that the royal clerk is copying the treaty into the archive book.}} {{mask_4}}",
+    "As preparations begin for a diplomatic visit, the steward checks the guest rooms. {{red:He says that the servants are preparing the great hall for the visiting envoy.}} {{mask_5}} {{red:The marshal expects that the blacksmith will mend the damaged gate hinge by dawn.}} {{mask_6}} {{red:The abbess remembers that the prior had stored the monastery's grain accounts in a locked chest.}} {{mask_7}} {{red:The council knows that the royal seal can authenticate the duke's orders.}} {{mask_8}}",
+    "The envoy arrives with a party from a neighboring territory. {{red:The herald announces that the duke has sent a delegation to discuss the border.}} {{mask_9}} {{red:The captain observes that the guards are escorting the visitors across the courtyard.}} {{mask_10}} {{red:The steward discovers that someone has removed a page from the guest register.}} {{mask_11}} {{red:The chronicler writes that the queen will receive the envoy after the council meets.}} {{mask_12}}",
+    "During the council, the nobles consider the terms of a trade agreement. {{red:The chancellor insists that the scribes must record every change to the treaty.}} {{mask_13}} {{red:The envoy admits that his messenger misplaced one of the boundary maps.}} {{mask_14}} {{red:The reeve explains that the villagers were rebuilding the mill when the river rose.}} {{mask_15}} {{red:The abbess says that the monastery has offered the travelers shelter for the night.}} {{mask_16}}",
+    "Before the delegation departs, the royal household prepares gifts and copies of the agreement. {{red:The steward confirms that the treasurer has counted the silver coins.}} {{mask_17}} {{red:The captain believes that the guards will protect the bridge until the envoys leave.}} {{mask_18}} {{red:The chronicler hopes that future scholars may preserve the treaty in the royal archive.}} {{mask_19}} {{red:The queen requests that the council review the final document before it is sealed.}} {{mask_20}} The historian finishes the account, noting how careful records helped the two territories avoid another dispute."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "The steward explains that the outer wall was built by the masons after the northern raid.",
+      "acceptable_variants": [
+        "The steward explains that the outer wall was built after the northern raid."
+      ],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "The reeve believes that the wooden bridge has been repaired by the villagers before the winter thaw.",
+      "acceptable_variants": [
+        "The reeve believes that the wooden bridge has been repaired before the winter thaw."
+      ],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "The castle captain reports that the duke's sealed letter was carried through the eastern gate by a messenger.",
+      "acceptable_variants": [
+        "The castle captain reports that the duke's sealed letter was carried through the eastern gate."
+      ],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "The chronicler notes that the treaty is being copied into the archive book by the royal clerk.",
+      "acceptable_variants": [
+        "The chronicler notes that the treaty is being copied into the archive book."
+      ],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "He says that the great hall is being prepared for the visiting envoy by the servants.",
+      "acceptable_variants": [
+        "He says that the great hall is being prepared for the visiting envoy."
+      ],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "The marshal expects that the damaged gate hinge will be mended by the blacksmith by dawn.",
+      "acceptable_variants": [
+        "The marshal expects that the damaged gate hinge will be mended by dawn."
+      ],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "The abbess remembers that the monastery's grain accounts had been stored in a locked chest by the prior.",
+      "acceptable_variants": [
+        "The abbess remembers that the monastery's grain accounts had been stored in a locked chest."
+      ],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "The council knows that the duke's orders can be authenticated by the royal seal.",
+      "acceptable_variants": [
+        "The council knows that the duke's orders can be authenticated."
+      ],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "The herald announces that a delegation has been sent to discuss the border by the duke.",
+      "acceptable_variants": [
+        "The herald announces that a delegation has been sent to discuss the border."
+      ],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "The captain observes that the visitors are being escorted across the courtyard by the guards.",
+      "acceptable_variants": [
+        "The captain observes that the visitors are being escorted across the courtyard."
+      ],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "The steward discovers that a page has been removed from the guest register.",
+      "acceptable_variants": [
+        "The steward discovers that a page has been removed from the guest register by someone."
+      ],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "The chronicler writes that the envoy will be received by the queen after the council meets.",
+      "acceptable_variants": [
+        "The chronicler writes that the envoy will be received after the council meets."
+      ],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "The chancellor insists that every change to the treaty must be recorded by the scribes.",
+      "acceptable_variants": [
+        "The chancellor insists that every change to the treaty must be recorded."
+      ],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "The envoy admits that one of the boundary maps was misplaced by his messenger.",
+      "acceptable_variants": [
+        "The envoy admits that one of the boundary maps was misplaced."
+      ],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "The reeve explains that the mill was being rebuilt by the villagers when the river rose.",
+      "acceptable_variants": [
+        "The reeve explains that the mill was being rebuilt when the river rose."
+      ],
+      "hint": ""
+    },
+    "mask_16": {
+      "target": "The abbess says that the travelers have been offered shelter for the night by the monastery.",
+      "acceptable_variants": [
+        "The abbess says that shelter for the night has been offered to the travelers by the monastery."
+      ],
+      "hint": ""
+    },
+    "mask_17": {
+      "target": "The steward confirms that the silver coins have been counted by the treasurer.",
+      "acceptable_variants": [
+        "The steward confirms that the silver coins have been counted."
+      ],
+      "hint": ""
+    },
+    "mask_18": {
+      "target": "The captain believes that the bridge will be protected by the guards until the envoys leave.",
+      "acceptable_variants": [
+        "The captain believes that the bridge will be protected until the envoys leave."
+      ],
+      "hint": ""
+    },
+    "mask_19": {
+      "target": "The chronicler hopes that the treaty may be preserved in the royal archive by future scholars.",
+      "acceptable_variants": [
+        "The chronicler hopes that the treaty may be preserved in the royal archive."
+      ],
+      "hint": ""
+    },
+    "mask_20": {
+      "target": "The queen requests that the final document be reviewed by the council before it is sealed.",
+      "acceptable_variants": [
+        "The queen requests that the final document be reviewed before it is sealed."
+      ],
+      "hint": ""
+    }
+  }
+}

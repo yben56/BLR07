@@ -1,0 +1,142 @@
+{
+  "topic": "Mixed Conditionals",
+  "difficulty": "advanced",
+  "created_at": "2026-11-03T20:36:00+08:00",
+  "story_title": "The Extreme Sports Safety Review",
+  "extra_info": "",
+  "paragraphs": [
+    "After a regional extreme-sports festival, coach Kira reviews the event with her team. She completed a certified safety course last winter, and she now recognizes when weather conditions need attention. Kira says, \"If I {{mask_1}} that course, I {{mask_2}} warning signs more confidently now.\" Sasha is naturally cautious and followed the guide's advice when visibility became poor before yesterday's mountain-bike session. \"If I {{mask_3}} so cautious, I {{mask_4}} the guide's advice yesterday,\" Sasha says.",
+    "The team discusses first-aid preparation. Sam completed first-aid training before the season and now feels prepared to contact the event medical team when needed. \"If I {{mask_5}} that training, I {{mask_6}} less prepared now,\" he says. His teammate Noor is patient and listened carefully during the safety briefing. \"If I {{mask_7}} less patient, I {{mask_8}} an important detail yesterday.\"",
+    "At the equipment table, the organizers review their inspection records. They kept a clear helmet checklist last month, so they know which helmets need replacement now. Kira says, \"If we {{mask_9}} that checklist, we {{mask_10}} which helmets need attention now.\" Vera is observant and noticed a damaged buckle before the climbing-wall session. \"If Vera {{mask_11}} so observant, she {{mask_12}} that buckle yesterday,\" Kira says.",
+    "The group also reviews a change in the weather during the festival. Niko is careful about following posted closures, and he respected a trail closure yesterday. \"If I {{mask_13}} less safety-conscious, I {{mask_14}} the closure notice yesterday,\" he says. Earlier in the year, the organizers arranged a backup indoor space for training. Because of that plan, they have a place to meet today. \"If we {{mask_15}} the backup space, we {{mask_16}} a place to meet now.\"",
+    "At the end of the meeting, the team talks about the athletes' progress. Mina is persistent and completed yesterday's long course even when she felt tired. \"If I {{mask_17}} less persistent, I {{mask_18}} the course yesterday,\" she says. The organizers also saved emergency contact details before the event, so they can reach the right people now. Kira concludes, \"If we {{mask_19}} those details, we {{mask_20}} the contacts we need now.\" The team agrees that good preparation and sound judgment make future events safer."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "had completed",
+      "acceptable_variants": [],
+      "hint": "complete"
+    },
+    "mask_2": {
+      "target": "would recognize",
+      "acceptable_variants": [
+        "'d recognize"
+      ],
+      "hint": "will"
+    },
+    "mask_3": {
+      "target": "were",
+      "acceptable_variants": [],
+      "hint": "be"
+    },
+    "mask_4": {
+      "target": "would have ignored",
+      "acceptable_variants": [
+        "'d have ignored"
+      ],
+      "hint": "will"
+    },
+    "mask_5": {
+      "target": "had completed",
+      "acceptable_variants": [],
+      "hint": "complete"
+    },
+    "mask_6": {
+      "target": "would feel",
+      "acceptable_variants": [
+        "'d feel"
+      ],
+      "hint": "will"
+    },
+    "mask_7": {
+      "target": "were",
+      "acceptable_variants": [],
+      "hint": "be"
+    },
+    "mask_8": {
+      "target": "would have missed",
+      "acceptable_variants": [
+        "'d have missed"
+      ],
+      "hint": "will"
+    },
+    "mask_9": {
+      "target": "had kept",
+      "acceptable_variants": [],
+      "hint": "keep"
+    },
+    "mask_10": {
+      "target": "would know",
+      "acceptable_variants": [
+        "'d know"
+      ],
+      "hint": "will"
+    },
+    "mask_11": {
+      "target": "weren't",
+      "acceptable_variants": [
+        "wasn't"
+      ],
+      "hint": "be"
+    },
+    "mask_12": {
+      "target": "would have missed",
+      "acceptable_variants": [
+        "'d have missed"
+      ],
+      "hint": "will"
+    },
+    "mask_13": {
+      "target": "were",
+      "acceptable_variants": [],
+      "hint": "be"
+    },
+    "mask_14": {
+      "target": "would have ignored",
+      "acceptable_variants": [
+        "'d have ignored"
+      ],
+      "hint": "will"
+    },
+    "mask_15": {
+      "target": "had not arranged",
+      "acceptable_variants": [
+        "hadn't arranged"
+      ],
+      "hint": "arrange"
+    },
+    "mask_16": {
+      "target": "would not have",
+      "acceptable_variants": [
+        "wouldn't have"
+      ],
+      "hint": "will"
+    },
+    "mask_17": {
+      "target": "were",
+      "acceptable_variants": [],
+      "hint": "be"
+    },
+    "mask_18": {
+      "target": "would not have finished",
+      "acceptable_variants": [
+        "wouldn't have finished",
+        "'d not have finished"
+      ],
+      "hint": "will"
+    },
+    "mask_19": {
+      "target": "had saved",
+      "acceptable_variants": [],
+      "hint": "save"
+    },
+    "mask_20": {
+      "target": "would not know",
+      "acceptable_variants": [
+        "wouldn't know",
+        "'d not know"
+      ],
+      "hint": "will"
+    }
+  }
+}

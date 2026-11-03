@@ -1,0 +1,136 @@
+{
+  "topic": "Third Conditional",
+  "difficulty": "beginner",
+  "created_at": "2026-11-03T20:24:00+08:00",
+  "story_title": "A Chinese Dinner to Remember",
+  "extra_info": "",
+  "paragraphs": [
+    "Last Sunday, Mei helped her uncle prepare a Chinese dinner for their family. They went to the market, but they forgot to buy mushrooms. Uncle said, \"If we {{mask_1}} a shopping list, we {{mask_2}} the mushrooms.\" They also ran out of tofu before they started cooking. \"If we {{mask_3}} the pantry before we left, we {{mask_4}} enough tofu,\" Mei said.",
+    "Back in the kitchen, Mei washed the vegetables while her uncle cooked rice. They were short on time. \"If I {{mask_5}} the vegetables earlier, I {{mask_6}} more time,\" Mei said. The rice became too soft because Uncle used too much water. He sighed. \"If I {{mask_7}} the recipe carefully, the rice {{mask_8}} better.\"",
+    "Next, they made a sauce for the vegetables. It tasted too salty because they added too much soy sauce. Mei said, \"If I {{mask_9}} the sauce before adding more soy sauce, I {{mask_10}} it from becoming too salty.\" The dumplings also opened in the steamer. Uncle said, \"If I {{mask_11}} a timer, the dumplings {{mask_12}} intact.\"",
+    "Mei's cousin asked which dishes contained peanuts. The family checked the ingredients together. \"If we {{mask_13}} the dishes clearly, my cousin {{mask_14}} which food was safe for her,\" Mei said. The soup was ready, but the bowls were cold. Uncle added, \"If we {{mask_15}} the bowls first, the soup {{mask_16}} warm longer.\"",
+    "The guests arrived while the noodles were still cooking, so dinner started late. Mei laughed about it afterward. \"If we {{mask_17}} the noodles sooner, we {{mask_18}} dinner on time.\" Her grandmother showed them how to fold dumplings. \"If we {{mask_19}} Grandma for help earlier, we {{mask_20}} how to fold them before dinner.\" Everyone enjoyed the meal and promised to cook together again."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "had written",
+      "acceptable_variants": [],
+      "hint": "write"
+    },
+    "mask_2": {
+      "target": "would have bought",
+      "acceptable_variants": [
+        "'d have bought"
+      ],
+      "hint": "buy"
+    },
+    "mask_3": {
+      "target": "had checked",
+      "acceptable_variants": [],
+      "hint": "check"
+    },
+    "mask_4": {
+      "target": "would have bought",
+      "acceptable_variants": [
+        "'d have bought"
+      ],
+      "hint": "bring"
+    },
+    "mask_5": {
+      "target": "had washed",
+      "acceptable_variants": [],
+      "hint": "wash"
+    },
+    "mask_6": {
+      "target": "would have had",
+      "acceptable_variants": [
+        "'d have had"
+      ],
+      "hint": "have"
+    },
+    "mask_7": {
+      "target": "had read",
+      "acceptable_variants": [],
+      "hint": "read"
+    },
+    "mask_8": {
+      "target": "would have cooked",
+      "acceptable_variants": [
+        "'d have cooked"
+      ],
+      "hint": "cook"
+    },
+    "mask_9": {
+      "target": "had tasted",
+      "acceptable_variants": [],
+      "hint": "taste"
+    },
+    "mask_10": {
+      "target": "would have kept",
+      "acceptable_variants": [
+        "'d have kept"
+      ],
+      "hint": "improve"
+    },
+    "mask_11": {
+      "target": "had set",
+      "acceptable_variants": [],
+      "hint": "set"
+    },
+    "mask_12": {
+      "target": "would have stayed",
+      "acceptable_variants": [
+        "'d have stayed"
+      ],
+      "hint": "stay"
+    },
+    "mask_13": {
+      "target": "had labeled",
+      "acceptable_variants": [],
+      "hint": "label"
+    },
+    "mask_14": {
+      "target": "would have known",
+      "acceptable_variants": [
+        "'d have known"
+      ],
+      "hint": "know"
+    },
+    "mask_15": {
+      "target": "had warmed",
+      "acceptable_variants": [],
+      "hint": "warm"
+    },
+    "mask_16": {
+      "target": "would have stayed",
+      "acceptable_variants": [
+        "'d have stayed"
+      ],
+      "hint": "stay"
+    },
+    "mask_17": {
+      "target": "had started",
+      "acceptable_variants": [],
+      "hint": "start"
+    },
+    "mask_18": {
+      "target": "would have served",
+      "acceptable_variants": [
+        "'d have served"
+      ],
+      "hint": "serve"
+    },
+    "mask_19": {
+      "target": "had asked",
+      "acceptable_variants": [],
+      "hint": "ask"
+    },
+    "mask_20": {
+      "target": "would have learned",
+      "acceptable_variants": [
+        "'d have learned"
+      ],
+      "hint": "learn"
+    }
+  }
+}

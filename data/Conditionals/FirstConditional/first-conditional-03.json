@@ -1,0 +1,136 @@
+{
+  "topic": "First Conditional",
+  "difficulty": "advanced",
+  "created_at": "2026-11-03T20:20:00+08:00",
+  "story_title": "A Smarter Training Week",
+  "extra_info": "",
+  "paragraphs": [
+    "At Harbor Point Gym, coach Elena meets advanced member Marcus to review his training plan. He wants to improve his endurance without overtraining. Elena says, \"If you {{mask_1}} your weekly mileage gradually, you {{mask_2}} your body time to adapt.\" Marcus asks about keeping a record. \"If I {{mask_3}} my pace and recovery after each run, I {{mask_4}} patterns more clearly.\"",
+    "They review his strength sessions next. Elena points out that technique matters more than adding weight too quickly. \"If you {{mask_5}} the movement with control, you {{mask_6}} more consistent results.\" Marcus asks what he should do when his form changes near the end of a set. Elena replies, \"If your form {{mask_7}} unstable, you {{mask_8}} the weight and reset.\"",
+    "Marcus also plans interval training on the rowing machine. Elena suggests spacing hard sessions with easier days. \"If you {{mask_9}} an intense interval workout today, you {{mask_10}} an easier session tomorrow.\" She adds that sleep affects performance. \"If you {{mask_11}} well tonight, you {{mask_12}} better prepared for your morning session.\" Marcus decides to move his late training time earlier.",
+    "Before he leaves, Marcus asks how to adjust when the gym is busy. Elena explains, \"If the squat racks {{mask_13}} occupied, you {{mask_14}} for an open one or choose the planned alternative exercise.\" She reminds him not to skip his warm-up. \"If you {{mask_15}} your muscles before lifting, you {{mask_16}} into the session more safely.\" Marcus writes the alternatives into his training app.",
+    "At the end of the week, they will compare his notes with his original goals. Elena says, \"If your recovery {{mask_17}} steadily, we {{mask_18}} the plan next week.\" Marcus wants to enter a local fitness challenge, but agrees to wait for the review. \"If the new schedule {{mask_19}} sustainable, I {{mask_20}} the challenge without rushing my progress.\" He leaves with a clear plan and room to adjust it."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "increase",
+      "acceptable_variants": [],
+      "hint": "increase"
+    },
+    "mask_2": {
+      "target": "will give",
+      "acceptable_variants": [
+        "'ll give"
+      ],
+      "hint": "will"
+    },
+    "mask_3": {
+      "target": "track",
+      "acceptable_variants": [],
+      "hint": "track"
+    },
+    "mask_4": {
+      "target": "will notice",
+      "acceptable_variants": [
+        "'ll notice"
+      ],
+      "hint": "will"
+    },
+    "mask_5": {
+      "target": "perform",
+      "acceptable_variants": [],
+      "hint": "perform"
+    },
+    "mask_6": {
+      "target": "will see",
+      "acceptable_variants": [
+        "'ll see"
+      ],
+      "hint": "will"
+    },
+    "mask_7": {
+      "target": "becomes",
+      "acceptable_variants": [],
+      "hint": "become"
+    },
+    "mask_8": {
+      "target": "will lower",
+      "acceptable_variants": [
+        "'ll lower"
+      ],
+      "hint": "will"
+    },
+    "mask_9": {
+      "target": "complete",
+      "acceptable_variants": [],
+      "hint": "complete"
+    },
+    "mask_10": {
+      "target": "will schedule",
+      "acceptable_variants": [
+        "'ll schedule"
+      ],
+      "hint": "will"
+    },
+    "mask_11": {
+      "target": "sleep",
+      "acceptable_variants": [],
+      "hint": "sleep"
+    },
+    "mask_12": {
+      "target": "will feel",
+      "acceptable_variants": [
+        "'ll feel"
+      ],
+      "hint": "will"
+    },
+    "mask_13": {
+      "target": "are",
+      "acceptable_variants": [],
+      "hint": "be"
+    },
+    "mask_14": {
+      "target": "will wait",
+      "acceptable_variants": [
+        "'ll wait"
+      ],
+      "hint": "will"
+    },
+    "mask_15": {
+      "target": "warm up",
+      "acceptable_variants": [],
+      "hint": "warm up"
+    },
+    "mask_16": {
+      "target": "will move",
+      "acceptable_variants": [
+        "'ll move"
+      ],
+      "hint": "will"
+    },
+    "mask_17": {
+      "target": "improves",
+      "acceptable_variants": [],
+      "hint": "improve"
+    },
+    "mask_18": {
+      "target": "will adjust",
+      "acceptable_variants": [
+        "'ll adjust"
+      ],
+      "hint": "will"
+    },
+    "mask_19": {
+      "target": "proves",
+      "acceptable_variants": [],
+      "hint": "prove"
+    },
+    "mask_20": {
+      "target": "will consider",
+      "acceptable_variants": [
+        "'ll consider"
+      ],
+      "hint": "will"
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "topic": "Mixed Conditionals",
+  "difficulty": "beginner",
+  "created_at": "2026-11-03T20:34:00+08:00",
+  "story_title": "A Different School Year",
+  "extra_info": "",
+  "paragraphs": [
+    "At the end of the school year, Mia and Leo talk about how their choices affected them. Mia did not join the school library team last autumn. She says, \"If I {{mask_1}} the library team, I {{mask_2}} more books now.\" Leo did not start a garden club last spring. \"If I {{mask_3}} the garden club, I {{mask_4}} more about plants today.\"",
+    "Mia missed a science project meeting because she did not check her calendar. \"If I {{mask_5}} my calendar, I {{mask_6}} the project plan now,\" she says. Leo is patient with younger students and helped the new students last year. He says, \"If I {{mask_7}} so patient, I {{mask_8}} them last year.\"",
+    "The friends look at photos from the school play. Mia watched the play but did not join the costume group. \"If I {{mask_9}} the costume group, I {{mask_10}} how to sew now,\" she says. Leo is confident when he speaks in front of people, and he spoke at the school assembly last month. \"If I {{mask_11}} more confident, I {{mask_12}} at the assembly.\"",
+    "Their teacher asks what they would change. Mia did not study carefully last term. She says, \"If I {{mask_13}} more carefully, I {{mask_14}} less worried about exams now.\" Leo loves music, but he did not join the school band last year. \"If I {{mask_15}} music so much, I {{mask_16}} the band.\" They agree that past choices can affect how they feel today.",
+    "Before they leave, Mia explains that Leo could not help her with science last month because he was away. \"If you {{mask_17}} me with science, I {{mask_18}} more confident about it now.\" Leo is not very interested in art, so he did not join the art club. He says, \"If I {{mask_19}} more interested in art, I {{mask_20}} the art club last year.\" They look around the school and talk about what they might try next year."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "had joined",
+      "acceptable_variants": [],
+      "hint": "join"
+    },
+    "mask_2": {
+      "target": "would know",
+      "acceptable_variants": [
+        "'d know"
+      ],
+      "hint": "will"
+    },
+    "mask_3": {
+      "target": "had started",
+      "acceptable_variants": [],
+      "hint": "start"
+    },
+    "mask_4": {
+      "target": "would know",
+      "acceptable_variants": [
+        "'d know"
+      ],
+      "hint": "will"
+    },
+    "mask_5": {
+      "target": "had checked",
+      "acceptable_variants": [],
+      "hint": "check"
+    },
+    "mask_6": {
+      "target": "would understand",
+      "acceptable_variants": [
+        "'d understand"
+      ],
+      "hint": "will"
+    },
+    "mask_7": {
+      "target": "weren't",
+      "acceptable_variants": [
+        "wasn't"
+      ],
+      "hint": "be"
+    },
+    "mask_8": {
+      "target": "wouldn't have helped",
+      "acceptable_variants": [
+        "would not have helped",
+        "'d not have helped"
+      ],
+      "hint": "will"
+    },
+    "mask_9": {
+      "target": "had joined",
+      "acceptable_variants": [],
+      "hint": "join"
+    },
+    "mask_10": {
+      "target": "would know",
+      "acceptable_variants": [
+        "'d know"
+      ],
+      "hint": "will"
+    },
+    "mask_11": {
+      "target": "weren't",
+      "acceptable_variants": [
+        "wasn't"
+      ],
+      "hint": "be"
+    },
+    "mask_12": {
+      "target": "wouldn't have spoken",
+      "acceptable_variants": [
+        "would not have spoken",
+        "'d not have spoken"
+      ],
+      "hint": "will"
+    },
+    "mask_13": {
+      "target": "had studied",
+      "acceptable_variants": [],
+      "hint": "study"
+    },
+    "mask_14": {
+      "target": "would feel",
+      "acceptable_variants": [
+        "'d feel"
+      ],
+      "hint": "will"
+    },
+    "mask_15": {
+      "target": "didn't love",
+      "acceptable_variants": [],
+      "hint": "love"
+    },
+    "mask_16": {
+      "target": "wouldn't have joined",
+      "acceptable_variants": [
+        "would not have joined",
+        "'d not have joined"
+      ],
+      "hint": "will"
+    },
+    "mask_17": {
+      "target": "had helped",
+      "acceptable_variants": [],
+      "hint": "help"
+    },
+    "mask_18": {
+      "target": "would feel",
+      "acceptable_variants": [
+        "'d feel"
+      ],
+      "hint": "will"
+    },
+    "mask_19": {
+      "target": "were",
+      "acceptable_variants": [],
+      "hint": "be"
+    },
+    "mask_20": {
+      "target": "would have joined",
+      "acceptable_variants": [
+        "'d have designed"
+      ],
+      "hint": "will"
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "topic": "Zero Conditional",
+  "difficulty": "beginner",
+  "created_at": "2026-11-03T20:09:00+08:00",
+  "story_title": "A Morning at the Market",
+  "extra_info": "",
+  "paragraphs": [
+    "On Saturday morning, Mina trains Leo at her fruit stall. She explains the market's daily routines. \"If customers {{mask_1}} early, they {{mask_2}} the best fruit,\" she says. A shopper points to a price tag. Mina tells Leo, \"If a customer {{mask_3}} for a price, you {{mask_4}} the label.\"",
+    "Leo checks the shelves. Mina shows him what to do when a tag falls off. \"If a label {{mask_5}} missing, I {{mask_6}} the price by hand,\" she says. Then they arrange the herbs. \"If we {{mask_7}} fresh herbs in water, they {{mask_8}} fresh for longer.\"",
+    "The sun comes out, so Mina moves the tomato boxes into the shade. \"If tomatoes {{mask_9}} in direct sun, they {{mask_10}} soft,\" she explains. She places the carrots in a cool box. \"If we {{mask_11}} carrots in a cool box, they {{mask_12}} crisp.\"",
+    "Soon, a customer pays by card. Mina tells Leo, \"If a customer {{mask_13}} by card, you {{mask_14}} the card on the reader. If the reader {{mask_15}} a beep, the payment {{mask_16}} through.\" Another shopper asks about a melon. \"If a customer {{mask_17}} a question, I {{mask_18}} it,\" Mina says.",
+    "In the afternoon, dark clouds gather over the market. Mina points to the covered walkway. \"If it {{mask_19}} heavily, shoppers {{mask_20}} under the awnings.\" Leo smiles. By closing time, he understands the simple routines that help the market run smoothly every day."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "arrive",
+      "acceptable_variants": [],
+      "hint": "arrive"
+    },
+    "mask_2": {
+      "target": "find",
+      "acceptable_variants": [],
+      "hint": "find"
+    },
+    "mask_3": {
+      "target": "asks",
+      "acceptable_variants": [],
+      "hint": "ask"
+    },
+    "mask_4": {
+      "target": "check",
+      "acceptable_variants": [],
+      "hint": "check"
+    },
+    "mask_5": {
+      "target": "is",
+      "acceptable_variants": [],
+      "hint": "be"
+    },
+    "mask_6": {
+      "target": "write",
+      "acceptable_variants": [],
+      "hint": "write"
+    },
+    "mask_7": {
+      "target": "keep",
+      "acceptable_variants": [],
+      "hint": "keep"
+    },
+    "mask_8": {
+      "target": "stay",
+      "acceptable_variants": [],
+      "hint": "stay"
+    },
+    "mask_9": {
+      "target": "sit",
+      "acceptable_variants": [],
+      "hint": "sit"
+    },
+    "mask_10": {
+      "target": "become",
+      "acceptable_variants": [],
+      "hint": "become"
+    },
+    "mask_11": {
+      "target": "put",
+      "acceptable_variants": [],
+      "hint": "put"
+    },
+    "mask_12": {
+      "target": "stay",
+      "acceptable_variants": [],
+      "hint": "stay"
+    },
+    "mask_13": {
+      "target": "pays",
+      "acceptable_variants": [],
+      "hint": "pay"
+    },
+    "mask_14": {
+      "target": "tap",
+      "acceptable_variants": [],
+      "hint": "tap"
+    },
+    "mask_15": {
+      "target": "makes",
+      "acceptable_variants": [],
+      "hint": "make"
+    },
+    "mask_16": {
+      "target": "goes",
+      "acceptable_variants": [],
+      "hint": "go"
+    },
+    "mask_17": {
+      "target": "has",
+      "acceptable_variants": [],
+      "hint": "have"
+    },
+    "mask_18": {
+      "target": "answer",
+      "acceptable_variants": [],
+      "hint": "answer"
+    },
+    "mask_19": {
+      "target": "rains",
+      "acceptable_variants": [],
+      "hint": "rain"
+    },
+    "mask_20": {
+      "target": "wait",
+      "acceptable_variants": [],
+      "hint": "wait"
+    }
+  }
+}

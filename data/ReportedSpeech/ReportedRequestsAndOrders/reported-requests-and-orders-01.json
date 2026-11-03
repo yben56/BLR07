@@ -1,0 +1,121 @@
+{
+  "topic": "Reported Requests and Orders",
+  "difficulty": "beginner",
+  "created_at": "2026-11-03T21:54:00+08:00",
+  "story_title": "A Day Among Thailand's Monuments",
+  "extra_info": "Ayutthaya is a historic city in Thailand and a UNESCO World Heritage Site, known for the ruins of its former capital and Buddhist temples.",
+  "task_instruction": "Rewrite each direct request or order as reported speech.",
+  "paragraphs": [
+    "A group of students visits the historic city of Ayutthaya in Thailand. Their guide, Mali, welcomes them near the entrance. Mali asked the students, {{red:Please stay with the group.}} {{mask_1}} She then told them, {{red:Keep the entrance clear.}} {{mask_2}}",
+    "Before they walk toward the old temple ruins, Mali gives a few simple instructions. She asked the students, {{red:Please listen to the safety information.}} {{mask_3}} A visitor asked his friend, {{red:Please take a photo of me here.}} {{mask_4}} Mali reminded everyone, {{red:Do not climb on the old walls.}} {{mask_5}}",
+    "The group follows a path between historic buildings. Mali asked them, {{red:Please walk slowly on the uneven path.}} {{mask_6}} She told them, {{red:Look at the map before we turn.}} {{mask_7}} A student asked Mali, {{red:Please explain the name of this monument.}} {{mask_8}} Mali shared a short explanation about its history.",
+    "At a shaded rest area, Mali gives the group time to drink water. She told them, {{red:Put your bottles in your bags.}} {{mask_9}} Then she asked, {{red:Please wait here for five minutes.}} {{mask_10}} One student reminded a classmate, {{red:Do not leave your hat on the bench.}} {{mask_11}}",
+    "The students continue to another monument, where signs explain the site rules. Mali told the group, {{red:Read the information sign.}} {{mask_12}} She asked them, {{red:Please speak quietly near the visitors who are praying.}} {{mask_13}} A student asked another student, {{red:Please show me where the next building is on the map.}} {{mask_14}}",
+    "Near a small museum, Mali explains how to protect the objects inside. She told the students, {{red:Do not touch the displays.}} {{mask_15}} She asked them, {{red:Please leave your large bags by the entrance.}} {{mask_16}} A museum worker told the visitors, {{red:Turn off the flash on your cameras.}} {{mask_17}}",
+    "Before the visit ends, Mali gathers the students near the meeting point. She asked them, {{red:Please check that you have all your belongings.}} {{mask_18}} She told them, {{red:Stay behind the marked line.}} {{mask_19}} A student asked Mali, {{red:Please tell us where the bus is waiting.}} {{mask_20}} The group thanked Mali for helping them enjoy the monuments respectfully."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "Mali asked the students to stay with the group.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "Mali told the students to keep the entrance clear.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "Mali asked the students to listen to the safety information.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "A visitor asked his friend to take a photo of him there.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "Mali told everyone not to climb on the old walls.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "Mali asked the students to walk slowly on the uneven path.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "Mali told the students to look at the map before they turned.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "A student asked Mali to explain the name of that monument.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "Mali told the students to put their bottles in their bags.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "Mali asked the students to wait there for five minutes.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "One student reminded a classmate not to leave his hat on the bench.",
+      "acceptable_variants": [
+        "One student reminded a classmate not to leave their hat on the bench."
+      ],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "Mali told the group to read the information sign.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "Mali asked the students to speak quietly near the visitors who were praying.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "A student asked another student to show them where the next building was on the map.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "Mali told the students not to touch the displays.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_16": {
+      "target": "Mali asked the students to leave their large bags by the entrance.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_17": {
+      "target": "The museum worker told the visitors to turn off the flash on their cameras.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_18": {
+      "target": "Mali asked the students to check that they had all their belongings.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_19": {
+      "target": "Mali told the students to stay behind the marked line.",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_20": {
+      "target": "A student asked Mali to tell them where the bus was waiting.",
+      "acceptable_variants": [],
+      "hint": ""
+    }
+  }
+}

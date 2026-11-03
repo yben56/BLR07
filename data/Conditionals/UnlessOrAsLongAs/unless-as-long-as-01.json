@@ -1,0 +1,117 @@
+{
+  "topic": "Unless / As Long As",
+  "difficulty": "beginner",
+  "created_at": "2026-11-03T20:38:00+08:00",
+  "story_title": "A Safe Wait at Riverside Station",
+  "extra_info": "",
+  "paragraphs": [
+    "A serious emergency causes a temporary closure at Riverside subway station. Staff guide passengers to the main hall while medical responders help someone on the platform. Station officer Lee makes a calm announcement. \"Please wait here {{mask_1}} a staff member directs you elsewhere. You may leave through Exit A {{mask_2}} it remains open.\"",
+    "Nora is traveling with her younger brother, Ben. She tells him, \"Stay beside me {{mask_3}} a station worker asks us to move. We can follow the signs {{mask_4}} we walk and do not run.\" Lee reminds everyone, \"Do not go back to the platform {{mask_5}} staff say it is safe. You may use the benches {{mask_6}} you keep the walkway clear.\"",
+    "A passenger is worried because she cannot find her friend. Lee says, \"You can wait near the information desk {{mask_7}} you tell a staff member where you are. Please do not enter the closed area {{mask_8}} a worker opens it.\" Nora offers to help the passenger contact her friend. Lee says, \"You may use your phone {{mask_9}} you keep the station entrance clear.\"",
+    "The station provides another announcement with simple directions. \"Passengers can take the north exit {{mask_10}} it is marked open. Please stay in the main hall {{mask_11}} a staff member gives you different directions.\" Ben asks whether they can sit down. Nora replies, \"We can sit here {{mask_12}} we leave space for people who need assistance.\"",
+    "After a short time, an employee tells passengers that Exit A is open and the platform remains closed. Lee says, \"You may leave with your group {{mask_13}} you follow the signs. Do not return for a forgotten item {{mask_14}} station staff say the area is safe.\" Nora and Ben walk toward the exit together. \"We can stop by the help desk {{mask_15}} we need more information,\" Nora says.",
+    "Outside the station, staff direct people to a nearby bus stop. Nora checks that Ben is with her. Lee tells the crowd, \"You may wait at the bus stop {{mask_16}} you keep the sidewalk clear. Please stay with your group {{mask_17}} a staff member tells you the service has changed.\" A worker adds, \"You can ask us for directions {{mask_18}} you need help. The bus will stop here {{mask_19}} the road remains open.\" Nora thanks the staff. She and Ben wait calmly {{mask_20}} the stop remains open to passengers."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "unless",
+      "acceptable_variants": [],
+      "hint": "not"
+    },
+    "mask_2": {
+      "target": "as long as",
+      "acceptable_variants": [],
+      "hint": "condition"
+    },
+    "mask_3": {
+      "target": "unless",
+      "acceptable_variants": [],
+      "hint": "not"
+    },
+    "mask_4": {
+      "target": "as long as",
+      "acceptable_variants": [],
+      "hint": "condition"
+    },
+    "mask_5": {
+      "target": "unless",
+      "acceptable_variants": [],
+      "hint": "not"
+    },
+    "mask_6": {
+      "target": "as long as",
+      "acceptable_variants": [],
+      "hint": "condition"
+    },
+    "mask_7": {
+      "target": "as long as",
+      "acceptable_variants": [],
+      "hint": "condition"
+    },
+    "mask_8": {
+      "target": "unless",
+      "acceptable_variants": [],
+      "hint": "not"
+    },
+    "mask_9": {
+      "target": "as long as",
+      "acceptable_variants": [],
+      "hint": "condition"
+    },
+    "mask_10": {
+      "target": "as long as",
+      "acceptable_variants": [],
+      "hint": "condition"
+    },
+    "mask_11": {
+      "target": "unless",
+      "acceptable_variants": [],
+      "hint": "not"
+    },
+    "mask_12": {
+      "target": "as long as",
+      "acceptable_variants": [],
+      "hint": "condition"
+    },
+    "mask_13": {
+      "target": "as long as",
+      "acceptable_variants": [],
+      "hint": "condition"
+    },
+    "mask_14": {
+      "target": "unless",
+      "acceptable_variants": [],
+      "hint": "not"
+    },
+    "mask_15": {
+      "target": "as long as",
+      "acceptable_variants": [],
+      "hint": "condition"
+    },
+    "mask_16": {
+      "target": "as long as",
+      "acceptable_variants": [],
+      "hint": "condition"
+    },
+    "mask_17": {
+      "target": "unless",
+      "acceptable_variants": [],
+      "hint": "not"
+    },
+    "mask_18": {
+      "target": "as long as",
+      "acceptable_variants": [],
+      "hint": "condition"
+    },
+    "mask_19": {
+      "target": "as long as",
+      "acceptable_variants": [],
+      "hint": "condition"
+    },
+    "mask_20": {
+      "target": "as long as",
+      "acceptable_variants": [],
+      "hint": "condition"
+    }
+  }
+}

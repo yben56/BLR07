@@ -1,0 +1,143 @@
+{
+  "topic": "General Relative Clauses",
+  "difficulty": "intermediate",
+  "created_at": "2026-11-03T22:41:00+08:00",
+  "story_title": "Faith and Community Life",
+  "extra_info": "",
+  "paragraphs": [
+    "A local cultural center is hosting a discussion about religion and community life. The facilitator {{mask_1}} welcomes the participants explains that people may practice different faiths or none. A guest {{mask_2}} studies religious history introduces the topic. The group visits a community hall {{mask_3}} several local organizations hold meetings. A display, {{mask_4}} was prepared by volunteers, shows books and objects from different traditions. The participants listen to a speaker {{mask_5}} describes how holidays are observed in her family.",
+    "During the discussion, people share experiences without assuming that everyone believes the same things. A student {{mask_6}} family celebrates Diwali talks about a gathering at home. Another guest, {{mask_7}} grew up attending a church, describes a community meal. The facilitator mentions a library {{mask_8}} visitors can find introductory books on world religions. She also recommends a website {{mask_9}} provides information from several cultural organizations. One participant asks about a tradition {{mask_10}} is unfamiliar to him.",
+    "The group then discusses how communities mark important days. A volunteer {{mask_11}} helps organize public events explains the planning process. She describes a festival {{mask_12}} takes place each spring in the neighborhood. A local center {{mask_13}} offers meeting space hosts events throughout the year. The organizers choose a weekend {{mask_14}} many families are available. They invite a musician {{mask_15}} songs include themes of peace and belonging.",
+    "In the afternoon, the participants prepare a small exhibit about respectful conversation. They create a guide {{mask_16}} explains how to ask questions politely. Students trust a teacher {{mask_17}} reviews the wording. The group selects a room {{mask_18}} has enough space for visitors. One panel shares a story about a neighbor {{mask_19}} generosity helped bring the community together. Everyone thanks the volunteers {{mask_20}} contributed their time."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "who",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "who",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "where",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "which",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "who",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "whose",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "who",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "where",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "who",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "which",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "when",
+      "acceptable_variants": [
+        "on which"
+      ],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "whose",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_16": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_17": {
+      "target": "who",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    },
+    "mask_18": {
+      "target": "which",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    },
+    "mask_19": {
+      "target": "whose",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_20": {
+      "target": "who",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    }
+  }
+}

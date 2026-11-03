@@ -1,0 +1,136 @@
+{
+  "topic": "Dropping the Relative Pronoun",
+  "difficulty": "intermediate",
+  "created_at": "2026-11-03T22:47:00+08:00",
+  "story_title": "Cooking for the Neighborhood",
+  "extra_info": "",
+  "task_instruction": "Complete each relative clause. Leave the blank empty when an object relative pronoun can be omitted.",
+  "paragraphs": [
+    "A neighborhood cooking club is preparing a shared dinner. The chef {{mask_1}} leads the group starts by washing the vegetables. The carrots {{mask_2}} she bought at the market are set on the counter. A volunteer {{mask_3}} knows how to make fresh pasta measures the flour. The bowl {{mask_4}} the cook uses for the dough is made of wood. The recipe {{mask_5}} the club chose comes from a family cookbook.",
+    "The members prepare several dishes together. A baker {{mask_6}} makes excellent bread shows everyone how to shape the rolls. The dough {{mask_7}} he prepared is covered with a clean cloth. A helper {{mask_8}} checks the oven sets the temperature carefully. The baking tray {{mask_9}} the assistant greased is ready for the rolls. The spices {{mask_10}} the cook added give the soup a warm flavor.",
+    "While the food cooks, the group prepares a salad and a dessert. The gardener {{mask_11}} grew the tomatoes brings a basket from the community plot. The tomatoes {{mask_12}} she picked that morning are added to the salad. A student {{mask_13}} enjoys trying new recipes cuts the fruit. The cake {{mask_14}} the club is making will be served after dinner. The person {{mask_15}} decorates it uses fresh berries.",
+    "When the meal is ready, the volunteers arrange the dishes on long tables. The guests {{mask_16}} arrive early help set out the plates. The tablecloths {{mask_17}} the volunteers spread across the tables are bright blue. A musician {{mask_18}} often plays at local events performs during dinner. The song {{mask_19}} the group requested is a traditional favorite. Everyone thanks the cooks {{mask_20}} prepared the meal together."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "who",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "who",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "who",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "who",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_11": {
+      "target": "who",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    },
+    "mask_12": {
+      "target": "",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_13": {
+      "target": "who",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    },
+    "mask_14": {
+      "target": "",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_15": {
+      "target": "who",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    },
+    "mask_16": {
+      "target": "who",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    },
+    "mask_17": {
+      "target": "",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_18": {
+      "target": "who",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    },
+    "mask_19": {
+      "target": "",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_20": {
+      "target": "who",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    }
+  }
+}
