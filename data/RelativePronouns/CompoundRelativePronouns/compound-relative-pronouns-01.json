@@ -1,0 +1,72 @@
+{
+  "topic": "Compound Relative Pronouns",
+  "difficulty": "beginner",
+  "created_at": "2026-11-03T14:13:16.432+08:00",
+  "story_title": "The Business Meeting",
+  "paragraphs": [
+    "At the conference center, the manager explained that every employee {{mask_1}} had a useful idea would be invited to the next meeting. The team leader praised the assistant {{mask_2}} solved the delivery problem. The firm also hired a consultant {{mask_3}} could help with both sales and design. We met a client {{mask_4}} wanted to discuss a new branch office. A report {{mask_5}} covered the budget had many details about the plan.",
+    "One of the interns asked who would be responsible for the tasks {{mask_6}} remained after the first draft. The speaker gave examples of projects {{mask_7}} were already successful in other cities. A manager asked for a list of all the suppliers {{mask_8}} had promised quick delivery. The final memo, {{mask_9}} was sent to the board, explained why the company chose the safer option. In the end, the partners thanked everyone {{mask_10}} had helped finish the proposal."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "whoever",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "who",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "who",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "who",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "which",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "which",
+      "acceptable_variants": [
+        "that"
+      ],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "who",
+      "acceptable_variants": [],
+      "hint": ""
+    }
+  }
+}

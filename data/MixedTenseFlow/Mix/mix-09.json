@@ -1,0 +1,147 @@
+{
+  "topic": "Mix",
+  "difficulty": "advanced",
+  "created_at": "2026-11-02T23:51:55+08:00",
+  "story_title": "The Clinical Trial Update",
+  "paragraphs": [
+    "By 9:00 a.m., the biotech company had released a brief statement about the new drug, but analysts were still debating its long-term effect when the market reporter {{mask_1}}. The investors had expected a smoother launch, and by noon the share price {{mask_2}} sharply after the trial data was published.",
+    "A senior scientist explained that the team {{mask_3}} the treatment for more than three years before the regulator approved the final trial. She said that if the early results had been worse, they {{mask_4}} the product for at least another year.",
+    "When the evening bulletin aired, healthcare workers {{mask_5}} the update on their phones, and the hospital chief admitted that he {{mask_6}} more confident once the side effects had been reviewed. The reporter asked whether the drug {{mask_7}} to patients by the end of the month.",
+    "By the time the press conference ended, the public {{mask_8}} a clearer picture of the risks, and my editor said the article {{mask_9}} by tomorrow morning if the final documents arrived on time. However, the analysts warned that if demand {{mask_10}} higher than expected, output {{mask_11}} to expand quickly.",
+    "We stayed late at the newsroom because the final brief {{mask_12}} at 11:30 p.m., and the lead author admitted that she {{mask_13}} every paragraph before publication. I hope the release {{mask_14}} the market anxiety soon, and I {{mask_15}} the follow-up coverage after I finish the interview with the clinical team. At the same time, the company promised that by next quarter they {{mask_16}} the distribution network and that all patient trials {{mask_17}} after the approval audit. I am certain that if the trial had failed, the board {{mask_18}} the launch entirely. Tomorrow morning, we {{mask_19}} the latest figures before the stock market opens, and by Friday the public {{mask_20}} the full results on the company website."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "called",
+      "acceptable_variants": [],
+      "hint": "call"
+    },
+    "mask_2": {
+      "target": "had fallen",
+      "acceptable_variants": [
+        "'d fallen"
+      ],
+      "hint": "fall"
+    },
+    "mask_3": {
+      "target": "had been developing",
+      "acceptable_variants": [
+        "'d been developing"
+      ],
+      "hint": "develop"
+    },
+    "mask_4": {
+      "target": "would have delayed",
+      "acceptable_variants": [
+        "would've delayed"
+      ],
+      "hint": "delay"
+    },
+    "mask_5": {
+      "target": "were reading",
+      "acceptable_variants": [],
+      "hint": "read"
+    },
+    "mask_6": {
+      "target": "had become",
+      "acceptable_variants": [
+        "'d become"
+      ],
+      "hint": "become"
+    },
+    "mask_7": {
+      "target": "would be available",
+      "acceptable_variants": [
+        "'d be available"
+      ],
+      "hint": "be"
+    },
+    "mask_8": {
+      "target": "had gained",
+      "acceptable_variants": [
+        "'d gained"
+      ],
+      "hint": "gain"
+    },
+    "mask_9": {
+      "target": "would be ready",
+      "acceptable_variants": [
+        "'d be ready"
+      ],
+      "hint": "be"
+    },
+    "mask_10": {
+      "target": "rose",
+      "acceptable_variants": [],
+      "hint": "rise"
+    },
+    "mask_11": {
+      "target": "would need",
+      "acceptable_variants": [
+        "'d need"
+      ],
+      "hint": "need"
+    },
+    "mask_12": {
+      "target": "arrived",
+      "acceptable_variants": [],
+      "hint": "arrive"
+    },
+    "mask_13": {
+      "target": "had checked",
+      "acceptable_variants": [
+        "'d checked"
+      ],
+      "hint": "check"
+    },
+    "mask_14": {
+      "target": "will reduce",
+      "acceptable_variants": [
+        "'ll reduce"
+      ],
+      "hint": "reduce"
+    },
+    "mask_15": {
+      "target": "will write",
+      "acceptable_variants": [
+        "'ll write"
+      ],
+      "hint": "write"
+    },
+    "mask_16": {
+      "target": "will have expanded",
+      "acceptable_variants": [
+        "'ll have expanded"
+      ],
+      "hint": "expand"
+    },
+    "mask_17": {
+      "target": "will have been reviewed",
+      "acceptable_variants": [
+        "'ll have been reviewed"
+      ],
+      "hint": "review"
+    },
+    "mask_18": {
+      "target": "would have postponed",
+      "acceptable_variants": [
+        "would've postponed"
+      ],
+      "hint": "postpone"
+    },
+    "mask_19": {
+      "target": "will review",
+      "acceptable_variants": [
+        "'ll review"
+      ],
+      "hint": "review"
+    },
+    "mask_20": {
+      "target": "will see",
+      "acceptable_variants": [
+        "'ll see"
+      ],
+      "hint": "see"
+    }
+  }
+}

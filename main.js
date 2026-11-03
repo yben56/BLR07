@@ -5,11 +5,21 @@ const appBaseUrl = new URL('.', import.meta.url);
 const categoryOrder = [
   'MixedTenseFlow',
   'NegativeQuestions',
-  'ConditionalsFormsFirstSecondThirdZeroConditional',
-  'ReportedStatements',
+  'Conditionals',
+  'ReportedSpeech',
   'MixedTensePassive',
-  'RelativeClauses'
+  'RelativeClauses',
+  'RelativePronouns'
 ];
+const subcategoryOrder = {
+  MixedTenseFlow: ['PastSimpleVsPresentPerfect', 'PastSimpleVsPastContinuous', 'PastPerfectAndSequence', 'FutureForms', 'Mix'],
+  NegativeQuestions: ['BeDoHave', 'ModalVerbs', 'MeaningAndAnswers', 'NegativeQuestions'],
+  Conditionals: ['ZeroConditional', 'FirstConditional', 'SecondConditional', 'ThirdConditional', 'FirstSecondThirdConditionals', 'MixedConditionals', 'UnlessOrAsLongAs', 'Forms'],
+  ReportedSpeech: ['ReportedYesNoQuestions', 'ReportedWhQuestions', 'ReportedRequestsAndOrders', 'SayAndTell', 'TenseAndTimeChanges', 'MixedTenseReportedStatements'],
+  MixedTensePassive: ['PassiveWithTwoObjects', 'PassiveInSubordinateClauses', 'ModalAndFuturePassive', 'ActiveVsPassive', 'PassiveWithMixedTenses'],
+  RelativeClauses: ['GeneralRelativeClauses', 'WhereOrThat', 'DroppingTheRelativePronoun'],
+  RelativePronouns: ['WhichOrThat', 'WhoOrWhom', 'RelativePronounOrInterrogative', 'CompoundRelativePronouns']
+};
 
 async function fetchJson(path) {
   const response = await fetch(path);
@@ -25,7 +35,11 @@ fetchJson(new URL('catalog.json', appBaseUrl))
 
     createApp({
       setup() {
-        const categories = catalogData.categories;
+        const categories = catalogData.categories.map(category => ({
+          ...category,
+          exercises: Array.isArray(category.exercises) ? category.exercises : [],
+          subcategories: Array.isArray(category.subcategories) ? category.subcategories : []
+        }));
         const copyrightYear = new Date().getFullYear();
         const categorySort = ref('custom');
         const sortedCategories = computed(() => [...categories].sort((left, right) => {
@@ -41,6 +55,17 @@ fetchJson(new URL('catalog.json', appBaseUrl))
           if (categorySort.value === 'name') return left.title.localeCompare(right.title);
           return Date.parse(left.created_at) - Date.parse(right.created_at);
         }));
+        const sortedSubcategories = computed(() => {
+          const order = subcategoryOrder[selectedCategoryId.value] || [];
+          return [...(selectedCategory.value?.subcategories || [])].sort((left, right) => {
+            const leftIndex = order.indexOf(left.id);
+            const rightIndex = order.indexOf(right.id);
+            if (leftIndex !== -1 && rightIndex !== -1) return leftIndex - rightIndex;
+            if (leftIndex !== -1) return -1;
+            if (rightIndex !== -1) return 1;
+            return left.title.localeCompare(right.title);
+          });
+        });
         const exercise = reactive({});
         const maskOrder = reactive([]);
         const answers = reactive({});
@@ -48,6 +73,7 @@ fetchJson(new URL('catalog.json', appBaseUrl))
         const inputRefs = {};
         const page = ref('categories');
         const selectedCategoryId = ref('');
+        const selectedSubcategoryId = ref('');
         const selectedExerciseId = ref('');
         const selectedDifficulty = ref('');
         const loading = ref(false);
@@ -57,13 +83,18 @@ fetchJson(new URL('catalog.json', appBaseUrl))
         const categoryTitleElement = ref(null);
         const practiceTitleElement = ref(null);
         const selectedCategory = computed(() => categories.find(category => category.id === selectedCategoryId.value));
-        const exerciseCatalog = computed(() => selectedCategory.value?.exercises || []);
+        const selectedSubcategory = computed(() => selectedCategory.value?.subcategories?.find(subcategory => subcategory.id === selectedSubcategoryId.value));
+        const exerciseCatalog = computed(() => selectedSubcategory.value?.exercises || selectedCategory.value?.exercises || []);
         const filteredExerciseCatalog = computed(() => selectedDifficulty.value
           ? exerciseCatalog.value.filter(entry => entry.difficulty === selectedDifficulty.value)
           : exerciseCatalog.value);
         const selectedCategoryTitle = computed(() => selectedCategory.value?.title || '');
+        const selectedSubcategoryTitle = computed(() => selectedSubcategory.value?.title || '');
         const selectedExerciseTitle = computed(() => exerciseCatalog.value.find(entry => entry.id === selectedExerciseId.value)?.title || '');
         const selectedCategoryPath = computed(() => selectedCategory.value ? `#/${encodeURIComponent(selectedCategory.value.id)}` : '#');
+        const selectedSubcategoryPath = computed(() => selectedCategory.value && selectedSubcategory.value
+          ? `#/${encodeURIComponent(selectedCategory.value.id)}/${encodeURIComponent(selectedSubcategory.value.id)}`
+          : selectedCategoryPath.value);
         let activeExerciseId = '';
         let loadSequence = 0;
         let timerStartedAt = 0;
@@ -146,6 +177,7 @@ fetchJson(new URL('catalog.json', appBaseUrl))
 
         function animateTitle(element) {
           if (window.matchMedia('(prefers-reduced-motion: reduce)').matches || !element) return;
+          stopTitleAnimation();
           titleAnimation = animateText(element, {
             groups: 3,
             stagger: 100,
@@ -154,9 +186,12 @@ fetchJson(new URL('catalog.json', appBaseUrl))
           });
         }
 
-        function routeForExercise(categoryId, entry) {
+        function routeForExercise(categoryId, subcategoryId, entry) {
           const sequence = entry.file.match(/-(\d+)\.json$/)?.[1];
-          return sequence ? `#/${encodeURIComponent(categoryId)}/${sequence}` : `#/${encodeURIComponent(categoryId)}`;
+          const parts = [categoryId];
+          if (subcategoryId) parts.push(subcategoryId);
+          if (sequence) parts.push(sequence);
+          return `#/${parts.map(encodeURIComponent).join('/')}`;
         }
 
         async function loadExercise(id, updateHistory = true) {
@@ -169,7 +204,8 @@ fetchJson(new URL('catalog.json', appBaseUrl))
           startPracticeTimer();
 
           try {
-            const exercisePath = [selectedCategoryId.value, entry.file]
+            const exercisePath = [selectedCategoryId.value, selectedSubcategoryId.value, entry.file]
+              .filter(Boolean)
               .map(part => encodeURIComponent(part))
               .join('/');
             const nextExercise = await fetchJson(new URL(`data/${exercisePath}`, appBaseUrl));
@@ -191,7 +227,7 @@ fetchJson(new URL('catalog.json', appBaseUrl))
             stopTitleAnimation();
             page.value = 'practice';
             if (updateHistory) {
-              const nextPath = routeForExercise(selectedCategoryId.value, entry);
+              const nextPath = routeForExercise(selectedCategoryId.value, selectedSubcategoryId.value, entry);
               if (window.location.hash !== nextPath) window.history.pushState(null, '', nextPath);
             }
             await nextTick();
@@ -213,16 +249,41 @@ fetchJson(new URL('catalog.json', appBaseUrl))
           stopTitleAnimation();
           loading.value = false;
           selectedCategoryId.value = category.id;
+          selectedSubcategoryId.value = '';
+          selectedExerciseId.value = '';
+          selectedDifficulty.value = '';
+          const nextPage = category.subcategories.length ? 'subcategories' : 'exercises';
+          page.value = nextPage;
+          loadError.value = '';
+          activeExerciseId = '';
+          nextTick(() => {
+            if (page.value === nextPage) animateTitle(categoryTitleElement.value);
+          });
+          if (updateHistory) {
+            const nextPath = `#/${encodeURIComponent(category.id)}`;
+            if (window.location.hash !== nextPath) window.history.pushState(null, '', nextPath);
+          }
+        }
+
+        function selectSubcategory(subcategory, updateHistory = true) {
+          const category = selectedCategory.value;
+          if (!category || !category.subcategories.some(item => item.id === subcategory.id)) return;
+          ++loadSequence;
+          stopPracticeTimer();
+          stopTitleAnimation();
+          loading.value = false;
+          selectedCategoryId.value = category.id;
+          selectedSubcategoryId.value = subcategory.id;
           selectedExerciseId.value = '';
           selectedDifficulty.value = '';
           page.value = 'exercises';
           loadError.value = '';
           activeExerciseId = '';
           nextTick(() => {
-            if (page.value === 'exercises') animateTitle(categoryTitleElement.value);
+            if (page.value === 'exercises' && selectedSubcategoryId.value === subcategory.id) animateTitle(categoryTitleElement.value);
           });
           if (updateHistory) {
-            const nextPath = `#/${encodeURIComponent(category.id)}`;
+            const nextPath = `#/${encodeURIComponent(category.id)}/${encodeURIComponent(subcategory.id)}`;
             if (window.location.hash !== nextPath) window.history.pushState(null, '', nextPath);
           }
         }
@@ -248,6 +309,7 @@ fetchJson(new URL('catalog.json', appBaseUrl))
             loading.value = false;
             page.value = 'categories';
             selectedCategoryId.value = '';
+            selectedSubcategoryId.value = '';
             selectedExerciseId.value = '';
             activeExerciseId = '';
             loadError.value = '';
@@ -263,6 +325,39 @@ fetchJson(new URL('catalog.json', appBaseUrl))
 
           selectCategory(category, false);
           if (parts.length === 1) return;
+
+          if (category.subcategories.length) {
+            if (/^\d+$/.test(parts[1])) {
+              const match = category.subcategories
+                .map(subcategory => ({
+                  subcategory,
+                  entry: subcategory.exercises.find(item => item.file.match(/-(\d+)\.json$/)?.[1] === parts[1])
+                }))
+                .find(item => item.entry);
+              if (match && parts.length === 2) {
+                selectSubcategory(match.subcategory, false);
+                selectedExerciseId.value = match.entry.id;
+                window.history.replaceState(null, '', routeForExercise(category.id, match.subcategory.id, match.entry));
+                await loadExercise(match.entry.id, false);
+                return;
+              }
+            }
+            const subcategory = category.subcategories.find(item => item.id === parts[1]);
+            if (!subcategory) {
+              window.history.replaceState(null, '', `#/${encodeURIComponent(category.id)}`);
+              return;
+            }
+            selectSubcategory(subcategory, false);
+            if (parts.length === 2) return;
+            const entry = subcategory.exercises.find(item => item.file.match(/-(\d+)\.json$/)?.[1] === parts[2]);
+            if (parts.length !== 3 || !entry) {
+              window.history.replaceState(null, '', `#/${encodeURIComponent(category.id)}/${encodeURIComponent(subcategory.id)}`);
+              return;
+            }
+            selectedExerciseId.value = entry.id;
+            await loadExercise(entry.id, false);
+            return;
+          }
 
           const entry = category.exercises.find(item => item.file.match(/-(\d+)\.json$/)?.[1] === parts[1]);
           if (parts.length !== 2 || !entry) {
@@ -283,9 +378,13 @@ fetchJson(new URL('catalog.json', appBaseUrl))
           const category = categories.find(item => item.id === id);
           if (!category) return;
 
-          const nextPath = `/${encodeURIComponent(category.id)}`;
-          if (window.location.pathname !== nextPath) window.history.pushState(null, '', nextPath);
-          applyRoute(nextPath);
+          selectCategory(category, true);
+        }
+
+        function navigateToSubcategory(id) {
+          const category = selectedCategory.value;
+          const subcategory = category?.subcategories.find(item => item.id === id);
+          if (subcategory) selectSubcategory(subcategory, true);
         }
 
         function handlePopState() {
@@ -347,13 +446,17 @@ fetchJson(new URL('catalog.json', appBaseUrl))
           categories,
           categorySort,
           sortedCategories,
+          sortedSubcategories,
           copyrightYear,
           page,
           selectedCategoryTitle,
+          selectedSubcategoryTitle,
           categoryTitleElement,
           practiceTitleElement,
           selectedCategoryPath,
+          selectedSubcategoryPath,
           selectedCategoryId,
+          selectedSubcategoryId,
           exerciseCatalog,
           filteredExerciseCatalog,
           selectedExerciseId,
@@ -376,6 +479,8 @@ fetchJson(new URL('catalog.json', appBaseUrl))
           navigateToExercise,
           navigateToCategory,
           selectCategory,
+          selectSubcategory,
+          navigateToSubcategory,
           backToCategories,
           submitAnswer,
           resetPractice,
@@ -389,5 +494,5 @@ fetchJson(new URL('catalog.json', appBaseUrl))
   .catch(() => {
     const appRoot = document.querySelector('#app');
     appRoot.removeAttribute('v-cloak');
-    appRoot.innerHTML = '<main class="mx-auto flex min-h-screen max-w-3xl items-center px-6"><p class="zh-tw rounded-lg border border-rose-500/40 bg-rose-500/10 p-5 text-rose-200">無法載入練習分類。請從專案資料夾執行 npm run dev 後再開啟本頁。</p></main>';
+    appRoot.innerHTML = '<main class="mx-auto flex min-h-screen max-w-3xl items-center px-6"><p class="zh-tw rounded-lg border border-rose-500/40 bg-rose-500/10 p-5 text-rose-200">無法載入練習分類。若剛更新過練習資料夾，請重新啟動 npm run dev 後重新整理本頁。</p></main>';
   });

@@ -1,0 +1,158 @@
+{
+  "topic": "Negative Questions",
+  "difficulty": "advanced",
+  "created_at": "2026-11-03T11:00:00+08:00",
+  "story_title": "The Model Behind the Headline",
+  "task_instruction": "Rewrite each affirmative statement as a negative question.",
+  "paragraphs": [
+    "At 6:20 on Tuesday morning, the AI desk at the Meridian Ledger received a tip about a new language model from Meridian Labs. The tip claimed that the company had quietly begun an external evaluation weeks before its public announcement. {{red:Meridian Labs began externally testing the agent six weeks ago.}} {{mask_1}}? The first benchmark table seemed to support the claim. {{red:The agent scored above the benchmark's declared threshold.}} {{mask_2}}?",
+    "The desk's data editor, Imani, examined the methodology before anyone drafted a headline. The lab's technical note made a strong claim about the training data. {{red:The research team had excluded all synthetic examples from the evaluation set.}} {{mask_3}}? Meanwhile, the version circulating among reporters described an ongoing third-party review. {{red:The model is being assessed by an independent audit firm.}} {{mask_4}}? Imani called the auditors and asked whether they had checked the benchmark files themselves. Their written response was unusually specific. {{red:The audit firm has verified every item in the public test set.}} {{mask_5}}?",
+    "A second tip concerned the model's ability to recognize fabricated audio. The Ledger's science correspondent had tested a demonstration clip, but she wanted to know whether the result held up beyond the company's own material. {{red:The system can distinguish cloned voices from live callers.}} {{mask_6}}? A researcher at a university lab then sent over a replication note. {{red:A second lab replicated the result on consumer hardware.}} {{mask_7}}? The note included the device specifications, scripts, and failed runs, which made it more useful than the polished launch video.",
+    "At the same time, Imani checked the terms attached to the model release. The company's announcement promised downloadable weights, not just access through a hosted service. {{red:The company is releasing the model weights under a permissive license.}} {{mask_8}}? The license text appeared to allow commercial use, with attribution as its main condition. {{red:The license allows commercial redistribution.}} {{mask_9}}? The documentation history showed one late change to the safety section. {{red:The documentation was updated after the first draft.}} {{mask_10}}? The developers' repository also contained a folder of adversarial prompts. {{red:The developers have published the red-team prompts.}} {{mask_11}}?",
+    "The policy reporter, Tomas, traced a separate claim to a regulator's preliminary notice. The notice set out what a company would have to report after a serious incident, but it did not say that an investigation had begun. {{red:The regulator's preliminary notice requires an incident report within 72 hours.}} {{mask_12}}? A spokesperson said the startup had already responded to the notice. {{red:The startup has already filed that report.}} {{mask_13}}? When Tomas asked for the filing receipt, the spokesperson said the legal team was checking the numbers first. {{red:Its legal team is still reviewing the exposure estimates.}} {{mask_14}}?",
+    "By midafternoon, the newsroom had enough material for a careful story, but not enough to settle every question. The safety board had authority to pause the pilot if the evidence warranted it. {{red:The safety board could delay deployment pending further testing.}} {{mask_15}}? Meeting notes suggested that the board had seen an earlier evaluation before it approved the trial. {{red:The board had received the latest evaluation before approving the pilot.}} {{mask_16}}? A leaked memo, whose provenance remained uncertain, described a problem with the model's handling of private records. {{red:The leaked memo was written by an external contractor.}} {{mask_17}}? The company's spokesperson had addressed the leak in a short statement. {{red:A spokesperson has denied that the memo is authentic.}} {{mask_18}}?",
+    "Imani refused to publish the allegation as fact. She asked the team to separate what the documents established from what sources merely inferred, and to give the company a final chance to respond. The editor wanted to know whether their draft made that distinction clear. {{red:The story distinguishes verified findings from unconfirmed claims.}} {{mask_19}}? Before filing, Tomas checked the correction policy and the timestamp on every archived document. The editor read the final version once more. {{red:The story deserves a correction before publication.}} {{mask_20}}? They held the headline until the auditors confirmed that the public test set matched the version described in the report."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "Didn't Meridian Labs begin externally testing the agent six weeks ago",
+      "acceptable_variants": [
+        "Did Meridian Labs not begin externally testing the agent six weeks ago"
+      ],
+      "hint": "begin"
+    },
+    "mask_2": {
+      "target": "Didn't the agent score above the benchmark's declared threshold",
+      "acceptable_variants": [
+        "Did the agent not score above the benchmark's declared threshold"
+      ],
+      "hint": "score"
+    },
+    "mask_3": {
+      "target": "Hadn't the research team excluded all synthetic examples from the evaluation set",
+      "acceptable_variants": [
+        "Had the research team not excluded all synthetic examples from the evaluation set"
+      ],
+      "hint": "exclude"
+    },
+    "mask_4": {
+      "target": "Isn't the model being assessed by an independent audit firm",
+      "acceptable_variants": [
+        "Is the model not being assessed by an independent audit firm"
+      ],
+      "hint": "assess"
+    },
+    "mask_5": {
+      "target": "Hasn't the audit firm verified every item in the public test set",
+      "acceptable_variants": [
+        "Has the audit firm not verified every item in the public test set"
+      ],
+      "hint": "verify"
+    },
+    "mask_6": {
+      "target": "Can't the system distinguish cloned voices from live callers",
+      "acceptable_variants": [
+        "Can the system not distinguish cloned voices from live callers"
+      ],
+      "hint": "distinguish"
+    },
+    "mask_7": {
+      "target": "Didn't a second lab replicate the result on consumer hardware",
+      "acceptable_variants": [
+        "Did a second lab not replicate the result on consumer hardware"
+      ],
+      "hint": "replicate"
+    },
+    "mask_8": {
+      "target": "Isn't the company releasing the model weights under a permissive license",
+      "acceptable_variants": [
+        "Is the company not releasing the model weights under a permissive license"
+      ],
+      "hint": "release"
+    },
+    "mask_9": {
+      "target": "Doesn't the license allow commercial redistribution",
+      "acceptable_variants": [
+        "Does the license not allow commercial redistribution"
+      ],
+      "hint": "allow"
+    },
+    "mask_10": {
+      "target": "Wasn't the documentation updated after the first draft",
+      "acceptable_variants": [
+        "Was the documentation not updated after the first draft"
+      ],
+      "hint": "update"
+    },
+    "mask_11": {
+      "target": "Haven't the developers published the red-team prompts",
+      "acceptable_variants": [
+        "Have the developers not published the red-team prompts"
+      ],
+      "hint": "publish"
+    },
+    "mask_12": {
+      "target": "Doesn't the regulator's preliminary notice require an incident report within 72 hours",
+      "acceptable_variants": [
+        "Does the regulator's preliminary notice not require an incident report within 72 hours"
+      ],
+      "hint": "require"
+    },
+    "mask_13": {
+      "target": "Hasn't the startup already filed that report",
+      "acceptable_variants": [
+        "Has the startup not already filed that report"
+      ],
+      "hint": "file"
+    },
+    "mask_14": {
+      "target": "Isn't its legal team still reviewing the exposure estimates",
+      "acceptable_variants": [
+        "Is its legal team not still reviewing the exposure estimates"
+      ],
+      "hint": "review"
+    },
+    "mask_15": {
+      "target": "Couldn't the safety board delay deployment pending further testing",
+      "acceptable_variants": [
+        "Could the safety board not delay deployment pending further testing"
+      ],
+      "hint": "delay"
+    },
+    "mask_16": {
+      "target": "Hadn't the board received the latest evaluation before approving the pilot",
+      "acceptable_variants": [
+        "Had the board not received the latest evaluation before approving the pilot"
+      ],
+      "hint": "receive"
+    },
+    "mask_17": {
+      "target": "Wasn't the leaked memo written by an external contractor",
+      "acceptable_variants": [
+        "Was the leaked memo not written by an external contractor"
+      ],
+      "hint": "write"
+    },
+    "mask_18": {
+      "target": "Hasn't a spokesperson denied that the memo is authentic",
+      "acceptable_variants": [
+        "Has a spokesperson not denied that the memo is authentic"
+      ],
+      "hint": "deny"
+    },
+    "mask_19": {
+      "target": "Doesn't the story distinguish verified findings from unconfirmed claims",
+      "acceptable_variants": [
+        "Does the story not distinguish verified findings from unconfirmed claims"
+      ],
+      "hint": "distinguish"
+    },
+    "mask_20": {
+      "target": "Doesn't the story deserve a correction before publication",
+      "acceptable_variants": [
+        "Does the story not deserve a correction before publication"
+      ],
+      "hint": "deserve"
+    }
+  }
+}

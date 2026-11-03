@@ -18,18 +18,32 @@ const mimeTypes = {
 
 async function isClientRoute(pathname) {
   const parts = pathname.split('/').filter(Boolean);
-  if (parts.length < 1 || parts.length > 2 || parts.some(part => !/^[A-Za-z0-9_-]+$/.test(part))) return false;
+  if (parts.length < 1 || parts.length > 3 || parts.some(part => !/^[A-Za-z0-9_-]+$/.test(part))) return false;
 
   const categories = await readdir(dataDirectory, { withFileTypes: true });
   const category = categories.find(entry => entry.isDirectory() && entry.name === parts[0]);
   if (!category) return false;
 
-  const files = await readdir(path.join(dataDirectory, category.name), { withFileTypes: true });
-  const exercises = files.filter(file => file.isFile() && file.name.toLowerCase().endsWith('.json'));
-  if (parts.length === 1) return exercises.length > 0;
+  const categoryDirectory = path.join(dataDirectory, category.name);
+  const categoryEntries = await readdir(categoryDirectory, { withFileTypes: true });
+  const exercises = categoryEntries.filter(file => file.isFile() && file.name.toLowerCase().endsWith('.json'));
+  if (parts.length === 1) {
+    return exercises.length > 0 || categoryEntries.some(entry => entry.isDirectory());
+  }
 
-  return /^\d{2,}$/.test(parts[1]) &&
-    exercises.some(file => file.name.endsWith(`-${parts[1]}.json`));
+  if (parts.length === 2 && /^\d{2,}$/.test(parts[1])) {
+    return exercises.some(file => file.name.endsWith(`-${parts[1]}.json`));
+  }
+
+  const subcategory = categoryEntries.find(entry => entry.isDirectory() && entry.name === parts[1]);
+  if (!subcategory) return false;
+  const subcategoryDirectory = path.join(categoryDirectory, subcategory.name);
+  const subcategoryEntries = await readdir(subcategoryDirectory, { withFileTypes: true });
+  const subcategoryExercises = subcategoryEntries.filter(file => file.isFile() && file.name.toLowerCase().endsWith('.json'));
+  if (parts.length === 2) return subcategoryExercises.length > 0;
+
+  return /^\d{2,}$/.test(parts[2]) &&
+    subcategoryExercises.some(file => file.name.endsWith(`-${parts[2]}.json`));
 }
 
 const server = createServer(async (request, response) => {

@@ -1,0 +1,64 @@
+{
+  "topic": "Where or That",
+  "difficulty": "beginner",
+  "created_at": "2026-11-03T14:05:59.318+08:00",
+  "story_title": "The Steam Weekend",
+  "paragraphs": [
+    "Last Saturday, my friends and I visited a gaming café {{mask_1}} has old and new games on the same shelves. The first room {{mask_2}} we played was full of racing games. The shop owner showed us a game booth {{mask_3}} the newest co-op titles were on display. We also found a corner {{mask_4}} the controllers were cheaper than usual. The best part was a stage {{mask_5}} local teams played live matches every evening.",
+    "A manager told us about a special event {{mask_6}} many players were invited to test a new strategy game. The room {{mask_7}} this event happened was crowded with fans. The guide explained that the cafe is a place {{mask_8}} players can relax after school. We liked the gaming lounge {{mask_9}} the sound was softer, because it was easier to talk there. At the end, we bought a game {{mask_10}} had a review score of 96 percent."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "where",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_2": {
+      "target": "where",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_3": {
+      "target": "where",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_4": {
+      "target": "where",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_5": {
+      "target": "where",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_6": {
+      "target": "where",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_7": {
+      "target": "where",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_8": {
+      "target": "where",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_9": {
+      "target": "where",
+      "acceptable_variants": [],
+      "hint": ""
+    },
+    "mask_10": {
+      "target": "that",
+      "acceptable_variants": [
+        "which"
+      ],
+      "hint": ""
+    }
+  }
+}

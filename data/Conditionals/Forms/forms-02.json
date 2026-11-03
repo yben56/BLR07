@@ -1,0 +1,122 @@
+{
+  "topic": "Forms",
+  "difficulty": "advanced",
+  "created_at": "2026-11-03T11:00:00+08:00",
+  "story_title": "The AI Desk After Hours",
+  "paragraphs": [
+    "Maya and Jules were leaving the newsroom when the AI assistant they had tested that afternoon appeared in a breaking-news alert. Maya pulled up their notes. \"If you give it two conflicting dates, it {{mask_1}} the newer one unless you ask it to check the source,\" she said. \"The lab says it has more evaluation logs. If it {{mask_2}} them today, I'll add them to the story.\" Jules scrolled through the draft. \"And if those logs {{mask_3}} the lab's claim, we can publish the comparison tonight.\"",
+    "They stopped at a cafe to review the recording from their demo. Jules pointed to a moment where the assistant had cited a paper that did not exist. \"If I'd {{mask_4}} that warning before we ran the demo, we {{mask_5}} the clip before it went into the edit,\" Maya said. Jules nodded. \"If a chatbot {{mask_6}} a confident answer when the evidence is missing, I usually ask it to show its sources. And if it {{mask_7}} a citation that doesn't exist, I'll flag it in the notes.\"",
+    "Maya opened the benchmark spreadsheet on her phone. \"If I {{mask_8}} on the standards panel, I'd insist on a public test set,\" she said. \"If the company {{mask_9}} a local version for review, we could test it without uploading our notes.\" Jules laughed. \"If the app {{mask_10}} our draft into its training pipeline, we'd have a serious privacy problem.\" Maya checked an older folder. \"If we'd {{mask_11}} our evaluation script, we wouldn't be arguing about these scores now.\"",
+    "Jules compared the public benchmark with the results from their own small test. \"If the benchmark {{mask_12}} more examples from different languages and devices, it would be less vulnerable to memorized answers,\" he said. The lab had promised to update its documentation. \"If they {{mask_13}} the latest version on the public page yesterday, readers would already be checking it themselves. If they {{mask_14}} the raw data by the end of today, I'll link it in our update.\" Maya glanced at the draft headline. \"And if the new report {{mask_15}} a mismatch between the demo and the public build, our editor will hold the headline.\"",
+    "Their train was due in ten minutes, so Maya sent the lab one last request for comment. Jules saved the interview transcript. \"If you're going to quote the assistant, {{mask_16}} its full answer with the prompt,\" he said. Maya reopened the audio file. \"If I {{mask_17}} enough time tomorrow, I'll check the transcript against the recording.\" Jules found the correction they had discussed earlier. \"If you {{mask_18}} that note before we published, the clip would have been accurate from the start.\"",
+    "The spokesperson replied while they were boarding. The figures in the email differed slightly from the chart in the release. Maya read the message twice. \"If the guest {{mask_19}} the updated chart tonight, I'll add a note before the morning edition. And if the numbers {{mask_20}} again, we'll ask for the underlying data before we change anything.\" Jules put his phone away. They had a long edit ahead, but at least they knew exactly what to verify first."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "usually favors",
+      "acceptable_variants": [],
+      "hint": "favor"
+    },
+    "mask_2": {
+      "target": "publishes",
+      "acceptable_variants": [],
+      "hint": "publish"
+    },
+    "mask_3": {
+      "target": "support",
+      "acceptable_variants": [],
+      "hint": "support"
+    },
+    "mask_4": {
+      "target": "noticed",
+      "acceptable_variants": [],
+      "hint": "notice"
+    },
+    "mask_5": {
+      "target": "would have stopped",
+      "acceptable_variants": [
+        "'d have stopped"
+      ],
+      "hint": "will"
+    },
+    "mask_6": {
+      "target": "gives",
+      "acceptable_variants": [],
+      "hint": "give"
+    },
+    "mask_7": {
+      "target": "returns",
+      "acceptable_variants": [],
+      "hint": "return"
+    },
+    "mask_8": {
+      "target": "were",
+      "acceptable_variants": [],
+      "hint": "be"
+    },
+    "mask_9": {
+      "target": "offered",
+      "acceptable_variants": [],
+      "hint": "offer"
+    },
+    "mask_10": {
+      "target": "added",
+      "acceptable_variants": [],
+      "hint": "add"
+    },
+    "mask_11": {
+      "target": "kept",
+      "acceptable_variants": [],
+      "hint": "keep"
+    },
+    "mask_12": {
+      "target": "included",
+      "acceptable_variants": [],
+      "hint": "include"
+    },
+    "mask_13": {
+      "target": "had posted",
+      "acceptable_variants": [
+        "'d posted"
+      ],
+      "hint": "post"
+    },
+    "mask_14": {
+      "target": "release",
+      "acceptable_variants": [],
+      "hint": "will"
+    },
+    "mask_15": {
+      "target": "reveals",
+      "acceptable_variants": [],
+      "hint": "reveal"
+    },
+    "mask_16": {
+      "target": "save",
+      "acceptable_variants": [],
+      "hint": "save"
+    },
+    "mask_17": {
+      "target": "have",
+      "acceptable_variants": [],
+      "hint": "have"
+    },
+    "mask_18": {
+      "target": "had sent",
+      "acceptable_variants": [
+        "'d sent"
+      ],
+      "hint": "send"
+    },
+    "mask_19": {
+      "target": "sends",
+      "acceptable_variants": [],
+      "hint": "send"
+    },
+    "mask_20": {
+      "target": "change",
+      "acceptable_variants": [],
+      "hint": "change"
+    }
+  }
+}

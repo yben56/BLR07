@@ -1,0 +1,143 @@
+{
+  "topic": "Mix",
+  "difficulty": "beginner",
+  "created_at": "2026-11-02T23:43:40+08:00",
+  "story_title": "The Weekend Forecast",
+  "paragraphs": [
+    "Last week, the weather app said it would rain on Saturday, but by Friday morning, the forecast {{mask_1}} because the clouds {{mask_2}} away. While I {{mask_3}} my bag for the trip, my sister called and said the train {{mask_4}} late if the storm hit the station.",
+    "At 6:00 a.m., the radio announcer {{mask_5}} that a cold front {{mask_6}} the city before lunch. We were worried because the forecast {{mask_7}} for two days, and the children {{mask_8}} outside before school.",
+    "By noon, the sky {{mask_9}} brighter, and the meteorologist explained that the storm {{mask_10}} earlier than expected. If we had checked the radar, we {{mask_11}} the picnic blanket at home.",
+    "When we reached the park, the wind {{mask_12}} strongly, and the clouds {{mask_13}} over the hills. The guide told us that by sunset the weather {{mask_14}} calmer, but she also said the temperature {{mask_15}} after dark.",
+    "We stayed until evening because the forecast {{mask_16}} better, and by then everyone {{mask_17}} the change. I hope the weekend {{mask_18}} sunny, and my brother promised that he {{mask_19}} the umbrella again. Tomorrow, I {{mask_20}} the update before I leave the house."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "had changed",
+      "acceptable_variants": [
+        "'d changed"
+      ],
+      "hint": "change"
+    },
+    "mask_2": {
+      "target": "had moved",
+      "acceptable_variants": [
+        "'d moved"
+      ],
+      "hint": "move"
+    },
+    "mask_3": {
+      "target": "was packing",
+      "acceptable_variants": [],
+      "hint": "pack"
+    },
+    "mask_4": {
+      "target": "would be",
+      "acceptable_variants": [],
+      "hint": "be"
+    },
+    "mask_5": {
+      "target": "announced",
+      "acceptable_variants": [],
+      "hint": "announce"
+    },
+    "mask_6": {
+      "target": "would reach",
+      "acceptable_variants": [
+        "'d reach"
+      ],
+      "hint": "reach"
+    },
+    "mask_7": {
+      "target": "had been wrong",
+      "acceptable_variants": [
+        "'d been wrong"
+      ],
+      "hint": "be"
+    },
+    "mask_8": {
+      "target": "had been playing",
+      "acceptable_variants": [
+        "'d been playing"
+      ],
+      "hint": "play"
+    },
+    "mask_9": {
+      "target": "was getting",
+      "acceptable_variants": [],
+      "hint": "get"
+    },
+    "mask_10": {
+      "target": "had moved on",
+      "acceptable_variants": [
+        "'d moved on"
+      ],
+      "hint": "move"
+    },
+    "mask_11": {
+      "target": "would have left",
+      "acceptable_variants": [
+        "would've left"
+      ],
+      "hint": "leave"
+    },
+    "mask_12": {
+      "target": "was blowing",
+      "acceptable_variants": [],
+      "hint": "blow"
+    },
+    "mask_13": {
+      "target": "were rolling",
+      "acceptable_variants": [],
+      "hint": "roll"
+    },
+    "mask_14": {
+      "target": "would become",
+      "acceptable_variants": [
+        "'d become"
+      ],
+      "hint": "become"
+    },
+    "mask_15": {
+      "target": "would drop",
+      "acceptable_variants": [
+        "'d drop"
+      ],
+      "hint": "drop"
+    },
+    "mask_16": {
+      "target": "had improved",
+      "acceptable_variants": [
+        "'d improved"
+      ],
+      "hint": "improve"
+    },
+    "mask_17": {
+      "target": "had noticed",
+      "acceptable_variants": [
+        "'d noticed"
+      ],
+      "hint": "notice"
+    },
+    "mask_18": {
+      "target": "will be",
+      "acceptable_variants": [
+        "'ll be"
+      ],
+      "hint": "be"
+    },
+    "mask_19": {
+      "target": "will bring",
+      "acceptable_variants": [
+        "'ll bring"
+      ],
+      "hint": "bring"
+    },
+    "mask_20": {
+      "target": "will check",
+      "acceptable_variants": [
+        "'ll check"
+      ],
+      "hint": "check"
+    }
+  }
+}
