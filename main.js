@@ -80,6 +80,7 @@ fetchJson(new URL('catalog.json', appBaseUrl))
         const selectedSubcategoryId = ref('');
         const selectedExerciseId = ref('');
         const selectedDifficulty = ref('');
+        const extraInfoExpanded = ref(false);
         const loading = ref(false);
         const loadError = ref('');
         const catalogError = ref('');
@@ -325,6 +326,7 @@ fetchJson(new URL('catalog.json', appBaseUrl))
 
             for (const key of Object.keys(exercise)) delete exercise[key];
             Object.assign(exercise, nextExercise);
+            extraInfoExpanded.value = false;
             maskOrder.splice(0, maskOrder.length, ...Object.keys(exercise.masks));
             for (const mask of Object.keys(answers)) delete answers[mask];
             for (const mask of Object.keys(status)) delete status[mask];
@@ -573,6 +575,7 @@ fetchJson(new URL('catalog.json', appBaseUrl))
           filteredExerciseCatalog,
           selectedExerciseId,
           selectedDifficulty,
+          extraInfoExpanded,
           selectedExerciseTitle,
           loading,
           loadError,
