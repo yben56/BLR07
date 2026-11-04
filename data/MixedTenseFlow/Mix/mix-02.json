@@ -37,7 +37,7 @@
       "acceptable_variants": [
         "'d already repaired"
       ],
-      "hint": "repair"
+      "hint": "already repair"
     },
     "mask_4": {
       "target": "was photographing",
