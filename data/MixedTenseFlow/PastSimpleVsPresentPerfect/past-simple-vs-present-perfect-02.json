@@ -127,7 +127,7 @@
       "acceptable_variants": [
         "haven't claimed"
       ],
-      "hint": "claim"
+      "hint": "not claim"
     }
   }
 }
