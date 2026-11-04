@@ -70,6 +70,12 @@ body::before {
   transition: border-color 120ms ease, color 120ms ease, box-shadow 120ms ease;
 }
 
+@media (max-width: 639px) {
+  .answer-input {
+    max-width: min(60ch, calc(100vw - 7rem));
+  }
+}
+
 .answer-input:focus { outline: none; }
 .answer-input::placeholder { color: #64748b; opacity: 1; }
 
