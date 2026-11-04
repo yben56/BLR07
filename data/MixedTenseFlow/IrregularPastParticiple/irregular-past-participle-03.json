@@ -1,0 +1,122 @@
+{
+  "topic": "Irregular Past Participle",
+  "difficulty": "advanced",
+  "created_at": "2026-11-05T00:24:00+08:00",
+  "story_title": "A Public Health Learning Session",
+  "extra_info": "Ebola disease is a serious illness caused by Ebola viruses. It can spread through direct contact with the blood or body fluids of someone who is sick or has died from it, or with contaminated objects.",
+  "tags": [
+    "#publichealth",
+    "#health",
+    "#learning"
+  ],
+  "paragraphs": [
+    "At a fictional public-health learning session, the participants have {{mask_1}} a short introduction to Ebola disease. Before the discussion, the facilitator has {{mask_2}} everyone a fact sheet. She has {{mask_3}} clear diagrams to explain the main ideas. Each important term has been {{mask_4}} on the board, and participants have {{mask_5}} questions for the group.",
+    "The attendees have {{mask_6}} the fact sheet carefully. One volunteer has {{mask_7}} a simple diagram to show how public-health information moves from official sources to local communities. Others have {{mask_8}} notes and have {{mask_9}} the difference between general information and advice for a specific situation. The facilitator has {{mask_10}} time for questions before the next activity.",
+    "The group has {{mask_11}} a short public-information video. The trainer has {{mask_12}} about how public-health agencies share updates. Attendees have {{mask_13}} up questions about the information they heard. The facilitator has {{mask_14}} each question carefully, and everyone has been {{mask_15}} to look for current guidance from reliable health authorities.",
+    "By the end of the session, the attendees have {{mask_16}} useful information on official public-health websites. They have {{mask_17}} how to check when guidance was last updated. The facilitator has {{mask_18}} a list of trusted sources and has {{mask_19}} it to the group. Each participant has {{mask_20}} their notes to review later."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "heard",
+      "acceptable_variants": [],
+      "hint": "hear"
+    },
+    "mask_2": {
+      "target": "given",
+      "acceptable_variants": [],
+      "hint": "give"
+    },
+    "mask_3": {
+      "target": "chosen",
+      "acceptable_variants": [],
+      "hint": "choose"
+    },
+    "mask_4": {
+      "target": "written",
+      "acceptable_variants": [],
+      "hint": "write"
+    },
+    "mask_5": {
+      "target": "brought",
+      "acceptable_variants": [],
+      "hint": "bring"
+    },
+    "mask_6": {
+      "target": "read",
+      "acceptable_variants": [],
+      "hint": "read"
+    },
+    "mask_7": {
+      "target": "drawn",
+      "acceptable_variants": [],
+      "hint": "draw"
+    },
+    "mask_8": {
+      "target": "taken",
+      "acceptable_variants": [],
+      "hint": "take"
+    },
+    "mask_9": {
+      "target": "understood",
+      "acceptable_variants": [],
+      "hint": "understand"
+    },
+    "mask_10": {
+      "target": "made",
+      "acceptable_variants": [],
+      "hint": "make"
+    },
+    "mask_11": {
+      "target": "seen",
+      "acceptable_variants": [],
+      "hint": "see"
+    },
+    "mask_12": {
+      "target": "spoken",
+      "acceptable_variants": [],
+      "hint": "speak"
+    },
+    "mask_13": {
+      "target": "brought",
+      "acceptable_variants": [],
+      "hint": "bring"
+    },
+    "mask_14": {
+      "target": "heard",
+      "acceptable_variants": [],
+      "hint": "hear"
+    },
+    "mask_15": {
+      "target": "told",
+      "acceptable_variants": [],
+      "hint": "tell"
+    },
+    "mask_16": {
+      "target": "found",
+      "acceptable_variants": [],
+      "hint": "find"
+    },
+    "mask_17": {
+      "target": "learned",
+      "acceptable_variants": [
+        "learnt"
+      ],
+      "hint": "learn"
+    },
+    "mask_18": {
+      "target": "made",
+      "acceptable_variants": [],
+      "hint": "make"
+    },
+    "mask_19": {
+      "target": "sent",
+      "acceptable_variants": [],
+      "hint": "send"
+    },
+    "mask_20": {
+      "target": "kept",
+      "acceptable_variants": [],
+      "hint": "keep"
+    }
+  }
+}

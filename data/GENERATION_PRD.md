@@ -23,6 +23,8 @@ Context: A busy morning routine
 
 | Category | Exercise (child page) | Folder |
 |---|---|---|
+| `Mixed Tenses Flow` | Irregular Past Simple | `IrregularPastSimple` |
+| `Mixed Tenses Flow` | Irregular Past Participle | `IrregularPastParticiple` |
 | `Mixed Tenses Flow` | Mix | `Mix` |
 | `Mixed Tenses Flow` | Past Simple vs Present Perfect | `PastSimpleVsPresentPerfect` |
 | `Mixed Tenses Flow` | Past Simple vs Past Continuous | `PastSimpleVsPastContinuous` |

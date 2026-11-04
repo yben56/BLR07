@@ -1,0 +1,120 @@
+{
+  "topic": "Irregular Past Participle",
+  "difficulty": "intermediate",
+  "created_at": "2026-11-05T00:22:00+08:00",
+  "story_title": "The Ballet Company's New Production",
+  "extra_info": "",
+  "tags": [
+    "#ballet",
+    "#dance",
+    "#performance"
+  ],
+  "paragraphs": [
+    "The Northgate Ballet Company has {{mask_1}} a new story for its winter production. The choreographer has {{mask_2}} a short introduction for the audience, and rehearsals have {{mask_3}} in the studio. The lead dancers have {{mask_4}} with the choreographer about how to express the characters' feelings. For the opening scene, the dancers have {{mask_5}} light costumes that move easily.",
+    "During rehearsals, the company has {{mask_6}} the new steps many times. The younger dancers have {{mask_7}} the full routine from the front row, and two experienced performers have {{mask_8}} the company to join another production. The stage manager has {{mask_9}} a quiet practice room for the final rehearsal. The costume team has {{mask_10}} new jackets for the dancers.",
+    "The ballet teacher has {{mask_11}} the children how to move safely across the stage. The company has {{mask_12}} several long rehearsals in the theater. One dancer has {{mask_13}} during a difficult turn, but she rested and returned when she felt ready. A small mirror has {{mask_14}} during the move to the theater, so the crew has covered the space with a cloth. Families have {{mask_15}} flowers for the performers.",
+    "The soloist has {{mask_16}} a quiet song during the final scene. The director has {{mask_17}} the original ending because the audience found it moving. The dancers have {{mask_18}} to the theater early on opening day. The crew has {{mask_19}} a temporary wooden platform beside the stage for the musicians. After opening night, the company has {{mask_20}} an award for its performance."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "chosen",
+      "acceptable_variants": [],
+      "hint": "choose"
+    },
+    "mask_2": {
+      "target": "written",
+      "acceptable_variants": [],
+      "hint": "write"
+    },
+    "mask_3": {
+      "target": "begun",
+      "acceptable_variants": [],
+      "hint": "begin"
+    },
+    "mask_4": {
+      "target": "spoken",
+      "acceptable_variants": [],
+      "hint": "speak"
+    },
+    "mask_5": {
+      "target": "worn",
+      "acceptable_variants": [],
+      "hint": "wear"
+    },
+    "mask_6": {
+      "target": "taken",
+      "acceptable_variants": [],
+      "hint": "take"
+    },
+    "mask_7": {
+      "target": "seen",
+      "acceptable_variants": [],
+      "hint": "see"
+    },
+    "mask_8": {
+      "target": "left",
+      "acceptable_variants": [],
+      "hint": "leave"
+    },
+    "mask_9": {
+      "target": "found",
+      "acceptable_variants": [],
+      "hint": "find"
+    },
+    "mask_10": {
+      "target": "made",
+      "acceptable_variants": [],
+      "hint": "make"
+    },
+    "mask_11": {
+      "target": "taught",
+      "acceptable_variants": [],
+      "hint": "teach"
+    },
+    "mask_12": {
+      "target": "held",
+      "acceptable_variants": [],
+      "hint": "hold"
+    },
+    "mask_13": {
+      "target": "fallen",
+      "acceptable_variants": [],
+      "hint": "fall"
+    },
+    "mask_14": {
+      "target": "broken",
+      "acceptable_variants": [],
+      "hint": "break"
+    },
+    "mask_15": {
+      "target": "brought",
+      "acceptable_variants": [],
+      "hint": "bring"
+    },
+    "mask_16": {
+      "target": "sung",
+      "acceptable_variants": [],
+      "hint": "sing"
+    },
+    "mask_17": {
+      "target": "kept",
+      "acceptable_variants": [],
+      "hint": "keep"
+    },
+    "mask_18": {
+      "target": "gone",
+      "acceptable_variants": [],
+      "hint": "go"
+    },
+    "mask_19": {
+      "target": "built",
+      "acceptable_variants": [],
+      "hint": "build"
+    },
+    "mask_20": {
+      "target": "won",
+      "acceptable_variants": [],
+      "hint": "win"
+    }
+  }
+}

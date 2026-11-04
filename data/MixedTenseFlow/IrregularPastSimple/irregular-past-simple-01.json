@@ -1,0 +1,120 @@
+{
+  "topic": "Irregular Past Simple",
+  "difficulty": "beginner",
+  "created_at": "2026-11-05T00:10:00+08:00",
+  "story_title": "A Week in London",
+  "extra_info": "",
+  "tags": [
+    "#travel",
+    "#london",
+    "#family"
+  ],
+  "paragraphs": [
+    "Last spring, Maya and her younger brother, Leo, planned a week in London with their aunt. On Saturday morning, they {{mask_1}} to the airport before sunrise. They {{mask_2}} from their home city and {{mask_3}} the sea from the plane.",
+    "After they landed, they {{mask_4}} a train from Heathrow into central London. They {{mask_5}} to their hotel before noon. They left their bags in the room, then {{mask_6}} the hotel and walked to a nearby cafe. They {{mask_7}} a quiet table by the window. Maya {{mask_8}} a cheese sandwich, and Leo {{mask_9}} a cup of hot chocolate. After lunch, their aunt {{mask_10}} three travel passes at the station.",
+    "On Sunday, they {{mask_11}} a friendly guide outside a museum. He {{mask_12}} to them about the old buildings nearby. The family {{mask_13}} photos and {{mask_14}} a map to find their way to the river. In the afternoon, dark clouds filled the sky and rain {{mask_15}} down. They {{mask_16}} across the road to a small museum.",
+    "Inside, the family {{mask_17}} near a large window and rested. Maya {{mask_18}} the names of her favorite places in her notebook. Leo {{mask_19}} the guide a thank-you card before they left. That evening, the family {{mask_20}} a small photo album with pictures from their trip."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "went",
+      "acceptable_variants": [],
+      "hint": "go"
+    },
+    "mask_2": {
+      "target": "flew",
+      "acceptable_variants": [],
+      "hint": "fly"
+    },
+    "mask_3": {
+      "target": "saw",
+      "acceptable_variants": [],
+      "hint": "see"
+    },
+    "mask_4": {
+      "target": "caught",
+      "acceptable_variants": [],
+      "hint": "catch"
+    },
+    "mask_5": {
+      "target": "got",
+      "acceptable_variants": [],
+      "hint": "get"
+    },
+    "mask_6": {
+      "target": "left",
+      "acceptable_variants": [],
+      "hint": "leave"
+    },
+    "mask_7": {
+      "target": "found",
+      "acceptable_variants": [],
+      "hint": "find"
+    },
+    "mask_8": {
+      "target": "ate",
+      "acceptable_variants": [],
+      "hint": "eat"
+    },
+    "mask_9": {
+      "target": "drank",
+      "acceptable_variants": [],
+      "hint": "drink"
+    },
+    "mask_10": {
+      "target": "bought",
+      "acceptable_variants": [],
+      "hint": "buy"
+    },
+    "mask_11": {
+      "target": "met",
+      "acceptable_variants": [],
+      "hint": "meet"
+    },
+    "mask_12": {
+      "target": "spoke",
+      "acceptable_variants": [],
+      "hint": "speak"
+    },
+    "mask_13": {
+      "target": "took",
+      "acceptable_variants": [],
+      "hint": "take"
+    },
+    "mask_14": {
+      "target": "read",
+      "acceptable_variants": [],
+      "hint": "read"
+    },
+    "mask_15": {
+      "target": "came",
+      "acceptable_variants": [],
+      "hint": "come"
+    },
+    "mask_16": {
+      "target": "ran",
+      "acceptable_variants": [],
+      "hint": "run"
+    },
+    "mask_17": {
+      "target": "sat",
+      "acceptable_variants": [],
+      "hint": "sit"
+    },
+    "mask_18": {
+      "target": "wrote",
+      "acceptable_variants": [],
+      "hint": "write"
+    },
+    "mask_19": {
+      "target": "gave",
+      "acceptable_variants": [],
+      "hint": "give"
+    },
+    "mask_20": {
+      "target": "made",
+      "acceptable_variants": [],
+      "hint": "make"
+    }
+  }
+}

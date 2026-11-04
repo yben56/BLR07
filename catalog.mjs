@@ -23,6 +23,8 @@ const subcategoryTitles = {
   FirstSecondThirdConditionals: 'First, Second and Third Conditionals',
   FutureForms: 'Future Forms',
   GeneralRelativeClauses: 'General Relative Clauses',
+  IrregularPastParticiple: 'Irregular Past Participle',
+  IrregularPastSimple: 'Irregular Past Simple',
   MeaningAndAnswers: 'Meaning and Answers',
   MixedConditionals: 'Mixed Conditionals',
   ModalAndFuturePassive: 'Modal and Future Passive',
@@ -50,7 +52,7 @@ const subcategoryTitles = {
 };
 
 const plannedSubcategories = {
-  MixedTenseFlow: ['PastSimpleVsPresentPerfect', 'PastSimpleVsPastContinuous', 'PastPerfectAndSequence', 'FutureForms', 'Mix'],
+  MixedTenseFlow: ['IrregularPastSimple', 'IrregularPastParticiple', 'PastSimpleVsPresentPerfect', 'PastSimpleVsPastContinuous', 'PastPerfectAndSequence', 'FutureForms', 'Mix'],
   NegativeQuestions: ['BeDoHave', 'ModalVerbs', 'MeaningAndAnswers', 'NegativeQuestions'],
   Conditionals: ['ZeroConditional', 'FirstConditional', 'SecondConditional', 'ThirdConditional', 'FirstSecondThirdConditionals', 'MixedConditionals', 'UnlessOrAsLongAs', 'Forms'],
   ReportedSpeech: ['ReportedYesNoQuestions', 'ReportedWhQuestions', 'ReportedRequestsAndOrders', 'SayAndTell', 'TenseAndTimeChanges', 'MixedTenseReportedStatements'],

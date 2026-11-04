@@ -1,0 +1,120 @@
+{
+  "topic": "Irregular Past Participle",
+  "difficulty": "beginner",
+  "created_at": "2026-11-05T00:19:00+08:00",
+  "story_title": "A Neighborhood Cold-Weather Plan",
+  "extra_info": "",
+  "tags": [
+    "#weather",
+    "#community",
+    "#winter"
+  ],
+  "paragraphs": [
+    "A cold wave has {{mask_1}} the town, and freezing weather has continued for several days. The pond in the park has {{mask_2}} over, and a light snow has {{mask_3}} on the sidewalks. Many families have {{mask_4}} their warmest coats and boots. At the community center, volunteers have {{mask_5}} blankets and hot-water bottles for older neighbors.",
+    "The center has {{mask_6}} a warm room where people can rest. Staff have {{mask_7}} simple signs and {{mask_8}} them near the door. Several neighbors have {{mask_9}} food and warm drinks for anyone who needs them. A local shop has {{mask_10}} extra cups and soup bowls. The volunteers have {{mask_11}} a list of people who may need help.",
+    "Since the cold weather began, the volunteers have {{mask_12}} many calls from residents. One family has {{mask_13}} a small heater to the center for the warm room. A neighbor has {{mask_14}} extra blankets in a clean box. Some visitors have {{mask_15}} warm soup together, and others have {{mask_16}} in comfortable chairs while they warmed up.",
+    "The cold wave has {{mask_17}}, but the thick ice on the paths has not {{mask_18}} yet. The town has {{mask_19}} a safe walking route to the center. Volunteers have {{mask_20}} short notes for residents with weather updates and opening times. Everyone hopes the warmer days will return soon."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "hit",
+      "acceptable_variants": [],
+      "hint": "hit"
+    },
+    "mask_2": {
+      "target": "frozen",
+      "acceptable_variants": [],
+      "hint": "freeze"
+    },
+    "mask_3": {
+      "target": "fallen",
+      "acceptable_variants": [],
+      "hint": "fall"
+    },
+    "mask_4": {
+      "target": "worn",
+      "acceptable_variants": [],
+      "hint": "wear"
+    },
+    "mask_5": {
+      "target": "brought",
+      "acceptable_variants": [],
+      "hint": "bring"
+    },
+    "mask_6": {
+      "target": "set",
+      "acceptable_variants": [],
+      "hint": "set"
+    },
+    "mask_7": {
+      "target": "written",
+      "acceptable_variants": [],
+      "hint": "write"
+    },
+    "mask_8": {
+      "target": "put",
+      "acceptable_variants": [],
+      "hint": "put"
+    },
+    "mask_9": {
+      "target": "left",
+      "acceptable_variants": [],
+      "hint": "give"
+    },
+    "mask_10": {
+      "target": "bought",
+      "acceptable_variants": [],
+      "hint": "buy"
+    },
+    "mask_11": {
+      "target": "kept",
+      "acceptable_variants": [],
+      "hint": "keep"
+    },
+    "mask_12": {
+      "target": "heard",
+      "acceptable_variants": [],
+      "hint": "hear"
+    },
+    "mask_13": {
+      "target": "lent",
+      "acceptable_variants": [],
+      "hint": "send"
+    },
+    "mask_14": {
+      "target": "put",
+      "acceptable_variants": [],
+      "hint": "put"
+    },
+    "mask_15": {
+      "target": "eaten",
+      "acceptable_variants": [],
+      "hint": "eat"
+    },
+    "mask_16": {
+      "target": "sat",
+      "acceptable_variants": [],
+      "hint": "sit"
+    },
+    "mask_17": {
+      "target": "gone",
+      "acceptable_variants": [],
+      "hint": "pass"
+    },
+    "mask_18": {
+      "target": "broken",
+      "acceptable_variants": [],
+      "hint": "melt"
+    },
+    "mask_19": {
+      "target": "built",
+      "acceptable_variants": [],
+      "hint": "build"
+    },
+    "mask_20": {
+      "target": "written",
+      "acceptable_variants": [],
+      "hint": "write"
+    }
+  }
+}

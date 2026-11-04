@@ -12,7 +12,7 @@ const categoryOrder = [
   'RelativePronouns'
 ];
 const subcategoryOrder = {
-  MixedTenseFlow: ['PastSimpleVsPresentPerfect', 'PastSimpleVsPastContinuous', 'PastPerfectAndSequence', 'FutureForms', 'Mix'],
+  MixedTenseFlow: ['IrregularPastSimple', 'IrregularPastParticiple', 'PastSimpleVsPresentPerfect', 'PastSimpleVsPastContinuous', 'PastPerfectAndSequence', 'FutureForms', 'Mix'],
   NegativeQuestions: ['BeDoHave', 'ModalVerbs', 'MeaningAndAnswers', 'NegativeQuestions'],
   Conditionals: ['ZeroConditional', 'FirstConditional', 'SecondConditional', 'ThirdConditional', 'FirstSecondThirdConditionals', 'MixedConditionals', 'UnlessOrAsLongAs', 'Forms'],
   ReportedSpeech: ['ReportedYesNoQuestions', 'ReportedWhQuestions', 'ReportedRequestsAndOrders', 'SayAndTell', 'TenseAndTimeChanges', 'MixedTenseReportedStatements'],

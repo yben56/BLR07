@@ -1,0 +1,120 @@
+{
+  "topic": "Irregular Past Simple",
+  "difficulty": "advanced",
+  "created_at": "2026-11-05T00:16:00+08:00",
+  "story_title": "A Headline Under Review",
+  "extra_info": "",
+  "tags": [
+    "#journalism",
+    "#elections",
+    "#newsroom"
+  ],
+  "paragraphs": [
+    "During a newsroom training exercise, editor Lena {{mask_1}} a proposed headline on the board: “House districts Trump won by double digits shift toward Democrats in midterms.” The team {{mask_2}} the brief carefully: it described a political shift, not a confirmed election result. Lena {{mask_3}} the staff to separate what the headline claimed from what the evidence could establish. Reporter Ellis {{mask_4}} the background packet to the meeting and {{mask_5}} that it contained no new election results.",
+    "Ellis reviewed the material again and {{mask_6}} a chart that separated past results from the reported change in political direction. Lena {{mask_7}} a note beside the draft, asking whether “shift” referred to voter preferences, campaign activity, or another measure. The team {{mask_8}} a list of questions for the researcher who prepared the brief. Ellis {{mask_9}} notes about which claims had clear support, while Lena {{mask_10}} a comment that the headline needed careful context.",
+    "For the exercise, Ellis {{mask_11}} with two fictional residents and an analyst. One resident {{mask_12}} that local concerns shaped how neighbors discussed the midterms. The other {{mask_13}} she noticed more conversations about Democratic candidates, but she did not describe that impression as a final result. The analyst {{mask_14}} that interviews could illustrate opinions but could not measure every voter's choice. Ellis {{mask_15}} that a few conversations could not prove how an entire district would vote.",
+    "After the interviews, Lena {{mask_16}} the first draft overstated what the material showed. The team {{mask_17}} a checklist to distinguish past election margins, changing opinions, and future outcomes. Ellis {{mask_18}} the revised wording to the editor, and a response {{mask_19}} before the afternoon deadline. Lena {{mask_20}} ahead with a more qualified headline and explained the limits of the exercise in the story."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "wrote",
+      "acceptable_variants": [],
+      "hint": "write"
+    },
+    "mask_2": {
+      "target": "read",
+      "acceptable_variants": [],
+      "hint": "read"
+    },
+    "mask_3": {
+      "target": "told",
+      "acceptable_variants": [],
+      "hint": "tell"
+    },
+    "mask_4": {
+      "target": "brought",
+      "acceptable_variants": [],
+      "hint": "bring"
+    },
+    "mask_5": {
+      "target": "found",
+      "acceptable_variants": [],
+      "hint": "find"
+    },
+    "mask_6": {
+      "target": "drew",
+      "acceptable_variants": [],
+      "hint": "draw"
+    },
+    "mask_7": {
+      "target": "left",
+      "acceptable_variants": [],
+      "hint": "leave"
+    },
+    "mask_8": {
+      "target": "kept",
+      "acceptable_variants": [],
+      "hint": "keep"
+    },
+    "mask_9": {
+      "target": "took",
+      "acceptable_variants": [],
+      "hint": "take"
+    },
+    "mask_10": {
+      "target": "made",
+      "acceptable_variants": [],
+      "hint": "make"
+    },
+    "mask_11": {
+      "target": "spoke",
+      "acceptable_variants": [],
+      "hint": "speak"
+    },
+    "mask_12": {
+      "target": "said",
+      "acceptable_variants": [],
+      "hint": "say"
+    },
+    "mask_13": {
+      "target": "felt",
+      "acceptable_variants": [],
+      "hint": "feel"
+    },
+    "mask_14": {
+      "target": "knew",
+      "acceptable_variants": [],
+      "hint": "know"
+    },
+    "mask_15": {
+      "target": "thought",
+      "acceptable_variants": [],
+      "hint": "think"
+    },
+    "mask_16": {
+      "target": "thought",
+      "acceptable_variants": [],
+      "hint": "think"
+    },
+    "mask_17": {
+      "target": "made",
+      "acceptable_variants": [],
+      "hint": "make"
+    },
+    "mask_18": {
+      "target": "sent",
+      "acceptable_variants": [],
+      "hint": "send"
+    },
+    "mask_19": {
+      "target": "came",
+      "acceptable_variants": [],
+      "hint": "come"
+    },
+    "mask_20": {
+      "target": "went",
+      "acceptable_variants": [],
+      "hint": "go"
+    }
+  }
+}

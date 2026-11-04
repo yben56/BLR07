@@ -1,0 +1,120 @@
+{
+  "topic": "Irregular Past Simple",
+  "difficulty": "intermediate",
+  "created_at": "2026-11-05T00:12:00+08:00",
+  "story_title": "Goldendoodle or Cavapoo?",
+  "extra_info": "A Goldendoodle is a cross between a Golden Retriever and a Poodle. A Cavapoo is a cross between a Cavalier King Charles Spaniel and a Poodle. Individual dogs can differ in size, coat, and temperament.",
+  "tags": [
+    "#dogs",
+    "#pets",
+    "#family"
+  ],
+  "paragraphs": [
+    "Last Sunday, the Rivera family {{mask_1}} to a local foster-care open day. They {{mask_2}} a notebook with questions about two dogs they had seen online. When they arrived, they {{mask_3}} Maple, a Goldendoodle, and Pip, a Cavapoo. Maple {{mask_4}} over to greet them, while Pip {{mask_5}} quietly beside his foster carer.",
+    "The carer {{mask_6}} them an information card for each dog and {{mask_7}} them about the dogs' daily routines. Priya and her brother {{mask_8}} both cards carefully. Priya {{mask_9}} about how much time the family could spend outdoors, and her brother {{mask_10}} unsure about choosing between the two friendly dogs.",
+    "To help them get to know the dogs, the carer suggested a short game in the garden. Priya's brother {{mask_11}} a soft ball across the grass, and Maple {{mask_12}} after it. She {{mask_13}} the ball before it reached the fence. When a noisy cart rolled past, Pip {{mask_14}} behind his carer. A moment later, he {{mask_15}} curious and came out to sniff the ball.",
+    "The family talked about both dogs and {{mask_16}} Pip because his current routine fitted their quieter home. Priya {{mask_17}} down a feeding and walking plan with the carer. Before they left, they {{mask_18}} a comfortable harness for Pip. The next afternoon, they {{mask_19}} him home after completing the adoption paperwork. That night, Pip {{mask_20}} peacefully beside his new bed."
+  ],
+  "masks": {
+    "mask_1": {
+      "target": "drove",
+      "acceptable_variants": [],
+      "hint": "drive"
+    },
+    "mask_2": {
+      "target": "brought",
+      "acceptable_variants": [],
+      "hint": "bring"
+    },
+    "mask_3": {
+      "target": "saw",
+      "acceptable_variants": [],
+      "hint": "see"
+    },
+    "mask_4": {
+      "target": "came",
+      "acceptable_variants": [],
+      "hint": "come"
+    },
+    "mask_5": {
+      "target": "stood",
+      "acceptable_variants": [],
+      "hint": "stand"
+    },
+    "mask_6": {
+      "target": "gave",
+      "acceptable_variants": [],
+      "hint": "give"
+    },
+    "mask_7": {
+      "target": "told",
+      "acceptable_variants": [],
+      "hint": "tell"
+    },
+    "mask_8": {
+      "target": "read",
+      "acceptable_variants": [],
+      "hint": "read"
+    },
+    "mask_9": {
+      "target": "thought",
+      "acceptable_variants": [],
+      "hint": "think"
+    },
+    "mask_10": {
+      "target": "felt",
+      "acceptable_variants": [],
+      "hint": "feel"
+    },
+    "mask_11": {
+      "target": "threw",
+      "acceptable_variants": [],
+      "hint": "throw"
+    },
+    "mask_12": {
+      "target": "ran",
+      "acceptable_variants": [],
+      "hint": "run"
+    },
+    "mask_13": {
+      "target": "caught",
+      "acceptable_variants": [],
+      "hint": "catch"
+    },
+    "mask_14": {
+      "target": "hid",
+      "acceptable_variants": [],
+      "hint": "hide"
+    },
+    "mask_15": {
+      "target": "grew",
+      "acceptable_variants": [],
+      "hint": "grow"
+    },
+    "mask_16": {
+      "target": "chose",
+      "acceptable_variants": [],
+      "hint": "choose"
+    },
+    "mask_17": {
+      "target": "wrote",
+      "acceptable_variants": [],
+      "hint": "write"
+    },
+    "mask_18": {
+      "target": "bought",
+      "acceptable_variants": [],
+      "hint": "buy"
+    },
+    "mask_19": {
+      "target": "took",
+      "acceptable_variants": [],
+      "hint": "take"
+    },
+    "mask_20": {
+      "target": "slept",
+      "acceptable_variants": [],
+      "hint": "sleep"
+    }
+  }
+}
