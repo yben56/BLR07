@@ -53,12 +53,12 @@
     "mask_7": {
       "target": "opened",
       "acceptable_variants": [],
-      "hint": "have"
+      "hint": "open"
     },
     "mask_8": {
       "target": "arrived",
       "acceptable_variants": [],
-      "hint": "open"
+      "hint": "arrive"
     },
     "mask_9": {
       "target": "showed",
