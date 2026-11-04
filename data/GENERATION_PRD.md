@@ -97,15 +97,23 @@ Each exercise must also include a `tags` array containing 2-4 concise English ha
 
 Use the context the user requests instead of automatically replacing it because the subject is sensitive, controversial, political, or involves conflict or violence. English practice should expose learners to a broad range of real-world topics and useful vocabulary. Handle factual topics accurately and with appropriate nuance, but do not force an artificial neutral framing when it weakens the requested context. Keep the requested grammar objective primary; introduce topic vocabulary naturally in context at a level appropriate to the learner. Avoid gratuitous detail that does not support the passage or language-learning goal.
 
-### 3. Focused Learning Objective
+### 3. Natural Voice and Variety
+
+Write passages that feel like plausible, naturally written English rather than generic textbook examples. Match the voice to the requested context: casual scenes may use conversational wording and natural dialogue; news or public-affairs scenes may use a concise headline or lead, clear attribution, and the measured, information-first tone of mainstream broadcast journalism. If the user names a news outlet as a reference, use broad genre traits rather than copying its distinctive phrasing or any specific article.
+
+Choose character names afresh for each exercise. When characters are from a specific country or cultural setting, use names that are natural and appropriate to that culture (for example, Yui for a Japanese woman); do not assign generic English names to local characters by default. When characters' backgrounds are unspecified, choose names randomly from a broad range of English names. Do not default to Maya, repeatedly reuse recent characters, or rely on a small fixed name list. When a character's name is not needed, it is fine to leave them unnamed. Vary the kind of scene and point of view where appropriate, while keeping the story easy to follow.
+
+Treat each passage as a realistic simulation by default. Do not add meta labels or disclaimers such as "fictional" or "fictional scenario" unless the user asks for them or they are needed to prevent invented details from being mistaken for specific real-world facts. For sensitive or current-affairs contexts, avoid fabricating real quotes, statistics, official actions, or event details; use verified, supportable context or keep illustrative details general.
+
+### 4. Focused Learning Objective
 
 Every blank must test the requested `Exercise` module. Do not add unrelated grammar targets. For mixed grammar topics, make each form necessary and inferable from the surrounding context, not randomly selected.
 
-### 4. Unambiguous Answers
+### 5. Unambiguous Answers
 
 Each blank must have a clear, natural target answer supported by context. Avoid contexts where several different answers are equally correct unless each valid equivalent is included in `acceptable_variants`.
 
-### 5. Reported Statements Format
+### 6. Reported Statements Format
 
 Reported Statements exercises practise transforming a complete direct statement into a complete reported statement. Include `task_instruction` and show each original statement in red parentheses, then provide one answer blank for the entire reported sentence. Do not split the answer into partial verb-form blanks. Store only the instruction text and red source text in JSON; the app adds the parentheses.
 
@@ -132,7 +140,7 @@ The mask target is the complete sentence, including the reporting clause:
 
 Use the red marker for every original/direct statement that the learner must transform. The complete target answer is revealed in red when the learner submits an incorrect answer. Count one complete transformation as one blank for the requested exercise length.
 
-### 6. Passive Voice Transformation Format
+### 7. Passive Voice Transformation Format
 
 Passive Voice exercises practise changing a complete active sentence into a complete passive sentence. Include `task_instruction` and show each active source sentence in red parentheses, then provide one answer blank for the entire passive sentence. Do not provide only a verb-phrase blank inside a story. Store only the instruction text and red source text in JSON; the app adds the parentheses.
 
@@ -163,7 +171,7 @@ For an exercise named `Mixed Tense Passive`, include active sentences in several
 
 Passive exercises may focus on specific structures such as verbs with two objects or passive forms inside subordinate clauses. For two-object verbs, accept both natural passive patterns when applicable (for example, `Mia was given a book` / `A book was given to Mia`). For subordinate clauses, keep the main clause intact and change the relevant embedded clause to passive (for example, `They expect the staff to clean the room` → `They expect the room to be cleaned`). In mixed exercises, label or group the examples clearly in the passage context while preserving the full-sentence active prompt and full-sentence passive answer format.
 
-### 7. Negative Questions Transformation Format
+### 8. Negative Questions Transformation Format
 
 When an exercise asks learners to rewrite or transform a sentence, show every source sentence in red and provide one answer blank for the rewritten form. Set the optional top-level `task_instruction` field to explain the transformation. The app displays this instruction in parentheses above the passage and encloses each red source sentence in parentheses; store only the instruction and source sentence text in JSON, without adding display parentheses. Do not put a colon immediately before a parenthesized source sentence. For Negative Questions, keep the question mark outside the blank when the target omits punctuation.
 
@@ -188,12 +196,12 @@ Use this pattern:
 
 Preserve the source statement's tense, subject, and meaning in the negative question. Mark every source sentence consistently; do not leave only some transformation prompts in red. The app renders the source in parentheses when `task_instruction` is present, so do not type literal parentheses in the JSON passage.
 
-### 8. Smart Variants
+### 9. Smart Variants
 
 Use `target` for the preferred full answer. Use `acceptable_variants` for genuinely equivalent common forms, including natural contractions where applicable, e.g. `have been` / `'ve been`, `would have` / `would've`, or `am` / `'m`. Do not list a form that changes meaning, tense, grammatical function, or naturalness. Use an empty array when there are no reasonable alternatives. The app ignores case and leading/trailing whitespace, as well as one optional final period, during answer checking. Do not add punctuation-only variants for a final period.
 `target` and `acceptable_variants` must contain exactly the text the learner is expected to type inside the blank. The placeholder boundary must match the grammatical material being tested exactly: do not put fixed sentence text inside an answer, and do not hide fixed words in the blank merely because they belong to a longer verb phrase. Keep every supplied word outside `{{mask_N}}`, including words directly adjacent to the blank and fixed auxiliaries or modal verbs. For example, write `the surcharge {{mask_1}} effect` with target `had taken`, not target `had taken effect`; write `they might {{mask_2}} a lower price` with target `have negotiated`, not target `might have negotiated`. A learner must never be asked to type a word that the sentence already supplies.
 
-### 9. Masks and Hints
+### 10. Masks and Hints
 
 - Write blanks as `{{mask_1}}`, `{{mask_2}}`, etc. in `paragraphs`.
 - Wrap source statements and any other prompt text that should appear in red as `{{red:the text}}`. The app displays the wrapped text in red; do not use HTML tags.
@@ -205,7 +213,7 @@ Use `target` for the preferred full answer. Use `acceptable_variants` for genuin
 - `hint` should normally contain the base verb or a single keyword. When a specific adverb or other lexical item must be used, include it with the base verb, e.g. `already arrive` or `never see`; do not use `(use ...)` parenthetical cues. Never include tense auxiliaries or the complete target in a hint. Do not add other grammar explanations, tense clues, alternative forms, or extra sentences; the learner should infer the tense from context. In Conditional exercises, when a modal hint is useful, use only `will` rather than `will / would` or `would / would have`; learners must decide from context whether the answer needs `will`, `would`, or `would have`. For full-sentence Reported Statements and Passive Voice transformations, leave `hint` empty so the complete answer is not given away.
 - For Relative Clauses exercises, leave every `hint` empty; a hint such as `person`, `place`, `thing`, or `possession` gives away which relative word to use.
 
-### 10. Length Targets
+### 11. Length Targets
 
 Use the exact blank count for the requested length. Keep the story natural and divide it into enough paragraphs for readability:
 
