@@ -26,7 +26,7 @@ Run the following command in the project directory:
 npm run dev
 ```
 
-Then open http://127.0.0.1:4173/. The home page lists the main categories in the default learning order and provides a selector to sort them by creation time or by name. Use the star beside a category to save it as a favorite; favorites are stored in browser local storage. On a category's child-page list, use the check mark to track completed units; completion status is also stored in browser local storage. Open a child page to select an exercise. Planned child pages are visible even before they have exercises and show a count of zero; they appear automatically once an exercise is added. To add an exercise, place it in the appropriate category/child-page folder according to [data/GENERATION_PRD.md](data/GENERATION_PRD.md).
+Then open http://127.0.0.1:4173/. The home page lists the main categories in the default learning order and provides a selector to sort them by creation time or by name. Use the star beside a category to save it as a favorite; favorites are stored in browser local storage. On a category's child-page list, use the check mark to track completed units, and on an exercise list, use it to track practiced exercises; both statuses are stored in browser local storage. Open a child page to select an exercise. Planned child pages are visible even before they have exercises and show a count of zero; they appear automatically once an exercise is added. To add an exercise, place it in the appropriate category/child-page folder according to [data/GENERATION_PRD.md](data/GENERATION_PRD.md).
 
 ## Deploying to GitHub Pages
 
@@ -71,7 +71,7 @@ Context: [可省略，讓你自行設計]
 npm run dev
 ```
 
-然後開啟 http://127.0.0.1:4173/。首頁會依預設學習順序列出主分類，也可選擇依建立時間或名稱排序。按分類前的星星可收藏分類，收藏會記錄在瀏覽器 localStorage；進入分類後，可按子頁前的勾勾記錄完成狀態，兩者都儲存在瀏覽器 localStorage。再進入子頁選擇篇章。尚未生成練習的預設子頁也會顯示，並標示 0 篇；新增練習後會自動出現篇章。請依照 [data/GENERATION_PRD.md](data/GENERATION_PRD.md) 放入對應資料夾。
+然後開啟 http://127.0.0.1:4173/。首頁會依預設學習順序列出主分類，也可選擇依建立時間或名稱排序。按分類前的星星可收藏分類，收藏會記錄在瀏覽器 localStorage；進入分類後，可按子頁前的勾勾記錄完成狀態，也可在篇章清單按勾勾記錄是否練習過，狀態皆儲存在瀏覽器 localStorage。再進入子頁選擇篇章。尚未生成練習的預設子頁也會顯示，並標示 0 篇；新增練習後會自動出現篇章。請依照 [data/GENERATION_PRD.md](data/GENERATION_PRD.md) 放入對應資料夾。
 
 ## 部署到 GitHub Pages
 

@@ -44,6 +44,8 @@ fetchJson(new URL('catalog.json', appBaseUrl))
         const favoriteCategoryIds = ref(readFavoriteCategoryIds());
         const completedError = ref('');
         const completed = ref(readCompletedSubcategoryIds());
+        const practicedError = ref('');
+        const practiced = ref(readPracticedExerciseIds());
         const copyrightYear = new Date().getFullYear();
         const categorySort = ref('custom');
         const sortedCategories = computed(() => [...categories].sort((left, right) => {
@@ -211,6 +213,57 @@ fetchJson(new URL('catalog.json', appBaseUrl))
           } catch (error) {
             console.error('Unable to save completed units to local storage.', error);
             completedError.value = '無法儲存單元完成紀錄，請檢查瀏覽器的網站儲存設定。';
+          }
+        }
+
+        function exercisePracticeId(categoryId, subcategoryId, exerciseId) {
+          return [categoryId, subcategoryId, exerciseId].filter(Boolean).join('/');
+        }
+
+        function readPracticedExerciseIds() {
+          try {
+            const stored = localStorage.getItem('blr07-practiced');
+            if (stored === null) return [];
+            const ids = JSON.parse(stored);
+            if (!Array.isArray(ids) || ids.some(id => typeof id !== 'string')) {
+              throw new TypeError('Practiced exercises must be stored as an array of IDs.');
+            }
+            const validIds = new Set(categories.flatMap(category => [
+              ...category.exercises.map(entry => exercisePracticeId(category.id, '', entry.id)),
+              ...category.subcategories.flatMap(subcategory =>
+                subcategory.exercises.map(entry => exercisePracticeId(category.id, subcategory.id, entry.id))
+              )
+            ]));
+            return ids.filter(id => validIds.has(id));
+          } catch (error) {
+            console.error('Unable to read practiced exercises from local storage.', error);
+            practicedError.value = '無法讀取練習紀錄，請檢查瀏覽器的網站儲存設定。';
+            return [];
+          }
+        }
+
+        function isPracticed(exerciseId) {
+          const id = exercisePracticeId(selectedCategoryId.value, selectedSubcategoryId.value, exerciseId);
+          return practiced.value.includes(id);
+        }
+
+        function togglePracticed(exerciseId) {
+          const id = exercisePracticeId(selectedCategoryId.value, selectedSubcategoryId.value, exerciseId);
+          const nextPracticed = isPracticed(exerciseId)
+            ? practiced.value.filter(item => item !== id)
+            : [...practiced.value, id];
+
+          try {
+            const value = JSON.stringify(nextPracticed);
+            localStorage.setItem('blr07-practiced', value);
+            if (localStorage.getItem('blr07-practiced') !== value) {
+              throw new Error('The browser did not save practiced exercises.');
+            }
+            practiced.value = nextPracticed;
+            practicedError.value = '';
+          } catch (error) {
+            console.error('Unable to save practiced exercises to local storage.', error);
+            practicedError.value = '無法儲存練習紀錄，請檢查瀏覽器的網站儲存設定。';
           }
         }
 
@@ -586,6 +639,9 @@ fetchJson(new URL('catalog.json', appBaseUrl))
           completedError,
           isCompleted,
           toggleCompleted,
+          practicedError,
+          isPracticed,
+          togglePracticed,
           exercise,
           maskOrder,
           answers,
