@@ -570,6 +570,10 @@ fetchJson(new URL('catalog.json', appBaseUrl))
           const acceptedAnswers = [maskData.target, ...variants];
           const answer = normalizeAnswer(answers[mask]);
           status[mask] = acceptedAnswers.some(value => normalizeAnswer(value) === answer) ? 'correct' : 'wrong';
+          if (maskOrder.length > 0 && maskOrder.every(item => status[item] !== null)) {
+            elapsedTime.value = Date.now() - timerStartedAt;
+            stopPracticeTimer();
+          }
           const nextMask = maskOrder[maskOrder.indexOf(mask) + 1];
           if (nextMask) nextTick(() => focusMask(nextMask));
         }
