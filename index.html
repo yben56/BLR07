@@ -259,6 +259,7 @@
             <template v-for="(segment, segmentIndex) in segments" :key="`${paragraphIndex}-${segmentIndex}`">
               <span v-if="segment.type === 'text'">{{ segment.value }}</span>
               <span v-else-if="segment.type === 'red'" class="text-rose-400"><template v-if="exercise.task_instruction">(</template>{{ segment.value }}<template v-if="exercise.task_instruction">)</template></span>
+              <span v-else-if="segment.type === 'cue'" class="text-xs font-medium leading-5 text-rose-400">{{ segment.value }}</span>
               <span v-else class="mx-1.5 my-1 inline-flex max-w-full flex-col align-middle leading-normal">
                 <input
                   :ref="element => setInputRef(element, segment.mask)"

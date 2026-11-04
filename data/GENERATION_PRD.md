@@ -195,6 +195,7 @@ Use `target` for the preferred full answer. Use `acceptable_variants` for genuin
 
 - Write blanks as `{{mask_1}}`, `{{mask_2}}`, etc. in `paragraphs`.
 - Wrap source statements and any other prompt text that should appear in red as `{{red:the text}}`. The app displays the wrapped text in red; do not use HTML tags.
+- When a blank requires a specific cue word that context alone does not clearly identify (for example, the learner must use `never` to express a negative lifetime experience), append an English red parenthetical cue immediately after that blank, e.g. `{{mask_1}} {{cue:(use never)}}`. This tells the learner which word to use without giving away the required tense or verb form. Cue text must be in English and use the `cue` marker, which renders in the same red font size as incorrect-answer feedback. Do not rely on a paraphrased clue elsewhere in the passage or put this instruction in the mask's `hint`; keep `hint` to the base verb or a single keyword. Include the parentheses in the cue text.
 - Number masks from 1 in order of first appearance, with no gaps.
 - Each mask must appear exactly once in `paragraphs` and have exactly one matching key in `masks`.
 - Each target and variant contains only the words inside its blank; words already supplied in the passage remain outside the placeholder and are never repeated in the expected answer.
@@ -272,6 +273,7 @@ Before considering a file complete, verify:
 - The passage is coherent and has exactly 10, 15, or 20 blanks for `short`, `medium`, or `long`, respectively.
 - Every placeholder matches exactly one mask key; mask numbering is sequential and each appears once.
 - Every `target` is supported by context; variants are truly equivalent and stored in `acceptable_variants`.
+- If a blank requires a specific cue word that is not clear from context, an English red parenthetical cue appears immediately after that blank and names the required word without giving away the tense or verb form.
 - Answers are checked case-insensitively and ignore surrounding whitespace; a single final period is optional, so learners are not marked wrong for omitting or adding it.
 - For every blank, verify that its target and variants contain no word already supplied immediately before or after the placeholder, including fixed modal or auxiliary verbs; check that the blank tests only the intended grammatical material.
 - Every hint is only a base verb or single keyword, with no parentheses or grammar explanation.

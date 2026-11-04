@@ -269,7 +269,7 @@ fetchJson(new URL('catalog.json', appBaseUrl))
 
         const renderedParagraphs = computed(() => (exercise.paragraphs || []).map(paragraph => {
           const segments = [];
-          const maskPattern = /{{(mask_\d+|red:([^}]+))}}/g;
+          const maskPattern = /{{(mask_\d+|red:([^}]+)|cue:([^}]+))}}/g;
           let cursor = 0;
           let match;
 
@@ -279,6 +279,8 @@ fetchJson(new URL('catalog.json', appBaseUrl))
             }
             if (match[1].startsWith('red:')) {
               segments.push({ type: 'red', value: match[2] });
+            } else if (match[1].startsWith('cue:')) {
+              segments.push({ type: 'cue', value: match[3] });
             } else if (exercise.masks[match[1]]) {
               segments.push({ type: 'mask', mask: match[1] });
             } else {
