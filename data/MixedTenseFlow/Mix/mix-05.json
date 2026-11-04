@@ -12,7 +12,7 @@
   "paragraphs": [
     "At 8:30 p.m., I was cooking dinner when my phone {{mask_1}}. It was the hospital receptionist, and she said my father {{mask_2}} after a sudden chest pain. By the time I left the house, the ambulance {{mask_3}}.",
     "When I got to the hospital, my mother {{mask_4}} outside the emergency room for almost an hour. She explained that she {{mask_5}} there since six o'clock, and she still {{mask_6}} any news from the doctors. I told her that once the surgeon checked him, he {{mask_7}} us what was happening.",
-    "By midnight, the nurses {{mask_8}} him to a room, and the doctor said the operation {{mask_9}} by morning. We all felt relieved because he {{mask_10}} much better by then. If the call had come earlier, we {{mask_11}} the whole family to the hospital sooner. Tomorrow, we {{mask_12}} his recovery with a quiet breakfast, and by next week he {{mask_13}} home. I hope the emergency team {{mask_14}} this kind of scare again, and I {{mask_15}} my phone on silent from now on."
+    "By midnight, the nurses {{mask_8}} him to a room, and the doctor said the operation {{mask_9}} by morning. We all felt relieved because he {{mask_10}} much better by then. If the call had come earlier, we {{mask_11}} the whole family to the hospital sooner. Tomorrow, we {{mask_12}} his recovery with a quiet breakfast, and by next week he {{mask_13}} back home. I hope the emergency team {{mask_14}} this kind of scare again, and I {{mask_15}} my phone on silent from now on."
   ],
   "masks": {
     "mask_1": {
@@ -32,7 +32,7 @@
       "acceptable_variants": [
         "'d already arrived"
       ],
-      "hint": "arrive"
+      "hint": "already arrive"
     },
     "mask_4": {
       "target": "had been waiting",
@@ -70,9 +70,9 @@
       "hint": "move"
     },
     "mask_9": {
-      "target": "would be finished",
+      "target": "had been finished",
       "acceptable_variants": [
-        "'d be finished"
+        "'d been finished"
       ],
       "hint": "finish"
     },
@@ -96,9 +96,9 @@
       "hint": "celebrate"
     },
     "mask_13": {
-      "target": "will be back",
+      "target": "will be",
       "acceptable_variants": [
-        "'ll be back"
+        "'ll be"
       ],
       "hint": "be"
     },
@@ -107,7 +107,7 @@
       "acceptable_variants": [
         "'ll never see"
       ],
-      "hint": "see"
+      "hint": "never see"
     },
     "mask_15": {
       "target": "will keep",

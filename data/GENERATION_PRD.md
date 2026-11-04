@@ -195,12 +195,12 @@ Use `target` for the preferred full answer. Use `acceptable_variants` for genuin
 
 - Write blanks as `{{mask_1}}`, `{{mask_2}}`, etc. in `paragraphs`.
 - Wrap source statements and any other prompt text that should appear in red as `{{red:the text}}`. The app displays the wrapped text in red; do not use HTML tags.
-- When a blank requires a specific cue word that context alone does not clearly identify (for example, the learner must use `never` to express a negative lifetime experience), append an English parenthetical cue directly to the mask's `hint` with no intervening space, e.g. `"hint": "work(use never)"`. The cue appears inside the answer input's placeholder; do not add a `{{cue:...}}` marker or put the cue after the blank in the passage. This tells the learner which word to use without giving away the required tense or verb form.
+- When a specific adverb or other lexical item is required but is not clear from context, include it with the base verb in the mask's `hint`, e.g. `"hint": "already arrive"` or `"hint": "never work"`. The hint appears inside the answer input's placeholder, so do not add a parenthetical `(use ...)` cue or a `{{cue:...}}` marker in the passage. Do not include tense auxiliaries or the complete target; learners should still determine the required tense and form from context.
 - Number masks from 1 in order of first appearance, with no gaps.
 - Each mask must appear exactly once in `paragraphs` and have exactly one matching key in `masks`.
 - Each target and variant contains only the words inside its blank; words already supplied in the passage remain outside the placeholder and are never repeated in the expected answer.
 - Set each placeholder boundary deliberately to isolate only the grammar being tested. Keep all fixed sentence words, including modal and auxiliary verbs, outside the blank; never expand a blank to include extra words from the surrounding phrase.
-- `hint` should contain the base verb or a single keyword, optionally followed immediately by a parenthetical cue in the format `work(use never)`. Do not add other grammar explanations, tense clues, alternative forms, or extra sentences; the learner should infer the form from context. In Conditional exercises, when a modal hint is useful, use only `will` rather than `will / would` or `would / would have`; learners must decide from context whether the answer needs `will`, `would`, or `would have`. For full-sentence Reported Statements and Passive Voice transformations, leave `hint` empty so the complete answer is not given away.
+- `hint` should normally contain the base verb or a single keyword. When a specific adverb or other lexical item must be used, include it with the base verb, e.g. `already arrive` or `never see`; do not use `(use ...)` parenthetical cues. Never include tense auxiliaries or the complete target in a hint. Do not add other grammar explanations, tense clues, alternative forms, or extra sentences; the learner should infer the tense from context. In Conditional exercises, when a modal hint is useful, use only `will` rather than `will / would` or `would / would have`; learners must decide from context whether the answer needs `will`, `would`, or `would have`. For full-sentence Reported Statements and Passive Voice transformations, leave `hint` empty so the complete answer is not given away.
 - For Relative Clauses exercises, leave every `hint` empty; a hint such as `person`, `place`, `thing`, or `possession` gives away which relative word to use.
 
 ### 10. Length Targets
@@ -273,10 +273,10 @@ Before considering a file complete, verify:
 - The passage is coherent and has exactly 10, 15, or 20 blanks for `short`, `medium`, or `long`, respectively.
 - Every placeholder matches exactly one mask key; mask numbering is sequential and each appears once.
 - Every `target` is supported by context; variants are truly equivalent and stored in `acceptable_variants`.
-- If a blank requires a specific cue word that is not clear from context, append an English parenthetical cue directly to the hint with no intervening space, e.g. `"hint": "work(use never)"`. The cue appears inside the answer input's placeholder; do not put it after the blank in the passage.
+- If a blank requires a specific adverb or other lexical item that is not clear from context, include it with the base verb in the hint, e.g. `"hint": "already arrive"`; do not add a parenthetical cue after the blank or use a `(use ...)` hint.
 - Answers are checked case-insensitively and ignore surrounding whitespace; a single final period is optional, so learners are not marked wrong for omitting or adding it.
 - For every blank, verify that its target and variants contain no word already supplied immediately before or after the placeholder, including fixed modal or auxiliary verbs; check that the blank tests only the intended grammatical material.
-- Every hint is a base verb or single keyword, optionally followed immediately by a parenthetical cue in the format `work(use never)`; do not include other grammar explanations.
+- Every hint is a base verb or single keyword, optionally combined with a required adverb or lexical cue (e.g. `already arrive`); do not include tense auxiliaries, full targets, parenthetical cues, or other grammar explanations.
 - The file uses UTF-8 and does not overwrite another exercise.
 
 ## Copy-and-Paste Prompt
