@@ -12,7 +12,7 @@
   "paragraphs": [
     "Sam usually visits his grandmother after school. Today, he {{mask_1}} with his mother in the hospital waiting room. They {{mask_2}} Grandma every afternoon, but yesterday they {{mask_3}} for an hour before a nurse came. While Sam {{mask_4}} by the window, his mother read a book.",
     "The doctor {{mask_5}} to them now. She says Grandma {{mask_6}} better. Grandma usually {{mask_7}} well, but last night she {{mask_8}} badly because she was in pain. This morning, she {{mask_9}} some soup and {{mask_10}} a glass of water. She {{mask_11}} her medicine every day.",
-    "At noon, the doctor {{mask_12}} them that Grandma can go home tomorrow. Sam {{mask_13}} happy when he hears the news. He {{mask_14}} her favorite flowers tomorrow, and his mother {{mask_15}} Grandma home after breakfast."
+    "The doctor {{mask_12}} them that Grandma can go home tomorrow. Sam {{mask_13}} happy when he hears the news. He {{mask_14}} her favorite flowers tomorrow, and his mother {{mask_15}} Grandma home after breakfast."
   ],
   "masks": {
     "mask_1": {
