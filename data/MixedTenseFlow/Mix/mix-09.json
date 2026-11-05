@@ -12,8 +12,8 @@
   "paragraphs": [
     "By 9:00 a.m., the biotech company had released a brief statement about the new drug, but analysts were still debating its long-term effect when the market reporter {{mask_1}}. The investors had expected a smoother launch, and by noon the share price {{mask_2}} sharply after the trial data was published.",
     "A senior scientist explained that the team {{mask_3}} the treatment for more than three years before the regulator approved the final trial. She said that if the early results had been worse, they {{mask_4}} the product for at least another year.",
-    "When the evening bulletin aired, healthcare workers {{mask_5}} the update on their phones, and the hospital chief admitted that he {{mask_6}} more confident once the side effects had been reviewed. The reporter asked whether the drug {{mask_7}} to patients by the end of the month.",
-    "By the time the press conference ended, the public {{mask_8}} a clearer picture of the risks, and my editor said the article {{mask_9}} by tomorrow morning if the final documents arrived on time. However, the analysts warned that if demand {{mask_10}} higher than expected, output {{mask_11}} to expand quickly.",
+    "When the evening bulletin aired, healthcare workers {{mask_5}} the update on their phones, and the hospital chief admitted that he {{mask_6}} more confident once the side effects had been reviewed. The reporter asked whether the drug {{mask_7}} available to patients by the end of the month.",
+    "By the time the press conference ended, the public {{mask_8}} a clearer picture of the risks, and my editor said the article {{mask_9}} ready by tomorrow morning if the final documents arrived on time. However, the analysts warned that if demand {{mask_10}} higher than expected, output {{mask_11}} to expand quickly.",
     "We stayed late at the newsroom because the final brief {{mask_12}} at 11:30 p.m., and the lead author admitted that she {{mask_13}} every paragraph before publication. I hope the release {{mask_14}} the market anxiety soon, and I {{mask_15}} the follow-up coverage after I finish the interview with the clinical team. At the same time, the company promised that by next quarter they {{mask_16}} the distribution network and that all patient trials {{mask_17}} after the approval audit. I am certain that if the trial had failed, the board {{mask_18}} the launch entirely. Tomorrow morning, we {{mask_19}} the latest figures before the stock market opens, and by Friday the public {{mask_20}} the full results on the company website."
   ],
   "masks": {
@@ -56,9 +56,9 @@
       "hint": "become"
     },
     "mask_7": {
-      "target": "would be available",
+      "target": "would be",
       "acceptable_variants": [
-        "'d be available"
+        "'d be"
       ],
       "hint": "be"
     },
@@ -70,9 +70,9 @@
       "hint": "gain"
     },
     "mask_9": {
-      "target": "would be ready",
+      "target": "would be",
       "acceptable_variants": [
-        "'d be ready"
+        "'d be"
       ],
       "hint": "be"
     },

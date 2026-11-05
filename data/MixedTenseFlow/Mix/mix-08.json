@@ -58,7 +58,7 @@
       "acceptable_variants": [
         "'d been wrong"
       ],
-      "hint": "be"
+      "hint": "be wrong"
     },
     "mask_8": {
       "target": "had been playing",
@@ -77,7 +77,7 @@
       "acceptable_variants": [
         "'d moved on"
       ],
-      "hint": "move"
+      "hint": "move on"
     },
     "mask_11": {
       "target": "would have left",
