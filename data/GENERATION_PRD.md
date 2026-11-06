@@ -110,12 +110,12 @@ Treat each passage as a realistic simulation by default. Do not add meta labels 
 
 Every exercise must feel independently conceived, not like an existing passage with its topic words, names, or setting swapped. Before drafting, compare the planned passage with the sibling exercises inspected in the workflow. Change the underlying scenario and story progression, not just its vocabulary. For each new passage, make at least three substantial choices different from its closest sibling, such as:
 
-- format and voice (for example, a two-person dialogue, an academic presentation, an entertainment report, a political news briefing, a personal account, an interview, a review, or a work conversation);
+- format and voice;
 - opening approach, point of view, and who carries the information;
 - event sequence, paragraph purpose, and how the passage reaches its ending;
 - sentence patterns, transitions, and distribution of dialogue versus narration.
 
-When the user has not specified a context or format, choose these creatively rather than defaulting to the same news-room/reporting frame. Rotate and vary formats across exercises; do not use a fixed template or a small repetitive set of sentence frames. When the user has specified a context, honor it while still varying the voice, structure, and scenario within that context. Never imitate a named outlet's distinctive style or copy its articles.
+Choose the format and voice afresh for each exercise, guided by the specific context, scenario, and people involved. The format should feel like a natural fit, not a random wrapper applied to the topic. Use broad creative freedom: possibilities include conversations, interviews, presentations, reports, messages, personal accounts, reviews, meeting exchanges, narratives, and many others; this list is illustrative, not a required menu or limit. A political context might suit a news briefing, a debate, a conversation, or a first-person account; a music context might suit entertainment coverage, an interview, a rehearsal-room exchange, a review, or friends talking. Do not make the topic mechanically determine one format, and do not repeatedly default to news reporting. When the user leaves format open, vary it unpredictably but plausibly across exercises instead of following a fixed rotation or template. When the user specifies a format, honor it while still varying the scenario and structure where possible. Never imitate a named outlet's distinctive style or copy its articles.
 
 ### 4. Focused Learning Objective
 
