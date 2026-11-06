@@ -1,144 +1,141 @@
 {
   "topic": "Mix",
   "difficulty": "advanced",
-  "created_at": "2026-11-02T23:53:34+08:00",
-  "story_title": "The Rooftop Set",
+  "created_at": "2026-11-06T16:25:31+08:00",
+  "story_title": "The Album Release Rush",
   "extra_info": "",
   "tags": [
     "#music",
-    "#friends",
-    "#performance"
+    "#entertainment",
+    "#media"
   ],
   "paragraphs": [
-    "Nia: I {{mask_1}} a full set in front of strangers before, so I'm nervous about Saturday. You {{mask_2}} me that video from your school show last spring, though. Leo: I {{mask_3}} the keyboard cases upstairs when our drummer called.",
-    "Leo: We {{mask_4}} in my garage since January. Last night, the rain started while we {{mask_5}} the van. By the time I reached the door, our singer {{mask_6}} the only dry microphone inside.",
-    "Nia: Who {{mask_7}} you the rooftop slot? Leo: The cafe owner did. She {{mask_8}} us an extra hour tomorrow, too. If the technician {{mask_9}} that loose cable before last week's show, we {{mask_10}} the whole set.",
-    "During our first song, the people in the crowd {{mask_11}} when the lights suddenly went out. The sound {{mask_12}} for a few seconds, but luckily I {{mask_13}} a copy of the recording before the laptop froze. At nine tomorrow, we {{mask_14}} in the same room again.",
-    "By the time the summer festival begins, we {{mask_15}} enough money for proper speakers. The cafe {{mask_16}} about next month's date yet, and its manager {{mask_17}} with the organizer now.",
-    "Nia: If the room were bigger, we {{mask_18}} the full brass section. For now, we {{mask_19}} the quieter arrangement in the set. I {{mask_20}} you the rehearsal clip after I get home."
+    "On Tuesday morning, four days before release, I arrived at Lark Records to find producer Jo still at the console. Our team {{mask_1}} Mara Vale's debut album for six months, and Jo {{mask_2}} the final master when a red warning appeared on the distributor's dashboard. The portal {{mask_3}} the cover image as too small. By then, Mara {{mask_4}} the full-resolution original in the archive, so we could fix the file without changing the design.",
+    "Rather than move Friday's launch, we opened the delivery checklist. If Mara had not kept the original, we {{mask_5}} the release by a week. She sent the source to the designer, who {{mask_6}} the color profile to match the platform's requirements. While Jo {{mask_7}} a fresh upload, I checked the track list against the approved proof. One song title {{mask_8}} from the metadata, so I restored it before resubmitting the package.",
+    "By noon, the corrected package {{mask_9}} its automated checks, and the distributor confirmed that the release date would stay Friday. The band's manager {{mask_10}} fans that evening, while Mara {{mask_11}} for a short launch interview. She also asked the distributor whether the album {{mask_12}} in all territories at midnight. In the weeks since its announcement, listeners {{mask_13}} clips from the lead single, so the team expected a busy launch.",
+    "When Friday arrived, we watched the release dashboard from the studio. The album {{mask_14}} at midnight, and at 12:07 the first listener message came in. By sunrise, reviews {{mask_15}} on three music sites, and the band had already reposted its favorite one. The platform's support lead warned that if stream numbers {{mask_16}} faster than forecast, the server {{mask_17}} more capacity. Fortunately, traffic stayed steady, and the team did not need an emergency upgrade.",
+    "Over the weekend, we {{mask_18}} audience responses and noted which songs listeners mentioned most. By Monday morning, Jo {{mask_19}} every mix note the band had sent during the final week. Now that the album is live, we're still following its performance. Tomorrow, I {{mask_20}} the first weekend's figures with the team."
   ],
   "masks": {
     "mask_1": {
-      "target": "have never played",
-      "acceptable_variants": [],
-      "hint": "never play"
+      "target": "had been preparing",
+      "acceptable_variants": [
+        "'d been preparing"
+      ],
+      "hint": "prepare"
     },
     "mask_2": {
-      "target": "sent",
+      "target": "was checking",
       "acceptable_variants": [],
-      "hint": "send"
+      "hint": "check"
     },
     "mask_3": {
-      "target": "was carrying",
+      "target": "flagged",
       "acceptable_variants": [],
-      "hint": "carry"
+      "hint": "flag"
     },
     "mask_4": {
-      "target": "have been rehearsing",
-      "acceptable_variants": [
-        "'ve been rehearsing"
-      ],
-      "hint": "rehearse"
-    },
-    "mask_5": {
-      "target": "were loading",
-      "acceptable_variants": [],
-      "hint": "load"
-    },
-    "mask_6": {
-      "target": "had put",
-      "acceptable_variants": [
-        "'d put"
-      ],
-      "hint": "put"
-    },
-    "mask_7": {
-      "target": "offered",
-      "acceptable_variants": [],
-      "hint": "offer"
-    },
-    "mask_8": {
-      "target": "will give",
-      "acceptable_variants": [
-        "'ll give"
-      ],
-      "hint": "give"
-    },
-    "mask_9": {
-      "target": "had not spotted",
-      "acceptable_variants": [
-        "hadn't spotted"
-      ],
-      "hint": "not spot"
-    },
-    "mask_10": {
-      "target": "would have cancelled",
-      "acceptable_variants": [
-        "would've cancelled"
-      ],
-      "hint": "cancel"
-    },
-    "mask_11": {
-      "target": "were dancing",
-      "acceptable_variants": [],
-      "hint": "dance"
-    },
-    "mask_12": {
-      "target": "cut out",
-      "acceptable_variants": [],
-      "hint": "cut out"
-    },
-    "mask_13": {
       "target": "had saved",
       "acceptable_variants": [
         "'d saved"
       ],
       "hint": "save"
     },
-    "mask_14": {
-      "target": "will be playing",
+    "mask_5": {
+      "target": "would have postponed",
       "acceptable_variants": [
-        "'ll be playing"
+        "would've postponed"
       ],
-      "hint": "play"
+      "hint": "postpone"
+    },
+    "mask_6": {
+      "target": "changed",
+      "acceptable_variants": [],
+      "hint": "change"
+    },
+    "mask_7": {
+      "target": "was preparing",
+      "acceptable_variants": [],
+      "hint": "prepare"
+    },
+    "mask_8": {
+      "target": "had been omitted",
+      "acceptable_variants": [
+        "'d been omitted"
+      ],
+      "hint": "omit"
+    },
+    "mask_9": {
+      "target": "had passed",
+      "acceptable_variants": [
+        "'d passed"
+      ],
+      "hint": "pass"
+    },
+    "mask_10": {
+      "target": "updated",
+      "acceptable_variants": [],
+      "hint": "update"
+    },
+    "mask_11": {
+      "target": "was preparing",
+      "acceptable_variants": [],
+      "hint": "prepare"
+    },
+    "mask_12": {
+      "target": "would be available",
+      "acceptable_variants": [],
+      "hint": "be available"
+    },
+    "mask_13": {
+      "target": "had been sharing",
+      "acceptable_variants": [
+        "'d been sharing"
+      ],
+      "hint": "share"
+    },
+    "mask_14": {
+      "target": "went live",
+      "acceptable_variants": [],
+      "hint": "go live"
     },
     "mask_15": {
-      "target": "will have saved",
+      "target": "had appeared",
       "acceptable_variants": [
-        "'ll have saved"
+        "'d appeared"
       ],
-      "hint": "save"
+      "hint": "appear"
     },
     "mask_16": {
-      "target": "has not confirmed",
-      "acceptable_variants": [
-        "hasn't confirmed"
-      ],
-      "hint": "not confirm"
+      "target": "rose",
+      "acceptable_variants": [],
+      "hint": "rise"
     },
     "mask_17": {
-      "target": "is talking",
-      "acceptable_variants": [],
-      "hint": "talk"
+      "target": "would need",
+      "acceptable_variants": [
+        "'d need"
+      ],
+      "hint": "need"
     },
     "mask_18": {
-      "target": "would choose",
-      "acceptable_variants": [
-        "'d choose"
-      ],
-      "hint": "choose"
+      "target": "tracked",
+      "acceptable_variants": [],
+      "hint": "track"
     },
     "mask_19": {
-      "target": "are keeping",
-      "acceptable_variants": [],
-      "hint": "keep"
+      "target": "had answered",
+      "acceptable_variants": [
+        "'d answered"
+      ],
+      "hint": "answer"
     },
     "mask_20": {
-      "target": "will send",
+      "target": "will review",
       "acceptable_variants": [
-        "'ll send"
+        "'ll review"
       ],
-      "hint": "send"
+      "hint": "review"
     }
   }
 }
