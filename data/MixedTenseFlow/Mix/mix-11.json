@@ -1,151 +1,148 @@
 {
   "topic": "Mix",
-  "difficulty": "beginner",
+  "difficulty": "intermediate",
   "created_at": "2026-11-02T23:55:25+08:00",
-  "story_title": "The Price Shock",
+  "story_title": "The Flat-Move Ledger",
   "extra_info": "",
   "tags": [
-    "#economics",
-    "#food",
-    "#inflation"
+    "#home",
+    "#budget",
+    "#siblings"
   ],
   "paragraphs": [
-    "Last month, the news said inflation would rise, but by early spring the figures {{mask_1}} more slowly than people expected. While I {{mask_2}} the shopping list, my neighbor called and said the bakery {{mask_3}} bread because of the higher cost of flour.",
-    "At 8:30 a.m., the radio host {{mask_4}} that grocery prices {{mask_5}} for months. We were worried because the reports {{mask_6}} for two weeks, and many families {{mask_7}} their budgets before the new month started.",
-    "By noon, the market report {{mask_8}} calmer, and the economist explained that the rise {{mask_9}} earlier than expected. If we had checked the chart, we {{mask_10}} the same foods at a lower price.",
-    "When we reached the supermarket, the signs {{mask_11}} clearly, and the cashier said prices {{mask_12}} over the past year. The finance manager told us that by the end of the week the trend {{mask_13}} more stable, but the cost of milk {{mask_14}} after dark.",
-    "We stayed until evening because the shop {{mask_15}} busier, and by then everyone {{mask_16}} the change. I hope the rate of inflation {{mask_17}} down soon, and my aunt promised that she {{mask_18}} a new budget before next month. Tomorrow, I {{mask_19}} the latest numbers before I shop, and by Friday the report {{mask_20}} on the local news site."
+    "My sister and I {{mask_1}} receipts at the kitchen table when an envelope from the utility company {{mask_2}} through the mail slot. The final bill was much higher than our estimate because we {{mask_3}} the old meter reading for months.",
+    "“I {{mask_4}} every household cost since we decided to move,” Lena said. She {{mask_5}} the provider yesterday, and they explained that the rates {{mask_6}} for several months before the new notice arrived. The company {{mask_7}} the duplicate payment already, so we can use that money for the deposit.",
+    "Our moving date is June 1. By then, we {{mask_8}} enough to cover the deposit and the van. “If we {{mask_9}} about the extra charge sooner, we {{mask_10}} a smaller place,” Lena said. Instead, we {{mask_11}} the van last Friday and kept the apartment.",
+    "On Tuesday, we visited the new flat. The landlord {{mask_12}} the kitchen measurements when I spotted a loose floorboard. He {{mask_13}} it before the previous tenant moved out, but one corner still lifted. The plumber said the old tap {{mask_14}} slowly for weeks before he replaced its washer.",
+    "At eight tomorrow morning, our friends {{mask_15}} boxes while Lena labels the kitchen things. We {{mask_16}} everything into the van by ten if the lift stays free. If I had a larger budget, I {{mask_17}} a moving company, but we {{mask_18}} the work ourselves this time.",
+    "Lena {{mask_19}} a spreadsheet with the final costs now, and I {{mask_20}} the updated total to our parents tonight. The numbers are tight, but at least we know exactly where the money is going."
   ],
   "masks": {
     "mask_1": {
-      "target": "had risen",
-      "acceptable_variants": [
-        "'d risen"
-      ],
-      "hint": "rise"
+      "target": "were comparing",
+      "acceptable_variants": [],
+      "hint": "compare"
     },
     "mask_2": {
-      "target": "was checking",
+      "target": "slid",
       "acceptable_variants": [],
-      "hint": "check"
+      "hint": "slide"
     },
     "mask_3": {
-      "target": "had raised",
+      "target": "had been using",
       "acceptable_variants": [
-        "'d raised"
+        "'d been using"
       ],
-      "hint": "raise"
+      "hint": "use"
     },
     "mask_4": {
-      "target": "announced",
-      "acceptable_variants": [],
-      "hint": "announce"
+      "target": "have been tracking",
+      "acceptable_variants": [
+        "'ve been tracking"
+      ],
+      "hint": "track"
     },
     "mask_5": {
-      "target": "had been rising",
-      "acceptable_variants": [
-        "'d been rising"
-      ],
-      "hint": "rise"
+      "target": "called",
+      "acceptable_variants": [],
+      "hint": "call"
     },
     "mask_6": {
-      "target": "had been wrong",
+      "target": "had been increasing",
       "acceptable_variants": [
-        "'d been wrong"
-      ],
-      "hint": "be"
-    },
-    "mask_7": {
-      "target": "had adjusted",
-      "acceptable_variants": [
-        "'d adjusted"
-      ],
-      "hint": "adjust"
-    },
-    "mask_8": {
-      "target": "seemed",
-      "acceptable_variants": [],
-      "hint": "seem"
-    },
-    "mask_9": {
-      "target": "had slowed",
-      "acceptable_variants": [
-        "'d slowed"
-      ],
-      "hint": "slow"
-    },
-    "mask_10": {
-      "target": "would have bought",
-      "acceptable_variants": [
-        "would've bought"
-      ],
-      "hint": "buy"
-    },
-    "mask_11": {
-      "target": "were changing",
-      "acceptable_variants": [],
-      "hint": "change"
-    },
-    "mask_12": {
-      "target": "had increased",
-      "acceptable_variants": [
-        "'d increased"
+        "'d been increasing"
       ],
       "hint": "increase"
     },
-    "mask_13": {
-      "target": "would become",
+    "mask_7": {
+      "target": "has refunded",
       "acceptable_variants": [
-        "'d become"
+        "'s refunded"
       ],
-      "hint": "become"
+      "hint": "refund"
+    },
+    "mask_8": {
+      "target": "will have saved",
+      "acceptable_variants": [
+        "'ll have saved"
+      ],
+      "hint": "save"
+    },
+    "mask_9": {
+      "target": "had known",
+      "acceptable_variants": [
+        "'d known"
+      ],
+      "hint": "know"
+    },
+    "mask_10": {
+      "target": "would have chosen",
+      "acceptable_variants": [
+        "would've chosen"
+      ],
+      "hint": "choose"
+    },
+    "mask_11": {
+      "target": "booked",
+      "acceptable_variants": [],
+      "hint": "book"
+    },
+    "mask_12": {
+      "target": "was taking",
+      "acceptable_variants": [],
+      "hint": "take"
+    },
+    "mask_13": {
+      "target": "had repaired",
+      "acceptable_variants": [
+        "'d repaired"
+      ],
+      "hint": "repair"
     },
     "mask_14": {
-      "target": "would rise",
+      "target": "had been dripping",
       "acceptable_variants": [
-        "'d rise"
+        "'d been dripping"
       ],
-      "hint": "rise"
+      "hint": "drip"
     },
     "mask_15": {
-      "target": "was getting",
-      "acceptable_variants": [],
-      "hint": "get"
+      "target": "will be carrying",
+      "acceptable_variants": [
+        "'ll be carrying"
+      ],
+      "hint": "carry"
     },
     "mask_16": {
-      "target": "had noticed",
+      "target": "will have loaded",
       "acceptable_variants": [
-        "'d noticed"
+        "'ll have loaded"
       ],
-      "hint": "notice"
+      "hint": "load"
     },
     "mask_17": {
-      "target": "will fall",
+      "target": "would hire",
       "acceptable_variants": [
-        "'ll fall"
+        "'d hire"
       ],
-      "hint": "fall"
+      "hint": "hire"
     },
     "mask_18": {
-      "target": "will make",
-      "acceptable_variants": [
-        "'ll make"
-      ],
-      "hint": "make"
+      "target": "are doing",
+      "acceptable_variants": [],
+      "hint": "do"
     },
     "mask_19": {
-      "target": "will check",
-      "acceptable_variants": [
-        "'ll check"
-      ],
-      "hint": "check"
+      "target": "is updating",
+      "acceptable_variants": [],
+      "hint": "update"
     },
     "mask_20": {
-      "target": "will appear",
+      "target": "will send",
       "acceptable_variants": [
-        "'ll appear"
+        "'ll send"
       ],
-      "hint": "appear"
+      "hint": "send"
     }
   }
 }
