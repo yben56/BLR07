@@ -285,6 +285,7 @@ Before considering a file complete, verify:
 - Every `target` is supported by context; variants are truly equivalent and stored in `acceptable_variants`.
 - If a blank requires a specific adverb or other lexical item that is not clear from context, include it with the base verb in the hint, e.g. `"hint": "already arrive"`; do not add a parenthetical cue after the blank or use a `(use ...)` hint.
 - Answers are checked case-insensitively and ignore surrounding whitespace; a single final period is optional, so learners are not marked wrong for omitting or adding it.
+- For grammar-focused blanks, keep targets limited to the grammatical form being tested; place fixed complements and other non-target words (for example, `ready` after `would be`) outside the placeholder. Include a particle or preposition only when it is part of the verb being tested (for example, the phrasal verb `turn on`).
 - For every blank, verify that its target and variants contain no word already supplied immediately before or after the placeholder, including fixed modal or auxiliary verbs; check that the blank tests only the intended grammatical material.
 - Every hint is a base verb or single keyword, optionally combined with a required adverb or lexical cue (e.g. `already arrive`); do not include tense auxiliaries, full targets, parenthetical cues, or other grammar explanations.
 - The file uses UTF-8 and does not overwrite another exercise.

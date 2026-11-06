@@ -12,8 +12,8 @@
   "paragraphs": [
     "By 7:30 a.m., the principal had already called a meeting about bullying reports, but the debate was still growing when the local radio station {{mask_1}}. The parent group said the issue {{mask_2}} for months before the school board finally responded.",
     "A guidance counselor explained that many students {{mask_3}} the problem quietly for a long time before the new reporting system was introduced. She said that if the warning signs had been noticed earlier, the school {{mask_4}} a stronger response before the term began.",
-    "When the headline story aired, teachers {{mask_5}} the announcement on their phones, and the vice principal admitted that he {{mask_6}} more hopeful once the new rules had been discussed. The reporter asked whether the anti-bullying plan {{mask_7}} by the end of the term.",
-    "By the time the meeting ended, the public {{mask_8}} a clearer picture of the problem, and my editor said the article {{mask_9}} by tomorrow morning if the official statement arrived on time. However, the psychologists warned that if the pressure {{mask_10}} higher, the support sessions {{mask_11}} to expand quickly.",
+    "When the headline story aired, teachers {{mask_5}} the announcement on their phones, and the vice principal admitted that he {{mask_6}} more hopeful once the new rules had been discussed. The reporter asked whether the anti-bullying plan {{mask_7}} ready by the end of the term.",
+    "By the time the meeting ended, the public {{mask_8}} a clearer picture of the problem, and my editor said the article {{mask_9}} ready by tomorrow morning if the official statement arrived on time. However, the psychologists warned that if the pressure {{mask_10}} higher, the support sessions {{mask_11}} to expand quickly.",
     "We stayed late at the newsroom because the final report {{mask_12}} after midnight, and the lead writer admitted that she {{mask_13}} every paragraph before publication. I hope the school policy {{mask_14}} the fear soon, and I {{mask_15}} the next interview after I finish the follow-up calls. At the same time, the district promised that by next month they {{mask_16}} the review process and that all complaints {{mask_17}} after the audit. I am certain that if the first survey had been ignored, the board {{mask_18}} the issue completely. Tomorrow morning, we {{mask_19}} the latest attendance data before the school opens, and by Friday families {{mask_20}} the final summary on the district website."
   ],
   "masks": {
@@ -56,9 +56,9 @@
       "hint": "become"
     },
     "mask_7": {
-      "target": "would be ready",
+      "target": "would be",
       "acceptable_variants": [
-        "'d be ready"
+        "'d be"
       ],
       "hint": "be"
     },
@@ -70,9 +70,9 @@
       "hint": "gain"
     },
     "mask_9": {
-      "target": "would be ready",
+      "target": "would be",
       "acceptable_variants": [
-        "'d be ready"
+        "'d be"
       ],
       "hint": "be"
     },
