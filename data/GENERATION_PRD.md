@@ -78,8 +78,9 @@ If `Category` or `Exercise` is missing or unclear, ask one concise clarification
 2. Name each file `{child-folder-kebab-case}-{NN}.json`, where the prefix is derived from the child page. Use a two-digit sequence starting at `01`. For example, `Category: Relative Pronouns`, `Exercise: Which or That` uses `data/RelativePronouns/WhichOrThat/which-or-that-01.json`; `Category: Conditionals`, `Exercise: Forms` uses `data/Conditionals/Forms/forms-01.json`; and `Category: Mixed Tenses Flow`, `Exercise: Mix` uses `data/MixedTenseFlow/Mix/mix-01.json`. The app displays those files inside the selected child page as `Exercise 01`, `Exercise 02`, and so on.
 3. Before choosing a number, inspect the destination folder for files with the exact same prefix. Use the current highest suffix plus one; do not fill gaps in older numbering. Never overwrite an existing file. For multiple requested exercises, continue with consecutive numbers.
 4. The app discovers category folders, child-page folders, and their `.json` files automatically. Planned empty child pages are configured in the app catalog; do not create placeholder JSON files or edit application code when adding an exercise.
-5. After writing a file, parse/validate the JSON and check all schema and mask rules below. Report the created filename(s) and any validation caveat.
-6. If the user explicitly asks for JSON in chat only, do not create a file; return only the JSON object without Markdown fences or commentary.
+5. Before drafting, inspect existing exercises in the destination child-page folder, prioritizing the five most recent files (or all files if fewer than five). Use them to avoid repeating the same story template, voice, and sequence of grammar targets.
+6. After writing a file, parse/validate the JSON and check all schema, mask, and variety rules below. Report the created filename(s) and any validation caveat.
+7. If the user explicitly asks for JSON in chat only, do not create a file; return only the JSON object without Markdown fences or commentary.
 
 Each exercise JSON must include a `created_at` field in ISO 8601 format with a timezone offset, recording when that exercise is created. The catalog uses the earliest exercise timestamp among all exercises in each main category as its creation time. The home page defaults to this stable main-category order: Mixed Tenses Flow, Negative Questions, Conditionals, Reported Speech, Mixed Tense Passive, Relative Clauses, and Relative Pronouns; other categories follow in creation-time order. Learners can switch to creation-time or name sorting.
 
@@ -105,9 +106,22 @@ Choose character names afresh for each exercise. When characters are from a spec
 
 Treat each passage as a realistic simulation by default. Do not add meta labels or disclaimers such as "fictional" or "fictional scenario" unless the user asks for them or they are needed to prevent invented details from being mistaken for specific real-world facts. For sensitive or current-affairs contexts, avoid fabricating real quotes, statistics, official actions, or event details; use verified, supportable context or keep illustrative details general.
 
+#### Distinct Formats and Originality
+
+Every exercise must feel independently conceived, not like an existing passage with its topic words, names, or setting swapped. Before drafting, compare the planned passage with the sibling exercises inspected in the workflow. Change the underlying scenario and story progression, not just its vocabulary. For each new passage, make at least three substantial choices different from its closest sibling, such as:
+
+- format and voice (for example, a two-person dialogue, an academic presentation, an entertainment report, a political news briefing, a personal account, an interview, a review, or a work conversation);
+- opening approach, point of view, and who carries the information;
+- event sequence, paragraph purpose, and how the passage reaches its ending;
+- sentence patterns, transitions, and distribution of dialogue versus narration.
+
+When the user has not specified a context or format, choose these creatively rather than defaulting to the same news-room/reporting frame. Rotate and vary formats across exercises; do not use a fixed template or a small repetitive set of sentence frames. When the user has specified a context, honor it while still varying the voice, structure, and scenario within that context. Never imitate a named outlet's distinctive style or copy its articles.
+
 ### 4. Focused Learning Objective
 
 Every blank must test the requested `Exercise` module. Do not add unrelated grammar targets. For mixed grammar topics, make each form necessary and inferable from the surrounding context, not randomly selected.
+
+For exercises with multiple grammar targets, plan the target sequence before writing and compare it with recent sibling exercises. Do not reuse the same target-to-mask-position sequence or place the same target types in the same paragraph pattern by default. Vary which target types appear near the beginning, middle, and end, while maintaining balanced and pedagogically appropriate coverage of the requested grammar. Do not randomize blindly: each target's position must still fit naturally into the scenario and have a clear contextual cue. For a single-focus exercise, vary the surrounding grammatical cues and task placement rather than introducing unrelated targets.
 
 ### 5. Unambiguous Answers
 
@@ -281,6 +295,8 @@ Before considering a file complete, verify:
 - `created_at` is a valid ISO 8601 timestamp with an explicit timezone offset.
 - `topic` matches the child page name; the filename prefix is derived from that child page folder.
 - The passage is coherent and has exactly 10, 15, or 20 blanks for `short`, `medium`, or `long`, respectively.
+- The passage has a distinct scenario, format/voice, and progression from recent sibling exercises; it is not merely a topic-swapped rewrite. Confirm at least three substantial differences from its closest sibling.
+- For multi-target exercises, the target-to-mask-position sequence and paragraph distribution differ meaningfully from recent siblings, while retaining the requested grammar coverage and clear contextual cues.
 - Every placeholder matches exactly one mask key; mask numbering is sequential and each appears once.
 - Every `target` is supported by context; variants are truly equivalent and stored in `acceptable_variants`.
 - If a blank requires a specific adverb or other lexical item that is not clear from context, include it with the base verb in the hint, e.g. `"hint": "already arrive"`; do not add a parenthetical cue after the blank or use a `(use ...)` hint.
@@ -303,5 +319,5 @@ Length: [short / medium / long]
 Level: [optional; default intermediate]
 Context: [optional; invent one if omitted]
 
-Generate one exercise by default. `Category` is the parent category and `Exercise` is its child page; for example, `Category: Mixed Tenses Flow` and `Exercise: Mix` means the Mix child page under Mixed Tenses Flow. Create the exercise in that child page using the next two-digit sequence number, so its filename is `mix-01.json` and the app labels it `Exercise 01`. Follow the category/child-page folder mapping in data/GENERATION_PRD.md. Inspect the destination child folder for the highest matching sequence number, then create the JSON file(s) there using the next consecutive number(s). Set `topic` to the child page name. Validate the JSON and mask mappings, report the relative path(s) created, and do not overwrite existing files.
+Generate one exercise by default. `Category` is the parent category and `Exercise` is its child page; for example, `Category: Mixed Tenses Flow` and `Exercise: Mix` means the Mix child page under Mixed Tenses Flow. Create the exercise in that child page using the next two-digit sequence number, so its filename is `mix-01.json` and the app labels it `Exercise 01`. Follow the category/child-page folder mapping in data/GENERATION_PRD.md. Inspect the destination child folder for the highest matching sequence number and compare recent exercises for originality and target-position variety; then create the JSON file(s) there using the next consecutive number(s). Set `topic` to the child page name. Validate the JSON, mask mappings, and variety rules, report the relative path(s) created, and do not overwrite existing files.
 ```
