@@ -64,7 +64,7 @@
     "mask_10": {
       "target": "went out",
       "acceptable_variants": [],
-      "hint": "go"
+      "hint": "go out"
     },
     "mask_11": {
       "target": "stopped",

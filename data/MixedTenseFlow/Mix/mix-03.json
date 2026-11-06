@@ -53,7 +53,7 @@
       "acceptable_variants": [
         "hadn't included"
       ],
-      "hint": "include(use not)"
+      "hint": "not include"
     },
     "mask_7": {
       "target": "had been relying",
@@ -86,7 +86,7 @@
       "acceptable_variants": [
         "wouldn't make"
       ],
-      "hint": "make"
+      "hint": "not make"
     },
     "mask_12": {
       "target": "would have revised",

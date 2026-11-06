@@ -103,7 +103,7 @@
     "mask_18": {
       "target": "turned on",
       "acceptable_variants": [],
-      "hint": "turn"
+      "hint": "turn on"
     },
     "mask_19": {
       "target": "opened",

@@ -21,7 +21,7 @@
     "mask_1": {
       "target": "have never played",
       "acceptable_variants": [],
-      "hint": "play"
+      "hint": "never play"
     },
     "mask_2": {
       "target": "sent",
@@ -69,7 +69,7 @@
       "acceptable_variants": [
         "hadn't spotted"
       ],
-      "hint": "spot"
+      "hint": "not spot"
     },
     "mask_10": {
       "target": "would have cancelled",
@@ -114,7 +114,7 @@
       "acceptable_variants": [
         "hasn't confirmed"
       ],
-      "hint": "confirm"
+      "hint": "not confirm"
     },
     "mask_17": {
       "target": "is talking",

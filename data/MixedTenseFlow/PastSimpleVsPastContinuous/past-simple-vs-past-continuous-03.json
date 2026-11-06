@@ -39,7 +39,7 @@
     "mask_5": {
       "target": "went out",
       "acceptable_variants": [],
-      "hint": "go"
+      "hint": "go out"
     },
     "mask_6": {
       "target": "were standing",
@@ -59,7 +59,7 @@
     "mask_9": {
       "target": "turned on",
       "acceptable_variants": [],
-      "hint": "turn"
+      "hint": "turn on"
     },
     "mask_10": {
       "target": "asked",
@@ -69,7 +69,7 @@
     "mask_11": {
       "target": "came",
       "acceptable_variants": [],
-      "hint": "come"
+      "hint": "come on"
     },
     "mask_12": {
       "target": "were testing",

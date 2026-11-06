@@ -90,7 +90,7 @@
     "mask_13": {
       "target": "has never worked",
       "acceptable_variants": [],
-      "hint": "work(use never)"
+      "hint": "never work"
     },
     "mask_14": {
       "target": "realized",
