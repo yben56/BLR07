@@ -10,8 +10,8 @@
     "#media"
   ],
   "paragraphs": [
-    "On Tuesday morning, four days before release, I arrived at Lark Records to find producer Jo still at the console. Our team {{mask_1}} Taylor Swift's new album for six months, and Jo {{mask_2}} the final master when a red warning appeared on the distributor's dashboard. The portal {{mask_3}} the cover image as too small. By then, Taylor {{mask_4}} the full-resolution original in the archive, so we could fix the file without changing the design.",
-    "Rather than move Friday's launch, we opened the delivery checklist. If Taylor had not kept the original, we {{mask_5}} the release by a week. She sent the source to the designer, who {{mask_6}} the color profile to match the platform's requirements. While Jo {{mask_7}} a fresh upload, I checked the track list against the approved proof. One song title {{mask_8}} from the metadata, so I restored it before resubmitting the package.",
+    "On Tuesday morning, four days before release, I arrived at Lark Records to find producer Jo still at the console. Our team {{mask_1}} Taylor Swift's new album for six months, and Jo {{mask_2}} the final master when a red warning appeared on the distributor's dashboard. The portal {{mask_3}} the cover image as too small. By then, Jo {{mask_4}} the full-resolution original in the archive, so we could fix the file without changing the design.",
+    "Rather than move Friday's launch, we opened the delivery checklist. If Jo had not kept the original, we {{mask_5}} the release by a week. Jo sent the source to the designer, who {{mask_6}} the color profile to match the platform's requirements. While Jo {{mask_7}} a fresh upload, I checked the track list against the approved proof. One song title {{mask_8}} from the metadata, so I restored it before resubmitting the package.",
     "By noon, the corrected package {{mask_9}} its automated checks, and the distributor confirmed that the release date would stay Friday. The band's manager {{mask_10}} fans that evening, while Taylor {{mask_11}} for a short launch interview. She also asked the distributor whether the album {{mask_12}} in all territories at midnight. In the weeks since its announcement, listeners {{mask_13}} clips from the lead single, so the team expected a busy launch.",
     "When Friday arrived, we watched the release dashboard from the studio. The album {{mask_14}} at midnight, and at 12:07 the first listener message came in. By sunrise, reviews {{mask_15}} on three music sites, and the band had already reposted its favorite one. The platform's support lead warned that if stream numbers {{mask_16}} faster than forecast, the server {{mask_17}} more capacity. Fortunately, traffic stayed steady, and the team did not need an emergency upgrade.",
     "Over the weekend, we {{mask_18}} audience responses and noted which songs listeners mentioned most. By Monday morning, Jo {{mask_19}} every mix note the band had sent during the final week. Now that the album is live, we're still following its performance. Tomorrow, I {{mask_20}} the first weekend's figures with the team."
@@ -120,7 +120,10 @@
     },
     "mask_18": {
       "target": "tracked",
-      "acceptable_variants": [],
+      "acceptable_variants": [
+        "had been tracking",
+        "'d been tracking"
+      ],
       "hint": "track"
     },
     "mask_19": {
